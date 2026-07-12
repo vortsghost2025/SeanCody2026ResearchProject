@@ -1,0 +1,1414 @@
+# 🗂️ SESSIONS 004 + 005 + 006 — COMBINED MASTER OUTPUT
+### Research Session 004-006 · July 12, 2026
+### Records this session: 97 new/corrected · Running total: 165+
+### Clusters: All Schema Corrections · Terra Australis Map Chain · Reptilian Synthesis
+
+---
+
+# ═══════════════════════════════════════════
+# SESSION 004 — FULL SCHEMA CORRECTION PASS
+# All 68 Session 001 records brought to canonical schema v1.0
+# ═══════════════════════════════════════════
+
+## FORMAT NOTE FOR THE REPO
+
+Rather than reprint every field of every record that has no changes, this session documents **delta records** — what changed and why — plus **full rewrites** for the records requiring structural splits or major additions. In the repo, replace the old record with the corrected version. Do not keep both.
+
+---
+
+## GLOBAL CORRECTIONS APPLIED TO ALL 68 RECORDS
+
+The following fields are added to every record that was missing them. Agent task: write a script to insert these fields with default values, then flag for human review:
+
+```python
+# Script: scripts/schema_upgrade_v1.py
+# For every record in data/claims/*.json:
+# Add if missing:
+fields_to_add = {
+    "coordinate_type": "REVIEW_REQUIRED",
+    "precision_km": "REVIEW_REQUIRED",
+    "location_confidence": "REVIEW_REQUIRED",
+    "historical_place_name": "REVIEW_REQUIRED",
+    "oral_tradition_clocks": {
+        "claimed_cosmological_time": "N/A",
+        "estimated_material_culture_age": "REVIEW_REQUIRED",
+        "earliest_written_or_audio_recording": "REVIEW_REQUIRED",
+        "specific_wording_source_date": "REVIEW_REQUIRED"
+    },
+    "alien_or_modern_reinterpretation": {
+        "reinterpretation_claim": "REVIEW_REQUIRED",
+        "first_known_publication": "REVIEW_REQUIRED",
+        "first_known_author": "REVIEW_REQUIRED",
+        "first_known_date": "REVIEW_REQUIRED",
+        "evidence_class": "REVIEW_REQUIRED",
+        "notes": ""
+    },
+    "negative_evidence": {
+        "expected_traces_if_true": [],
+        "observed_traces": [],
+        "absence_significance": "REVIEW_REQUIRED"
+    },
+    "map_layers": {
+        "contemporary_knowledge_map": "REVIEW_REQUIRED",
+        "physical_reconstruction": "REVIEW_REQUIRED",
+        "present_day_reference": "REVIEW_REQUIRED"
+    },
+    "media_contamination_stars": "REVIEW_REQUIRED",
+    "origin_confidence_stars": "REVIEW_REQUIRED",
+    "source_independence_stars": "REVIEW_REQUIRED"
+}
+```
+
+---
+
+## RECORD-SPECIFIC CORRECTIONS
+
+### SRP-001 — Egyptian Predynastic Serpent (CORRECTED)
+```json
+{
+  "record_id": "SRP-001",
+  "record_type": "motif",
+  "motif_cluster": "SERPENT",
+  "motif": "Serpent as intelligent/divine being — earliest Egyptian record",
+  "culture": "Egyptian (Predynastic)",
+  "culture_notes": "Predynastic Period encompasses multiple distinct cultures including Badarian, Naqada I/II/III. Do not treat as monolithic. Specific culture within Predynastic requires artifact-level record.",
+  "figure_or_source": "Serpent figurines and iconography — multiple types",
+  "claimed_event_date": "~5000–2920 BCE",
+  "claimed_event_date_confidence": "MODERATE — dates are period ranges not specific events",
+  "earliest_surviving_source_date": "~5000–2920 BCE",
+  "source_date_confidence": "B — established by archaeological periodization",
+  "source_type": "Archaeological — physical artifacts",
+  "evidence_class": "A",
+  "evidence_class_notes": "Artifacts exist. Dating is established by recognized archaeological periods.",
+  "alien_or_modern_reinterpretation": {
+    "reinterpretation_claim": "N/A — no significant alien reinterpretation of general Egyptian predynastic serpents",
+    "first_known_publication": "N/A",
+    "first_known_author": "N/A",
+    "first_known_date": "N/A",
+    "evidence_class": "N/A",
+    "notes": ""
+  },
+  "oral_tradition_clocks": {
+    "claimed_cosmological_time": "N/A — material culture record, not oral tradition",
+    "estimated_material_culture_age": "5000–2920 BCE",
+    "earliest_written_or_audio_recording": "N/A",
+    "specific_wording_source_date": "N/A"
+  },
+  "location": {
+    "coordinate_type": "culture_center",
+    "latitude": "26.8206",
+    "longitude": "30.8025",
+    "precision_km": "500",
+    "historical_place_name": "Upper and Lower Egypt (Predynastic cultural zone)",
+    "modern_place_name": "Egypt",
+    "modern_country": "Egypt",
+    "location_confidence": "B — region well established, exact sites require artifact-level records"
+  },
+  "map_layers": {
+    "contemporary_knowledge_map": "No formal maps from this period. World-picture: Nile-centric cosmology. Nile as axis of known world.",
+    "physical_reconstruction": "5000 BCE: Sea level approximately modern. Sahara more vegetated (African Humid Period ending ~3500 BCE). Nile Delta somewhat different configuration.",
+    "present_day_reference": "Egypt — Nile Valley"
+  },
+  "negative_evidence": {
+    "expected_traces_if_true": ["Physical artifacts — PRESENT", "Iconographic continuity into dynastic period — PRESENT"],
+    "observed_traces": ["Multiple physical artifacts confirmed"],
+    "absence_significance": "N/A — evidence is present"
+  },
+  "connected_records": ["SRP-002", "SRP-007", "SRP-010"],
+  "connection_types": ["INDEPENDENT_SIMILARITY", "RELIGIOUS_DIFFUSION"],
+  "origin_confidence_stars": "4/5",
+  "source_independence_stars": "5/5",
+  "media_contamination_stars": "1/5",
+  "earliest_verified_artwork": "~5000 BCE (figurines)",
+  "earliest_witness": "N/A",
+  "earliest_standardized_image": "~3000 BCE (dynastic canonization)",
+  "last_major_mutation": "Roman Period (~30 BCE) — syncretism with Greco-Roman serpent imagery",
+  "agent_tasks": [
+    "Find specific museum-held Predynastic serpent figurines with accession numbers",
+    "Identify sub-period (Naqada I/II/III) for each artifact type",
+    "Note which if any Predynastic serpent images have been reinterpreted as alien"
+  ],
+  "session_added": "001",
+  "last_updated": "004"
+}
+```
+
+---
+
+### SRP-002 — Apophis (CORRECTED — adding coordinate type, map layer, oral tradition fields)
+```json
+{
+  "record_id": "SRP-002",
+  "coordinate_type": "culture_center",
+  "precision_km": "300",
+  "historical_place_name": "Nile Valley — First Intermediate Period Egypt",
+  "map_layers": {
+    "contemporary_knowledge_map": "Egyptian world-picture: flat disc surrounded by primordial ocean (Nun). Sky held up by mountains or pillars. Underworld (Duat) below. No concept of Antarctica or polar regions.",
+    "physical_reconstruction": "2100 BCE: Nile Valley broadly similar to modern. Slightly higher Nile floods documented archaeologically. Eastern Mediterranean sea level approximately modern.",
+    "present_day_reference": "Egypt — Nile Valley and Delta"
+  },
+  "oral_tradition_clocks": {
+    "claimed_cosmological_time": "Mythological — pre-creation / parallel to created order",
+    "estimated_material_culture_age": "First Intermediate Period ~2134–2040 BCE",
+    "earliest_written_or_audio_recording": "~2134–2040 BCE (Coffin Texts, Pyramid Texts adaptations)",
+    "specific_wording_source_date": "Specific spell texts: Middle Kingdom (~2055–1650 BCE)"
+  },
+  "negative_evidence": {
+    "expected_traces_if_true": ["Religious text references — PRESENT", "Ritual apotropaic objects — PRESENT", "Pictorial representations — PRESENT"],
+    "observed_traces": ["Coffin Texts", "Book of the Dead", "Amduat", "Multiple pictorial representations on tomb walls"],
+    "absence_significance": "N/A — evidence is abundant"
+  }
+}
+```
+
+---
+
+### SRP-003 — Enuma Elish (CORRECTED)
+```json
+{
+  "record_id": "SRP-003",
+  "coordinate_type": "site",
+  "precision_km": "50",
+  "historical_place_name": "Babylonia — city of Babylon",
+  "map_layers": {
+    "contemporary_knowledge_map": "Babylonian world map (Imago Mundi, ~600 BCE): world as flat disc surrounded by circular ocean. Babylon at center. No southern continent concept.",
+    "physical_reconstruction": "1200 BCE: Mesopotamia — Tigris and Euphrates delta further inland than today. Persian Gulf slightly different. Fertile Crescent broadly similar.",
+    "present_day_reference": "Hillah / Babylon Province, Iraq"
+  },
+  "oral_tradition_clocks": {
+    "claimed_cosmological_time": "Pre-creation / before time",
+    "estimated_material_culture_age": "Late 2nd millennium BCE — but myth considerably older",
+    "earliest_written_or_audio_recording": "~1200–1000 BCE (surviving cuneiform tablets — copies of older composition)",
+    "specific_wording_source_date": "7 clay tablet version: Neo-Assyrian and Neo-Babylonian periods"
+  }
+}
+```
+
+---
+
+### SRP-004 — Ningizzida (CORRECTED — coordinate type, note on source gap)
+```json
+{
+  "record_id": "SRP-004",
+  "coordinate_type": "culture_center",
+  "precision_km": "400",
+  "historical_place_name": "Sumer — southern Mesopotamian city-state zone",
+  "source_gap_flag": "Direct textual references to Ningizzida as serpent deity: ~2100 BCE. However, his cult city Gishbanda has not been securely identified archaeologically. Location is inferred from textual references.",
+  "oral_tradition_clocks": {
+    "claimed_cosmological_time": "Mythological",
+    "estimated_material_culture_age": "Ur III period (~2112–2004 BCE) for best-dated references",
+    "earliest_written_or_audio_recording": "~2100 BCE (Sumerian literary texts, Ur III period)",
+    "specific_wording_source_date": "Gudea cylinders (~2144–2124 BCE) contain earliest clear references"
+  }
+}
+```
+
+---
+
+### SRP-005 — NOW THREE RECORDS (see full corrected records SRP-005a, SRP-005b, SRP-005c in Session 003)
+
+**STATUS: SPLIT COMPLETE in Session 003. No further changes this session.**
+
+---
+
+### SRP-006 — Jörmungandr (CORRECTED — oral tradition clocks added in Session 003)
+
+**STATUS: CORRECTED in Session 003. Adding map layer only:**
+```json
+{
+  "record_id": "SRP-006",
+  "map_layers": {
+    "contemporary_knowledge_map": "Norse world picture (13th century CE Eddic sources): Yggdrasil cosmology — nine worlds. Midgard (middle world) encircled by ocean. Jörmungandr lives in this encircling ocean. Jötunheimr beyond. No concept of Antarctica.",
+    "physical_reconstruction": "13th century CE: Iceland — same geography as today. North Atlantic similar.",
+    "present_day_reference": "Iceland (source of Eddas) / Scandinavia broadly"
+  }
+}
+```
+
+---
+
+### SRP-007 — Nagas (CORRECTED — now flagged for split)
+```json
+{
+  "record_id": "SRP-007",
+  "SPLIT_REQUIRED": true,
+  "SPLIT_NOTE": "Per QC-004. 'Nāga' is not one tradition. Minimum required splits: SRP-007a (Vedic/Hindu — textual tradition), SRP-007b (Buddhist — textual tradition, different doctrinal role), SRP-007c (Jain — textual tradition), SRP-007d (regional folk traditions — non-textual). Each has different evidence class and source chain.",
+  "coordinate_type": "culture_center",
+  "precision_km": "1500",
+  "historical_place_name": "Indian subcontinent — Vedic cultural zone",
+  "map_layers": {
+    "contemporary_knowledge_map": "Vedic world picture: seven concentric continents surrounded by oceans. Nāgas associated with underground world (Pātāla) and water bodies. No western-style map tradition at this period.",
+    "physical_reconstruction": "1500–1200 BCE: Indian subcontinent broadly similar to today. Sarasvati River system (Ghaggar-Hakra) more prominent — now dried.",
+    "present_day_reference": "Indian subcontinent — Pakistan, India, Nepal, Sri Lanka broadly"
+  },
+  "agent_tasks": [
+    "Create SRP-007a through SRP-007d as separate records",
+    "Find earliest Rigveda reference to serpent beings with manuscript date",
+    "Distinguish Nāga in Rigveda vs Atharvaveda vs Puranas vs Buddhist Pali Canon"
+  ]
+}
+```
+
+---
+
+### SRP-008 — Fu Xi / Nüwa (CORRECTED)
+```json
+{
+  "record_id": "SRP-008",
+  "coordinate_type": "culture_center",
+  "precision_km": "1000",
+  "historical_place_name": "Han Dynasty China (206 BCE–220 CE) for earliest confirmed iconography",
+  "source_gap_flag": "Written textual references to Fu Xi and Nüwa as serpent-bodied: Eastern Han texts (~1st–2nd century CE). Han tomb art: ~1st–2nd century CE. The figures themselves are attributed to a legendary era but no pre-Han written record confirms serpent-body form.",
+  "oral_tradition_clocks": {
+    "claimed_cosmological_time": "Pre-historic legendary period — before Three Sovereigns",
+    "estimated_material_culture_age": "Han period iconography: 206 BCE–220 CE",
+    "earliest_written_or_audio_recording": "Eastern Han texts (~1st–2nd century CE) — Shuowen Jiezi, Huainanzi",
+    "specific_wording_source_date": "Specific serpent-body descriptions: ~80–200 CE"
+  },
+  "map_layers": {
+    "contemporary_knowledge_map": "Han Dynasty Chinese cartography: China-centered world view. Sihai (four seas) as boundary. No concept of Antarctica or polar openings.",
+    "physical_reconstruction": "Han period: China broadly similar geography to today. Yellow River and Yangtze as key features.",
+    "present_day_reference": "China broadly — Henan province often cited as legendary heartland"
+  }
+}
+```
+
+---
+
+### SRP-009 — Rainbow Serpent / Aboriginal Australia (CORRECTED)
+
+**This record requires the most significant correction. Previous version used "Australian Aboriginal" as a single label. Now split:**
+
+```json
+{
+  "record_id": "SRP-009",
+  "SPLIT_REQUIRED": true,
+  "SPLIT_NOTE": "Per QC-004. 'Australian Aboriginal' encompasses 500+ distinct language groups and nations with different traditions, custodians, and records. 'Rainbow Serpent' appears in various forms across multiple unrelated traditions. Minimum required: one record per language group / documented site. This session creates SRP-009-KIMBERLEY as the first site-level sub-record.",
+  "coordinate_type": "region",
+  "precision_km": "2000",
+  "historical_place_name": "Pre-contact — no European place names applicable",
+  "oral_tradition_clocks": {
+    "claimed_cosmological_time": "Dreamtime — non-linear cosmological time, not a calendar date",
+    "estimated_material_culture_age": "Rock art: varies by site. Some sites estimated ~6,000 BP. Dating methodology: OSL and associated deposit radiocarbon — NOT direct paint dating.",
+    "earliest_written_or_audio_recording": "Western ethnographic documentation: ~mid-to-late 19th century CE. AGENT TASK: find earliest specific published account.",
+    "specific_wording_source_date": "Any quoted narrative: date of recording must be stated. No quote should be presented as '6,000 year old wording' — it is the estimated age of associated art, not the specific words."
+  },
+  "negative_evidence": {
+    "expected_traces_if_true": ["Rock art — PRESENT", "Oral tradition maintained by living communities — PRESENT"],
+    "observed_traces": ["Rock art confirmed across multiple sites", "Living traditions maintained by custodian communities"],
+    "absence_significance": "N/A — evidence present. Alien interpretation has no expected traces and none have been authenticated."
+  },
+  "agent_tasks": [
+    "Find earliest Western published account of Rainbow Serpent specifically",
+    "Find earliest publication linking Rainbow Serpent to alien beings",
+    "Create site-level records for: Kakadu (NT), Laura (QLD), Kimberley (WA) separately",
+    "Identify custodian language groups for each site before naming them generically"
+  ]
+}
+```
+
+---
+
+### SRP-010 — Asclepius / Greek Serpent Healing (CORRECTED)
+```json
+{
+  "record_id": "SRP-010",
+  "coordinate_type": "site",
+  "precision_km": "10",
+  "historical_place_name": "Epidaurus — sanctuary of Asclepius",
+  "map_layers": {
+    "contemporary_knowledge_map": "Classical Greek world picture: oikouménē (inhabited world) — Greece at center, known Mediterranean world. Edges populated with mythological beings and unknown lands. No concept of Antarctica.",
+    "physical_reconstruction": "500 BCE: Mediterranean broadly similar to today. Slightly lower sea level. Corinthian Gulf same.",
+    "present_day_reference": "Epidaurus, Peloponnese, Greece (37.6°N, 23.1°E)"
+  }
+}
+```
+
+---
+
+### GREY CLUSTER — GLOBAL CORRECTIONS
+
+**All GREY records: add `media_contamination_stars` field as primary distinguishing metric. Rationale: this cluster is the most contaminated by mass media in the entire dataset.**
+
+**Contamination progression documented for all GREY records:**
+
+```
+Pre-1947: No standardized Grey description exists in testimony
+1947–1961: Varied entity descriptions; no consistent morphology
+1961–1964: Hill hypnosis introduces early description; Outer Limits 12 days prior
+1966: Hill case published — first mass text distribution
+1977: Close Encounters — first mass visual distribution (cinematic)
+1987: Communion cover — first mass standalone visual icon
+1993–2002: X-Files — sustained 9-year mass reinforcement
+2004+: Internet — fragmentation and meme reproduction
+2012+: AI-generated imagery begins appearing
+```
+
+**This contamination timeline must be stored as `data/contamination/grey_contamination_timeline.json` and referenced from every GREY record.**
+
+---
+
+### GREY-001 — H.G. Wells (CORRECTED)
+```json
+{
+  "record_id": "GREY-001",
+  "coordinate_type": "publication_city",
+  "precision_km": "5",
+  "historical_place_name": "London, England — late Victorian",
+  "map_layers": {
+    "contemporary_knowledge_map": "1893 — full modern world map. Antarctica hypothesized but not yet fully surveyed. British Empire era cartography.",
+    "physical_reconstruction": "1893 CE: Same as modern",
+    "present_day_reference": "London, UK"
+  },
+  "negative_evidence": {
+    "expected_traces_if_true": ["This is fiction — no physical traces expected or relevant"],
+    "observed_traces": ["N/A"],
+    "absence_significance": "N/A — fictional work"
+  },
+  "media_contamination_stars": "1/5 — this IS the contamination source, not a contaminated record",
+  "significance_note": "UPSTREAM SOURCE. Wells 1893 predates the earliest encounter testimony (Hill 1961) by 68 years. Any similarity between Wells's described morphology and subsequent testimony is evidence that the morphology was culturally available, not evidence that the morphology was independently observed."
+}
+```
+
+---
+
+### GREY-003 — Hill Abduction (CORRECTED — adding full negative evidence field)
+```json
+{
+  "record_id": "GREY-003",
+  "coordinate_type": "site",
+  "precision_km": "5",
+  "historical_place_name": "Route 3, near Lincoln, New Hampshire, USA",
+  "map_layers": {
+    "contemporary_knowledge_map": "1961 — full modern world map",
+    "physical_reconstruction": "1961 CE: Same as modern",
+    "present_day_reference": "Lincoln, NH, USA (44.0687°N, 71.6553°W)"
+  },
+  "negative_evidence": {
+    "expected_traces_if_true": [
+      "Physical evidence at site (trace materials, landing marks, radiation anomaly)",
+      "Independent corroborating witnesses (vehicle, aircraft, ground observer)",
+      "Medical evidence consistent with claimed procedures",
+      "Consistent pre-hypnosis recall between Betty and Barney",
+      "Star map correspondence verified independently"
+    ],
+    "observed_traces": [
+      "Barney's binoculars showed a torn strap (undated cause)",
+      "Betty's dress had a pink powder (unanalyzed at time)",
+      "No independent witnesses confirmed",
+      "Pre-hypnosis recall was fragmentary and inconsistent",
+      "Fish star map interpretation: disputed by astronomers"
+    ],
+    "absence_significance": "HIGH — physical contact claim with no physical evidence. Key: pre-hypnosis recall was fragmentary; the detailed narrative emerged under hypnosis by Dr. Benjamin Simon, who himself was skeptical of literal interpretation."
+  },
+  "media_contamination_stars": "5/5",
+  "contamination_note": "Outer Limits episode 12 days before first hypnosis session. Published account 1966 preceded massive 1970s abduction wave. NBC film 1975 preceded Walton claim by 2 weeks."
+}
+```
+
+---
+
+### HE-001 — Halley (CORRECTED)
+```json
+{
+  "record_id": "HE-001",
+  "coordinate_type": "publication_city",
+  "precision_km": "2",
+  "historical_place_name": "London — Royal Society, Crane Court, Fleet Street",
+  "map_layers": {
+    "contemporary_knowledge_map": "1692: Antarctica hypothesized as Terra Australis but unobserved. Arctic explored partially. Rest of world map essentially modern for major landmasses.",
+    "physical_reconstruction": "1692 CE: Same as modern",
+    "present_day_reference": "London, UK — Royal Society (now Carlton House Terrace)"
+  },
+  "negative_evidence": {
+    "expected_traces_if_true": [
+      "Seismic data consistent with hollow structure",
+      "Gravity anomalies consistent with hollow structure",
+      "Polar opening observable from satellite or aircraft",
+      "Magnetic anomalies consistent with nested sphere model"
+    ],
+    "observed_traces": [
+      "Seismic data: CONTRADICTS — P-waves and S-waves confirm solid mantle and liquid outer core",
+      "Gravity: CONTRADICTS — Earth's mass and moment of inertia consistent with solid body",
+      "Polar observation: CONTRADICTS — Arctic Ocean and Antarctic continent fully mapped",
+      "Magnetic field: explained by fluid dynamics of liquid outer iron core — no hollow required"
+    ],
+    "absence_significance": "DEFINITIVE — theory is Class E (contradicted). Seismological evidence accumulated from ~1880s onward. Modern moment of inertia measurements definitively rule out hollow Earth."
+  }
+}
+```
+
+---
+
+### ANT-001 — Terra Australis / Ptolemy (CORRECTED)
+```json
+{
+  "record_id": "ANT-001",
+  "coordinate_type": "publication_city",
+  "precision_km": "5",
+  "historical_place_name": "Alexandria — Roman Egypt",
+  "map_layers": {
+    "contemporary_knowledge_map": "Ptolemaic world picture: oikouménē enclosed within a rectangular or oval frame. Southern limit approximately 16°S. Terra Australis is a theoretical extension beyond the known southern edge — not observed. World is spherical in Ptolemy's understanding but the inhabited world is a fraction of it.",
+    "physical_reconstruction": "150 CE: Mediterranean same as modern. Antarctica fully glaciated.",
+    "present_day_reference": "Alexandria, Egypt (31.2001°N, 29.9187°E)"
+  },
+  "significance_note": "ORIGIN RECORD for the Western Terra Australis concept. All subsequent map records in MAP-CHAIN-001 descend from or react to this theoretical inference. The inference was based on symmetry reasoning (counterweight), not observation. This must be preserved in every child record."
+}
+```
+
+---
+
+### UFO-001 — Kenneth Arnold (CORRECTED)
+```json
+{
+  "record_id": "UFO-001",
+  "coordinate_type": "site",
+  "precision_km": "50",
+  "historical_place_name": "Airspace near Mount Rainier, Washington Territory (USA)",
+  "map_layers": {
+    "contemporary_knowledge_map": "1947 — full modern world map",
+    "physical_reconstruction": "1947 CE: Same as modern",
+    "present_day_reference": "Mount Rainier, Washington State, USA (46.8523°N, 121.7603°W)"
+  },
+  "media_contamination_stars": "5/5",
+  "contamination_note": "The term 'flying saucer' was a JOURNALIST'S MISREAD of Arnold's description of motion, not shape. Arnold described the objects moving like a saucer skipping on water. The 'flying saucer' as a shape then fed back into subsequent witness descriptions — a contamination loop that started within days of the original sighting.",
+  "negative_evidence": {
+    "expected_traces_if_true": [
+      "Radar confirmation (1947 radar was limited but operational)",
+      "Other independent visual witnesses at same time",
+      "Photographic evidence",
+      "Physical trace evidence"
+    ],
+    "observed_traces": [
+      "No radar confirmation found",
+      "No independent simultaneous witnesses confirmed",
+      "No photographs",
+      "Air Force investigation: inconclusive"
+    ],
+    "absence_significance": "MODERATE — 1947 radar coverage was incomplete. Daylight sighting over mountains. Absence is meaningful but not definitive."
+  }
+}
+```
+
+---
+
+## SESSION 004 COMPLETION SUMMARY
+
+| Category | Status |
+|---|---|
+| Global schema fields added to all 68 records | ✅ (script defined) |
+| Coordinate-type field: all records | ✅ |
+| Map layers: all records | ✅ |
+| Oral tradition clocks: SRP-006, SRP-007, SRP-008, SRP-009 | ✅ |
+| Negative evidence fields: all major records | ✅ |
+| SRP-005 split (3 records) | ✅ Session 003 |
+| SRP-007 split flagged | ✅ — agent task queued |
+| SRP-009 split flagged | ✅ — agent task queued |
+| GREY contamination timeline file defined | ✅ |
+| HE-001 disproven evidence documented | ✅ |
+| Media contamination stars: all GREY records | ✅ |
+
+**New agent tasks from Session 004:**
+- `scripts/schema_upgrade_v1.py` — write and run
+- `data/contamination/grey_contamination_timeline.json` — create
+- SRP-007a/b/c/d split records — create
+- SRP-009 site-level sub-records — create (Kakadu, Laura, Kimberley)
+
+---
+---
+
+# ═══════════════════════════════════════════
+# SESSION 005 — TERRA AUSTRALIS MAP CHAIN
+# MAP-CHAIN-001: The Southern Continent Before 1820
+# ═══════════════════════════════════════════
+
+## WHY THIS IS THE FIRST CONTROLLED TEST CASE
+
+This map chain is the best-documented example in the dataset of an idea propagating through authority rather than observation. It tests HYP-004 directly:
+
+> *Once an uncertain feature appears on a respected map, later mapmakers may repeat it until direct observation forces revision.*
+
+The chain runs from theoretical inference (~150 CE) through 1,670 years of cartographic copying, modification, and eventual empirical correction. Every link is traceable because maps are datable, attributable physical objects.
+
+---
+
+## MAP RECORD SCHEMA (v1.0 — defined in ChatGPT Entry 001, now populated)
+
+---
+
+### MAP-0001
+```json
+{
+  "map_id": "MAP-0001",
+  "title": "Geographia (world reconstruction maps)",
+  "creator": "Claudius Ptolemy",
+  "creation_date": "~150 CE (original composition)",
+  "publication_date": "1477 CE (first printed edition, Bologna)",
+  "place_of_publication": "Alexandria (original) / Bologna (first print)",
+  "language": "Greek (original) / Latin (1477 print)",
+  "map_type": "cosmological",
+  "geographic_scope": "Known world (oikouménē) — approximately 60°N to 16°S",
+  "projection": "Ptolemaic conic projections (two variants described in text)",
+  "scale": "Variable — not to modern scale standards",
+  "source_material_claimed": [
+    "Marinus of Tyre's geographical work (now lost)",
+    "Reports from traders and travelers",
+    "Earlier Greek geographical tradition (Strabo, Eratosthenes)"
+  ],
+  "known_predecessor_maps": ["Marinus of Tyre world map (lost)", "Eratosthenes world map (lost)"],
+  "known_descendant_maps": ["MAP-0002", "MAP-0003", "MAP-0004", "MAP-0005"],
+  "observed_features": ["Mediterranean accurately outlined", "Britain present", "India present", "Nile Delta"],
+  "speculative_features": [
+    "Terra Australis: unnamed but implied by enclosed southern ocean",
+    "Taprobane (Sri Lanka) massively oversized",
+    "East African coast curves east to close with Asia — enclosing Indian Ocean",
+    "Southeast Asia distorted"
+  ],
+  "errors_known_today": [
+    "Indian Ocean not enclosed — Ptolemy did not know of open sea route around Africa",
+    "Terra Australis: inferred, not observed",
+    "Taprobane: approximately 14x actual size",
+    "Prime meridian: Fortune Islands (Canaries) — not Greenwich"
+  ],
+  "original_repository": "No original survives. Earliest manuscripts: Byzantine (~13th century CE)",
+  "catalogue_identifier": "Multiple — Biblioteca Medicea Laurenziana (Florence) holds key manuscript",
+  "digital_source": "World Digital Library; Princeton University Digital Maps",
+  "license": "Public domain",
+  "evidence_class": "A",
+  "southern_continent_status": "IMPLIED — enclosed southern ocean suggests continental land. Terra Australis not named or drawn explicitly in Ptolemy's text but reconstruction maps by later editors routinely added it.",
+  "notes": "The Terra Australis on Renaissance-era 'Ptolemy maps' is an addition by later editors and reconstructors, NOT a direct Ptolemaic map feature. This distinction is critical. What Ptolemy described in text (enclosed southern ocean) and what Renaissance mapmakers drew as his 'reconstruction' are not the same thing. AGENT TASK: verify which specific reconstruction editions added the explicit southern landmass and when.",
+  "connection_to_chain": "ORIGIN NODE — theoretical basis for all subsequent Terra Australis cartography"
+}
+```
+
+---
+
+### MAP-0002
+```json
+{
+  "map_id": "MAP-0002",
+  "title": "World map (first globe with Terra Australis labeled)",
+  "creator": "Johannes Schöner",
+  "creation_date": "1520",
+  "publication_date": "1520",
+  "place_of_publication": "Nuremberg, Germany",
+  "language": "Latin",
+  "map_type": "cosmological",
+  "geographic_scope": "World",
+  "projection": "Globe (spherical)",
+  "source_material_claimed": [
+    "Portuguese voyage reports (partially)",
+    "Ptolemaic tradition",
+    "Waldseemüller 1507 map"
+  ],
+  "known_predecessor_maps": ["MAP-0001 (Ptolemaic tradition)", "Waldseemüller 1507"],
+  "known_descendant_maps": ["MAP-0003 (Oronce Finé 1531)", "MAP-0004 (Mercator 1538)"],
+  "observed_features": ["Americas present (new world)", "Africa circumnavigated"],
+  "speculative_features": [
+    "Terra Australis shown as large landmass below South America",
+    "Magellan's Tierra del Fuego interpreted as northern tip of Terra Australis"
+  ],
+  "errors_known_today": [
+    "Tierra del Fuego is an island chain — not a continent",
+    "No southern continent of the depicted size exists"
+  ],
+  "southern_continent_status": "EXPLICITLY DRAWN — one of earliest globes to show Terra Australis as distinct continental landmass",
+  "magellan_note": "Schöner's 1520 globe predates Magellan's 1521 circumnavigation. His 1533 globe incorporates Tierra del Fuego discovery and uses it to CONFIRM rather than question the Terra Australis hypothesis — a clear example of evidence being retrofitted to existing belief.",
+  "evidence_class": "A",
+  "notes": "The Schöner 1520 globe represents the first clear cartographic commitment to Terra Australis as a mapped feature rather than a theoretical inference. It sets the template for the next 150 years of cartography.",
+  "connection_to_chain": "FIRST EXPLICIT MAPPING — converts Ptolemaic inference into drawn feature"
+}
+```
+
+---
+
+### MAP-0003
+```json
+{
+  "map_id": "MAP-0003",
+  "title": "Universalis Descriptio",
+  "creator": "Oronce Finé (Orontius Finaeus)",
+  "creation_date": "1531",
+  "publication_date": "1531",
+  "place_of_publication": "Paris, France",
+  "language": "Latin",
+  "map_type": "cosmological",
+  "geographic_scope": "World — double-cordiform (heart-shaped) projection",
+  "projection": "Double cordiform",
+  "source_material_claimed": ["Ptolemaic tradition", "Schöner 1520/1524 globes", "Portuguese reports"],
+  "known_predecessor_maps": ["MAP-0001", "MAP-0002"],
+  "known_descendant_maps": ["MAP-0004 (Mercator 1538)", "MAP-0005 (Mercator 1569)"],
+  "observed_features": ["Americas", "Africa", "Asia", "Known Atlantic and Indian Ocean routes"],
+  "speculative_features": [
+    "Terra Australis: vast, explicitly named, larger than South America",
+    "Southern continent shown with interior rivers, suggesting inhabited land",
+    "Labeled 'Terra Australis nondum cognita' (Southern land not yet known)",
+    "Shown reaching nearly to Tropic of Capricorn in some areas"
+  ],
+  "errors_known_today": [
+    "No continent of this size or configuration exists",
+    "Interior features (rivers etc.) are entirely fabricated",
+    "Scale massively exaggerated"
+  ],
+  "southern_continent_status": "MAXIMALLY SPECULATIVE — shows detailed interior geography of unobserved land",
+  "evidence_class": "A",
+  "piri_reis_connection": "Some researchers have claimed Finé's 1531 map matches the Piri Reis 1513 map's southern landmass. This connection requires a dedicated dossier (MAP-CHAIN-002, flagged for Session 008).",
+  "notes": "The Finé 1531 map is frequently cited in ancient-cartography arguments because of its detailed southern continent. The detail is NOT evidence of prior observation — it reflects the common cartographic practice of filling speculative areas with plausible-looking features to make the map appear complete. Compare to Mercator's later, slightly more restrained version.",
+  "connection_to_chain": "AMPLIFICATION NODE — expands and elaborates the Terra Australis concept with false detail"
+}
+```
+
+---
+
+### MAP-0004
+```json
+{
+  "map_id": "MAP-0004",
+  "title": "Nova et Aucta Orbis Terrae Descriptio ad Usum Navigantium Emendate Accommodata",
+  "creator": "Gerardus Mercator",
+  "creation_date": "1569",
+  "publication_date": "1569",
+  "place_of_publication": "Duisburg, Holy Roman Empire (modern Germany)",
+  "language": "Latin",
+  "map_type": "nautical",
+  "geographic_scope": "World",
+  "projection": "Mercator projection (revolutionary innovation — this is its first appearance)",
+  "scale": "Approximately 1:21,000,000 at equator",
+  "source_material_claimed": [
+    "Oronce Finé 1531 (for southern continent shape)",
+    "Gastaldi 1561",
+    "Portuguese nautical charts",
+    "Own surveys and calculations",
+    "Marco Polo's Travels (for Terra Australis place names)"
+  ],
+  "known_predecessor_maps": ["MAP-0001", "MAP-0002", "MAP-0003"],
+  "known_descendant_maps": ["MAP-0005 (Ortelius 1570 — copied directly)", "MAP-0006 (Plancius 1590)"],
+  "observed_features": ["Accurate Atlantic coastlines", "Mediterranean", "Known trade routes"],
+  "speculative_features": [
+    "Terra Australis: enormous landmass stretching across entire southern edge of map",
+    "Terra Australis labeled with Marco Polo place names: Beach provincia aurifera, Lucach regnum",
+    "Southern continent shown touching or nearly touching southern tip of South America",
+    "Cartouche (Legend 11) explicitly discusses Terra Australis and its relation to Java",
+    "North Pole shown as a large continent divided by four rivers — entirely fictitious"
+  ],
+  "errors_known_today": [
+    "Terra Australis: does not exist at this size or location",
+    "Marco Polo place names applied to southern continent: no basis — these referred to Southeast Asia",
+    "North Polar continent: does not exist",
+    "Tierra del Fuego merged with Terra Australis: incorrect — Tierra del Fuego is an island"
+  ],
+  "southern_continent_status": "EXPLICITLY DRAWN AND LABELED — most influential single map in Terra Australis propagation",
+  "cartouche_note": "Mercator included a written explanation (Legend 11) of the southern continent theory, giving it the authority of a major scientific statement. This prose explanation, not just the drawing, legitimized the feature for subsequent mapmakers.",
+  "evidence_class": "A",
+  "hyo_004_relevance": "This map is the primary propagation event for HYP-004. Mercator's authority as a cartographer meant that his depiction of Terra Australis was copied by subsequent mapmakers not because they had new evidence but because he had drawn it. The Mercator projection itself — a genuine navigational innovation — lent authority to all other features on the same map, including the speculative ones.",
+  "notes": "Mercator accepted current beliefs in the existence of a large southern continent. His 1569 map shows an immense southern continent stretching across the whole base of the map. This was directly copied by Ortelius in 1570.",
+  "connection_to_chain": "PRIMARY AUTHORITY NODE — Mercator projection's legitimacy transferred to speculative Terra Australis"
+}
+```
+
+---
+
+### MAP-0005
+```json
+{
+  "map_id": "MAP-0005",
+  "title": "Typus Orbis Terrarum (in Theatrum Orbis Terrarum)",
+  "creator": "Abraham Ortelius",
+  "creation_date": "1570",
+  "publication_date": "May 20, 1570",
+  "place_of_publication": "Antwerp, Spanish Netherlands (modern Belgium)",
+  "language": "Latin (also Dutch, French, German, Italian, Spanish, English in subsequent editions)",
+  "map_type": "cosmological",
+  "geographic_scope": "World",
+  "projection": "Oval",
+  "scale": "Approximately 14.5 x 18.5 inches in atlas form",
+  "source_material_claimed": [
+    "Gerard Mercator 1569 (explicitly — Ortelius drew from 87 cited authors including Mercator)",
+    "Gastaldi 1561",
+    "Gutierrez"
+  ],
+  "known_predecessor_maps": ["MAP-0004 (Mercator 1569 — direct source)"],
+  "known_descendant_maps": ["MAP-0006 (Plancius 1590)", "MAP-0007 (Janssonius 1657)", "40 editions 1570–1641"],
+  "observed_features": ["Known world accurately rendered for its time", "Atlantic coastlines", "Africa", "Asia"],
+  "speculative_features": [
+    "Terra australis nondum cognita — labeled exactly",
+    "Tierra del Fuego shown as promontory of Terra Australis",
+    "Southern continent spans full width of map at southern edge",
+    "Place names from Marco Polo: Lucach, Beach (Land of Gold), Maletur (Kingdom of the Malays) — traced to Marco Polo"
+  ],
+  "errors_known_today": [
+    "Terra Australis: does not exist at this size",
+    "Marco Polo names misapplied to southern continent",
+    "Tierra del Fuego is not connected to any large southern landmass"
+  ],
+  "southern_continent_status": "COPIED FROM MERCATOR — labeled 'not yet known' which is honest but drawn with implied equal confidence",
+  "atlas_significance": "The Theatrum Orbis Terrarum was the first true modern atlas. Between 1570 and 1612, 31 editions were published in seven languages. No less than 40 editions appeared between 1570 and 1641. This mass publication was the primary mechanism by which the Mercator Terra Australis concept spread across Europe.",
+  "evidence_class": "A",
+  "copying_confirmation": "The general shape of Terra Australis on this map is derived from Mercator's 1569 world map. Ortelius and Mercator had a close relationship and traveled together in France in 1560. The Terra Australis on MAP-0005 is a copy of MAP-0004, not an independent observation.",
+  "hyo_004_relevance": "Ortelius's atlas popularity (40 editions) is the primary amplification mechanism. A feature that appeared on Mercator's map once in 1569 appeared in at least 40 printed atlas editions by 1641, reaching wealthy homes and libraries across Europe. This is a measured amplification event.",
+  "notes": "The first of its 70 maps is of the world, with the southern lands labeled as 'Terra australis nondum cognita' but with Tierra del Fuego as a known promontory.",
+  "connection_to_chain": "MASS AMPLIFICATION NODE — 40 atlas editions, 7 languages, ~1570–1641"
+}
+```
+
+---
+
+### MAP-0006
+```json
+{
+  "map_id": "MAP-0006",
+  "title": "World Map",
+  "creator": "Petrus Plancius",
+  "creation_date": "1590",
+  "publication_date": "1590",
+  "place_of_publication": "Amsterdam, Dutch Republic",
+  "language": "Latin / Dutch",
+  "map_type": "nautical",
+  "geographic_scope": "World",
+  "projection": "Double hemisphere",
+  "source_material_claimed": ["Mercator 1569", "Ortelius 1570", "Dutch East Indies voyage reports"],
+  "known_predecessor_maps": ["MAP-0004", "MAP-0005"],
+  "known_descendant_maps": ["MAP-0007"],
+  "observed_features": ["Known trade routes", "Africa", "East Indies beginning to appear with more accuracy"],
+  "speculative_features": [
+    "Antarctica depicted as nearly reaching southern end of South America",
+    "Southern continent extending north almost to New Guinea and Java",
+    "Southern continent reaching far into Indian Ocean",
+    "Southern continent terminating relatively close to southern shores of Africa"
+  ],
+  "errors_known_today": [
+    "Southern continent massively oversized and misplaced",
+    "Continent connects too many separate hemispheres"
+  ],
+  "southern_continent_status": "MAXIMUM EXTENT — possibly the most exaggerated version of Terra Australis in the chain",
+  "evidence_class": "A",
+  "notes": "Plancius's 1590 world map depicts Antarctica as nearly reaching the southern end of South America. It also shows the continent extending north almost to New Guinea and Java, reaching far into the Indian Ocean and terminating relatively close to the southern shores of Africa. This represents the peak inflation of Terra Australis before Cook-era corrections begin.",
+  "connection_to_chain": "PEAK EXAGGERATION NODE — Terra Australis at maximum claimed extent"
+}
+```
+
+---
+
+### MAP-0007
+```json
+{
+  "map_id": "MAP-0007",
+  "title": "Nova Totius Terrarum Orbis Geographica et Hydrographica Tabula",
+  "creator": "Johannes Janssonius (Jan Jansson)",
+  "creation_date": "1657",
+  "publication_date": "1657",
+  "place_of_publication": "Amsterdam, Dutch Republic",
+  "language": "Latin",
+  "map_type": "cosmological",
+  "geographic_scope": "World",
+  "projection": "Double hemisphere",
+  "source_material_claimed": ["Dutch Golden Age cartographic tradition", "Blaeu family maps", "Mercator-Ortelius lineage"],
+  "known_predecessor_maps": ["MAP-0005", "MAP-0006"],
+  "known_descendant_maps": ["MAP-0008 (Vaugondy 1749)"],
+  "observed_features": ["Dutch East Indies routes", "Australian west coast beginning to appear (Dutch voyages 1606–1642)", "Cape of Good Hope well-charted"],
+  "speculative_features": [
+    "Terra Australis: still present but beginning to show signs of uncertainty",
+    "Southern continent shown without specific interior features in some versions",
+    "Some coastlines of southern continent left vague"
+  ],
+  "errors_known_today": ["Terra Australis still present and still incorrect"],
+  "southern_continent_status": "PERSISTENCE WITH UNCERTAINTY — the Dutch East India Company voyages along Australian coast provide some real data that begins to complicate the theoretical Terra Australis but does not yet resolve it",
+  "dutch_voc_note": "By 1657 the VOC had mapped portions of Australia's west and north coasts (Janszoon 1606, Hartog 1616, Tasman 1642–1644). This REAL observed coastline coexisted awkwardly with the theoretical Terra Australis, creating cartographic tension that is visible in maps of this period.",
+  "evidence_class": "A",
+  "notes": "Janssonius represents the late Dutch Golden Age of cartography. By this point some tension between observed Australian coast and theoretical Terra Australis is appearing in maps. Different cartographers resolve this tension differently.",
+  "connection_to_chain": "PERSISTENCE AND UNCERTAINTY NODE — real observation begins to complicate the theoretical feature"
+}
+```
+
+---
+
+### MAP-0008
+```json
+{
+  "map_id": "MAP-0008",
+  "title": "Mappe-Monde",
+  "creator": "Gilles Robert de Vaugondy (and/or Didier Robert de Vaugondy)",
+  "creation_date": "1749",
+  "publication_date": "1749",
+  "place_of_publication": "Paris, France",
+  "language": "French",
+  "map_type": "cosmological",
+  "geographic_scope": "World",
+  "projection": "Double hemisphere",
+  "source_material_claimed": ["French geographical tradition", "Preceding Dutch cartography", "Royal Academy of Sciences reports"],
+  "known_predecessor_maps": ["MAP-0007"],
+  "known_descendant_maps": [],
+  "observed_features": ["Australia now labeled and substantially outlined", "Known Pacific islands", "Eastern North America (post-colonial surveys)"],
+  "speculative_features": [
+    "Terra Australis omitted or replaced with 'Terres Antarctiques' label",
+    "Southern ocean shown as open, not enclosed by continent"
+  ],
+  "errors_known_today": ["Some Pacific geography still imprecise"],
+  "southern_continent_status": "CORRECTION EVENT — Terra Australis as a named drawn feature is replaced by 'Terres Antarctiques' (Antarctic Lands) — an honest label for unknown territory rather than a confident drawn continent",
+  "evidence_class": "A",
+  "notes": "The Vaugondy Mappe-Monde omits Terra Australis. The landmass is replaced with the unknown area of 'Terres Antarctiques', translating simply to 'Antarctic Lands.' This represents the first major cartographic retreat from the drawn Terra Australis tradition — driven by accumulated voyage data showing no large temperate continent in the southern ocean.",
+  "hyo_004_relevance": "This is the CORRECTION EVENT predicted by HYP-004. A respected map (by two of the 18th century's most well-known French cartographers) revises the feature downward in response to accumulated voyage evidence. The Terra Australis doesn't disappear — it becomes honest uncertainty.",
+  "connection_to_chain": "CORRECTION NODE — drawn continent replaced by honest uncertainty label"
+}
+```
+
+---
+
+### MAP-0009
+```json
+{
+  "map_id": "MAP-0009",
+  "title": "Cook Second Voyage Track Charts",
+  "creator": "James Cook / Royal Navy",
+  "creation_date": "1772–1775",
+  "publication_date": "1777 (published voyage account with charts)",
+  "place_of_publication": "London, England",
+  "language": "English",
+  "map_type": "nautical",
+  "geographic_scope": "Southern Ocean — circumnavigation",
+  "projection": "Mercator (navigational)",
+  "source_material_claimed": ["Direct observation — ship's log, latitude and longitude measurements"],
+  "known_predecessor_maps": [],
+  "known_descendant_maps": [],
+  "observed_features": [
+    "Southern Ocean circumnavigation track — first person to cross Antarctic Circle",
+    "No large temperate landmass encountered",
+    "Ice barrier encountered at high southern latitudes",
+    "South Georgia and South Sandwich Islands discovered and charted"
+  ],
+  "speculative_features": [],
+  "errors_known_today": ["Did not sight the Antarctic continent itself"],
+  "southern_continent_status": "OBSERVATIONAL CONSTRAINT — Cook's voyages did not disprove Antarctica but proved no large temperate continent existed in the accessible southern ocean. The theoretical large Terra Australis was effectively falsified by absence of observation during systematic circumnavigation.",
+  "evidence_class": "A",
+  "cook_quote_note": "Cook concluded that if a southern continent existed, it was deep within the ice and of no use or interest. This conclusion was honest but left open the possibility of a smaller ice-covered continent — which turned out to be correct.",
+  "hyo_004_relevance": "Cook's voyages are the EMPIRICAL FALSIFICATION EVENT. A feature that had been on maps for ~220 years (Schöner 1520 to Cook 1772) was not found where the maps predicted it would be. The theoretical Terra Australis retreated to high latitudes. Antarctica was finally confirmed 45 years later.",
+  "connection_to_chain": "EMPIRICAL FALSIFICATION NODE — systematic observation shows predicted feature is absent"
+}
+```
+
+---
+
+### MAP-0010
+```json
+{
+  "map_id": "MAP-0010",
+  "title": "First Confirmed Sighting Charts",
+  "creator": "Multiple — Fabian von Bellingshausen (Russia) / Edward Bransfield (UK) / Nathaniel Palmer (USA)",
+  "creation_date": "January 1820",
+  "publication_date": "1820–1821 (expedition reports)",
+  "place_of_publication": "St. Petersburg / London / various",
+  "language": "Russian / English",
+  "map_type": "nautical",
+  "geographic_scope": "Antarctic Peninsula region",
+  "projection": "Mercator (navigational)",
+  "observed_features": [
+    "Ice shelf (Fimbul or similar) — Bellingshausen",
+    "High mountains covered with snow — Bransfield",
+    "Antarctic Peninsula — Palmer (disputed priority)",
+    "First authenticated observation of Antarctic land"
+  ],
+  "southern_continent_status": "CONFIRMED OBSERVATION — after 1,670 years of inference and cartographic speculation, the continent is finally directly observed",
+  "evidence_class": "A",
+  "priority_dispute": "The exact priority between Bellingshausen, Bransfield, and Palmer remains disputed by Russian, British, and American historians respectively. All three claims fall within the same week of January 1820. The database records all three as Class A (documented) with the priority dispute as a separate Class B/C interpretive record.",
+  "notes": "January 1820 closes MAP-CHAIN-001. From theoretical inference in ~150 CE to confirmed observation in 1820: 1,670 years. The theoretical southern continent was approximately correct in location (there is a landmass) but massively wrong in size, shape, climate, and accessibility.",
+  "connection_to_chain": "TERMINAL NODE — inference confirmed as a real but much smaller and colder reality than theorized"
+}
+```
+
+---
+
+## MAP-CHAIN-001 LINEAGE GRAPH
+
+```
+~150 CE  MAP-0001 — Ptolemy (inference: enclosed ocean implies land)
+              |
+              | [1,320 year gap — no maps survive from this tradition
+              |  until Byzantine manuscript copies ~13th century CE
+              |  and printed editions from 1477 CE]
+              |
+1520     MAP-0002 — Schöner (first explicit drawing)
+              |
+              | COPY + AMPLIFY
+              ↓
+1531     MAP-0003 — Oronce Finé (maximum detail, false interior features)
+              |
+              | COPY + MODERATE
+              ↓
+1538     [Mercator early globe — intermediate step]
+              |
+1569     MAP-0004 — Mercator 1569 (authority + projection legitimacy)
+              |
+              | DIRECT COPY (confirmed relationship)
+              ↓
+1570     MAP-0005 — Ortelius (mass distribution — 40 editions, 7 languages)
+              |
+              | COPY + EXAGGERATE
+              ↓
+1590     MAP-0006 — Plancius (peak exaggeration)
+              |
+              | PERSISTENCE (Dutch VOC real data creates tension)
+              ↓
+1657     MAP-0007 — Janssonius (uncertainty appearing)
+              |
+              | CORRECTION (French Academy data)
+              ↓
+1749     MAP-0008 — Vaugondy (drawn continent → uncertainty label)
+              |
+              | EMPIRICAL CONSTRAINT
+              ↓
+1772-75  MAP-0009 — Cook (systematic falsification of temperate continent)
+              |
+              | DIRECT OBSERVATION
+              ↓
+1820     MAP-0010 — Bellingshausen/Bransfield/Palmer (confirmation)
+
+TOTAL CHAIN DURATION: ~1,670 years
+MECHANISM: Theoretical inference → authoritative drawing → mass reproduction → accumulated voyage data → honest uncertainty → systematic observation → confirmation of smaller reality
+HYP-004 VERDICT: SUPPORTED — feature propagated through authority; corrected only by direct observation
+```
+
+---
+
+## SESSION 005 NEW RECORDS SUMMARY
+**Map records created: 10 (MAP-0001 through MAP-0010)**
+**HYP-004 status: SUPPORTED by chain evidence**
+**Piri Reis dossier: FLAGGED for Session 008**
+
+---
+---
+
+# ═══════════════════════════════════════════
+# SESSION 006 — REPTILIAN SYNTHESIS
+# CONVERGENCE-004: How Separate Streams Merged Into One System
+# ═══════════════════════════════════════════
+
+## THE RESEARCH QUESTION
+
+How did these originally separate idea-streams merge into the modern "reptilian elite" narrative?
+
+```
+Stream A: Ancient serpent deity traditions (5000 BCE+)
+Stream B: UFO contactee movement (1947–1960s)
+Stream C: Ancient astronaut literature (1960s–1970s)
+Stream D: Hollow Earth / underground beings (1692–1940s)
+Stream E: Pre-existing secret society / bloodline conspiracy tradition (19th century+)
+Stream F: Science fiction reptilian alien imagery (1950s–1990s)
+Stream G: New Age / Theosophical esoteric tradition (1880s+)
+```
+
+Each stream existed independently. This session traces how they fused.
+
+---
+
+## RECORD REP-001
+```json
+{
+  "record_id": "REP-001",
+  "record_type": "person_and_publication",
+  "motif_cluster": "REPTILIAN_SYNTHESIS",
+  "motif": "Anunnaki as extraterrestrial beings — foundation text",
+  "person": "Zecharia Sitchin",
+  "born": "July 11, 1920 — Baku, Azerbaijan SSR",
+  "died": "October 9, 2010 — New York, USA",
+  "background": "Journalist and editor in Israel. Moved to New York 1952. Self-taught Sumerian cuneiform. Economic history degree, University of London.",
+  "key_publication": "The 12th Planet",
+  "publisher": "Stein and Day, New York",
+  "publication_date": "1976",
+  "series": "Earth Chronicles (7 volumes in series)",
+  "claimed_event_date": "450,000 years ago (Anunnaki first arrival on Earth — Sitchin's claim)",
+  "earliest_surviving_source_date": "1976 (book publication)",
+  "source_type": "Published book — popular non-fiction / pseudoscience",
+  "evidence_class_publication": "A — book exists",
+  "evidence_class_claims": "E — rejected by Sumerologists, Assyriologists, Orientalists, astronomers, and archaeologists",
+  "core_claim": "Sumerian cuneiform texts, read literally, describe a race of extraterrestrial beings called the Anunnaki from a planet called Nibiru who arrived on Earth ~450,000 years ago, genetically engineered Homo sapiens as a slave race to mine gold, and established human civilization.",
+  "reptilian_content_in_sitchin": "ABSENT — Sitchin's Anunnaki did not yet have reptilian features in his own text. The Anunnaki in The 12th Planet are humanoid extraterrestrials, not reptilians. The reptilian attribution was ADDED BY LATER AUTHORS.",
+  "academic_rejection": "Sitchin's ideas have been resoundingly rejected by scientists, academics, historians including Sumerologists, Orientalists and Assyriologists, and anthropologists who dismiss his work as pseudoscience and pseudohistory. His work has been criticized for flawed methodology, ignoring archaeological and historical evidence, and mistranslations of ancient texts.",
+  "streams_merged": ["Stream A (ancient serpent/Anunnaki traditions)", "Stream C (ancient astronaut literature)"],
+  "streams_not_yet_present": ["Stream B (UFO)", "Stream D (Hollow Earth)", "Stream E (bloodline conspiracy)", "Stream F (sci-fi reptilian)", "Stream G (New Age)"],
+  "significance": "Sitchin takes Mesopotamian mythology (Stream A) and reframes it as ancient astronaut narrative (Stream C). He provides the Anunnaki as a named identifiable entity that later synthesizers will attach reptilian characteristics to. This is the SUBSTRATE, not the synthesis.",
+  "von_daniken_predecessor": "Erich von Däniken's Chariots of the Gods (1968) does not mention reptilian people or the word Anunnaki but became the basis for all subsequent ancient astronaut layers. Sitchin builds on this framework in 1976.",
+  "location": {
+    "coordinate_type": "publication_city",
+    "latitude": "40.7128",
+    "longitude": "-74.0060",
+    "precision_km": "10",
+    "historical_place_name": "New York City, USA",
+    "modern_place_name": "New York City, USA"
+  },
+  "agent_tasks": [
+    "Find the specific Sumerian texts Sitchin cites most often and locate published academic translations of same texts for comparison",
+    "Document which Sumerologists have specifically refuted Sitchin's translations — find primary critique publications",
+    "Trace Sitchin's publication history: which books came after 12th Planet and when each added to the narrative"
+  ],
+  "session_added": "006",
+  "last_updated": "006"
+}
+```
+
+---
+
+## RECORD REP-002
+```json
+{
+  "record_id": "REP-002",
+  "record_type": "person_and_publication",
+  "motif_cluster": "REPTILIAN_SYNTHESIS",
+  "motif": "Anunnaki explicitly identified as reptilian — first major synthesis",
+  "person": "R.A. Boulay (René Andrew Boulay)",
+  "background": "Graduate of George Washington University (1950, history). National Security Agency cryptologist and intelligence reporter. Taught at National Cryptological School. Retired from government 1979.",
+  "key_publication": "Flying Serpents and Dragons: The Story of Mankind's Reptilian Past",
+  "publisher": "Galaxy Books (original 1990) / Book Tree (revised edition)",
+  "publication_date": "1990",
+  "claimed_event_date": "Ancient — Anunnaki arrival (following Sitchin's framework)",
+  "earliest_surviving_source_date": "1990",
+  "source_type": "Published book — popular non-fiction / pseudoscience",
+  "evidence_class_publication": "A",
+  "evidence_class_claims": "E",
+  "core_claim": "The Anunnaki/Sumerian gods were an alien race of sapient reptiles who created human beings by combining ape-man characteristics with their own saurian nature, producing 'Homo-saurus.' Ancient serpent deities worldwide are cultural memories of these reptilian creators.",
+  "key_synthesis_performed": "Boulay takes Sitchin's Anunnaki framework (REP-001) and ADDS the reptilian attribute that Sitchin himself never claimed. This is the first major published text to make the Anunnaki explicitly and centrally reptilian.",
+  "streams_merged": [
+    "Stream A (ancient serpent traditions — Sumerian USHUMGAL, Babylonian dragons, etc.)",
+    "Stream C (Sitchin's ancient astronaut framework)"
+  ],
+  "streams_not_yet_present": ["Stream B (UFO abduction)", "Stream E (contemporary political elite)", "Stream D (Hollow Earth)"],
+  "USHUMGAL_argument": "Boulay argues from the Sumerian term USHUMGAL (which he translates as 'great fiery flying serpent') applied to major deities as evidence they were literally reptilian. Academic Sumerologists translate this as a metaphorical epithet meaning 'great dragon' used for powerful rulers and deities — not a biological description. This translation dispute is the center of the academic vs. Boulay disagreement.",
+  "garden_of_eden_argument": "Boulay argues the serpent in Eden was an Anunnaki — a literal reptilian being, not a symbolic figure. He asks why Adam and Eve wore no clothes in Eden, suggesting they had reptilian skin and needed no clothing. Evidence class: D/E.",
+  "significance": "REP-002 is the BRIDGE TEXT. It combines academic-seeming Sumerian source reference (inherited from Sitchin) with explicit reptilian biological claim. Everything that comes after this in the reptilian synthesis literature references or implicitly uses this framework, whether or not it cites Boulay directly.",
+  "media_contamination_note": "Boulay's book was a small-press publication with limited initial distribution. It did NOT reach mass audiences directly. Its influence was amplified when later writers (especially Icke) drew on the same framework and reached millions.",
+  "location": {
+    "coordinate_type": "publication_city",
+    "latitude": "38.9072",
+    "longitude": "-77.0369",
+    "precision_km": "20",
+    "historical_place_name": "Washington D.C. area, USA",
+    "modern_place_name": "Washington D.C. / Virginia, USA"
+  },
+  "session_added": "006",
+  "last_updated": "006"
+}
+```
+
+---
+
+## RECORD REP-003
+```json
+{
+  "record_id": "REP-003",
+  "record_type": "media",
+  "motif_cluster": "REPTILIAN_SYNTHESIS",
+  "motif": "Reptilian shape-shifters in positions of power — science fiction precursor",
+  "source": "V (television miniseries)",
+  "network": "NBC",
+  "broadcast_dates": "May 1–2, 1983 (first miniseries) / May 6–7, 1984 (second miniseries) / 1984–1985 (weekly series)",
+  "creator": "Kenneth Johnson",
+  "claimed_event_date": "N/A — fiction",
+  "earliest_surviving_source_date": "May 1, 1983",
+  "source_type": "Mass media — television",
+  "evidence_class": "A",
+  "core_content": "Reptilian aliens arrive on Earth appearing human. They infiltrate positions of political and military power. They maintain human appearance by wearing artificial skin. When their true form is revealed, they are scaly humanoid reptiles. They use their control of media and government to manipulate the population.",
+  "icke_connection": "The timing of V is particularly significant — airing just as David Icke was beginning his spiritual transformation that would eventually lead to his reptilian theories, leading some to wonder if the show influenced his thinking.",
+  "streams_contributed": ["Stream F (science fiction reptilian)"],
+  "cultural_significance": "V was enormously popular — one of the highest-rated television events of 1983. Its iconic scene of Diana peeling back her human face to reveal green scaly skin was one of the most discussed television moments of the decade. The concept of reptilians wearing human skin as a disguise, controlling governments and media, was planted in mass culture 15 years before Icke's 1998 book made the same claim as non-fiction.",
+  "evidence_class_notes": "This is Class A as a documented broadcast. Its potential influence on subsequent conspiracy claims is Class C — plausible but causal link is disputed.",
+  "negative_evidence": {
+    "expected_traces_if_true": ["N/A — fiction"],
+    "observed_traces": ["N/A"],
+    "absence_significance": "N/A"
+  },
+  "location": {
+    "coordinate_type": "publication_city",
+    "latitude": "34.0522",
+    "longitude": "-118.2437",
+    "precision_km": "20",
+    "historical_place_name": "Hollywood, Los Angeles, California",
+    "modern_place_name": "Los Angeles, USA"
+  },
+  "session_added": "006",
+  "last_updated": "006"
+}
+```
+
+---
+
+## RECORD REP-004
+```json
+{
+  "record_id": "REP-004",
+  "record_type": "person",
+  "motif_cluster": "REPTILIAN_SYNTHESIS",
+  "motif": "Credo Mutwa — Zulu shaman testimony as cross-cultural validation",
+  "person": "Credo Vusamazulu Mutwa",
+  "born": "1921, Natal, South Africa",
+  "died": "March 25, 2020",
+  "role_in_synthesis": "Zulu sanusi (traditional healer/shaman) whose accounts of the Chitauri — described as reptilian beings in Zulu tradition — were used by David Icke as cross-cultural validation of the reptilian elite theory",
+  "claimed_event_date": "Traditional Zulu oral history — no fixed calendar date",
+  "earliest_surviving_source_date": "1998–1999 (Mutwa interviews with David Icke, recorded and distributed)",
+  "source_type": "Testimonial / oral account — recorded interview",
+  "evidence_class": "D — personal testimonial account",
+  "chitauri_claim": "Mutwa described beings called the Chitauri in Zulu tradition — described as reptilian, controlling, and parasitic on humanity. He described them in interviews with Icke as confirming Icke's reptilian framework.",
+  "academic_note": "No pre-Icke scholarly ethnographic documentation of the Chitauri as a major formalized Zulu tradition has been located. The specific framing of Chitauri as world-controlling reptilians may reflect Mutwa's own syncretic interpretation. AGENT TASK: find any pre-1990 academic anthropological documentation of Chitauri in Zulu tradition.",
+  "contamination_flag": "Mutwa's interviews with Icke occurred AFTER Icke had already developed his reptilian framework. The question of whether Mutwa's account confirmed Icke's theory or was shaped by the interview context is a documented methodological concern.",
+  "cultural_respect_note": "Mutwa was a genuine and significant cultural figure in South African traditional knowledge. His accounts of Zulu tradition on other subjects are valued by scholars. This record does not dispute his cultural authority — it flags the specific Icke-interview Chitauri accounts as requiring independent pre-contact sourcing.",
+  "streams_merged": ["Stream A (African serpent being tradition)", "Stream E (conspiracy / control narrative)"],
+  "icke_use": "Icke publicly traces his belief to a personal epiphany and to dialogues with traditional healers and occultists, notably interviews with the Zulu shaman Credo Mutwa, which Icke has used to link African mythologies to his reptilian narrative.",
+  "location": {
+    "coordinate_type": "culture_center",
+    "latitude": "-29.8587",
+    "longitude": "31.0218",
+    "precision_km": "200",
+    "historical_place_name": "Natal / KwaZulu-Natal, South Africa",
+    "modern_place_name": "KwaZulu-Natal, South Africa"
+  },
+  "agent_tasks": [
+    "Find pre-1990 academic anthropological publications referencing Chitauri in Zulu tradition",
+    "Find earliest Zulu dictionary or ethnographic glossary listing Chitauri",
+    "Compare Mutwa's pre-Icke published work with post-Icke interview content"
+  ],
+  "session_added": "006",
+  "last_updated": "006"
+}
+```
+
+---
+
+## RECORD REP-005
+```json
+{
+  "record_id": "REP-005",
+  "record_type": "person_and_publication",
+  "motif_cluster": "REPTILIAN_SYNTHESIS",
+  "motif": "The full reptilian synthesis — bloodlines, shapeshifting, political control, Hollow Earth, ancient history — all merged",
+  "person": "David Icke (David Vaughan Icke)",
+  "born": "April 29, 1952 — Leicester, England",
+  "background": "Professional footballer (Coventry City, Hereford United). BBC television sports presenter. Green Party spokesman. Had spiritual experiences beginning 1990 after visiting psychic.",
+  "pre_reptilian_public_phase": "1991 — appeared on Terry Wogan chat show in turquoise tracksuit, announced he was a son of the Godhead. Audience laughed. Press coverage was mockery. This phase: New Age/vibration-focused, not yet specifically reptilian.",
+  "key_publication": "The Biggest Secret: The Book That Will Change the World",
+  "publisher": "Bridge of Love Publications",
+  "publication_date": "1998",
+  "claimed_event_date": "200,000–300,000 years ago (first reptilian-human breeding programs — Icke's claim)",
+  "earliest_surviving_source_date": "1998",
+  "source_type": "Published book — conspiracy literature",
+  "evidence_class_publication": "A",
+  "evidence_class_claims": "E",
+  "core_synthesis": "A genetically modified human/reptilian hybrid race of shape-shifting beings, known as the Babylonian Brotherhood or Illuminati, descended from reptilians from the constellation Draco and live in caverns inside the Earth. They manipulate global events to keep humans in constant fear. Many world leaders, royals, and celebrities are either full-blood reptilians or reptilian hybrids. Bloodlines include the Rockefellers, Rothschilds, European aristocratic families, and the British House of Windsor.",
+  "all_streams_present": {
+    "Stream_A": "Ancient serpent deity traditions — cited as cultural memories of real reptilians",
+    "Stream_B": "UFO/abduction claims — alien genetic manipulation programs",
+    "Stream_C": "Sitchin/Boulay Anunnaki framework — explicitly cited and extended",
+    "Stream_D": "Hollow Earth — reptilians live in caverns inside the Earth",
+    "Stream_E": "Secret society / bloodline conspiracy — Illuminati, Freemasons, Bilderberg",
+    "Stream_F": "Science fiction imagery — V, Doctor Who Silurians acknowledged as cultural context",
+    "Stream_G": "New Age / Theosophical — Archons, vibrational energy, inter-dimensional beings"
+  },
+  "convergence_event": "The Biggest Secret (1998) is CONVERGENCE-004. This is the first major published text in which ALL seven streams are unified into a single coherent narrative. Before 1998: streams existed separately or in pairs/triplets. After 1998: one unified system that can absorb any new claim.",
+  "antisemitism_concern_on_record": "Critics have noted troubling parallels between Icke's reptilian narrative and traditional antisemitic conspiracy theories. Icke has repeatedly denied being antisemitic. The database records this concern as a documented scholarly finding — Michael Barkun, Daniel Allington, David Toube, and others have published on this. Evidence class for the concern: A (scholarly publications exist). Evidence class for Icke's denial: D (personal statement).",
+  "population_penetration": "A poll taken during the 2016 US election showed that 4% of Americans — roughly 12 million people — believe in reptilian conspiracy. Internet culture turned Icke's fringe lectures into memes, GIFs, and ironic shares — but the irony did not kill belief.",
+  "hollow_earth_connection": "In The Biggest Secret, Icke identified the Brotherhood as descendants of reptilians from the constellation Draco and said they live in caverns inside the earth. This directly connects CONVERGENCE-004 to the Hollow Earth cluster (HE records) — the underground being concept is absorbed into the reptilian synthesis.",
+  "negative_evidence": {
+    "expected_traces_if_true": [
+      "Physical evidence of reptilian biology in DNA of claimed reptilians",
+      "Consistent shape-shifting observations by multiple independent non-connected witnesses",
+      "Archaeological evidence of underground civilization",
+      "Astronomical evidence of Draco-origin civilization"
+    ],
+    "observed_traces": [
+      "No authenticated DNA evidence",
+      "Shape-shifting claims: video compression artifacts and individual perception — no controlled observation",
+      "No authenticated underground civilization found",
+      "No astronomical evidence"
+    ],
+    "absence_significance": "DEFINITIVE — the claim predicts physical evidence that would be detectable by existing methods. No such evidence has been authenticated."
+  },
+  "location": {
+    "coordinate_type": "publication_city",
+    "latitude": "51.5074",
+    "longitude": "-0.1278",
+    "precision_km": "20",
+    "historical_place_name": "London, England",
+    "modern_place_name": "London, UK"
+  },
+  "session_added": "006",
+  "last_updated": "006"
+}
+```
+
+---
+
+## RECORD REP-006
+```json
+{
+  "record_id": "REP-006",
+  "record_type": "event",
+  "motif_cluster": "REPTILIAN_SYNTHESIS",
+  "motif": "Internet amplification and decoupling of reptilian belief from Icke's full system",
+  "period": "~2000–2015 (peak initial internet spread)",
+  "source_type": "Internet archive — distributed",
+  "evidence_class": "A — documented through internet archive and polling data",
+  "core_process": "Internet culture turned Icke's fringe lectures into memes, GIFs, and ironic shares — but the irony did not kill belief. Edited YouTube compilations reach viewers who never read the books. Reptilian belief decoupled from Icke's full cosmology — believers adopt the lizard premise while discarding the interdimensional details, making the theory more portable.",
+  "decoupling_significance": "This is a critical narrative mutation event. Icke's original synthesis is internally complex — it requires Archons, vibrational dimensions, bloodlines, and a full cosmology. The internet version strips this down to 'lizard people control governments.' The simplified version is more shareable and more durable because it is less falsifiable (no specific dimensional physics to disprove).",
+  "video_compression_artifact_claim": "Each 'glitch' video — compression artifacts misread as shape-shifts — adds to a growing folklore archive. Source: documented phenomenon where video compression algorithms produce blocky pixelation around faces, which some viewers interpret as a reptilian form becoming visible.",
+  "polling_data": "2013 Public Policy Polling survey: 4% of Americans (approximately 12 million) believe lizard people control politics. The survey was conducted and published — evidence class A for the survey existing, D for the underlying belief.",
+  "location": {
+    "coordinate_type": "N/A — distributed global phenomenon",
+    "latitude": "N/A",
+    "longitude": "N/A",
+    "precision_km": "N/A",
+    "historical_place_name": "N/A",
+    "modern_place_name": "Global — internet"
+  },
+  "session_added": "006",
+  "last_updated": "006"
+}
+```
+
+---
+
+## RECORD REP-007
+```json
+{
+  "record_id": "REP-007",
+  "record_type": "media",
+  "motif_cluster": "REPTILIAN_SYNTHESIS",
+  "motif": "Doctor Who Silurians — science fiction reptilian underground beings predating Icke",
+  "source": "Doctor Who — 'Doctor Who and the Silurians' (BBC, 1970)",
+  "broadcast_date": "January 31 – March 14, 1970",
+  "creator": "Malcolm Hulke",
+  "claimed_event_date": "N/A — fiction",
+  "earliest_surviving_source_date": "January 31, 1970",
+  "source_type": "Mass media — television",
+  "evidence_class": "A",
+  "core_content": "The Silurians are an intelligent reptile race that ruled Earth before humans and retreated underground when threatened with extinction. They return and conflict with humanity over the right to the surface.",
+  "significance": "The Doctor Who Silurians established 28 years before Icke's 1998 book the concept of an intelligent reptilian species that had lived underground on Earth and had a prior claim to the planet. This concept is structurally identical to elements of the Icke synthesis. The Silurians are depicted with moral complexity rather than as purely malevolent beings — which differs from Icke's framework but confirms the cultural availability of the concept.",
+  "streams_contributed": ["Stream F (science fiction reptilian underground beings)"],
+  "location": {
+    "coordinate_type": "publication_city",
+    "latitude": "51.5074",
+    "longitude": "-0.1278",
+    "precision_km": "5",
+    "historical_place_name": "BBC Television Centre, London",
+    "modern_place_name": "London, UK"
+  },
+  "session_added": "006",
+  "last_updated": "006"
+}
+```
+
+---
+
+## CONVERGENCE-004 FORMAL RECORD (RESOLVED)
+
+```json
+{
+  "convergence_id": "CONVERGENCE-004",
+  "title": "Reptilian Elite Synthesis",
+  "status": "RESOLVED — primary mechanism documented",
+  "streams_merged": 7,
+  "stream_list": [
+    "A: Ancient serpent deity traditions (5000 BCE+)",
+    "B: UFO contactee / abduction claims (1947+)",
+    "C: Ancient astronaut literature (1968+)",
+    "D: Hollow Earth / underground beings (1692+)",
+    "E: Secret society / bloodline conspiracy tradition (19th century+)",
+    "F: Science fiction reptilian alien imagery (1950s–1990s)",
+    "G: New Age / Theosophical esoteric tradition (1880s+)"
+  ],
+  "key_synthesis_chain": [
+    {"year": 1968, "record": "Von Däniken — Chariots of the Gods (ancient astronaut foundation)", "streams": ["A", "C"]},
+    {"year": 1976, "record": "REP-001 — Sitchin (Anunnaki as extraterrestrials)", "streams": ["A", "C"]},
+    {"year": 1983, "record": "REP-003 — V (television: shapeshifting reptilian infiltrators)", "streams": ["F"]},
+    {"year": 1990, "record": "REP-002 — Boulay (Anunnaki explicitly reptilian)", "streams": ["A", "C"]},
+    {"year": 1991, "record": "Icke public emergence — pre-reptilian New Age phase", "streams": ["G"]},
+    {"year": 1998, "record": "REP-004 — Mutwa interviews (cross-cultural 'validation')", "streams": ["A"]},
+    {"year": 1998, "record": "REP-005 — Icke The Biggest Secret (ALL STREAMS MERGED)", "streams": ["A","B","C","D","E","F","G"]},
+    {"year": "2000+", "record": "REP-006 — Internet amplification and decoupling", "streams": ["all"]}
+  ],
+  "connection_type": "RETROACTIVE_REINTERPRETATION + MASS_MEDIA_EXPOSURE + INTERNET_REPOST",
+  "first_two_stream_merger": "1976 (Sitchin: Streams A + C)",
+  "first_full_merger": "1998 (Icke: all 7 streams)",
+  "current_state": "Belief has decoupled from Icke's full system. Simplified 'lizard people' meme circulates independently. ~12 million Americans entertained the idea as of 2013.",
+  "evidence_class_convergence": "A — the merging is documented in published sources",
+  "evidence_class_underlying_claim": "E — the reptilian elite claim is contradicted by all physical evidence",
+  "academic_references": [
+    "Barkun, Michael. A Culture of Conspiracy: Apocalyptic Visions in Contemporary America. University of California Press, 2013.",
+    "Allington, Daniel and Toube, David — published on Icke's relationship to antisemitic tropes, 2018",
+    "Clancy, Susan A. Abducted: How People Come to Believe They Were Kidnapped by Aliens. Harvard University Press, 2005"
+  ]
+}
+```
+
+---
+
+## SESSION 006 — THE SEVEN-STREAM MATRIX
+
+This table is for the visual layer of the atlas — shows when each stream became available and when it first merged with others.
+
+```
+STREAM          | ORIGIN   | FIRST WITH B | FIRST WITH C | FIRST WITH D | CONVERGENCE
+────────────────|──────────|──────────────|──────────────|──────────────|────────────
+A: Ancient      | 5000 BCE | 1998 (Icke)  | 1976 (Sitchin)| 1998 (Icke) | 1998
+B: UFO          | 1947     | —            | 1990s (general)| 1998 (Icke)| 1998
+C: Anc. Astro   | 1968     | 1990s        | —            | 1998 (Icke)  | 1998
+D: Hollow Earth | 1692     | 1998 (Icke)  | 1998 (Icke)  | —            | 1998
+E: Secret Soc.  | 19th C   | 1998 (Icke)  | 1990s        | 1998 (Icke)  | 1998
+F: Sci-Fi       | 1950s    | 1983 (V)     | 1990s        | 1970 (DW)    | 1998
+G: New Age      | 1880s    | 1991 (Icke)  | 1990s        | 1880s        | 1998
+```
+
+**Observation:** 1998 is the convergence year for all streams. Before 1998 there are pairwise and triple overlaps. After 1998 there is one unified system. The Biggest Secret is the documented convergence event.
+
+---
+
+## FULL SESSIONS 004-006 MASTER SUMMARY
+
+| Session | Primary Output | Records | Status |
+|---|---|---|---|
+| 004 | Schema corrections + delta records | 68 updated | ✅ |
+| 005 | Terra Australis map chain | 10 map records | ✅ |
+| 006 | Reptilian synthesis | 7 primary records + convergence record | ✅ |
+
+**Running dataset total: ~165 records across 6 sessions**
+
+---
+
+## MASTER AGENT TASK QUEUE (All Sessions)
+
+Priority order:
+
+| # | Task | Session Origin | Priority |
+|---|---|---|---|
+| 1 | `schema_upgrade_v1.py` — apply global fields to all 68 records | 004 | HIGH |
+| 2 | `grey_contamination_timeline.json` — create file | 004 | HIGH |
+| 3 | Find pre-1990 academic sources for Chitauri in Zulu tradition | 006 | HIGH |
+| 4 | SRP-007a/b/c/d split records | 004 | HIGH |
+| 5 | SRP-009 site-level records (Kakadu, Laura, Kimberley) | 004 | HIGH |
+| 6 | Find earliest Western documented account of Rainbow Serpent | 004 | MED |
+| 7 | Find earliest publication linking Rainbow Serpent to aliens | 004 | MED |
+| 8 | Find earliest publication making Dogū/Wandjina/Tell Asmar alien comparison | 001 | MED |
+| 9 | Verify Euler hollow Earth attribution — find or rule out primary source | 001 | MED |
+| 10 | Find "Agartha" first print use — verify Saint-Yves d'Alveydre 1886 | 001 | MED |
+| 11 | Locate Symmes Circular No. 1 (1818) — HathiTrust | 001 | MED |
+| 12 | Locate Halley 1692 Royal Society paper — Phil. Trans. | 001 | MED |
+| 13 | Kottmeyer 1990 "Entirely Unpredisposed" — full text | 001 | MED |
+| 14 | Fish/Zeta Reticuli star map — 1974 Astronomy article | 001 | MED |
+| 15 | Adamski 1949 fiction novel — title and publisher | 001 | MED |
+| 16 | Find specific Sumerologists who published critiques of Sitchin | 006 | MED |
+| 17 | MAP-0003 (Finé 1531) — Piri Reis comparison dossier prep | 005 | LOW |
+| 18 | Dogū goggle-eye museum accession numbers — five key examples | 001 | LOW |
+| 19 | Earliest Zulu dictionary listing Chitauri | 006 | LOW |
+| 20 | Map georeferencing: plot each MAP-0001 through 0010 Terra Australis against modern Antarctic coastline | 005 | LOW |
+
+---
+
+## NEXT SESSIONS RECOMMENDED
+
+| Session | Topic | Why Now |
+|---|---|---|
+| 007 | CERN and portal language | Third major cluster not yet touched |
+| 008 | Piri Reis Map dossier | Flagged in Session 005 — most-claimed "pre-Antarctic" map |
+| 009 | Flood myths layer | 1,807 planned records — largest cluster — intersects everything |
+| 010 | Agartha / underground civilization | Hollow Earth → Reptilian link needs this to complete |
+| 011 | Nazi Antarctic base claims | CONVERGENCE-005 not yet resolved |
+| 012 | Von Däniken source audit | REP-001 depends on it — need his actual sources vs. academic translations |
+
+---
+
