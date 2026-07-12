@@ -1,0 +1,469 @@
+Research Session 003 · July 12, 2026
+Purpose: Audit ChatGPT Entry 001 against Session 001 data · Apply QC flags to existing records · Resolve schema conflicts · Produce canonical working standards · Move the project forward
+
+PART I — HONEST AUDIT OF CHATGPT ENTRY 001
+What it does well
+The methodological layer is genuinely strong. The Three-Map Rule, the QC flag system, the connection-type taxonomy, and the five hypotheses are all additions that improve the project. They formalize things that were implicit in Session 001 but never written down as rules.
+
+The best single contribution is this line from QC-002:
+
+Each major artifact family should eventually receive its own record.
+
+That's correct and Session 001 violated it in several places.
+
+What it does not do
+The ChatGPT entry is entirely methodological. It produced zero new data records. It identified problems but did not fix any of them in the existing dataset. It recommended schemas but did not apply them to the records already on file.
+
+That is not a criticism — methodology first is defensible — but it means the reconciliation work still needs to happen, and that is what this session does.
+
+Where it directly conflicts with or corrects Session 001
+QC Flag	Session 001 Violation	Specific Record
+QC-001	Artifact date used as motif date without separation	GREY-002, GREY-002b, GREY-002c
+QC-002	Jōmon period range 14,000–300 BCE applied to all Dogū	GREY-002
+QC-003	Oral traditions quoted without recording four clock fields	SRP-006 (Norse), SRP-009 (Aboriginal)
+QC-004	Quetzalcoatl / Kukulcán collapsed into one record	SRP-005
+QC-004	Nāga treated as monolithic	SRP-007
+QC-004	Australian Aboriginal used as one category	SRP-009, GREY-002b
+QC-005	All coordinates were national centroids with no coordinate-type field	All 20+ records with coordinates
+QC-006	No negative-evidence fields in any record	All records
+Eight systematic issues across the entire Session 001 dataset. This is expected at seed stage. The point is that we have now caught them with a documented system rather than letting them silently compound.
+
+PART II — CORRECTED RECORDS (QC APPLIED)
+The following are revised versions of the worst-affected Session 001 records.
+
+CORRECTED: GREY-002 (Dogū figurines)
+Previous version problem: Stated 14,000–300 BCE as the record date, which is the entire Jōmon period. Applied that range to all Dogū as if they were one object.
+
+Corrected record:
+
+text
+
+RECORD ID: GREY-002
+Motif: Large-eyed humanoid figurine — possible iconographic precursor
+Culture: Jōmon Japan
+Artifact type: Dogū (clay figurine)
+NOTE: "Dogū" is a category of hundreds of distinct objects across multiple Jōmon phases.
+This record is a CATEGORY RECORD only. Individual object records to follow.
+
+CATEGORY RANGE: ~14,000–300 BCE (entire Jōmon period)
+Relevant sub-period for large-eyed "goggle-eye" type: Late and Final Jōmon
+  (~1,000–300 BCE) — this is the phase most commonly cited in alien comparisons.
+
+ARTIFACT CLASS: A — objects exist, are excavated, are museum-held
+ALIEN INTERPRETATION CLASS: C/D — modern retroactive reading
+
+ALIEN INTERPRETATION FIRST KNOWN SOURCE: [AGENT TASK — find earliest publication
+  making this comparison. Suspected: 1960s–1970s ancient astronaut literature.
+  Von Däniken's Chariots of the Gods (1968) is the likely candidate but must be verified.]
+
+COORDINATE TYPE: Artifact discovery zone (regional)
+LATITUDE: 39.0000 N (approximate northern Honshu cluster)
+LONGITUDE: 141.0000 E
+PRECISION_KM: ~300
+HISTORICAL PLACE NAME: Jōmon cultural zone, Tōhoku and Kantō regions
+MODERN PLACE NAME: Northern and eastern Japan
+
+NEGATIVE EVIDENCE NOTE:
+  The goggle-eyed Dogū interpretation as alien representation predicts that Jōmon
+  communities shared a concept of alien visitors. No supporting material culture,
+  astronomical notation, narrative text, or corroborating artifact type has been
+  authenticated. The absence is not disproof, but the expected footprint is
+  unobserved.
+
+AGENT TASK: Find museum accession numbers for the five most-cited goggle-eye
+  Dogū examples. Record individual object IDs, excavation sites, discoverers,
+  and estimated manufacture dates separately from the category record.
+CORRECTED: GREY-002b (Wandjina)
+Previous version problem: Australian Aboriginal used as a single cultural label. Wandjina are specific to Kimberley region communities — not continent-wide. The alien interpretation was noted but its first publication was not sourced.
+
+Corrected record:
+
+text
+
+RECORD ID: GREY-002b
+Motif: Sky being with large eyes and no mouth
+Cultural tradition: Mowanjum and related Kimberley peoples
+  (Ngarinyin, Worrorra, and Wunambul language groups)
+NOTE: Not attributable to "Australian Aboriginal" as a general category.
+  Wandjina are specific to these Kimberley custodian communities.
+
+ROCK ART DATE: Estimated ~3,500–4,000 BP for some panels;
+  some researchers suggest earlier phases. Dating methodology: OSL and
+  radiocarbon of associated deposits — not direct paint dating.
+  Uncertainty: moderate to high on oldest claimed dates.
+
+ARTIFACT CLASS: A — rock art exists, is photographed, is studied
+ALIEN INTERPRETATION CLASS: C — modern retroactive reading
+
+ORAL TRADITION CLOCK FIELDS:
+  1. Claimed cosmological time: Dreamtime (non-linear — not a calendar date)
+  2. Estimated age of associated rock art: ~3,500–4,000 BP (with uncertainty)
+  3. Earliest written/audio recording: [AGENT TASK — find earliest documented
+     Western account of Wandjina. Likely mid-to-late 19th century.]
+  4. Specific wording of alien interpretation: first known Western publication
+     making alien comparison: [AGENT TASK — suspected 1960s–1970s ancient
+     astronaut literature. Verify.]
+
+COORDINATE TYPE: Rock art site zone
+LATITUDE: -17.2000 S
+LONGITUDE: 124.0000 E
+PRECISION_KM: 150
+HISTORICAL PLACE NAME: Kimberley region (pre-colonial custodianship — no European name at time of art creation)
+MODERN PLACE NAME: Kimberley, Western Australia
+
+IMPORTANT NOTE FOR DATABASE: Living Aboriginal communities continue to maintain
+  custodianship of Wandjina traditions. These traditions have contemporary active
+  holders, not just historical records. Any use of this data should acknowledge that.
+
+NEGATIVE EVIDENCE NOTE:
+  If Wandjina represented genuine alien contact, corroborating material culture
+  (technology transfer, astronomical record, contact narrative with specific
+  verifiable detail) would be expected. None authenticated.
+CORRECTED: SRP-005 (Quetzalcoatl / Kukulcán — split record)
+Previous version problem: Two distinct traditions from different cultures, time periods, and locations collapsed into one record.
+
+Corrected: now three linked records.
+
+text
+
+RECORD ID: SRP-005a
+Motif: Feathered serpent deity — earliest Mesoamerican iconographic evidence
+Culture: Teotihuacan
+Region: Central Mexico
+Claimed event date: ~100 BCE (iconographic emergence)
+Earliest surviving source date: ~100 BCE (Temple of the Feathered Serpent,
+  Teotihuacan — physical structure)
+Source type: Archaeological — monumental architecture
+Evidence class: A
+Name used: No specific name confirmed in Teotihuacan's undeciphered writing
+COORDINATE TYPE: Site location
+LATITUDE: 19.6921 N
+LONGITUDE: 98.8438 W
+PRECISION_KM: 1
+LINKED RECORDS: SRP-005b, SRP-005c
+
+---
+
+RECORD ID: SRP-005b
+Motif: Feathered serpent deity — Maya tradition
+Culture: Maya (Yucatán / lowland Maya)
+Deity name: Kukulcán (K'uk'ulkan)
+Region: Yucatán Peninsula, Guatemala
+Claimed event date: Mythological
+Earliest surviving source date: ~900–1200 CE (major architectural period,
+  Chichén Itzá El Castillo pyramid — physical structure)
+Source type: Archaeological + epigraphy
+Evidence class: A
+COORDINATE TYPE: Site location
+LATITUDE: 20.6843 N
+LONGITUDE: 88.5678 W
+PRECISION_KM: 1
+LINKED RECORDS: SRP-005a, SRP-005c
+
+---
+
+RECORD ID: SRP-005c
+Motif: Feathered serpent deity — Aztec (Mexica) tradition
+Culture: Mexica/Aztec
+Deity name: Quetzalcóatl
+Region: Basin of Mexico (Tenochtitlan / modern Mexico City)
+Claimed event date: Mythological + historical (Toltec king Topiltzin Quetzalcoatl)
+Earliest surviving source date: Post-Conquest codices (~1500s CE);
+  Aztec period monumental art (~1300–1521 CE)
+Source type: Post-conquest written record + pre-conquest art
+Evidence class: A (art/codices exist); B (content — colonial-era recording
+  of pre-colonial tradition)
+NOTE: Post-conquest sources were filtered through Spanish colonial
+  documentation. This introduces a contamination variable that must be recorded.
+COORDINATE TYPE: Culture center (approximate)
+LATITUDE: 19.4326 N
+LONGITUDE: 99.1332 W
+PRECISION_KM: 5
+LINKED RECORDS: SRP-005a, SRP-005b
+CORRECTED: SRP-006 (Jörmungandr / Norse) — adding four oral tradition clock fields
+text
+
+RECORD ID: SRP-006
+[Existing fields retained]
+
+ORAL TRADITION CLOCK FIELDS (new — per QC-003):
+  1. Claimed cosmological time: Norse mythological time (non-calendar — Yggdrasil cosmology)
+  2. Estimated age of associated material culture: Migration Period / Viking Age
+     Norse art (~400–1100 CE) shows serpentine motifs but specific Jörmungandr
+     iconography requires verification.
+  3. Earliest written/audio recording: Prose Edda (Snorri Sturluson, ~1220 CE,
+     Iceland); Poetic Edda (~1270 CE manuscript, likely earlier oral poems)
+  4. Specific wording being quoted: All quotes are from 13th-century CE
+     written texts. They represent Snorri's literary compilation, not a
+     direct transcript of oral tradition.
+
+NOTE: The Prose Edda is one scholar's synthesis. Snorri had political,
+  literary, and possibly Christian-influenced reasons for the form he chose.
+  His text is Class A as a 13th-century document. Its fidelity to earlier
+  oral tradition is Class C.
+PART III — CONNECTION-TYPE TAXONOMY APPLIED TO SESSION 001 CONVERGENCES
+Taking the ChatGPT entry's connection types and applying them to the five convergence events already flagged.
+
+text
+
+CONVERGENCE-001: Hollow Earth + Antarctica (Symmes → U.S. Expedition)
+  connection_type: DIRECT_CITATION (Symmes's ideas are documented as motivating
+    Congressional discussion of the expedition)
+  first_possible_date: 1818
+  first_verified_date: 1838 (expedition launches)
+  supporting_source: Congressional records + expedition commission documents
+    [AGENT TASK: locate exact Congressional record citing Symmes]
+  confidence: B
+
+---
+
+CONVERGENCE-002: Theosophy + UFO Contactee
+  connection_type: PERSONAL_CONTACT + RELIGIOUS_DIFFUSION
+  first_possible_date: 1930s (Adamski's pre-flying saucer occult activity)
+  first_verified_date: 1952 (Adamski's first public contact claim)
+  supporting_source: Adamski's 1949 fiction novel [AGENT TASK: verify title,
+    publisher, Theosophical organization membership records]
+  confidence: B
+
+---
+
+CONVERGENCE-003: Fiction morphology → Witness testimony
+  connection_type: MASS_MEDIA_EXPOSURE
+  first_possible_date: 1893 (Wells article) — but not necessarily causal
+  first_verified_date: February 10, 1964 (Outer Limits broadcast documented
+    12 days before Barney Hill hypnosis)
+  supporting_source: Network broadcast logs; hypnosis session transcripts
+  confidence: C (timing documented; causation disputed)
+
+---
+
+CONVERGENCE-004: Serpent beings + Reptilian conspiracy synthesis
+  connection_type: RETROACTIVE_REINTERPRETATION
+  first_possible_date: ~1976 (Sitchin's 12th Planet)
+  first_verified_date: 1998 (Icke's The Biggest Secret — explicit synthesis)
+  supporting_source: [AGENT TASK — find first published text combining
+    ancient serpent deity traditions with contemporary political elite claim]
+  confidence: B (for the 1990s synthesis); C (for earlier components)
+
+---
+
+CONVERGENCE-005: Antarctica + Nazi mythology + UFO underground base
+  connection_type: INTERNET_REPOST + RETROACTIVE_REINTERPRETATION
+  first_possible_date: Late 1940s (post-Operation Highjump speculation)
+  first_verified_date: [AGENT TASK — find first publication making the
+    Nazi Antarctic base + UFO claim explicitly]
+  supporting_source: Pending
+  confidence: D (convergence narrative); A (underlying expeditions)
+PART IV — HYPOTHESIS REGISTRY (Formal Records)
+Taking ChatGPT Entry 001's five hypotheses and making them proper database records with test criteria and initial data.
+
+text
+
+HYP-001 — Cultural Standardization Hypothesis
+Status: OPEN — testable with existing Session 001 data
+Null hypothesis: Entity description diversity does not change with communication
+  network density.
+Test method: Compare Grey entity description variation in:
+  - pre-1947 accounts
+  - 1947–1966 (pre-Hill publication)
+  - 1966–1977 (post-Hill, pre-Spielberg)
+  - 1977–1987 (post-Spielberg, pre-Communion)
+  - 1987–1993 (post-Communion, pre-X-Files)
+  - 1993–2004 (X-Files era)
+  - 2004–present (YouTube/social media era)
+Existing supporting data: GREY-005, GREY-007, GREY-008 (Session 001)
+Current evidence class: C — plausible, not yet tested with data
+
+---
+
+HYP-002 — Retrofitting Hypothesis
+Status: OPEN — partially supported by existing QC flags
+Null hypothesis: Alien interpretations of ancient artifacts appear before
+  the concept of alien beings became culturally available.
+Test method:
+  - Date artifact (A)
+  - Date first alien interpretation (must be found and dated separately)
+  - Measure gap
+  - Map gap against cultural availability of alien concept
+Initial data point: Wells 1893 (earliest alien morphology in print) vs.
+  Dogū ~1000–300 BCE (artifact) — alien interpretation almost certainly
+  post-1893, gap to be verified.
+Current evidence class: B — well-supported in principle; specific dates pending
+
+---
+
+HYP-003 — Narrative Convergence Hypothesis
+Status: OPEN — first pair analysis available from Session 001
+Null hypothesis: Motif families remained separate throughout their history.
+Test method: Find earliest source containing each pair:
+  - Grey + Hollow Earth: [AGENT TASK]
+  - Grey + Antarctica: [AGENT TASK]
+  - Reptilian + Antarctica: [AGENT TASK]
+  - All five together: [AGENT TASK]
+Current evidence class: C — convergence documented in 1990s; earlier
+  combinations not yet sourced
+
+---
+
+HYP-004 — Map Authority Hypothesis
+Status: OPEN — Terra Australis chain is the first test case
+Null hypothesis: Uncertain features on maps appear independently and do not
+  propagate through copying.
+Test method: Build parent-child lineage for Terra Australis coastline.
+  Measure geometric similarity between successive maps.
+  Identify moment of first appearance and moment of revision.
+Current evidence class: B — well-supported in cartographic history literature;
+  specific lineage not yet built
+
+---
+
+HYP-005 — Geography Shift Hypothesis
+Status: OPEN — requires map layer infrastructure before testing
+Null hypothesis: Cross-cultural differences in place references reflect
+  genuinely different locations, not label changes.
+Test method: Display same claimed locations against Map A, B, and C layers.
+  Identify cases where apparent discrepancies resolve on reconstruction.
+Current evidence class: C — plausible; not yet tested
+PART V — WHAT CHATGPT ENTRY 001 MISSED
+Being honest about the gaps:
+
+1. No new data records were produced. The entry is 100% methodological. That is a legitimate first pass but means the data corpus did not grow. Session 001 has 68 records. Session 002/Entry 001 has zero new records. The ratio needs to rebalance.
+
+2. The QC flags were not applied back to specific Session 001 records. The flags were written generically. This reconciliation document is the first time QC-001 through QC-006 have been applied to actual named records (GREY-002, SRP-005, etc.).
+
+3. The Euler hollow Earth problem (HE-002) was not addressed. It was flagged in Session 001 as a secondary-source-only attribution. ChatGPT Entry 001 did not resolve it or add to it. It remains an open agent task.
+
+4. The agent task queue from Session 001 was not touched. 12 specific tasks were queued. None were addressed in the methodology entry.
+
+5. The map schema is excellent but has no populated examples. MAP-CHAIN-001 (Terra Australis) was correctly identified as the first controlled study, but no specific map records were created using the new schema.
+
+PART VI — WHAT NEEDS TO HAPPEN IN THE NEXT THREE SESSIONS
+Based on both entries reconciled:
+
+Session 004 — Immediate
+Priority: Apply corrected schema to all 68 Session 001 records
+
+Add coordinate-type fields to all records
+Split all collapsed cultural records (SRP-005, SRP-007, SRP-009)
+Add four oral-tradition clock fields to SRP-006, SRP-009, GREY-002b
+Add alien-interpretation first-publication field to GREY-002, GREY-002b, GREY-002c
+Add negative evidence fields to the five convergence events
+Output: Clean v1.0 canonical dataset — 68 records fully schema-compliant
+
+Session 005 — Map Lineage
+Priority: Build MAP-CHAIN-001 (Terra Australis before 1820)
+
+Create individual MAP records for Ortelius (1570), Mercator (1569), Plancius (1590), Janssonius (1657), Vaugondy (1749)
+Document parent-child copying relationships
+Record what voyages/reports were available to each mapmaker
+Record what the southern coastline shows vs. what Cook's voyages should have corrected
+First formal test of HYP-004
+Output: 8–12 MAP records, 1 lineage graph, HYP-004 initial evidence assessment
+
+Session 006 — Reptilian Synthesis Deep Dive
+Priority: Trace CONVERGENCE-004 properly This is the most complex multi-stream merger and the one most relevant to the stated research purpose (brother's interest). It needs:
+
+Sitchin (The 12th Planet, 1976) — full source record
+Icke (The Biggest Secret, 1998) — full source record
+Credo Mutwa testimony — evidence class, source chain
+First publication explicitly linking ancient serpent beings to contemporary political figures
+Connection types applied to each link in the chain
+Output: 15–20 records, 1 convergence graph, CONVERGENCE-004 formally resolved
+
+PART VII — CANONICAL SCHEMA v1.0
+Merging Session 001 implicit schema + ChatGPT Entry 001 explicit schema into one canonical template.
+
+JSON
+
+{
+  "record_id": "",
+  "motif_cluster": "",
+  "record_type": "event|artifact|text|map|person|hypothesis|convergence",
+  
+  "motif": "",
+  "culture": "",
+  "culture_notes": "",
+  "figure_or_source": "",
+
+  "claimed_event_date": "",
+  "claimed_event_date_confidence": "",
+  "earliest_surviving_source_date": "",
+  "source_date_confidence": "",
+  "source_type": "",
+  "evidence_class": "",
+  "evidence_class_notes": "",
+
+  "alien_or_modern_reinterpretation": {
+    "reinterpretation_claim": "",
+    "first_known_publication": "",
+    "first_known_author": "",
+    "first_known_date": "",
+    "evidence_class": "",
+    "notes": ""
+  },
+
+  "oral_tradition_clocks": {
+    "claimed_cosmological_time": "",
+    "estimated_material_culture_age": "",
+    "earliest_written_or_audio_recording": "",
+    "specific_wording_source_date": ""
+  },
+
+  "location": {
+    "coordinate_type": "site|region|culture_center|publication_city|national_centroid",
+    "latitude": "",
+    "longitude": "",
+    "precision_km": "",
+    "historical_place_name": "",
+    "modern_place_name": "",
+    "modern_country": "",
+    "location_confidence": ""
+  },
+
+  "map_layers": {
+    "contemporary_knowledge_map": "",
+    "physical_reconstruction": "",
+    "present_day_reference": ""
+  },
+
+  "media_contamination_variables": [],
+
+  "negative_evidence": {
+    "expected_traces_if_true": [],
+    "observed_traces": [],
+    "absence_significance": ""
+  },
+
+  "connected_records": [],
+  "connection_types": [],
+
+  "origin_confidence_stars": "",
+  "source_independence_stars": "",
+  "media_contamination_stars": "",
+  "earliest_verified_artwork": "",
+  "earliest_witness": "",
+  "earliest_standardized_image": "",
+  "last_major_mutation": "",
+
+  "agent_tasks": [],
+  "notes": "",
+  "session_added": "",
+  "last_updated": ""
+}
+SESSION 003 SUMMARY
+Item	Status
+ChatGPT Entry 001 audited	✅
+QC flags applied to specific Session 001 records	✅
+GREY-002 corrected	✅
+GREY-002b corrected	✅
+SRP-005 split into three records	✅
+SRP-006 oral tradition clocks added	✅
+Connection types applied to five convergence events	✅
+Five hypotheses formalized as database records	✅
+ChatGPT Entry 001 gaps documented	✅
+Canonical schema v1.0 produced	✅
+Next three sessions defined	✅
+HE-002 Euler attribution	❌ Still open agent task
+Terra Australis map records	❌ Session 005
+Reptilian synthesis records	❌ Session 006
+The dataset is now schema-compliant in principle. The next physical commit should be the corrected versions of all 68 Session 001 records using the canonical schema v1.0.
