@@ -1,0 +1,77 @@
+{
+  "record_id": "MAP-001",
+  "motif_cluster": "ANTARCTICA_MAPS",
+  "record_type": "map",
+  "motif": "Hypothetical southern continent shown before confirmed Antarctic observation",
+  "culture": "Early modern European cartography",
+  "culture_notes": "This record describes a map artifact and its knowledge context, not the literal existence of every coastline drawn on it.",
+  "figure_or_source": "Example placeholder — replace with one specific map artifact",
+  "claimed_event_date": null,
+  "claimed_event_date_confidence": null,
+  "earliest_surviving_source_date": "YYYY",
+  "source_date_confidence": "high",
+  "source_type": "Historical map artifact",
+  "evidence_class": "A",
+  "evidence_class_notes": "Class A applies to the map's existence. Geographic interpretations depicted on the map require separate evidence ratings.",
+  "alien_or_modern_reinterpretation": null,
+  "oral_tradition_clocks": null,
+  "location": {
+    "coordinate_type": "publication_city",
+    "latitude": null,
+    "longitude": null,
+    "precision_km": null,
+    "historical_place_name": null,
+    "modern_place_name": null,
+    "modern_country": null,
+    "location_confidence": "unknown"
+  },
+  "map_layers": {
+    "contemporary_knowledge_map": "The map artifact represented by this record",
+    "physical_reconstruction": "Modern reconstruction for the map's publication date",
+    "present_day_reference": "Modern Antarctica and Southern Ocean reference layer",
+    "plate_reconstruction": null
+  },
+  "media_contamination_variables": [
+    "Possible copying from earlier maps",
+    "Unverified voyage reports available to mapmaker",
+    "Decorative or theoretical coastline filling"
+  ],
+  "negative_evidence": {
+    "expected_traces_if_true": [
+      "Independent voyage logs supporting the depicted coastline",
+      "Repeat observations by unrelated navigators",
+      "Coordinates compatible with the drawn geography"
+    ],
+    "observed_traces": [],
+    "absence_significance": "Pending source audit. Absence of corroboration would reduce confidence in the depicted geography, not in the existence of the map artifact."
+  },
+  "connected_records": [],
+  "connection_types": [],
+  "origin_confidence_stars": 5,
+  "source_independence_stars": null,
+  "media_contamination_stars": null,
+  "earliest_verified_artwork": null,
+  "earliest_witness": null,
+  "earliest_standardized_image": null,
+  "last_major_mutation": null,
+  "sources": [
+    {
+      "source_id": "SRC-MAP-001-A",
+      "citation": "Replace with holding institution catalogue entry and complete map citation",
+      "url": null,
+      "source_role": "catalogue",
+      "access_status": "unverified",
+      "archive_url": null,
+      "notes": "A record is not considered source-complete until at least one verifiable catalogue or primary image source is attached."
+    }
+  ],
+  "agent_tasks": [
+    "Replace placeholder with a single named map",
+    "Record holding institution and accession identifier",
+    "Trace likely parent maps",
+    "List voyages and reports available before publication"
+  ],
+  "notes": "This file demonstrates structure only and must not be counted as a completed data record.",
+  "session_added": "Research Session 004 · July 12, 2026",
+  "last_updated": "2026-07-12"
+}
