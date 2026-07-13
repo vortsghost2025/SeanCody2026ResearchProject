@@ -9,6 +9,8 @@ The project studies two linked things:
 
 The subject may change. The method remains the same: preserve the pieces, identify systems, trace connections, and keep evidence strength separate from interpretation.
 
+For suspected connections that have not yet become evidence, use the [Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md).
+
 ---
 
 ## 1. Current systems
@@ -27,6 +29,7 @@ SYS-002 is the research machinery used to investigate SYS-001 and future domains
 | Domain | What is being traced | State |
 |---|---|---|
 | Antarctica / Terra Australis | theoretical geography, maps, voyages, observed Antarctica, and later reinterpretations | **ACTIVE — RQ-031** |
+| Cross-domain hidden carriers | people, publishers, errors, images, institutions, and transformations connecting apparently separate topics | **ACTIVE — RQ-032** |
 | Hollow Earth | historical theories, Shaver/Palmer, occult networks, UFO publishing, and mail-order transmission | ACTIVE |
 | UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, and Dulce | ACTIVE |
 | Grey imagery | fiction, testimony, visual standardization, media amplification, and retroactive artifact interpretation | SEEDED |
@@ -89,8 +92,6 @@ RQ-031 status: SEARCHING
 
 **TERRA-MAP-002-A — Abraham Ortelius, *Typvs Orbis Terrarvm*, 1570**
 
-Selected artifact:
-
 ```yaml
 institution: Library of Congress, Geography and Map Division
 call_number: "G1006 .T5 1570"
@@ -112,14 +113,42 @@ scope: general world-map cartography and atlas synthesis
 
 That edge does not prove that every Terra Australis label, bay, promontory, or coastline was copied from Mercator. No Finé feature-level edge has been accepted.
 
+Read: [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md), [Ortelius item](graph/chronologies/TERRA-MAP-002-A-ORTELIUS-1570.md), [map edge](graph/transmissions/MAP-EDGE-001-MERCATOR-ORTELIUS-WORLD-MAP.md), [Session 026 QC](reports/SESSION_026_ORTELIUS_QC.md).
+
+### 3.4 Hidden cross-domain bridges
+
+```text
+Methodology commentary variants: 1
+Historical acquisition variants: 2
+Normalized bridge candidate clusters: 10
+Candidates in deep verification: 1
+Canonical cross-domain edges: 0
+RQ-032 status: SEARCHING
+```
+
+The first Antarctica ↔ Hollow Earth pass found connective tissue that topic-by-topic research could miss:
+
+- Symmes's circular and distribution network;
+- *Symzonia* as early Antarctic-inner-world fiction;
+- Jeremiah Reynolds moving from Symmes advocacy into Antarctic expedition lobbying;
+- Reynolds → Poe review and possible text reuse;
+- William Reed's explorer quotations and diagrams;
+- Lovecraft's Antarctic hidden-civilization fiction;
+- Palmer → Bernard publishing/textual synthesis;
+- Byrd quotation and Highjump authority-laundering hypotheses;
+- Szabo as a possible point source for Nazi Antarctic-base claims;
+- Agartha terminology later fused with Antarctic/Nazi mythology.
+
+These are registered questions, not findings. The strongest current target is **Jeremiah Reynolds**, because one identifiable person appears on both sides of the suspected transition. The audit must determine whether ideas actually moved through him or whether he abandoned Hollow Earth theory and pursued exploration for independent reasons.
+
 Read:
 
-- [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md)
-- [Ortelius item record](graph/chronologies/TERRA-MAP-002-A-ORTELIUS-1570.md)
-- [Mercator → Ortelius edge](graph/transmissions/MAP-EDGE-001-MERCATOR-ORTELIUS-WORLD-MAP.md)
-- [Session 026 variants](research_inbox/SESSION_026_ORTELIUS_VARIANT_MANIFEST.md)
-- [Session 026 QC](reports/SESSION_026_ORTELIUS_QC.md)
-- [Item registry](graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md)
+- [Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md)
+- [RQ-032](research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md)
+- [Session 028 manifest](research_inbox/SESSION_028_BRIDGE_VARIANT_MANIFEST.md)
+- [Session 028 QC](reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md)
+- [Bridge candidate registry](graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md)
+- [Reynolds verification brief](research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md)
 
 ---
 
@@ -149,12 +178,15 @@ Evidence classes remain separate:
 
 A historical map can be Evidence A while a modern claim about it is C, D, or E. A model's declarations of `INGESTED`, `COMPLETE`, `CANONICAL`, or numerical confidence do not alter repository state.
 
+A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its endpoints are historically connected.
+
 ---
 
 ## 5. Active queue
 
 | Priority | ID | Target | State | What moves it forward |
 |---|---|---|---|---|
+| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 10 candidates, 0 canonical edges | Deep-audit Reynolds with primary lecture, congressional, presidential, publishing, and Poe records |
 | **P0** | **RQ-031** | Terra Australis → observed Antarctica | SEARCHING — 1/5 core items promoted | Verify Ptolemy, Bertius, Tasman, and Cook one item at a time |
 | P0 | RQ-023 | Shaver/Palmer transmission, 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records |
 | P0 | RQ-030 | Sean's ensemble-architecture lineage | PARTIAL — paused at private boundary | Isolated local filesystem agent and dated private artifacts |
@@ -166,27 +198,15 @@ A historical map can be Evidence A while a modern claim about it is C, D, or E. 
 
 ---
 
-## 6. Current cloud-agent assignment
+## 6. Current cloud-agent assignments
 
-### Verify one exact Ptolemaic item
+### Primary: verify the Reynolds bridge
 
-Do **not** build another broad Terra Australis overview.
+> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `schemas/BRIDGE_CANDIDATE.md`, `research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md`, `reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md`, and `graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md`. Execute `research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md`. Work only on Jeremiah N. Reynolds. Locate item-level primary records for his Symmes collaboration, lecture activity, break from Symmes, Antarctic/South-Seas expedition advocacy, 1836 Address, presidential or congressional contacts, and Poe's review/text reuse. Return exact titles, dates, institutions, catalogue identifiers, stable scans, pages, and quotations. Test both continuity and discontinuity. Distinguish personal contact, exposure opportunity, documented influence, direct citation, known copying, and negative evidence. Do not assume that being the same person proves the earlier theory caused the later expedition program. Do not commit or create canonical edges.
 
-> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md`, `reports/SESSION_026_ORTELIUS_QC.md`, and `graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md`. Work only on `TERRA-MAP-001-A` — the Ptolemaic world map in the Ulm 1482 edition. Select one exact institutional copy. Return the catalogue title, institution, call number or shelfmark, stable item page, primary scan or IIIF link, edition/imprint details, and a transcription of the southern land bridge or labels from the image. Compare it carefully with the Bologna 1477 tradition only where exact artifacts support the comparison. Keep Ptolemy's enclosed Indian Ocean distinct from the later named Terra Australis. Return `UNKNOWN` where the source trail is insufficient. Do not commit, ingest, freeze, or mark RQ-031 partial or resolved.
+### Parallel artifact lane: verify one Ptolemaic item
 
-After Ptolemy passes curator review, proceed to Bertius, Tasman, and Cook one exact artifact at a time.
-
-Preferred public sequence after RQ-031:
-
-```text
-Terra Australis / Antarctica map lineage
-        ↓
-Grey imagery and testimony chronology
-        ↓
-serpent traditions and modern reptilian synthesis
-        ↓
-CERN scientific language versus portal reinterpretation
-```
+> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md`, `reports/SESSION_026_ORTELIUS_QC.md`, and `graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md`. Work only on `TERRA-MAP-001-A` — the Ptolemaic world map in the Ulm 1482 edition. Select one exact institutional copy. Return the catalogue title, institution, call number or shelfmark, stable item page, primary scan or IIIF link, edition/imprint details, and a transcription of the southern land bridge or labels from the image. Keep Ptolemy's enclosed Indian Ocean distinct from the later named Terra Australis. Do not commit or mark RQ-031 partial or resolved.
 
 ---
 
@@ -214,12 +234,14 @@ Do not give the archive agent write access to the projects it studies. Do not re
 
 For a narrow task:
 
-> Work only on **[RQ ID / ITEM ID]**. Return evidence that would satisfy or falsify its promotion criteria. Do not provide a general essay.
+> Work only on **[RQ ID / ITEM ID / BRIDGE ID]**. Return evidence that would satisfy or falsify its promotion criteria. Do not provide a general essay.
 
 ---
 
 ## 9. Canonical method documents
 
+- [Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md)
+- [Bridge Candidate schema](schemas/BRIDGE_CANDIDATE.md)
 - [Repository Architecture](docs/REPOSITORY_ARCHITECTURE.md)
 - [Puzzle-Piece Intake](docs/PUZZLE_PIECE_INTAKE.md)
 - [Methodology](docs/METHODOLOGY.md)
@@ -233,4 +255,4 @@ For a narrow task:
 - [Negative-evidence schema](schemas/NEGATIVE_EVIDENCE.md)
 - [Acquisition-summary schema](schemas/ACQUISITION_SUMMARY.md)
 
-**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, or acquisition priority changes.
+**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate field, or acquisition priority changes.
