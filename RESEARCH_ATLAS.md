@@ -88,8 +88,6 @@ Canonical full lineage: 0
 RQ-031 status: SEARCHING
 ```
 
-#### First promoted item
-
 **TERRA-MAP-002-A — Abraham Ortelius, *Typvs Orbis Terrarvm*, 1570**
 
 ```yaml
@@ -101,7 +99,7 @@ map_sheet: 12
 imprint: "third imprint of the original 1570 Latin edition"
 ```
 
-The artifact and scan are verified. The selected online copy is **not** treated as the first imprint or first plate state. The map depicts a named speculative southern continent.
+The artifact and scan are verified. The selected online copy is **not** treated as the first imprint or first plate state.
 
 One narrow relationship is verified:
 
@@ -111,7 +109,7 @@ DOCUMENTED_INFLUENCE
 scope: general world-map cartography and atlas synthesis
 ```
 
-That edge does not prove that every Terra Australis label, bay, promontory, or coastline was copied from Mercator. No Finé feature-level edge has been accepted.
+That edge does not prove that every Terra Australis label, bay, promontory, or coastline was copied from Mercator.
 
 Read: [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md), [Ortelius item](graph/chronologies/TERRA-MAP-002-A-ORTELIUS-1570.md), [map edge](graph/transmissions/MAP-EDGE-001-MERCATOR-ORTELIUS-WORLD-MAP.md), [Session 026 QC](reports/SESSION_026_ORTELIUS_QC.md).
 
@@ -121,57 +119,61 @@ Read: [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.
 Methodology commentary variants: 1
 Initial historical acquisition variants: 2
 Reynolds verification variants: 2
+Reynolds 1827 result variants: 1
 Normalized bridge candidate clusters: 10
 Candidates deep-verified: 1
 Supported bridge findings: 1
+Catalogue-authenticated continuity artifacts: 1
 Canonical direct-citation edges: 1
+Partial response edges: 1
 Canonical known-copy edges: 0
 Negative-evidence records: 1
+Copied-error candidates: 1
 RQ-032 status: SEARCHING
 ```
 
-The first Antarctica ↔ Hollow Earth pass registered ten testable clusters:
+The first Antarctica ↔ Hollow Earth pass registered ten testable clusters, including Symmes, *Symzonia*, Reynolds, Poe, William Reed, Lovecraft, Palmer/Bernard, Byrd/Highjump, Szabo, and Agartha.
 
-- Symmes's circular and distribution network;
-- *Symzonia* as early Antarctic-inner-world fiction;
-- Jeremiah Reynolds moving from Symmes advocacy into Antarctic expedition lobbying;
-- Reynolds → Poe review and possible text reuse;
-- William Reed's explorer quotations and diagrams;
-- Lovecraft's Antarctic hidden-civilization fiction;
-- Palmer → Bernard publishing/textual synthesis;
-- Byrd quotation and Highjump authority-laundering hypotheses;
-- Szabo as a possible point source for Nazi Antarctic-base claims;
-- Agartha terminology later fused with Antarctic/Nazi mythology.
-
-#### First deep-verification result — Reynolds
-
-The Reynolds candidate produced a split result:
+#### Reynolds split finding
 
 ```text
 Symmes Hollow Earth advocacy
-        ↓ same person / public exposure
+        ↓ same person / exposure
 Jeremiah N. Reynolds
-        ↓ contemporary pivot and reframing
+        ↓ Adams records pivot in 1826
 Southern Ocean and South-Pole advocacy
-        ↓ institutional circulation
-state legislatures, Congress, Harper & Brothers, periodical press
+        ↓
+1827 printed response concerning Symmes's theory
+        ↓
+1836 institutional case without explicit Symmes/hollow vocabulary
 ```
 
-**Supported:**
+Supported mechanisms:
 
 - `SAME_PERSON_CARRIER`;
 - `EXPOSURE_PATH`;
 - `INSTITUTIONAL_CARRIER`;
-- `RHETORICAL_REFRAMING`.
+- `RHETORICAL_REFRAMING`;
+- `BIBLIOGRAPHIC_CONTINUITY_IN_1827`.
 
-**Not established:**
+The 1827 artifact is catalogue-authenticated as:
 
-- a primary artifact documenting Reynolds and Symmes together at a lecture or in correspondence;
-- Symmes's doctrine as the causal basis of Reynolds's mature expedition program;
-- total intellectual abandonment of every earlier Symmes-related idea;
-- exact Reynolds passages copied into *Pym*.
+```yaml
+title: "Remarks on a review of Symmes' theory, which appeared in the American quarterly review"
+creator: "Reynolds, J. N. (Jeremiah N.), 1799-1858"
+place: Washington
+printer: "Gales & Seaton"
+year: 1827
+institution: "Library of Congress"
+loc_item: "06040937"
+call_numbers:
+  - "AC901 .M5 vol. 797, no. 14"
+  - "YA 25425"
+```
 
-The available OCR of Reynolds's 1836 *Address* contains no match for `Symmes` and no match for `hollow`. Its visible public rationale is commercial, scientific, navigational, and national. This is preserved as narrow negative evidence, not as proof that Symmes had no indirect effect whatsoever.
+This proves continued public engagement with the Symmes controversy in 1827, after Adams's November 1826 pivot description. It does **not** yet prove Reynolds defended or remained doctrinally loyal to Symmes, because the pamphlet text has not been acquired.
+
+The 1836 negative evidence remains valid and narrow: the available OCR contains no `Symmes` or `hollow`, and the public rationale is commercial, scientific, navigational, and national.
 
 A separate edge is verified:
 
@@ -183,16 +185,27 @@ Poe, South-Sea Expedition review (1837)
 
 The repeated claim that *Pym* copies roughly 700 words remains open until exact passages and page/image locators are aligned.
 
+The corrected 1827 title also produced the first formal copied-error candidate:
+
+```text
+correct: Remarks ON A REVIEW of Symmes' theory...
+mutated: Remarks OF Symmes' theory...
+```
+
+The mutation is public and materially changes the apparent document type. Its website-to-website copying chain remains unproven.
+
 Read:
 
 - [Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md)
 - [RQ-032](research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md)
 - [Bridge candidate registry](graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md)
 - [Reynolds supported finding](graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md)
+- [1827 Reynolds artifact](graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md)
 - [Reynolds → Poe direct-citation edge](graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
-- [Session 029 manifest](research_inbox/SESSION_029_REYNOLDS_VERIFICATION_VARIANT_MANIFEST.md)
-- [Session 029 QC](reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md)
+- [AQR → Reynolds response candidate](graph/transmissions/BRIDGE-EDGE-002-AQR-REYNOLDS-RESPONSE-CANDIDATE.md)
+- [Session 030 QC](reports/SESSION_030_REYNOLDS_1827_QC.md)
 - [Negative-evidence record](data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
+- [Title-error fingerprint](data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md)
 
 ---
 
@@ -220,9 +233,7 @@ Evidence classes remain separate:
 - **D:** testimonial or unsupported narrative;
 - **E:** contradicted or highly implausible.
 
-A historical artifact can be Evidence A while a claim made about it is C, D, or E. A model's declarations of `INGESTED`, `COMPLETE`, `CANONICAL`, or numerical confidence do not alter repository state.
-
-A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its endpoints are historically connected. A documented biographical transition does not automatically prove doctrinal continuity.
+A historical artifact can be Evidence A while a claim about its meaning remains C, D, or E. A catalogue record authenticates an object but does not substitute for the object's text.
 
 ---
 
@@ -230,7 +241,7 @@ A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its en
 
 | Priority | ID | Target | State | What moves it forward |
 |---|---|---|---|---|
-| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 1 candidate deep-verified, 1 direct-citation edge | Authenticate the alleged 1827 Reynolds *Remarks of Symmes' Theory* artifact |
+| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 1 candidate deep-verified, 1 direct-citation edge, 1 authenticated 1827 continuity artifact | Acquire Reynolds pamphlet text and matching AQR article; classify the response |
 | **P0** | **RQ-031** | Terra Australis → observed Antarctica | SEARCHING — 1/5 core items promoted | Verify Ptolemy, Bertius, Tasman, and Cook one item at a time |
 | P0 | RQ-023 | Shaver/Palmer transmission, 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records |
 | P0 | RQ-030 | Sean's ensemble-architecture lineage | PARTIAL — paused at private boundary | Isolated local filesystem agent and dated private artifacts |
@@ -244,11 +255,11 @@ A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its en
 
 ## 6. Current cloud-agent assignments
 
-### Primary: authenticate the alleged Reynolds 1827 artifact
+### Primary: acquire the Reynolds/AQR 1827 text pair
 
-Do **not** repeat the broad Reynolds biography.
+Do **not** repeat the broad Reynolds biography and do not re-authenticate the catalogue record.
 
-> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md`, `reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md`, and `data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md`. Execute `research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md`. Work only on the alleged 1827 Reynolds artifact titled approximately *Remarks of Symmes' Theory Which Appeared in the American Quarterly Review*. Locate one exact institutional record and scan, verify title and authorship, transcribe Reynolds's position with page/image locators, identify the underlying *American Quarterly Review* item, and compare distinctive wording with the November 4, 1826 Adams entry and Reynolds's 1836 *Address*. Search for one closely related primary notice naming Reynolds and Symmes together, but do not broaden into a general biography. Return `UNKNOWN` or a documented bibliographic ghost if the object cannot be authenticated. Do not create canonical edges.
+> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md`, `graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md`, `reports/SESSION_030_REYNOLDS_1827_QC.md`, and `data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md`. Work only on acquiring the full text or page images of J. N. Reynolds's 1827 *Remarks on a review of Symmes' theory, which appeared in the American quarterly review* and the matching 1827 *American Quarterly Review* article identified as `Symmes's theory`, vol. 1, p. 235 onward. Return exact institutional scans, complete page ranges, title-page transcription, Reynolds's position with page/image locators, aligned claims and quotations, and a classification of the response as defense, qualification, modification, strategic reframing, or rejection. Verify that the AQR article is the actual counterpart. Do not create a canonical response edge.
 
 ### Parallel artifact lane: verify one Ptolemaic item
 
@@ -301,4 +312,4 @@ For a narrow task:
 - [Negative-evidence schema](schemas/NEGATIVE_EVIDENCE.md)
 - [Acquisition-summary schema](schemas/ACQUISITION_SUMMARY.md)
 
-**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate field, negative-evidence finding, or acquisition priority changes.
+**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate field, negative-evidence finding, copied-error candidate, or acquisition priority changes.
