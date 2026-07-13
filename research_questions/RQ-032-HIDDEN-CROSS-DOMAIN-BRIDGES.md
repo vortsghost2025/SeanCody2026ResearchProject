@@ -69,6 +69,8 @@ RQ:
     - model agreement
     - unsourced internet repetition
     - retrospective diagrams that merge traditions
+    - a bridge candidate being registered
+    - an institution preserving a record being treated as institutional endorsement
 
   partial_resolution: >
     Three or more bridge candidates have item-level evidence for shared infrastructure,
@@ -91,21 +93,57 @@ RQ:
     - schemas/MOTIF.md
     - schemas/PROPAGATION.md
     - schemas/TRANSMISSION_EDGE.md
+    - research_inbox/SESSION_028_BRIDGE_VARIANT_MANIFEST.md
+    - reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md
+    - graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md
+    - research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md
 
   generated_session: SESSION_027
+  current_acquisition_session: SESSION_028
   last_updated: 2026-07-13
 ```
 
-## First acquisition task
-
-Do not research all domains at once. Produce three to seven raw bridge candidates from one pairing:
+## Current acquisition state
 
 ```text
-Antarctica / Terra Australis
-        ↕
-Hollow Earth / hidden civilization / underground or polar base narratives
+Methodology commentary variants: 1
+Historical acquisition variants: 2
+Normalized bridge candidate clusters: 10
+Candidates in deep verification: 1
+Canonical cross-domain edges: 0
+RQ-032 status: SEARCHING
 ```
 
-Prioritize the earliest dated fusion points, the publishers and media carrying them, and the transition from unknown geography to inhabited secret space.
+The first Antarctica/Hollow Earth pass produced a useful candidate field, not a conclusion. The strongest overlap is Jeremiah N. Reynolds as a possible same-person carrier between Symmes's Hollow Earth advocacy and later Antarctic/South-Seas expedition lobbying.
 
-Return candidates, not a synthesized conclusion.
+Other preserved clusters include:
+
+- Symmes Circular dissemination;
+- *Symzonia* as early Antarctic-inner-world fiction;
+- Reynolds → Poe review and possible text reuse;
+- William Reed's explorer-quotation and diagram infrastructure;
+- Lovecraft's Antarctic hidden-civilization template;
+- Palmer → Bernard publishing/textual synthesis;
+- Byrd quotation and Highjump authority-laundering hypotheses;
+- Ladislas Szabo and the Nazi Antarctic-base narrative;
+- Agartha terminology grafted onto later Antarctic/Nazi synthesis.
+
+Registration changes the research queue, not the evidence class.
+
+## Current deep-verification task
+
+Work only on:
+
+```text
+BRIDGE-032-003
+Jeremiah N. Reynolds
+Symmes advocate → Antarctic expedition lobbyist
+```
+
+Required outcome: determine whether the same person carried specific ideas, language, contacts, or causal influence across the transition—or whether the later exploration program deliberately dropped the Hollow Earth theory and proceeded for independent commercial, scientific, and national reasons.
+
+Read and execute:
+
+- `research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md`
+
+Return item-level primary records, exact quotations, pages, dates, institutional carriers, evidence for, evidence against, and failed searches. Do not promote a canonical bridge.
