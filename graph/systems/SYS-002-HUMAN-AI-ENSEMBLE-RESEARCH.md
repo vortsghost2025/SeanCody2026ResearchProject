@@ -4,7 +4,7 @@
 SYSTEM:
   id: SYS-002
   title: "Human–AI Ensemble Research Architecture"
-  status: SEEDING
+  status: ACTIVE_SEEDING
   created: 2026-07-13
 
   purpose: >
@@ -64,19 +64,23 @@ SYSTEM:
     - private January 2026 development archive
     - Copilot and Claude handoff/state protocols
     - LM Arena A/B reviews and implementation records
+    - public July 12, 2026 Sean & Cody genesis sequence
     - later Hermes, lane, subagent, and control-plane experiments
     - current Sean & Cody research workflow
 
   privacy_rule: >
     Extract architecture, chronology, model behavior, and workflow lessons from
     private projects. Do not copy financial data, credentials, private code,
-    operational details, or unrelated private content into the public corpus.
+    operational details, unrelated private content, or model scratchpads into
+    the public corpus when a sanitized evidence record is sufficient.
 
   related_questions:
     - RQ-030
 
   related_documents:
     - RESEARCH_ATLAS.md
+    - graph/systems/SYS-002-ARTIFACT-REGISTRY.md
+    - research_inbox/SESSION_024_KILO_PUBLIC_GENESIS_ACQUISITION.md
     - docs/PUZZLE_PIECE_INTAKE.md
     - docs/REPOSITORY_ARCHITECTURE.md
 ```
@@ -94,6 +98,30 @@ A project belongs in SYS-002 only when it provides evidence about one or more of
 - human-in-the-loop connection detection;
 - implementation and verification of model recommendations;
 - preservation of disagreement, failure, or regression as data.
+
+## Established public evidence
+
+The first curated public batch establishes this July 12, 2026 sequence:
+
+```text
+ARCH-001 — Sean creates a cross-domain seed corpus
+        ↓
+ARCH-002 — ChatGPT adds a specialized provenance/QC layer
+        ↓
+ARCH-003 — a later session explicitly audits and applies that layer
+        ↓
+ARCH-004 — combined session state preserves deltas and assigns implementation tasks
+```
+
+Read the evidence registry:
+
+- [`SYS-002-ARTIFACT-REGISTRY.md`](SYS-002-ARTIFACT-REGISTRY.md)
+
+Important limits:
+
+- Session 003 proves an audit of a ChatGPT artifact; it does not identify the auditing model.
+- Session 004 specifies an implementation script; it does not prove execution or testing.
+- The July sequence is the earliest public evidence currently curated, not the earliest architecture evidence overall.
 
 ## Working lineage
 
@@ -115,7 +143,7 @@ lanes, subagents, control planes, and orchestration
 provenance-aware research graph with first-class disagreements and RQs
 ```
 
-Every arrow is currently a working hypothesis until supported by dated artifacts.
+Every arrow remains a working hypothesis until supported by dated artifacts.
 
 ## Key distinction
 
@@ -135,5 +163,7 @@ disagreement
 ```
 
 ## Current acquisition target
+
+The public July genesis is partially established. The next target is the earlier private lineage: independent LM Arena branches, Copilot/Claude implementation records, checkpoint/state files, and recommendation-to-test-to-regression chains.
 
 See [RQ-030](../../research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md).
