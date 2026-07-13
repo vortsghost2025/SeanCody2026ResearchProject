@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/vortsghost2025/SeanCody2026ResearchProject/schemas/clusters/flood.schema.json",
+  "title": "Flood Cluster Data",
+  "description": "Validates the cluster_data object for FLOOD records. The enclosing record must also validate against canonical-record.schema.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "tradition": {"type": ["string", "null"]},
+    "flood_type": {"type": ["string", "null"]},
+    "divine_cause": {"type": ["string", "null"]},
+    "human_cause_cited": {"type": ["string", "null"]},
+    "survivor_archetype": {"type": ["string", "null"]},
+    "survival_mechanism": {"type": ["string", "null"]},
+    "post_flood_action": {"type": ["string", "null"]},
+    "animal_preservation": {"type": ["boolean", "null"]},
+    "bird_messenger": {"type": ["boolean", "string", "null"]},
+    "rainbow_or_covenant": {"type": ["boolean", "string", "null"]},
+    "flood_duration_stated": {"type": ["string", "null"]},
+    "textual_dependence_on": {"type": ["string", "null"]},
+    "dependence_type": {"type": ["string", "null"]},
+    "geographic_plausible_trigger": {"type": ["string", "null"]},
+    "alien_reinterpretation": {"type": ["string", "null"]},
+    "unique_features": {"type": "array", "items": {"type": "string"}},
+    "primary_text_sources": {"type": "array", "items": {"type": "string"}},
+    "structural_analysis": {"type": ["string", "object", "null"]},
+    "geological_corroboration": {"type": ["object", "null"]}
+  }
+}
