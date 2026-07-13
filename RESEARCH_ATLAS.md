@@ -29,7 +29,7 @@ SYS-002 is the research machinery used to investigate SYS-001 and future domains
 | Domain | What is being traced | State |
 |---|---|---|
 | Antarctica / Terra Australis | theoretical geography, maps, voyages, observed Antarctica, and later reinterpretations | **ACTIVE — RQ-031** |
-| Cross-domain hidden carriers | people, publishers, errors, images, institutions, and transformations connecting apparently separate topics | **ACTIVE — RQ-032** |
+| Cross-domain hidden carriers | people, publishers, errors, images, institutions, abandoned frameworks, and transformations connecting apparently separate topics | **ACTIVE — RQ-032** |
 | Hollow Earth | historical theories, Shaver/Palmer, occult networks, UFO publishing, and mail-order transmission | ACTIVE |
 | UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, and Dulce | ACTIVE |
 | Grey imagery | fiction, testimony, visual standardization, media amplification, and retroactive artifact interpretation | SEEDED |
@@ -119,14 +119,18 @@ Read: [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.
 
 ```text
 Methodology commentary variants: 1
-Historical acquisition variants: 2
+Initial historical acquisition variants: 2
+Reynolds verification variants: 2
 Normalized bridge candidate clusters: 10
-Candidates in deep verification: 1
-Canonical cross-domain edges: 0
+Candidates deep-verified: 1
+Supported bridge findings: 1
+Canonical direct-citation edges: 1
+Canonical known-copy edges: 0
+Negative-evidence records: 1
 RQ-032 status: SEARCHING
 ```
 
-The first Antarctica ↔ Hollow Earth pass found connective tissue that topic-by-topic research could miss:
+The first Antarctica ↔ Hollow Earth pass registered ten testable clusters:
 
 - Symmes's circular and distribution network;
 - *Symzonia* as early Antarctic-inner-world fiction;
@@ -139,16 +143,56 @@ The first Antarctica ↔ Hollow Earth pass found connective tissue that topic-by
 - Szabo as a possible point source for Nazi Antarctic-base claims;
 - Agartha terminology later fused with Antarctic/Nazi mythology.
 
-These are registered questions, not findings. The strongest current target is **Jeremiah Reynolds**, because one identifiable person appears on both sides of the suspected transition. The audit must determine whether ideas actually moved through him or whether he abandoned Hollow Earth theory and pursued exploration for independent reasons.
+#### First deep-verification result — Reynolds
+
+The Reynolds candidate produced a split result:
+
+```text
+Symmes Hollow Earth advocacy
+        ↓ same person / public exposure
+Jeremiah N. Reynolds
+        ↓ contemporary pivot and reframing
+Southern Ocean and South-Pole advocacy
+        ↓ institutional circulation
+state legislatures, Congress, Harper & Brothers, periodical press
+```
+
+**Supported:**
+
+- `SAME_PERSON_CARRIER`;
+- `EXPOSURE_PATH`;
+- `INSTITUTIONAL_CARRIER`;
+- `RHETORICAL_REFRAMING`.
+
+**Not established:**
+
+- a primary artifact documenting Reynolds and Symmes together at a lecture or in correspondence;
+- Symmes's doctrine as the causal basis of Reynolds's mature expedition program;
+- total intellectual abandonment of every earlier Symmes-related idea;
+- exact Reynolds passages copied into *Pym*.
+
+The available OCR of Reynolds's 1836 *Address* contains no match for `Symmes` and no match for `hollow`. Its visible public rationale is commercial, scientific, navigational, and national. This is preserved as narrow negative evidence, not as proof that Symmes had no indirect effect whatsoever.
+
+A separate edge is verified:
+
+```text
+Reynolds, Address (1836)
+        ↓ DIRECT_CITATION
+Poe, South-Sea Expedition review (1837)
+```
+
+The repeated claim that *Pym* copies roughly 700 words remains open until exact passages and page/image locators are aligned.
 
 Read:
 
 - [Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md)
 - [RQ-032](research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md)
-- [Session 028 manifest](research_inbox/SESSION_028_BRIDGE_VARIANT_MANIFEST.md)
-- [Session 028 QC](reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md)
 - [Bridge candidate registry](graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md)
-- [Reynolds verification brief](research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md)
+- [Reynolds supported finding](graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md)
+- [Reynolds → Poe direct-citation edge](graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
+- [Session 029 manifest](research_inbox/SESSION_029_REYNOLDS_VERIFICATION_VARIANT_MANIFEST.md)
+- [Session 029 QC](reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md)
+- [Negative-evidence record](data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
 
 ---
 
@@ -176,9 +220,9 @@ Evidence classes remain separate:
 - **D:** testimonial or unsupported narrative;
 - **E:** contradicted or highly implausible.
 
-A historical map can be Evidence A while a modern claim about it is C, D, or E. A model's declarations of `INGESTED`, `COMPLETE`, `CANONICAL`, or numerical confidence do not alter repository state.
+A historical artifact can be Evidence A while a claim made about it is C, D, or E. A model's declarations of `INGESTED`, `COMPLETE`, `CANONICAL`, or numerical confidence do not alter repository state.
 
-A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its endpoints are historically connected.
+A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its endpoints are historically connected. A documented biographical transition does not automatically prove doctrinal continuity.
 
 ---
 
@@ -186,7 +230,7 @@ A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its en
 
 | Priority | ID | Target | State | What moves it forward |
 |---|---|---|---|---|
-| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 10 candidates, 0 canonical edges | Deep-audit Reynolds with primary lecture, congressional, presidential, publishing, and Poe records |
+| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 1 candidate deep-verified, 1 direct-citation edge | Authenticate the alleged 1827 Reynolds *Remarks of Symmes' Theory* artifact |
 | **P0** | **RQ-031** | Terra Australis → observed Antarctica | SEARCHING — 1/5 core items promoted | Verify Ptolemy, Bertius, Tasman, and Cook one item at a time |
 | P0 | RQ-023 | Shaver/Palmer transmission, 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records |
 | P0 | RQ-030 | Sean's ensemble-architecture lineage | PARTIAL — paused at private boundary | Isolated local filesystem agent and dated private artifacts |
@@ -200,9 +244,11 @@ A registered `BRIDGE_CANDIDATE` is a hypothesis object, not evidence that its en
 
 ## 6. Current cloud-agent assignments
 
-### Primary: verify the Reynolds bridge
+### Primary: authenticate the alleged Reynolds 1827 artifact
 
-> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `schemas/BRIDGE_CANDIDATE.md`, `research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md`, `reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md`, and `graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md`. Execute `research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md`. Work only on Jeremiah N. Reynolds. Locate item-level primary records for his Symmes collaboration, lecture activity, break from Symmes, Antarctic/South-Seas expedition advocacy, 1836 Address, presidential or congressional contacts, and Poe's review/text reuse. Return exact titles, dates, institutions, catalogue identifiers, stable scans, pages, and quotations. Test both continuity and discontinuity. Distinguish personal contact, exposure opportunity, documented influence, direct citation, known copying, and negative evidence. Do not assume that being the same person proves the earlier theory caused the later expedition program. Do not commit or create canonical edges.
+Do **not** repeat the broad Reynolds biography.
+
+> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md`, `reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md`, and `data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md`. Execute `research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md`. Work only on the alleged 1827 Reynolds artifact titled approximately *Remarks of Symmes' Theory Which Appeared in the American Quarterly Review*. Locate one exact institutional record and scan, verify title and authorship, transcribe Reynolds's position with page/image locators, identify the underlying *American Quarterly Review* item, and compare distinctive wording with the November 4, 1826 Adams entry and Reynolds's 1836 *Address*. Search for one closely related primary notice naming Reynolds and Symmes together, but do not broaden into a general biography. Return `UNKNOWN` or a documented bibliographic ghost if the object cannot be authenticated. Do not create canonical edges.
 
 ### Parallel artifact lane: verify one Ptolemaic item
 
@@ -255,4 +301,4 @@ For a narrow task:
 - [Negative-evidence schema](schemas/NEGATIVE_EVIDENCE.md)
 - [Acquisition-summary schema](schemas/ACQUISITION_SUMMARY.md)
 
-**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate field, or acquisition priority changes.
+**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate field, negative-evidence finding, or acquisition priority changes.
