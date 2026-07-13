@@ -1,13 +1,13 @@
 # Sean & Cody Research Atlas
 
-**START HERE.** This page is the human- and AI-readable map of what the project has gathered, what is connected, what remains uncertain, and where new research should go.
+**START HERE.** This is the human- and AI-readable map of what the project has gathered, what connects, what remains uncertain, and where research should go next.
 
 The project studies two linked things:
 
-1. **How human narratives, claims, motifs, publications, institutions, and media systems evolve and connect across time.**
-2. **How human–AI ensemble research can preserve disagreement, provenance, chronology, failures, and discoveries across disposable model sessions.**
+1. **How human narratives, myths, claims, publications, institutions, maps, and media systems evolve across time.**
+2. **How human–AI ensemble research can preserve provenance, disagreement, chronology, failures, and discoveries across replaceable model sessions.**
 
-The subject matter may change. The method remains the same: preserve the pieces, identify the systems, trace the connections, and keep evidence strength separate from interpretation.
+The subject may change. The method remains the same: preserve the pieces, identify systems, trace connections, and keep evidence strength separate from interpretation.
 
 ---
 
@@ -15,110 +15,114 @@ The subject matter may change. The method remains the same: preserve the pieces,
 
 | System | Scope | Current state | Main entry points |
 |---|---|---|---|
-| **SYS-001 — Underground / Hidden-World Narrative System** | Shaver, Palmer, Hollow Earth, subterranean beings, UFO bases, Dulce, Antarctica, related publication networks | ACTIVE — first detailed dataset | [Shaver→Dulce map](graph/transmissions/SHAVER_TO_DULCE_CHAIN.md), [RQ-023](research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md), [Session 023 QC](reports/SESSION_023_CROSS_VARIANT_QC.md) |
-| **SYS-002 — Human–AI Ensemble Research Architecture** | Cross-model comparison, specialized roles, repo-based continuity, disagreement preservation, verification, human entity resolution | ACTIVE SEEDING — public July genesis established; earlier lineage pending | [System record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md), [Artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md), [RQ-030](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md) |
+| **SYS-001 — Underground / Hidden-World Narrative System** | Shaver, Palmer, Hollow Earth, subterranean beings, UFO bases, Dulce, Antarctica, and related publication networks | ACTIVE | [Shaver→Dulce map](graph/transmissions/SHAVER_TO_DULCE_CHAIN.md), [RQ-023](research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md), [Session 023 QC](reports/SESSION_023_CROSS_VARIANT_QC.md) |
+| **SYS-002 — Human–AI Ensemble Research Architecture** | Cross-model comparison, specialized roles, persistent state, disagreement preservation, verification, and human entity resolution | PARTIAL — public July sequence established; earlier private lineage paused | [System record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md), [Artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md), [RQ-030](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md) |
 
-These systems are not claimed to be the same subject. They connect because SYS-002 is the research machinery used to investigate SYS-001 and future systems.
+SYS-001 and SYS-002 are not the same subject. SYS-002 is the research machinery used to investigate SYS-001 and future systems.
 
 ---
 
 ## 2. Declared research domains
 
-These are the major domains already identified for the project. A domain being listed does **not** mean it is fully ingested or verified.
+A domain being listed does **not** mean it is fully ingested or verified.
 
 | Domain | What we are tracing | Status |
 |---|---|---|
-| Grey-alien imagery | Visual and testimonial evolution, fiction, encounter reports, media amplification | DECLARED SCOPE — inventory pending |
-| Serpent / reptilian traditions | Ancient traditions, later reinterpretations, modern synthesis | DECLARED SCOPE — inventory pending |
-| Antarctica | Expeditions, maps, polar openings, bases, gateways, media and internet reinterpretations | DECLARED SCOPE — partially represented in current corpus |
-| Hollow Earth | Historical theories, Shaver/Palmer, occult and UFO publication networks | ACTIVE |
-| UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, Dulce | ACTIVE |
-| CERN / portals / dimensions | Scientific terminology versus later narrative reuse | DECLARED SCOPE — inventory pending |
-| Narrative convergence | When previously separate traditions become one combined explanatory system | CORE METHOD — active across all domains |
-| Human–AI ensemble architecture | How model disagreement, handoffs, persistent state, verification, and human synthesis evolved | ACTIVE SEEDING |
+| Grey-alien imagery | Fiction, testimony, visual standardization, media amplification, and retroactive artifact interpretation | SEEDED — rigorous inventory pending |
+| Serpent / reptilian traditions | Distinct ancient traditions, diffusion, independent similarity, later reinterpretation, and modern synthesis | SEEDED — culture-level decomposition pending |
+| Antarctica and Terra Australis | Textual geography, maps, expeditions, polar openings, bases, gateways, and later reinterpretations | **ACTIVE — RQ-031 launched** |
+| Hollow Earth | Historical theories, Shaver/Palmer, occult networks, UFO publishing, and mail-order transmission | ACTIVE |
+| UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, and Dulce | ACTIVE |
+| CERN / portals / dimensions | Scientific terminology versus later occult, media, and conspiracy reuse | DECLARED — inventory pending |
+| Narrative convergence | When originally separate traditions become one combined explanatory system | CORE METHOD |
+| Human–AI ensemble architecture | Model diversity, handoffs, persistent state, verification, and human synthesis | PARTIAL — private phase requires isolated local access |
 
 ---
 
-## 3. Active findings and working hypotheses
+## 3. Current cross-referenced findings
 
 ### 3.1 Shaver / Palmer transmission gap
 
-**Working result:** the 1948–1979 period was not empty. Current acquisitions indicate multiple parallel carrier networks rather than one clean chain:
+**Working result:** the 1948–1979 interval was not empty. Current acquisitions indicate several parallel carrier networks rather than one clean chain:
 
-- Palmer's own magazines and presses;
-- Gray Barker's Saucerian / small-press network;
+- Palmer's magazines and presses;
+- Gray Barker's Saucerian and small-press network;
 - Borderland Sciences and Riley Crabb;
 - Raymond Bernard and mail-order hollow-earth publishing;
-- small fanzine, newsletter, convention, correspondence, and catalog networks.
+- fanzines, newsletters, conventions, correspondence, and catalogues.
 
 **Strongest current candidate bridge:** Palmer publication network → Gray Barker professional/publishing network → Bruce Walton/Branton → later Dulce synthesis.
 
-**Important caution:** this is only canonical where specific publication, masthead, imprint, citation, correspondence, or dated artifact supports the transition. Shared motifs and shared publishers alone do not prove influence.
+**Caution:** a transition is canonical only when a publication, masthead, imprint, citation, correspondence record, or dated artifact supports it. Shared motifs and shared publishers alone do not prove influence.
 
 Read:
 
-- [RQ-023 — Shaver/Palmer bridge](research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md)
-- [Claude A/B source variants](research_inbox/SESSION_023_CLAUDE_VARIANTS.md)
+- [RQ-023](research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md)
+- [Claude A/B variants](research_inbox/SESSION_023_CLAUDE_VARIANTS.md)
 - [Cross-variant QC](reports/SESSION_023_CROSS_VARIANT_QC.md)
 - [Transmission edge schema](schemas/TRANSMISSION_EDGE.md)
 
 ### 3.2 Human–AI ensemble architecture
 
-**Working result:** earlier projects contain architectural ancestors of the present system:
-
-- the same question given to multiple models;
-- model outputs compared rather than treated as a single authority;
-- one session reviewing or implementing another model's recommendations;
-- persistent repository state replacing fragile chat memory;
-- specialized solver, critic, synthesizer, verifier, curator, and auditor roles;
-- failures and regressions preserved as evidence;
-- the human serving as connection detector and final entity resolver.
-
-The old application domain is not the object of study. The object of study is the architecture that emerged through it.
-
-#### First verified public sequence — July 12, 2026
+The first verified public sequence is:
 
 ```text
-Sean's human-created cross-domain seed corpus
+Sean's cross-domain seed corpus
         ↓
 ChatGPT specialist provenance/QC layer
         ↓
 explicit audit and application of the prior layer
         ↓
-combined persistent session state + agent implementation tasks
+combined persistent session state and implementation tasks
 ```
 
-This sequence is now represented by `ARCH-001` through `ARCH-004`.
+This is represented by `ARCH-001` through `ARCH-004`.
 
-Important limits:
+Limits:
 
 - Session 003 does not identify the auditing model/provider.
 - Session 004 specifies an implementation task but does not prove execution or testing.
-- These are the earliest **publicly curated** artifacts, not the earliest full architecture artifacts.
+- The earlier January architecture archive is private and unavailable to repo-isolated cloud agents.
 
 Read:
 
-- [SYS-002 system record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md)
-- [SYS-002 artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md)
-- [RQ-030 architecture lineage](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md)
-- [Kilo acquisition and curator QC](research_inbox/SESSION_024_KILO_PUBLIC_GENESIS_ACQUISITION.md)
-- [Puzzle-piece intake method](docs/PUZZLE_PIECE_INTAKE.md)
+- [SYS-002](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md)
+- [Artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md)
+- [RQ-030](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md)
+- [Session 024 Kilo acquisition/QC](research_inbox/SESSION_024_KILO_PUBLIC_GENESIS_ACQUISITION.md)
+
+### 3.3 Terra Australis → Antarctica
+
+**Research state:** acquisition launched; no conclusion yet.
+
+The project is tracing how a theoretical balancing southern landmass became a repeated cartographic object, changed as voyages supplied evidence, separated from Australia, and was replaced by observed Antarctic geography.
+
+The same lane also tracks later claims that older maps depict an ice-free or impossibly well-surveyed Antarctica. Those modern reinterpretations must remain separate from what the original maps actually show.
+
+Read:
+
+- [RQ-031 — Terra Australis / Antarctica map lineage](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md)
+- [Session 025 acquisition brief](research_inbox/SESSION_025_TERRA_AUSTRALIS_ACQUISITION_BRIEF.md)
+- [ChatGPT's original Three-Map Rule](ChatGPTfirstentryjuly12.md)
 
 ---
 
 ## 4. Evidence and relationship language
 
-Every AI or contributor must distinguish these relationship types:
+Every contributor must distinguish:
 
 | Type | Meaning |
 |---|---|
 | `DIRECT_CITATION` | A source explicitly cites, quotes, names, reprints, or references another source |
+| `KNOWN_COPY` | Documentary or cartographic evidence establishes copying |
+| `TRANSLATION` | A text or map is translated or adapted from another |
 | `DOCUMENTED_INFLUENCE` | A dated source, correspondence, interview, or reliable record documents influence |
 | `PERSONAL_CONTACT` | Correspondence, employment, collaboration, meeting, or other documented contact |
-| `SHARED_PUBLISHER` | Two works share a publisher or distribution network; this does **not** by itself prove influence |
+| `SHARED_PUBLISHER` | Two works share a publisher or distribution network; this alone does not prove influence |
 | `SHARED_MOTIF` | Similar content exists, but transmission is not established |
+| `RETROACTIVE_REINTERPRETATION` | A later framework is projected onto an older artifact or tradition |
 | `SPECULATIVE_SIMILARITY` | A possible resemblance requiring investigation |
-| `NEGATIVE_EVIDENCE` | A documented search or source indicates an expected connection is absent |
+| `NEGATIVE_EVIDENCE` | A documented search indicates an expected connection or trace is absent |
 | `UNKNOWN` | Available evidence does not support classification |
 
 Evidence classes remain separate:
@@ -129,100 +133,111 @@ Evidence classes remain separate:
 - **D:** testimonial or unsupported narrative;
 - **E:** contradicted or highly implausible.
 
-A real publication can be Evidence A while the claims printed inside it remain D or E.
+A historical map can be Evidence A while a modern claim about what it depicts remains C, D, or E.
 
 ---
 
 ## 5. Active research queue
 
-| Priority | ID | Question / target | Current state | What would move it forward |
+| Priority | ID | Target | Current state | What moves it forward |
 |---|---|---|---|---|
-| P0 | RQ-023 | What carried Shaver/Palmer material across 1948–1979? | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records, dated reprints |
-| P0 | RQ-030 | How did Sean's human–AI ensemble architecture evolve over time? | PARTIAL — public July sequence established | Earlier private A/B comparisons, implementation tests, checkpoint/state artifacts, commit chronology |
-| P1 | RQ-024 | Does the Gray Barker archive contain Walton/Branton correspondence? | OPEN | Finding aid, curator response, folder inventory, scans or citations |
-| P1 | RQ-029 | Did Palmer's *Forum* include later Bennewitz/Dulce-connected writers? | OPEN | Complete issue run, author index, letters and subscriber evidence |
-| P1 | — | Verify Claude A/B contradictions from Session 023 | OPEN | Independent primary-source checking rather than a third summary |
-| P2 | — | Build domain inventories for Greys, serpent traditions, Antarctica, and CERN reinterpretations | OPEN | Existing session/file inventory before new broad research |
+| **P0** | **RQ-031** | Terra Australis → observed Antarctica map lineage | ACTIVE — public/cloud suitable | Institutional scans, catalogue IDs, editions, labels, source lineages, voyage reports, modern reinterpretation origins |
+| P0 | RQ-023 | Shaver/Palmer transmission across 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records, and dated reprints |
+| P0 | RQ-030 | Evolution of Sean's human–AI ensemble architecture | PARTIAL — paused at private boundary | Isolated local filesystem agent, earlier A/B comparisons, implementation tests, checkpoint/state artifacts |
+| P1 | RQ-024 | Barker archive: Walton/Branton correspondence | OPEN | Finding aid, curator response, folder inventory, or scans |
+| P1 | RQ-029 | Palmer's *Forum* and later Bennewitz/Dulce-connected writers | OPEN | Complete issue run, author index, letters, and subscriber evidence |
+| P1 | — | Verify Session 023 Claude contradictions | OPEN | Independent primary-source checking rather than another summary |
+| P2 | — | Rigorous Grey chronology | QUEUED | Source inventory, first depictions, first alien reinterpretations, media exposure chronology |
+| P2 | — | Serpent/reptilian tradition decomposition | QUEUED | Separate cultures, texts, dates, diffusion paths, and modern synthesis |
+| P2 | — | CERN portal-language chronology | QUEUED | Scientific source terminology versus first popular/conspiracy reuse |
 
-The queue will expand. Research questions are first-class objects, not disposable TODO notes.
+Research questions are first-class objects, not disposable TODO notes.
 
 ---
 
-## 6. Best next acquisition: earlier architecture lineage
+## 6. Public-source lane for cloud agents
 
-The public July 12 sequence is now represented. The next chunk should move backward into the **private January 2026 development archive** and the older ensemble repository.
+Cloud agents isolated to this repository should work on public evidence, not attempt to search Sean's private filesystem.
 
-Find three to five representative dated examples:
+### Current assignment: RQ-031
 
-1. The earliest example of the **same question or problem given independently to two or more models**.
-2. The earliest model recommendation that was **implemented and then tested against a real system**.
-3. The earliest repository-based **handoff, checkpoint, project state, bootstrap, role prompt, or onboarding protocol**.
-4. The earliest preserved **LM Arena Response A / Response B disagreement** and Sean's decision.
-5. The earliest explicit **solver / critic / synthesizer / verifier** design.
-6. The clearest sanitized example of recommendation → implementation → validation/regression.
+> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md`, `docs/METHODOLOGY.md`, and the map rules in `ChatGPTfirstentryjuly12.md`. Execute `research_inbox/SESSION_025_TERRA_AUSTRALIS_ACQUISITION_BRIEF.md`. Use public primary sources and institutional scans. Build exact map records and source-supported transmission edges. Keep observed geography, inferred geography, speculative geography, and modern reinterpretation separate. Do not assume visual resemblance proves accurate Antarctic mapping. Record failed searches and disagreements. Return raw acquisition only; do not commit, ingest, freeze, or mark the question resolved.
 
-For each example, retain:
+After RQ-031, the preferred public sequence is:
 
 ```text
-Date
-Project/repository
-File or document title
-Model/provider, when known
-Question or task
-Output A
-Output B
-Human decision
-Implementation or consequence
-Later correction/regression
-Stable URL or repository path
-A short exact quotation
-Sensitive details that must remain private
+Terra Australis / Antarctica map lineage
+        ↓
+Grey imagery and testimony chronology
+        ↓
+serpent traditions and modern reptilian synthesis
+        ↓
+CERN scientific language versus portal reinterpretation
 ```
 
-Three to five strong examples are more useful than a dump of five hundred summaries.
-
 ---
 
-## 7. Prompt an AI can use from this page
+## 7. Private/local lane — paused safely
 
-Send an AI this page and the section or RQ you want researched, then use:
+The earlier architecture lineage requires a dedicated local archive agent with filesystem access.
 
-> Read the Sean & Cody Research Atlas and all linked files for **[SYSTEM / DOMAIN / RQ]**. Do not redesign the repository and do not assume that repeated claims are verified. Find relevant primary sources, exact publication dates, issue numbers, pages, quotations, stable archive links, correspondence, mastheads, publisher records, and documented contacts. Separate `DIRECT_CITATION`, `DOCUMENTED_INFLUENCE`, `PERSONAL_CONTACT`, `SHARED_PUBLISHER`, `SHARED_MOTIF`, `SPECULATIVE_SIMILARITY`, `NEGATIVE_EVIDENCE`, and `UNKNOWN`. Record failed searches. Flag contradictions and sensitive material. Return a raw acquisition report plus an acquisition summary. Do not mark anything canonical, ingested, complete, or resolved; curator review is required.
-
-For a narrower task:
-
-> Work only on **[RQ ID]** from the Research Atlas. Return evidence that would satisfy or falsify its resolution criteria. Do not provide a general essay.
-
-### Ready-made RQ-030 prompt
-
-> Read `RESEARCH_ATLAS.md`, `graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md`, `graph/systems/SYS-002-ARTIFACT-REGISTRY.md`, and `research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md`. Search the earlier private development archive for three to five dated architecture artifacts older than July 12, 2026. Prioritize independent model branches, LM Arena A/B outputs, model feedback implemented in a repository, post-change tests or regressions, and checkpoint/state/handoff protocols. Extract architecture only; omit trading balances, credentials, private operational details, and unrelated code. Do not infer model identity when metadata is absent. Do not call a task implemented unless execution evidence exists. Return the required `ARCHITECTURE_ARTIFACT` records and a contradiction/negative-evidence section. Do not commit or mark anything canonical.
-
----
-
-## 8. How Sean can use this page
-
-Sean only needs to send:
+Safe boundary:
 
 ```text
-Research Atlas + SYS-001 + RQ-023
+private historical repositories — read only
+        ↓
+isolated archive agent with dedicated config
+        ↓
+sanitized architecture-artifact report
+        ↓
+curator QC
+        ↓
+public repository
+```
+
+Do not give that agent write access to the projects it studies. Do not reuse the active Genesis or source-build agent sessions. Do not share their configs.
+
+---
+
+## 8. Generic prompt for any domain or RQ
+
+> Read the Sean & Cody Research Atlas and all linked files for **[SYSTEM / DOMAIN / RQ]**. Do not redesign the repository and do not assume repeated claims are verified. Find primary sources, exact publication dates, issue numbers, pages, quotations, stable archive links, correspondence, mastheads, publisher records, map catalogue IDs, and documented contacts. Separate `DIRECT_CITATION`, `KNOWN_COPY`, `TRANSLATION`, `DOCUMENTED_INFLUENCE`, `PERSONAL_CONTACT`, `SHARED_PUBLISHER`, `SHARED_MOTIF`, `RETROACTIVE_REINTERPRETATION`, `SPECULATIVE_SIMILARITY`, `NEGATIVE_EVIDENCE`, and `UNKNOWN`. Record failed searches. Flag contradictions and sensitive material. Return a raw acquisition report plus an acquisition summary. Do not mark anything canonical, ingested, complete, or resolved; curator review is required.
+
+For a narrow task:
+
+> Work only on **[RQ ID]**. Return evidence that would satisfy or falsify its resolution criteria. Do not provide a general essay.
+
+---
+
+## 9. How Sean can use this page
+
+Sean can send an AI one line:
+
+```text
+Research Atlas + RQ-031 — execute the linked acquisition brief
 ```
 
 or:
 
 ```text
-Research Atlas + SYS-002 — find the earliest architecture evidence
+Research Atlas + SYS-001 + RQ-023
 ```
 
-The AI should be able to see the scope, current evidence, open questions, terminology, and required output without Sean rebuilding the context manually.
+or later, to an isolated local agent:
 
-Sean can continue supplying puzzle pieces in any form: repository links, Google Docs, screenshots, old chats, model comparisons, books, names, dates, memories, or apparently unrelated systems. The curator decides where they belong and whether they are evidence, context, motif, chronology, propagation, contradiction, negative evidence, or a new research question.
+```text
+Research Atlas + SYS-002 + RQ-030 — inspect the private architecture archive read-only
+```
+
+Sean can continue supplying puzzle pieces in any form: repository links, Google Docs, screenshots, old chats, model comparisons, books, names, dates, memories, or apparently unrelated systems. The curator decides whether they are evidence, context, motif, chronology, propagation, contradiction, negative evidence, or a new research question.
 
 ---
 
-## 9. Canonical project-method documents
+## 10. Canonical project-method documents
 
 - [Repository Architecture v2.0](docs/REPOSITORY_ARCHITECTURE.md)
 - [Puzzle-Piece Intake](docs/PUZZLE_PIECE_INTAKE.md)
+- [Methodology](docs/METHODOLOGY.md)
 - [SYS-002 Artifact Registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md)
 - [Entity schema](schemas/ENTITY.md)
 - [Motif schema](schemas/MOTIF.md)
