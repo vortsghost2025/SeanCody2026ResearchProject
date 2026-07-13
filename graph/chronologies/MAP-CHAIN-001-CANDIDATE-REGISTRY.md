@@ -1,78 +1,71 @@
-# MAP-CHAIN-001 — Terra Australis Candidate Registry
+# MAP-CHAIN-001 — Terra Australis Item Registry
 
-> **Registry class:** CROSS-VARIANT CANDIDATES  
-> **Canonical status:** NONE OF THESE RECORDS ARE CANONICAL  
-> **Related question:** `RQ-031`
+> **Related question:** `RQ-031`  
+> **Curator-promoted item records:** 1  
+> **Verified narrow map edges:** 1  
+> **RQ status:** SEARCHING
 
-This registry exists so future agents can work from a numbered item queue without mistaking model agreement for verification.
+This registry separates curator-reviewed artifacts from cross-variant candidates. Model agreement changes priority, not evidence class.
 
 ## Promotion rule
 
-A candidate becomes an `ITEM_LEVEL_MAP_RECORD` only after curator review confirms:
+A candidate becomes an `ITEM_LEVEL_MAP_RECORD` only after curator review confirms one exact artifact, institutional metadata, a stable scan, relevant labels, chronology, uncertainties, and the permitted scope of any transmission edge.
 
-- one exact physical or digitized artifact;
-- exact printed and catalogue titles;
-- creator, engraver, publisher, and publication place where available;
-- date, edition, state, plate, or sheet;
-- institution and exact catalogue ID/call number/shelfmark;
-- stable item-level scan or IIIF URL;
-- transcription of relevant labels or legends;
-- observed, inferred, copied, blank, and speculative geography kept separate;
-- uncertainties and provenance recorded.
+---
 
-## Core candidates
+## Promoted item records
+
+### TERRA-MAP-002-A — Ortelius, *Typvs Orbis Terrarvm* (1570)
+
+```yaml
+record_class: ITEM_LEVEL_MAP_RECORD
+curator_status: PROMOTED_WITH_LIMITS
+verification_status:
+  artifact_identity: CURATOR_REVIEWED
+  primary_scan: CONFIRMED
+  imprint: THIRD_IMPRINT_OF_1570_LATIN_EDITION
+  plate_state: UNRESOLVED
+institution: "Library of Congress, Geography and Map Division"
+call_number: "G1006 .T5 1570"
+lccn: "2003683482"
+digital_id: "g3200m.gct00126"
+map_sheet: 12
+stable_item_url: "https://www.loc.gov/item/2003683482/"
+stable_scan_url: "https://www.loc.gov/resource/g3200m.gct00126/?sp=12"
+southern_label: "TERRA AVSTRALIS NONDVM COGNITA"
+related_record: "graph/chronologies/TERRA-MAP-002-A-ORTELIUS-1570.md"
+related_edge: "graph/transmissions/MAP-EDGE-001-MERCATOR-ORTELIUS-WORLD-MAP.md"
+```
+
+### Accepted boundary
+
+- The 1570 LOC artifact identity is verified.
+- The online LOC copy is the third imprint of the original 1570 Latin edition, not automatically the first state.
+- Mercator's 1569 world map has a verified general influence relationship to Ortelius's world-map synthesis.
+- Specific Terra Australis geometry, Finé nomenclature transmission, and detailed plate-state claims remain unresolved.
+
+---
+
+## Core item candidates
 
 ### TERRA-MAP-001-A — Ptolemaic world map, Ulm, 1482
 
 ```yaml
 record_class: ITEM_CANDIDATE
 verification_status: CROSS_VARIANT_UNVERIFIED
-parent_family_bucket: TERRA-MAP-001
-candidate_title: "World map from Ptolemy's Cosmographia / Geographia"
 candidate_creator: "Nicolaus Germanus after Claudius Ptolemy"
 candidate_date: 1482
 candidate_place: Ulm
-candidate_printer: Leinhart/Leinhard Holle
-source_variants:
-  - A
-  - B
-  - C
+candidate_printer: "Leinhart/Leinhard Holle"
 claimed_holdings:
   - British Library
   - Osher Map Library
   - Princeton University Library
 blocking_conflicts:
-  - exact holding and shelfmark not consistently supplied
+  - one exact holding and shelfmark not selected
   - printed labels not transcribed from one confirmed scan
-  - Ptolemaic enclosed Indian Ocean must not be equated automatically with the later named Terra Australis
-promotion_task: "Select one institutional copy, record its item metadata, and inspect the primary scan."
-```
-
-### TERRA-MAP-002-A — Ortelius, Typus Orbis Terrarum, 1570
-
-```yaml
-record_class: ITEM_CANDIDATE
-verification_status: CROSS_VARIANT_UNVERIFIED
-parent_family_bucket: TERRA-MAP-002
-candidate_title: "Typus Orbis Terrarum"
-candidate_creator: Abraham Ortelius
-candidate_engraver: Frans Hogenberg
-candidate_date: 1570
-candidate_atlas: "Theatrum Orbis Terrarum"
-source_variants:
-  - A
-  - B
-  - C
-claimed_label: "TERRA AVSTRALIS NONDVM COGNITA"
-claimed_holding:
-  institution: Library of Congress
-  locator_claim: "G3200 1570 .O7 / item 2002622206"
-blocking_conflicts:
-  - exact 1570 copy/state not curator-confirmed
-  - Variant B aggregates multiple editions, states, and holdings
-  - Catalogus Auctorum proves bibliographic acknowledgment but not every claimed feature-copying edge
-  - alleged plate-state chronology is internally inconsistent with a 1616 discovery
-promotion_task: "Open one exact 1570 item, identify state/plate, transcribe the label, and separate source-list evidence from feature-copying evidence."
+  - Ptolemaic enclosed-Indian-Ocean geography must not be silently renamed Terra Australis
+promotion_task: "Select one institutional copy and inspect the primary scan."
 ```
 
 ### TERRA-MAP-003-A — Bertius South Polar map, 1616
@@ -80,28 +73,17 @@ promotion_task: "Open one exact 1570 item, identify state/plate, transcribe the 
 ```yaml
 record_class: ITEM_CANDIDATE
 verification_status: CROSS_VARIANT_UNVERIFIED
-parent_family_bucket: TERRA-MAP-003
 candidate_creator: Petrus Bertius
 candidate_date: 1616
-candidate_atlas: "Tabularum Geographicarum Contractarum"
 candidate_titles:
   catalogue_or_section_title: "Descriptio Terrae Subaustralis"
   printed_map_title: "Magallanica sive Terra Australis Incognita"
-source_variants:
-  - A
-  - B
-  - C
-claimed_holding:
-  institution: Princeton University Library
-  locator_claims:
-    - "HMC01.442"
-    - "princeton-v405sc82k"
+claimed_holding: "Princeton University Library"
 blocking_conflicts:
-  - Variant A misspells the title as "Substralis"
-  - exact edition/state and item identifier not curator-confirmed
-  - first-map-of-the-South-Pole claim requires specialist source verification
-  - alleged same-plate reuse in 1676 requires exact item comparison
-promotion_task: "Confirm printed title, catalogue title, item ID, edition/state, scan, and any plate-reuse relationship."
+  - title spelling differs across outputs
+  - exact edition/state and identifier are not curator-confirmed
+  - first-South-Pole-map and 1676 same-plate-reuse claims require specialist verification
+promotion_task: "Confirm one exact item, title, edition/state, scan, and any plate reuse."
 ```
 
 ### TERRA-MAP-004-A — Bonaparte–Tasman map
@@ -109,116 +91,87 @@ promotion_task: "Confirm printed title, catalogue title, item ID, edition/state,
 ```yaml
 record_class: ITEM_CANDIDATE
 verification_status: CROSS_VARIANT_UNVERIFIED
-parent_family_bucket: TERRA-MAP-004
-candidate_title: "Bonaparte–Tasman map / Tasman map"
-candidate_creator: "Attributed to Tasman voyage cartography; draftsman uncertain"
-source_data_dates:
-  - 1642-1643
-  - 1644
-candidate_object_dates:
-  - after 1644
-  - circa 1695
-source_variants:
-  - A
-  - B
-  - C
-claimed_holding:
-  institution: State Library of New South Wales, Mitchell Library
-  conflicting_locators:
-    - "ML 800"
-    - "ML 863"
+candidate_creator: "Tasman voyage cartography; draftsman uncertain"
+source_data_dates: [1642-1643, 1644]
+candidate_object_dates: ["after 1644", "circa 1695"]
+claimed_holding: "State Library of New South Wales, Mitchell Library"
+conflicting_locators: ["ML 800", "ML 863"]
 blocking_conflicts:
   - call number conflict
-  - object creation date differs from voyage-data date and heraldic date
-  - authorship and drafting supervision uncertain
-  - exact southern blanks, joins, and coastlines must be read from the artifact
-promotion_task: "Open the exact State Library record and separate object date, source-map date, voyage date, provenance, and depicted geography."
+  - object date differs from voyage-data and heraldic dates
+  - authorship and depicted joins/blanks remain uncertain
+promotion_task: "Open the exact State Library item and separate object, source, voyage, and provenance dates."
 ```
 
-### TERRA-MAP-005-A — Cook, Chart of the Southern Hemisphere, 1777
+### TERRA-MAP-005-A — Cook, Southern Hemisphere chart, 1777
 
 ```yaml
 record_class: ITEM_CANDIDATE
 verification_status: CROSS_VARIANT_UNVERIFIED
-parent_family_bucket: TERRA-MAP-005
 candidate_title: "A Chart of the Southern Hemisphere; shewing the Tracks of some of the most distinguished Navigators"
-candidate_creator: James Cook / voyage publication cartography
+candidate_creator: "James Cook / voyage publication cartography"
 candidate_date: 1777
-candidate_publication: "A Voyage towards the South Pole and Round the World"
-source_variants:
-  - A
-  - B
-  - C
-claimed_holding:
-  institution: Royal Museums Greenwich / National Maritime Museum
-  locator_claim: "G201:1/1 / object 540700"
+claimed_holding: "Royal Museums Greenwich / National Maritime Museum"
+claimed_locator: "G201:1/1 / object 540700"
 blocking_conflicts:
   - exact item and accession not curator-confirmed
-  - output language alternates between disproving all southern land and disproving a large temperate continent
-  - claim that the chart was specifically designed to refute Dalrymple requires direct documentary support
-  - chart annotations and Cook's own journal wording need item/page locators
-promotion_task: "Confirm the museum item, scan, annotations, publication context, and the narrow empirical conclusion supported by Cook's records."
+  - outputs alternate between disproving all southern land and only constraining a large temperate continent
+  - claimed direct refutation of Dalrymple needs documentary support
+promotion_task: "Confirm the item, annotations, publication context, and narrow empirical conclusion."
 ```
 
-## Extended candidates
+---
+
+## Extended map leads
 
 ### TERRA-MAP-006-A — Mercator world map, 1569
 
 ```yaml
 record_class: UNVERIFIED_LEAD
-candidate_title: "Nova et Aucta Orbis Terrae Descriptio ad Usum Navigantium Emendate Accommodata"
-blocking_issue: "No surviving institutional scan was inspected consistently across the variants."
-next_task: "Select one surviving copy, transcribe its southern labels, and compare it directly with the exact Ortelius 1570 item."
+status_note: "General influence on Ortelius is verified; the Mercator artifact itself is not yet an item-level record."
+next_task: "Select one surviving institutional copy and transcribe its southern labels."
 ```
 
-### TERRA-MAP-007-A — Oronce Fine southern-continent map, 1531/1534
+### TERRA-MAP-007-A — Oronce Finé, 1531/1534
 
 ```yaml
 record_class: UNVERIFIED_LEAD
-candidate_titles:
-  - "Nova et integra universi orbis descriptio"
-  - "Recens et integra orbis descriptio"
 blocking_issues:
-  - exact relevant edition/date varies between outputs
-  - earliest occurrence and originator of "Terra Australis recenter inventa, sed nondum plene cognita" is disputed
-next_task: "Locate institutional scans for the exact Fine artifacts and compare the phrase against earlier Schöner material."
+  - exact relevant artifact/date varies
+  - earliest occurrence and originator of the disputed Latin phrase remain unresolved
+next_task: "Locate exact institutional Finé and earlier Schöner artifacts before asserting terminology transmission."
 ```
 
-## Non-map clusters retained separately
+---
 
-### ANT-OBS-1820 — Competing first-observation records
+## Non-map clusters
+
+### ANT-OBS-1820 — Competing observation records
 
 ```yaml
 record_class: EVENT_CLUSTER_LEAD
-candidates:
-  - Bellingshausen
-  - Bransfield and Smith
-  - Palmer
-rule: "Do not resolve priority without exact logs/charts, calendar conversion, coordinates, and a description of whether land, mountain, ice shelf, or sea ice was observed."
+candidates: [Bellingshausen, Bransfield_and_Smith, Palmer]
+rule: "Do not resolve priority without exact logs/charts, calendar conversion, coordinates, and observed-feature classification."
 ```
 
 ### ANT-REINT-001 — Ice-free Antarctica reinterpretation chain
 
 ```yaml
 record_class: REINTERPRETATION_LEAD
-candidate_people:
-  - Arlington H. Mallery
-  - Charles H. Hapgood
-candidate_maps_invoked:
-  - Piri Reis 1513
-  - Oronce Fine 1531/1534
-  - Philippe Buache 1739
-rule: "Locate the earliest exact publication, edition, page, quotation, reproduction used, and scholarly/cartographic criticism. Keep the historical map artifact separate from the later claim."
+candidate_people: [Arlington_H_Mallery, Charles_H_Hapgood]
+candidate_maps: [Piri_Reis_1513, Oronce_Fine, Philippe_Buache_1739]
+rule: "Locate the earliest exact publication, page, quotation, reproduction, and criticism."
 ```
 
 ## Current counts
 
 ```yaml
-source_variants: 3
-core_item_candidates: 5
+acquisition_variants: 5
+core_items_total: 5
+curator_promoted_item_records: 1
+remaining_core_candidates: 4
+verified_narrow_edges: 1
 extended_map_leads: 2
 event_clusters: 1
 reinterpretation_clusters: 1
-curator_promoted_records: 0
-canonical_edges: 0
 ```
