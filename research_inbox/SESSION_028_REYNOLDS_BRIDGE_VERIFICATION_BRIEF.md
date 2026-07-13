@@ -3,13 +3,51 @@
 **Target:** `BRIDGE-032-003`  
 **Related question:** `RQ-032`  
 **Mode:** narrow public-source verification  
-**Status:** OPEN — return acquisition only
+**Status:** COMPLETED — reviewed in Session 029
 
-## Objective
+## Curator result
+
+The audit produced a supported split finding rather than a single continuous influence edge:
+
+```text
+Symmes advocacy
+    ↓ same person / exposure
+Jeremiah N. Reynolds
+    ↓ contemporary pivot and institutional reframing
+Southern Ocean / South-Pole exploration advocacy
+```
+
+Supported now:
+
+- `SAME_PERSON_CARRIER`;
+- `EXPOSURE_PATH`;
+- `INSTITUTIONAL_CARRIER`;
+- `RHETORICAL_REFRAMING`;
+- Reynolds's 1836 *Address* → Poe's January 1837 review as `DIRECT_CITATION`.
+
+Not established:
+
+- a primary artifact documenting Reynolds and Symmes together at a lecture or in correspondence;
+- Symmes's doctrine as a causal basis of Reynolds's mature expedition program;
+- exact Reynolds passages copied into *Pym*;
+- complete abandonment of all earlier Symmes-related ideas.
+
+Read:
+
+- [Session 029 variant manifest](SESSION_029_REYNOLDS_VERIFICATION_VARIANT_MANIFEST.md)
+- [Session 029 QC](../reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md)
+- [Supported bridge finding](../graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md)
+- [Reynolds → Poe edge](../graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
+- [Negative-evidence record](../data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
+- [Next verification brief](SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md)
+
+---
+
+## Original objective
 
 Test whether Jeremiah N. Reynolds was merely the same person who moved from Symmes's Hollow Earth lecture circuit into Antarctic exploration advocacy, or whether specific ideas, language, contacts, or institutional pathways moved with him.
 
-The task must allow all outcomes:
+The task allowed all outcomes:
 
 - documented influence;
 - exposure opportunity only;
@@ -20,7 +58,7 @@ The task must allow all outcomes:
 
 ## Required artifact set
 
-Locate exact, dated, item-level records for as many of these as possible:
+The task requested exact, dated, item-level records for:
 
 1. Symmes Circular No. 1 (1818), preferably an institutional scan.
 2. Reynolds/Symmes lecture notices, pamphlets, newspaper reports, or correspondence from the 1820s.
@@ -30,7 +68,7 @@ Locate exact, dated, item-level records for as many of these as possible:
 6. Congressional committee reports, Navy correspondence, or expedition-funding records naming Reynolds.
 7. Poe's 1837 review of Reynolds and the relevant 1838 *Pym* passages.
 
-## Required metadata for each source
+## Required metadata
 
 ```text
 exact title
@@ -46,33 +84,33 @@ exact quotation
 source type: primary / scholarly secondary / later summary
 ```
 
-## Core tests
+## Tests performed
 
 ### Test A — Personal-contact record
 
-Document Reynolds's actual relationship with Symmes:
+Requested:
 
-- dates of collaboration;
+- collaboration dates;
 - lecture locations;
 - publications or notices naming both;
 - correspondence or contemporary descriptions;
 - date and nature of any break.
 
+**Result:** public support of Symmes's theory was documented; a primary jointly naming lecture/contact artifact was not located.
+
 ### Test B — Lexical continuity
 
-Search Reynolds's later exploration texts for exact or near-exact language from the Hollow Earth period:
+Requested searches for:
 
 - open at the poles;
 - habitable interior;
 - warm/rich land;
 - expedition as proof;
-- specific percentages, coordinates, mottos, or unusual phrasing.
+- distinctive percentages, coordinates, mottos, or phrasing.
 
-Do not rely only on keyword absence. Record transcription quality and search limitations.
+**Result:** the available 1836 OCR contains no `Symmes` or `hollow`. This became narrow negative evidence, with OCR and synonym limitations preserved.
 
 ### Test C — Rhetorical transformation
-
-Compare what Reynolds retains, adds, removes, and reframes:
 
 ```text
 Symmes/Hollow Earth period
@@ -80,70 +118,39 @@ Symmes/Hollow Earth period
 commercial/scientific/national exploration advocacy
 ```
 
-Determine whether the later case rests on:
-
-- commerce and whaling/sealing;
-- national prestige;
-- navigation and hydrography;
-- natural history;
-- scientific discovery;
-- explicit polar-opening theory;
-- or a mixture.
+**Result:** polar exploration remained central, while commerce, navigation, science, hydrography, and national prestige became the published institutional rationale.
 
 ### Test D — Institutional carrier
 
-Identify the people and institutions through which Reynolds's advocacy moved:
+The audit documented movement through:
 
-- newspapers;
-- lecture venues;
-- publishers;
-- Congress;
-- Committee on Naval Affairs;
-- Navy Department;
-- presidents or cabinet officers;
-- scientific societies;
-- commercial interests.
+- public lectures;
+- state legislatures;
+- Congress and committees;
+- Harper & Brothers;
+- the periodical press.
 
-An institution recording or hearing Reynolds does not equal endorsement.
+Institutional recording and circulation were not treated as endorsement of Hollow Earth theory.
 
 ### Test E — Reynolds → Poe text reuse
 
-Align exact passages from Reynolds's 1836 *Address* with Poe's review and *Pym*.
-
-Return:
-
-- Reynolds page/image number;
-- Poe page/chapter;
-- exact overlapping wording;
-- length of overlap;
-- reliable scholarly source discussing the reuse;
-- whether the reused material concerns Antarctic exploration specifically.
-
-This test may produce a separate `DIRECT_CITATION` or `KNOWN_COPY` edge even if the Reynolds Hollow Earth→exploration bridge remains uncertain.
+**Result:** Poe's named review is verified as `DIRECT_CITATION`. Exact Reynolds→*Pym* passage alignment remains open, so `KNOWN_COPY` was not promoted.
 
 ### Test F — Disproof and negative evidence
 
-Actively look for evidence that:
+The audit actively tested:
 
-- Reynolds explicitly repudiated Symmes's theory;
-- his expedition advocacy began from independent commercial or scientific motives;
-- contemporaries distinguished the exploration proposal from Hollow Earth belief;
-- no Hollow Earth language appears in reliable later primary texts;
-- later historians retroactively overstate the causal role of Symmes.
+- contemporary descriptions of Reynolds changing course;
+- absence of explicit theory language in the mature published case;
+- independent commercial and scientific rationales;
+- whether later summaries overstate causal continuity.
 
-## Deliverables
+## Completion decision
 
-1. Five to twelve item-level source records.
-2. A dated Reynolds chronology from Symmes collaboration through the 1836 *Address* and expedition lobbying.
-3. Exact quotations with page/image locators.
-4. A transformation table: retained / added / removed / reframed.
-5. A contact and institutional-carrier table.
-6. Reynolds→Poe parallel-text table.
-7. Evidence for and against causal influence.
-8. Failed-search log.
-9. Recommended classification for each possible edge.
-10. No canonical promotion; curator review required.
-
-## Copy-paste cloud-agent prompt
-
-> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `schemas/BRIDGE_CANDIDATE.md`, `research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md`, `reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md`, and `graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md`. Execute `research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md`. Work only on Jeremiah N. Reynolds. Locate item-level primary records for his Symmes collaboration, lecture activity, break from Symmes, Antarctic/South-Seas expedition advocacy, 1836 Address, presidential or congressional contacts, and Poe's review/text reuse. Return exact titles, dates, institutions, catalogue identifiers, stable scans, pages, and quotations. Test both continuity and discontinuity. Distinguish personal contact, exposure opportunity, documented influence, direct citation, known copying, and negative evidence. Do not assume that being the same person proves the earlier theory caused the later expedition program. Do not commit or create canonical edges.
+```yaml
+brief_status: COMPLETED
+candidate_status: SUPPORTED_SPLIT
+direct_citation_edges: 1
+known_copy_edges: 0
+next_decisive_artifact: "Alleged 1827 Remarks of Symmes' Theory pamphlet"
+```
