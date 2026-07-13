@@ -1,10 +1,11 @@
 # RQ-032 — Antarctica / Hollow Earth Bridge Candidate Registry
 
-> **Registry class:** RAW CROSS-DOMAIN CANDIDATES  
-> **Canonical edges:** 0  
+> **Registry class:** CROSS-DOMAIN CANDIDATES AND VERIFIED SUBFINDINGS  
+> **Supported bridge findings:** 1  
+> **Canonical direct-citation edges:** 1  
 > **Related files:** `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `schemas/BRIDGE_CANDIDATE.md`, `research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md`
 
-This registry gives stable local IDs to candidate clusters produced during Session 028. Registration means "worth testing," not "historically connected."
+This registry gives stable local IDs to candidate clusters. Registration means `worth testing`; only explicitly linked curator records count as verified findings or edges.
 
 ## Candidate queue
 
@@ -12,8 +13,8 @@ This registry gives stable local IDs to candidate clusters produced during Sessi
 |---|---|---|---|---|
 | `BRIDGE-032-001` | Symmes Circular No. 1 (1818) → later Antarctic polar-opening language | `LEXICAL_MIGRATION`, `POSTAL_DISTRIBUTION`, `EXPOSURE_PATH` | HIGH | `OPEN — SOURCE LOCATORS REQUIRED` |
 | `BRIDGE-032-002` | *Symzonia* (1820) → later Antarctic-inner-world nonfiction | `EDITORIAL_SYNTHESIS`, `RETROACTIVE_FUSION` | MEDIUM | `OPEN — DOWNSTREAM UPTAKE UNKNOWN` |
-| `BRIDGE-032-003` | Jeremiah Reynolds: Symmes advocate → Antarctic expedition lobbyist | `SAME_PERSON_CARRIER`, `EXPOSURE_PATH`, `SHARED_INFRASTRUCTURE` | HIGHEST | `OPEN — FIRST DEEP AUDIT` |
-| `BRIDGE-032-004` | Reynolds's 1836 *Address* → Poe review / *Pym* text reuse | `DIRECT_CITATION`, `KNOWN_COPY`, `EDITORIAL_SYNTHESIS` | HIGH | `OPEN — PARALLEL TEXT NEEDED` |
+| `BRIDGE-032-003` | Jeremiah Reynolds: Symmes advocate → Antarctic expedition lobbyist | `SAME_PERSON_CARRIER`, `EXPOSURE_PATH`, `INSTITUTIONAL_CARRIER`, `RHETORICAL_REFRAMING` | HIGHEST | `SUPPORTED_SPLIT — DOCTRINAL TRANSMISSION NOT ESTABLISHED` |
+| `BRIDGE-032-004` | Reynolds's 1836 *Address* → Poe review / *Pym* text reuse | `DIRECT_CITATION`, `KNOWN_COPY`, `EDITORIAL_SYNTHESIS` | HIGH | `PARTIAL — DIRECT CITATION VERIFIED; KNOWN COPY OPEN` |
 | `BRIDGE-032-005` | William Reed, *Phantom of the Poles* (1906) → later Antarctic entrance claims | `LEXICAL_MIGRATION`, `SHARED_ERROR`, `ICONOGRAPHIC_MIGRATION` | HIGH | `OPEN — QUOTE/DIAGRAM AUDIT` |
 | `BRIDGE-032-006` | Lovecraft's *At the Mountains of Madness* → later Antarctic hidden-civilization/base narratives | `ICONOGRAPHIC_MIGRATION`, `EDITORIAL_SYNTHESIS`, `EXTRATERRESTRIALIZATION` | MEDIUM | `OPEN — DOWNSTREAM CITATION UNKNOWN` |
 | `BRIDGE-032-007` | Ray Palmer publishing/material → Raymond Bernard synthesis | `SHARED_INFRASTRUCTURE`, `DIRECT_CITATION`, `EDITORIAL_SYNTHESIS` | HIGH | `OPEN — BOOK COMPARISON REQUIRED` |
@@ -41,19 +42,47 @@ This registry gives stable local IDs to candidate clusters produced during Sessi
 
 ### BRIDGE-032-003 — Reynolds same-person pivot
 
-**Clue:** Reynolds reportedly moved from Symmes's lecture circuit to sustained Antarctic expedition advocacy and institutional lobbying.
+**Curator result:** `SUPPORTED_SPLIT`.
 
-**What would promote it:** primary lecture material, correspondence, diary entries, memorials, or speeches showing how the earlier theory affected—or was explicitly rejected in—the later expedition program.
+Primary and near-primary records support:
 
-**Possible outcomes:** `DOCUMENTED_INFLUENCE`, `EXPOSURE_PATH`, `PERSONAL_CONTACT`, or `NEGATIVE_EVIDENCE`.
+- Reynolds was publicly identified as a lecturer for Symmes's theory;
+- the same person redirected into Southern Ocean and South-Pole expedition advocacy;
+- his proposal moved through state legislatures, Congress, committees, publishers, and the press;
+- his 1836 published case foregrounded commerce, navigation, science, national prestige, and exploration;
+- explicit `Symmes` and `hollow` language was not located in the available 1836 OCR.
+
+This supports `SAME_PERSON_CARRIER`, `EXPOSURE_PATH`, `INSTITUTIONAL_CARRIER`, and `RHETORICAL_REFRAMING`.
+
+It does **not** yet support:
+
+- a primary `PERSONAL_CONTACT` edge between Reynolds and Symmes;
+- `DOCUMENTED_INFLUENCE` from Symmes's doctrine into the mature expedition program;
+- complete abandonment of every earlier idea.
+
+Read:
+
+- [Supported bridge finding](BRIDGE-032-003-REYNOLDS-PIVOT.md)
+- [Session 029 QC](../../reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md)
+- [Negative evidence](../../data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
+
+**Next decisive artifact:** the alleged 1827 Reynolds pamphlet *Remarks of Symmes' Theory Which Appeared in the American Quarterly Review*.
 
 ### BRIDGE-032-004 — Reynolds → Poe
 
-**Clue:** Poe reviewed Reynolds and may have reused substantial passages in *Pym*.
+**Verified sub-edge:** Poe's January 1837 `South-Sea Expedition` explicitly names and reviews Reynolds's 1836 *Address*.
 
-**What would promote it:** exact parallel passages with edition/page locators and reliable scholarship establishing reuse.
+```text
+Reynolds Address (1836)
+        ↓ DIRECT_CITATION
+Poe review (1837)
+```
 
-**Boundary:** even a confirmed Reynolds→Poe edge does not establish Poe→later Hollow Earth or Antarctic-base claims.
+Read: [BRIDGE-EDGE-001](../transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md).
+
+**Still open:** the repeated claim that *Pym* copies roughly 700 words from Reynolds. Promotion to `KNOWN_COPY` requires exact aligned passages with edition/page locators.
+
+**Boundary:** even a confirmed Reynolds→*Pym* edge would not establish Poe→later Hollow Earth or Antarctic-base claims.
 
 ### BRIDGE-032-005 — Reed quotation and diagram lineage
 
@@ -69,7 +98,7 @@ This registry gives stable local IDs to candidate clusters produced during Sessi
 
 **What would promote it:** later claimants acknowledge Lovecraft or reproduce unique phrases, structures, names, illustrations, or edition-specific errors.
 
-**Boundary:** the original geography must be described accurately; do not compress surface ruins, ice-covered terrain, and subterranean passages into a generic "underground city."
+**Boundary:** the original geography must be described accurately; do not compress surface ruins, ice-covered terrain, and subterranean passages into a generic `underground city`.
 
 ### BRIDGE-032-007 — Palmer → Bernard
 
@@ -81,9 +110,9 @@ This registry gives stable local IDs to candidate clusters produced during Sessi
 
 ### BRIDGE-032-008 — Byrd / Highjump → Bernard
 
-This cluster must be split into:
+This cluster remains split into:
 
-- `BRIDGE-032-008A`: earliest authentic Byrd "land beyond the pole" wording and its derivative quotation chain;
+- `BRIDGE-032-008A`: earliest authentic Byrd `land beyond the pole` wording and its derivative quotation chain;
 - `BRIDGE-032-008B`: Operation Highjump press/public records used in later secret-mission claims;
 - `BRIDGE-032-008C`: actual archival identifiers cited by Bernard or derivatives.
 
@@ -95,7 +124,7 @@ This cluster must be split into:
 
 **What would promote it:** exact edition/page, a search for earlier candidates, and downstream authors demonstrably repeating Szabo's distinctive names or details.
 
-**Boundary:** "earliest found" must not be rewritten as absolute origin.
+**Boundary:** `earliest found` must not be rewritten as absolute origin.
 
 ### BRIDGE-032-010 — Agartha retroactive fusion
 
@@ -109,15 +138,23 @@ This cluster must be split into:
 
 ```yaml
 methodology_variants: 1
-historical_acquisition_variants: 2
+initial_historical_acquisition_variants: 2
+reynolds_verification_variants: 2
 normalized_candidate_clusters: 10
-candidates_in_deep_verification: 1
-canonical_bridges: 0
-canonical_cross_domain_findings: 0
+candidates_deep_verified: 1
+supported_bridge_findings: 1
+canonical_direct_citation_edges: 1
+canonical_known_copy_edges: 0
+negative_evidence_records: 1
+canonical_full_cross_domain_lineages: 0
 ```
 
 ## Current deep-verification target
 
-`BRIDGE-032-003 — Jeremiah Reynolds same-person pivot`
+```text
+BRIDGE-032-003A
+Jeremiah N. Reynolds
+alleged 1827 Remarks of Symmes' Theory pamphlet
+```
 
-See `research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md`.
+Execute `research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md`.
