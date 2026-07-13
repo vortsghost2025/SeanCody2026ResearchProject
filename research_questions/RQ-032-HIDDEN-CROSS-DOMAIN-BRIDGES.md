@@ -62,7 +62,6 @@ RQ:
 
   do_not_treat_as_proof:
     - broad thematic similarity
-    - two traditions containing serpents, underground places, portals, stars, or secret knowledge
     - chronological overlap without exposure evidence
     - one shared publisher without item-level connection
     - one person appearing in the same broad field
@@ -73,6 +72,7 @@ RQ:
     - an institution preserving a record being treated as institutional endorsement
     - one person's biography being treated automatically as doctrinal continuity
     - absence of a keyword being treated as proof of total intellectual abandonment
+    - a catalogue title being treated as proof of the text's substantive argument
 
   partial_resolution: >
     Three or more bridge candidates have item-level evidence for shared infrastructure,
@@ -96,19 +96,18 @@ RQ:
     - schemas/MOTIF.md
     - schemas/PROPAGATION.md
     - schemas/TRANSMISSION_EDGE.md
-    - research_inbox/SESSION_028_BRIDGE_VARIANT_MANIFEST.md
-    - reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md
     - graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md
-    - research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md
-    - research_inbox/SESSION_029_REYNOLDS_VERIFICATION_VARIANT_MANIFEST.md
-    - reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md
     - graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md
+    - graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md
     - graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md
+    - graph/transmissions/BRIDGE-EDGE-002-AQR-REYNOLDS-RESPONSE-CANDIDATE.md
     - data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md
-    - research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md
+    - data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md
+    - research_inbox/SESSION_030_REYNOLDS_1827_RESULT_MANIFEST.md
+    - reports/SESSION_030_REYNOLDS_1827_QC.md
 
   generated_session: SESSION_027
-  current_acquisition_session: SESSION_029
+  current_acquisition_session: SESSION_030
   last_updated: 2026-07-13
 ```
 
@@ -118,62 +117,71 @@ RQ:
 Methodology commentary variants: 1
 Initial historical acquisition variants: 2
 Reynolds verification variants: 2
+Reynolds 1827 result variants: 1
 Normalized bridge candidate clusters: 10
 Candidates deep-verified: 1
 Supported bridge findings: 1
+Catalogue-authenticated continuity artifacts: 1
 Canonical direct-citation edges: 1
+Partial response edges: 1
 Canonical known-copy edges: 0
 Negative-evidence records: 1
+Copied-error candidates: 1
 RQ-032 status: SEARCHING
 ```
 
 ## First deep-verification result — Reynolds
 
-The first candidate did not resolve into a simple continuous lineage.
+The Reynolds candidate remains a split finding:
 
 ```text
 Symmes Hollow Earth advocacy
         ↓ same person / public exposure
 Jeremiah N. Reynolds
-        ↓ documented contemporary pivot
-Southern Ocean and South-Pole expedition advocacy
-        ↓ institutional circulation
-state legislatures, Congress, publishers, periodicals
+        ↓ documented pivot in 1826
+Southern Ocean and South-Pole advocacy
+        ↓
+1827 printed response concerning Symmes's theory
+        ↓
+1836 institutional case without explicit Symmes/hollow language
 ```
 
 ### Supported
 
-- A published John Quincy Adams diary entry describes Reynolds as a lecturer supporting Symmes's theory and says he had `varied his purpose` toward a Southern Ocean circumnavigation proposal.
-- A December 1834 congressional printing names the memorial of J. N. Reynolds and others and records its route through state-legislative and congressional consideration.
-- Reynolds's 1836 *Address* packages his advocacy for circulation through the public press and argues through commerce, navigation, science, national honor, and exploration.
+- John Quincy Adams described Reynolds as a lecturer supporting Symmes's theory who had `varied his purpose` toward Southern Ocean circumnavigation.
+- Reynolds's later proposal moved through state-legislative, congressional, publishing, and periodical channels.
+- The Library of Congress catalogue acquisition authenticates a Reynolds pamphlet printed in Washington by Gales & Seaton in 1827 titled *Remarks on a review of Symmes' theory, which appeared in the American quarterly review*.
+- The 1827 pamphlet proves continued public engagement with the Symmes controversy after Adams's pivot description.
+- Reynolds's 1836 *Address* packages his advocacy through commerce, navigation, science, national honor, and exploration.
 - Poe's January 1837 review directly identifies and reviews Reynolds's 1836 book.
 
 ### Not established
 
+- Reynolds's actual doctrinal position inside the 1827 pamphlet.
 - A primary artifact documenting Reynolds and Symmes together in a lecture, correspondence exchange, or jointly named publication.
 - Symmes's Hollow Earth doctrine as a causal basis for Reynolds's mature expedition program.
 - Exact copied passages from Reynolds into *Pym*.
 - Complete intellectual abandonment of all earlier Symmes-related ideas.
 
-### Negative evidence
+### Negative evidence retained
 
-The available OCR of Reynolds's 1836 *Address* contains no match for `Symmes` and no match for `hollow`. Its South-Pole argument is framed through science, national character, commerce, navigation, and exploration.
-
-This supports a narrow negative conclusion about explicit doctrinal carryover in that publication. It does not prove zero indirect influence.
+The available OCR of Reynolds's 1836 *Address* contains no match for `Symmes` and no match for `hollow`. This supports a narrow negative conclusion about explicit doctrinal carryover in that publication. The authenticated 1827 pamphlet complicates an immediate clean-break narrative but does not contradict the 1836 text-level result.
 
 ## Current classification
 
 ```yaml
 BRIDGE-032-003:
-  status: SUPPORTED_SPLIT
+  status: SUPPORTED_SPLIT_WITH_1827_BIBLIOGRAPHIC_CONTINUITY
   supported:
     - SAME_PERSON_CARRIER
     - EXPOSURE_PATH
     - INSTITUTIONAL_CARRIER
     - RHETORICAL_REFRAMING
+    - CONTINUED_PUBLIC_ENGAGEMENT_IN_1827
   not_established:
     - PERSONAL_CONTACT_FROM_PRIMARY_ARTIFACT
     - DOCUMENTED_DOCTRINAL_INFLUENCE
+    - 1827_DOCTRINAL_POSITION
     - COMPLETE_ABANDONMENT
 
 BRIDGE-032-004:
@@ -183,34 +191,35 @@ BRIDGE-032-004:
     - ISSUE_LEVEL_EXPOSURE_PATH
   not_established:
     - KNOWN_COPY_INTO_PYM
+
+BRIDGE-EDGE-002:
+  status: PARTIAL_RESPONSE_CANDIDATE
+  canonical: false
 ```
-
-Read:
-
-- [Reynolds supported finding](../graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md)
-- [Reynolds → Poe direct-citation edge](../graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
-- [Session 029 variant manifest](../research_inbox/SESSION_029_REYNOLDS_VERIFICATION_VARIANT_MANIFEST.md)
-- [Session 029 QC](../reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md)
-- [Negative-evidence record](../data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
 
 ## Why RQ-032 remains SEARCHING
 
-The resolution threshold requires at least three bridge candidates to pass item-level tests or be rejected with documented negative evidence. Reynolds is the first deep-verified candidate cluster.
-
-One supported split result and one narrow direct-citation edge are not yet a cross-domain map.
+The resolution threshold requires at least three bridge candidates to pass item-level tests or be rejected with documented negative evidence. Reynolds is the first deep-verified candidate cluster. One supported split result, one catalogue-authenticated continuity artifact, and one direct-citation edge do not yet form a cross-domain map.
 
 ## Current exact task
 
-Work only on the alleged 1827 Reynolds artifact:
+The existence question is closed. Work only on acquiring and comparing the two 1827 texts:
 
 ```text
-Remarks of Symmes' Theory Which Appeared in the American Quarterly Review
+American Quarterly Review, "Symmes's theory," vol. 1, p. 235 onward
+        ↓ reported review/response relation
+J. N. Reynolds, Remarks on a review of Symmes' theory... (1827)
 ```
 
-Determine whether it is an authentic Reynolds pamphlet, offprint, article, title variant, misattribution, or bibliographic ghost. Its exact contents may show whether Reynolds continued defending Symmes after the personal break and before his mature institutional advocacy.
+Return:
 
-Read and execute:
+- exact institutional scans;
+- complete bibliographic metadata and page ranges;
+- Reynolds's exact position with page/image locators;
+- aligned claims and quotations;
+- whether the response is defense, qualification, modification, strategic reframing, or rejection;
+- title-page transcription;
+- evidence for or against the reported counterpart relation;
+- failed searches.
 
-- `research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md`
-
-Return one exact institutional record or a documented failed-source record. Do not create a canonical edge.
+Do not create a canonical response edge until both texts are matched.
