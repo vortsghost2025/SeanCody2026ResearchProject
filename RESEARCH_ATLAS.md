@@ -30,7 +30,7 @@ A domain being listed does **not** mean it is fully ingested or verified.
 |---|---|---|
 | Grey-alien imagery | Fiction, testimony, visual standardization, media amplification, and retroactive artifact interpretation | SEEDED — rigorous inventory pending |
 | Serpent / reptilian traditions | Distinct ancient traditions, diffusion, independent similarity, later reinterpretation, and modern synthesis | SEEDED — culture-level decomposition pending |
-| Antarctica and Terra Australis | Textual geography, maps, expeditions, polar openings, bases, gateways, and later reinterpretations | **ACTIVE — RQ-031 launched** |
+| Antarctica and Terra Australis | Textual geography, maps, expeditions, polar openings, bases, gateways, and later reinterpretations | **ACTIVE — RQ-031 cross-variant QC** |
 | Hollow Earth | Historical theories, Shaver/Palmer, occult networks, UFO publishing, and mail-order transmission | ACTIVE |
 | UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, and Dulce | ACTIVE |
 | CERN / portals / dimensions | Scientific terminology versus later occult, media, and conspiracy reuse | DECLARED — inventory pending |
@@ -93,17 +93,37 @@ Read:
 
 ### 3.3 Terra Australis → Antarctica
 
-**Research state:** acquisition launched; no conclusion yet.
+**Research state:** three acquisition variants received; cross-variant QC complete; no item promoted yet.
 
-The project is tracing how a theoretical balancing southern landmass became a repeated cartographic object, changed as voyages supplied evidence, separated from Australia, and was replaced by observed Antarctic geography.
+```text
+Acquisition variants: 3
+Core item candidates: 5
+Curator-promoted map records: 0
+Canonical transmission edges: 0
+Canonical findings: 0
+RQ-031 status: SEARCHING
+```
 
-The same lane also tracks later claims that older maps depict an ice-free or impossibly well-surveyed Antarctica. Those modern reinterpretations must remain separate from what the original maps actually show.
+The variants agree that five artifacts deserve priority:
+
+1. a printed Ptolemaic world map, Ulm, 1482;
+2. Ortelius's *Typus Orbis Terrarum*, 1570;
+3. a Bertius South Polar / Terra Australis map, 1616;
+4. the Bonaparte–Tasman map or directly related voyage cartography;
+5. Cook's Southern Hemisphere chart, 1777.
+
+They disagree on call numbers, dates, titles, plate states, source relationships, and what Cook or the 1820 observers established. Agreement therefore changes the search queue, not the evidence class.
+
+The same lane separately tracks later claims that older maps depict an ice-free or impossibly well-surveyed Antarctica. Those reinterpretations must never be merged with what the original maps actually show.
 
 Read:
 
-- [RQ-031 — Terra Australis / Antarctica map lineage](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md)
+- [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md)
+- [Variant manifest](research_inbox/SESSION_025_TERRA_VARIANT_MANIFEST.md)
+- [Cross-variant QC](reports/SESSION_025_TERRA_CROSS_VARIANT_QC.md)
+- [Candidate registry](graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md)
 - [Session 025 acquisition brief](research_inbox/SESSION_025_TERRA_AUSTRALIS_ACQUISITION_BRIEF.md)
-- [ChatGPT's original Three-Map Rule](ChatGPTfirstentryjuly12.md)
+- [Original Three-Map Rule](ChatGPTfirstentryjuly12.md)
 
 ---
 
@@ -135,13 +155,15 @@ Evidence classes remain separate:
 
 A historical map can be Evidence A while a modern claim about what it depicts remains C, D, or E.
 
+A model's declarations of `INGESTED`, `COMPLETE`, `CANONICAL`, `CONFIRMED`, or numerical confidence do not alter repository status.
+
 ---
 
 ## 5. Active research queue
 
 | Priority | ID | Target | Current state | What moves it forward |
 |---|---|---|---|---|
-| **P0** | **RQ-031** | Terra Australis → observed Antarctica map lineage | ACTIVE — public/cloud suitable | Institutional scans, catalogue IDs, editions, labels, source lineages, voyage reports, modern reinterpretation origins |
+| **P0** | **RQ-031** | Terra Australis → observed Antarctica map lineage | SEARCHING — 3 variants, 5 core candidates, 0 promoted | Verify exact item pages, scans, labels, editions/states, and source-supported edges one item at a time |
 | P0 | RQ-023 | Shaver/Palmer transmission across 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records, and dated reprints |
 | P0 | RQ-030 | Evolution of Sean's human–AI ensemble architecture | PARTIAL — paused at private boundary | Isolated local filesystem agent, earlier A/B comparisons, implementation tests, checkpoint/state artifacts |
 | P1 | RQ-024 | Barker archive: Walton/Branton correspondence | OPEN | Finding aid, curator response, folder inventory, or scans |
@@ -159,11 +181,15 @@ Research questions are first-class objects, not disposable TODO notes.
 
 Cloud agents isolated to this repository should work on public evidence, not attempt to search Sean's private filesystem.
 
-### Current assignment: RQ-031
+### Current assignment: verify one exact Ortelius item
 
-> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md`, `docs/METHODOLOGY.md`, and the map rules in `ChatGPTfirstentryjuly12.md`. Execute `research_inbox/SESSION_025_TERRA_AUSTRALIS_ACQUISITION_BRIEF.md`. Use public primary sources and institutional scans. Build exact map records and source-supported transmission edges. Keep observed geography, inferred geography, speculative geography, and modern reinterpretation separate. Do not assume visual resemblance proves accurate Antarctic mapping. Record failed searches and disagreements. Return raw acquisition only; do not commit, ingest, freeze, or mark the question resolved.
+Do **not** build another broad Terra Australis overview.
 
-After RQ-031, the preferred public sequence is:
+> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md`, `research_inbox/SESSION_025_TERRA_VARIANT_MANIFEST.md`, `reports/SESSION_025_TERRA_CROSS_VARIANT_QC.md`, and `graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md`. Work only on `TERRA-MAP-002-A` — Abraham Ortelius, *Typus Orbis Terrarum*, 1570. Locate one exact institutional item from the 1570 edition. Return the exact catalogue title, institution, catalogue ID/call number, stable scan or IIIF URL, plate/state evidence, printed southern label, and a transcription from the primary image. Separately identify what Ortelius's `Catalogus Auctorum` proves and what it does not prove about Mercator or Oronce Fine. Do not use resemblance as a copying edge. Return `UNKNOWN` where the source trail is insufficient. Do not commit, ingest, freeze, or mark RQ-031 partial or resolved.
+
+After Ortelius passes curator review, work through Ptolemy, Bertius, Tasman, and Cook one item at a time.
+
+Preferred public sequence after RQ-031:
 
 ```text
 Terra Australis / Antarctica map lineage
@@ -205,25 +231,25 @@ Do not give that agent write access to the projects it studies. Do not reuse the
 
 For a narrow task:
 
-> Work only on **[RQ ID]**. Return evidence that would satisfy or falsify its resolution criteria. Do not provide a general essay.
+> Work only on **[RQ ID / ITEM ID]**. Return evidence that would satisfy or falsify its promotion criteria. Do not provide a general essay.
 
 ---
 
 ## 9. How Sean can use this page
 
-Sean can send an AI one line:
+For the current cloud task, send:
 
 ```text
-Research Atlas + RQ-031 — execute the linked acquisition brief
+Research Atlas + TERRA-MAP-002-A — execute the exact Ortelius item verification prompt
 ```
 
-or:
+For the Shaver lane:
 
 ```text
 Research Atlas + SYS-001 + RQ-023
 ```
 
-or later, to an isolated local agent:
+Later, to an isolated local agent:
 
 ```text
 Research Atlas + SYS-002 + RQ-030 — inspect the private architecture archive read-only
