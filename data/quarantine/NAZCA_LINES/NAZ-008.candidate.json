@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.2",
+  "cluster_schema": null,
+  "cluster_data": null,
+  "record_id": "NAZ-008",
+  "motif_cluster": "NAZCA_LINES",
+  "record_type": "publication",
+  "motif": "Resolution of conflicting attribution of 'remarkable in its exactness' phrase characterizing Joe Nickell's 1982 Nazca condor reconstruction",
+  "culture": "American experimental archaeology / skeptic journalism",
+  "culture_notes": "This record documents the bibliographic resolution of a misattribution, not the Nazca lines themselves.",
+  "figure_or_source": "Joe Nickell",
+  "claimed_event_date": "1982-06-01",
+  "claimed_event_date_confidence": "high",
+  "earliest_surviving_source_date": "1983-06-01",
+  "source_date_confidence": "high",
+  "source_type": "Scientific American department column; Skeptical Inquirer peer-feature",
+  "evidence_class": "B",
+  "evidence_class_notes": "Strong bibliographic candidate; direct inspection of Scientific American p.84 is still pending.",
+  "alien_or_modern_reinterpretation": {
+    "reinterpretation_claim": "The Nickell reconstruction image, as published, was characterized as 'remarkable in its exactness' — the attribution has been incorrectly transferred to National Geographic in some fringe sources",
+    "first_known_publication": "Scientific American 248(6) p.84 (June 1983) 'The Big Picture' column",
+    "first_known_author": "Scientific American editorial board (uncredited staff)",
+    "first_known_date": "1983-06-01",
+    "evidence_class": "A",
+    "notes": "Wikipedia 'Nazca lines' article cites the June 1983 Scientific American table of contents; the original 'Big Picture' text is short and uncredited."
+  },
+  "oral_tradition_clocks": null,
+  "location": {
+    "coordinate_type": "site",
+    "latitude": 37.9203,
+    "longitude": -83.4269,
+    "precision_km": 1,
+    "historical_place_name": "West Liberty, Kentucky",
+    "modern_place_name": "West Liberty, Kentucky",
+    "modern_country": "USA",
+    "location_confidence": "high"
+  },
+  "map_layers": null,
+  "media_contamination_variables": [
+    "Misattribution propagation: National Geographic is a familiar name and is often incorrectly cited as the source of skeptical replication coverage",
+    "Original Skeptical Inquirer text names Scientific American in the same article",
+    "National Geographic covered Nazca independently in 1975 (Loren McIntyre) and 1952 (Frank M. Setzler) but did not cover the Nickell reconstruction"
+  ],
+  "negative_evidence": {
+    "expected_traces_if_true": [
+      "A National Geographic 1982-1983 article using 'remarkable in its exactness'",
+      "A National Geographic byline or photo credit referencing the Kentucky reconstruction",
+      "A National Geographic issue index entry matching the claim"
+    ],
+    "observed_traces": [
+      "Scientific American vol. 248 no. 6 (June 1983) table of contents and 'Big Picture' column p. 84 are archived at the Wayback Machine",
+      "Nickell's own Skeptical Inquirer article credits Scientific American",
+      "No National Geographic 1982-1983 coverage of the Kentucky reconstruction has been located"
+    ],
+    "absence_significance": "The absence of any National Geographic coverage of the Nickell reconstruction indicates the misattribution is a downstream error in secondary sources (notably the Foerster essay hosted at grahamhancock.com, which has been widely re-copied)."
+  },
+  "connected_records": ["NAZ-001", "NAZ-002", "NAZ-003", "NAZ-007"],
+  "connection_types": ["DIRECT_CITATION", "KNOWN_COPY"],
+  "origin_confidence_stars": 5,
+  "source_independence_stars": 4,
+  "media_contamination_stars": 4,
+  "earliest_verified_artwork": null,
+  "earliest_witness": null,
+  "earliest_standardized_image": null,
+  "last_major_mutation": "1990s fringe-source misattribution to National Geographic, first appearing in pseudo-archaeological web essays",
+  "sources": [
+    {
+      "source_id": "SRC-NAZ-008-A",
+      "citation": "Nickell, Joe. 'The Nazca Drawings Revisited: Creation of a Full-Sized Duplicate.' Skeptical Inquirer vol. 7, no. 3 (Spring 1983): 36–44.",
+      "url": "http://www.utahrockart2.org/pubs/patina/1983%20Joe-Nickell-Nazca-Lines-Revisited.pdf",
+      "source_role": "primary",
+      "access_status": "verified_full_text",
+      "archive_url": null,
+      "edition": null,
+      "page_or_section": "pp. 36-44",
+      "notes": "The Patina article archive is a third-party scanned copy of the Skeptical Inquirer piece. The article contains an explicit reference to Scientific American characterizing the work as 'remarkable in its exactness'."
+    },
+    {
+      "source_id": "SRC-NAZ-008-B",
+      "citation": "'The Big Picture.' Scientific American 248, no. 6 (June 1983): 84.",
+      "url": "https://web.archive.org/web/20240109122927/https://www.scientificamerican.com/issue/sa/1983/06-01/",
+      "source_role": "primary",
+      "access_status": "verified_catalogue",
+      "archive_url": "https://web.archive.org/web/20240109122927/https://www.scientificamerican.com/issue/sa/1983/06-01/",
+      "edition": null,
+      "page_or_section": "p. 84 (single-page department)",
+      "notes": "Wayback-archived table-of-contents entry; full text of 'The Big Picture' department is not exposed in the SciAm open archive but the page reference is confirmed by the Nickell Skeptical Inquirer article."
+    },
+    {
+      "source_id": "SRC-NAZ-008-C",
+      "citation": "Wikipedia contributors. 'Nazca lines.' Wikipedia, The Free Encyclopedia. (Last accessed 2026-07-12.)",
+      "url": "https://en.wikipedia.org/wiki/Nazca_lines",
+      "source_role": "tertiary",
+      "access_status": "verified_full_text",
+      "archive_url": null,
+      "edition": null,
+      "page_or_section": "Section on the Nickell reproduction",
+      "notes": "Wikipedia cites the Scientific American 248(6) p. 84 reference with archive URL."
+    }
+  ],
+  "agent_tasks": [
+    "Acquire the full text of Scientific American 248(6) (June 1983) p. 84 via HathiTrust or Internet Archive to confirm the exact wording 'remarkable in its exactness' is verbatim and not paraphrased",
+    "Cross-check with the DOI 10.1038/scientificamerican0683-84",
+    "Document the chain of fringe-source misattribution to National Geographic (first appearance appears to be the Foerster essay at grahamhancock.com, c. 2014)"
+  ],
+  "notes": "Resolution of a previously unresolved attribution conflict. Companion misattribution record is recommended as a separate negative-evidence record.",
+  "session_added": "Research Session 021 · July 12, 2026",
+  "last_updated": "2026-07-12",
+  "research_status": "QUARANTINED",
+  "truth_layers": {
+    "publication_truth": {
+      "statement": "Nickell published the reconstruction report in Skeptical Inquirer and Scientific American indexed a related Big Picture item in June 1983.",
+      "evidence_class": "A",
+      "notes": "Scientific American full page text remains to be acquired."
+    },
+    "historical_claim_truth": {
+      "statement": "Later sources attribute the phrase to National Geographic.",
+      "evidence_class": "A",
+      "notes": "The attribution exists as a documented downstream claim."
+    },
+    "factual_truth": {
+      "statement": "Scientific American, not National Geographic, appears to be the correct venue, pending direct inspection of page 84.",
+      "evidence_class": "B",
+      "notes": "Do not upgrade to A until the original page is inspected."
+    }
+  }
+}
