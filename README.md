@@ -4,14 +4,19 @@
 
 **[Open the Master Research Atlas](RESEARCH_ATLAS.md)**
 
-The Atlas is the main human- and AI-readable page showing:
+**[Open the Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md)**
+
+The Master Atlas shows what has already been gathered, while the Bridge Atlas is the discovery page for hidden carriers and non-obvious connections between topics.
+
+Together they show:
 
 - what has already been gathered;
 - active systems and research domains;
 - confirmed, partial, speculative, and unknown connections;
+- hidden bridge candidates involving publishers, institutions, phrases, images, errors, and media networks;
 - current research questions and priorities;
 - cross-references to source acquisitions, schemas, reports, and graph records;
-- a ready-made prompt for assigning any section to another AI.
+- ready-made prompts for assigning focused work to another AI.
 
 A source-traceable research atlas for studying how myths, theories, testimony, fiction, historical events, modern internet narratives, and human–AI research architectures develop and connect across time.
 
@@ -42,16 +47,17 @@ Evidence strength remains a separate field so documented history, mythology, fic
 ## Repository structure
 
 ```text
-RESEARCH_ATLAS.md       master cross-reference and AI starting page
-research_inbox/         raw, unreviewed acquisitions
-sessions/               archived session logs after ingestion
-schemas/                object and validation schemas
-graph/                  entities, claims, motifs, transmissions, systems, and evidence
-research_questions/     first-class research queue
-data/                   canonical records and quarantine
-reports/                synthesis, comparison, and QC reports
-docs/                   architecture and methodology
-project_audit/          significant QC, migration, and recovery notes
+RESEARCH_ATLAS.md                master cross-reference and AI starting page
+CROSS_DOMAIN_BRIDGE_ATLAS.md    hidden-connection discovery page
+research_inbox/                  raw, unreviewed acquisitions
+sessions/                        archived session logs after ingestion
+schemas/                         object and validation schemas
+graph/                           entities, claims, motifs, transmissions, systems, and evidence
+research_questions/              first-class research queue
+data/                            canonical records and quarantine
+reports/                         synthesis, comparison, and QC reports
+docs/                            architecture and methodology
+project_audit/                   significant QC, migration, and recovery notes
 ```
 
 ## Evidence classes
