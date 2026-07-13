@@ -3,6 +3,8 @@
 > **Registry class:** CROSS-DOMAIN CANDIDATES AND VERIFIED SUBFINDINGS  
 > **Supported bridge findings:** 1  
 > **Canonical direct-citation edges:** 1  
+> **Catalogue-authenticated continuity artifacts:** 1  
+> **Copied-error candidates:** 1  
 > **Related files:** `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `schemas/BRIDGE_CANDIDATE.md`, `research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md`
 
 This registry gives stable local IDs to candidate clusters. Registration means `worth testing`; only explicitly linked curator records count as verified findings or edges.
@@ -13,7 +15,7 @@ This registry gives stable local IDs to candidate clusters. Registration means `
 |---|---|---|---|---|
 | `BRIDGE-032-001` | Symmes Circular No. 1 (1818) → later Antarctic polar-opening language | `LEXICAL_MIGRATION`, `POSTAL_DISTRIBUTION`, `EXPOSURE_PATH` | HIGH | `OPEN — SOURCE LOCATORS REQUIRED` |
 | `BRIDGE-032-002` | *Symzonia* (1820) → later Antarctic-inner-world nonfiction | `EDITORIAL_SYNTHESIS`, `RETROACTIVE_FUSION` | MEDIUM | `OPEN — DOWNSTREAM UPTAKE UNKNOWN` |
-| `BRIDGE-032-003` | Jeremiah Reynolds: Symmes advocate → Antarctic expedition lobbyist | `SAME_PERSON_CARRIER`, `EXPOSURE_PATH`, `INSTITUTIONAL_CARRIER`, `RHETORICAL_REFRAMING` | HIGHEST | `SUPPORTED_SPLIT — DOCTRINAL TRANSMISSION NOT ESTABLISHED` |
+| `BRIDGE-032-003` | Jeremiah Reynolds: Symmes advocate → Antarctic expedition lobbyist | `SAME_PERSON_CARRIER`, `EXPOSURE_PATH`, `INSTITUTIONAL_CARRIER`, `RHETORICAL_REFRAMING` | HIGHEST | `SUPPORTED_SPLIT + 1827 BIBLIOGRAPHIC CONTINUITY` |
 | `BRIDGE-032-004` | Reynolds's 1836 *Address* → Poe review / *Pym* text reuse | `DIRECT_CITATION`, `KNOWN_COPY`, `EDITORIAL_SYNTHESIS` | HIGH | `PARTIAL — DIRECT CITATION VERIFIED; KNOWN COPY OPEN` |
 | `BRIDGE-032-005` | William Reed, *Phantom of the Poles* (1906) → later Antarctic entrance claims | `LEXICAL_MIGRATION`, `SHARED_ERROR`, `ICONOGRAPHIC_MIGRATION` | HIGH | `OPEN — QUOTE/DIAGRAM AUDIT` |
 | `BRIDGE-032-006` | Lovecraft's *At the Mountains of Madness* → later Antarctic hidden-civilization/base narratives | `ICONOGRAPHIC_MIGRATION`, `EDITORIAL_SYNTHESIS`, `EXTRATERRESTRIALIZATION` | MEDIUM | `OPEN — DOWNSTREAM CITATION UNKNOWN` |
@@ -42,7 +44,7 @@ This registry gives stable local IDs to candidate clusters. Registration means `
 
 ### BRIDGE-032-003 — Reynolds same-person pivot
 
-**Curator result:** `SUPPORTED_SPLIT`.
+**Curator result:** `SUPPORTED_SPLIT_WITH_1827_BIBLIOGRAPHIC_CONTINUITY`.
 
 Primary and near-primary records support:
 
@@ -50,23 +52,34 @@ Primary and near-primary records support:
 - the same person redirected into Southern Ocean and South-Pole expedition advocacy;
 - his proposal moved through state legislatures, Congress, committees, publishers, and the press;
 - his 1836 published case foregrounded commerce, navigation, science, national prestige, and exploration;
-- explicit `Symmes` and `hollow` language was not located in the available 1836 OCR.
+- explicit `Symmes` and `hollow` language was not located in the available 1836 OCR;
+- an LOC catalogue record authenticates a Reynolds pamphlet from 1827 responding to a review of Symmes's theory.
 
-This supports `SAME_PERSON_CARRIER`, `EXPOSURE_PATH`, `INSTITUTIONAL_CARRIER`, and `RHETORICAL_REFRAMING`.
+The 1827 object is:
 
-It does **not** yet support:
+```yaml
+title: "Remarks on a review of Symmes' theory, which appeared in the American quarterly review"
+creator: "Reynolds, J. N. (Jeremiah N.), 1799-1858"
+place: Washington
+printer: "Gales & Seaton"
+year: 1827
+loc_item: "06040937"
+call_numbers:
+  - "AC901 .M5 vol. 797, no. 14"
+  - "YA 25425"
+```
 
-- a primary `PERSONAL_CONTACT` edge between Reynolds and Symmes;
-- `DOCUMENTED_INFLUENCE` from Symmes's doctrine into the mature expedition program;
-- complete abandonment of every earlier idea.
+This proves continued public engagement with the Symmes controversy in 1827. Because the text has not been acquired, it does **not** prove continued doctrinal loyalty.
 
 Read:
 
 - [Supported bridge finding](BRIDGE-032-003-REYNOLDS-PIVOT.md)
-- [Session 029 QC](../../reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md)
+- [1827 catalogue artifact](../chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md)
+- [Session 030 QC](../../reports/SESSION_030_REYNOLDS_1827_QC.md)
 - [Negative evidence](../../data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
+- [Title-error fingerprint](../../data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md)
 
-**Next decisive artifact:** the alleged 1827 Reynolds pamphlet *Remarks of Symmes' Theory Which Appeared in the American Quarterly Review*.
+**Next decisive task:** acquire the pamphlet text and the underlying *American Quarterly Review* article, then determine whether Reynolds defends, modifies, qualifies, or rejects the theory.
 
 ### BRIDGE-032-004 — Reynolds → Poe
 
@@ -140,12 +153,16 @@ This cluster remains split into:
 methodology_variants: 1
 initial_historical_acquisition_variants: 2
 reynolds_verification_variants: 2
+reynolds_1827_result_variants: 1
 normalized_candidate_clusters: 10
 candidates_deep_verified: 1
 supported_bridge_findings: 1
+catalogue_authenticated_continuity_artifacts: 1
 canonical_direct_citation_edges: 1
 canonical_known_copy_edges: 0
+partial_response_edges: 1
 negative_evidence_records: 1
+copied_error_candidates: 1
 canonical_full_cross_domain_lineages: 0
 ```
 
@@ -153,8 +170,9 @@ canonical_full_cross_domain_lineages: 0
 
 ```text
 BRIDGE-032-003A
-Jeremiah N. Reynolds
-alleged 1827 Remarks of Symmes' Theory pamphlet
+Reynolds 1827 pamphlet text
+        ↕
+American Quarterly Review article, vol. 1, p. 235 onward
 ```
 
-Execute `research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md`.
+Acquire both texts and perform the exact response/continuity comparison. The existence question is closed; the content question is open.
