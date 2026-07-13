@@ -16,7 +16,7 @@ The subject matter may change. The method remains the same: preserve the pieces,
 | System | Scope | Current state | Main entry points |
 |---|---|---|---|
 | **SYS-001 — Underground / Hidden-World Narrative System** | Shaver, Palmer, Hollow Earth, subterranean beings, UFO bases, Dulce, Antarctica, related publication networks | ACTIVE — first detailed dataset | [Shaver→Dulce map](graph/transmissions/SHAVER_TO_DULCE_CHAIN.md), [RQ-023](research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md), [Session 023 QC](reports/SESSION_023_CROSS_VARIANT_QC.md) |
-| **SYS-002 — Human–AI Ensemble Research Architecture** | Cross-model comparison, specialized roles, repo-based continuity, disagreement preservation, verification, human entity resolution | SEEDING — architecture lineage being reconstructed | [System record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md), [RQ-030](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md), [Puzzle-piece intake](docs/PUZZLE_PIECE_INTAKE.md) |
+| **SYS-002 — Human–AI Ensemble Research Architecture** | Cross-model comparison, specialized roles, repo-based continuity, disagreement preservation, verification, human entity resolution | ACTIVE SEEDING — public July genesis established; earlier lineage pending | [System record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md), [Artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md), [RQ-030](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md) |
 
 These systems are not claimed to be the same subject. They connect because SYS-002 is the research machinery used to investigate SYS-001 and future systems.
 
@@ -68,7 +68,7 @@ Read:
 
 - the same question given to multiple models;
 - model outputs compared rather than treated as a single authority;
-- one model reviewing or implementing another model's recommendations;
+- one session reviewing or implementing another model's recommendations;
 - persistent repository state replacing fragile chat memory;
 - specialized solver, critic, synthesizer, verifier, curator, and auditor roles;
 - failures and regressions preserved as evidence;
@@ -76,10 +76,32 @@ Read:
 
 The old application domain is not the object of study. The object of study is the architecture that emerged through it.
 
+#### First verified public sequence — July 12, 2026
+
+```text
+Sean's human-created cross-domain seed corpus
+        ↓
+ChatGPT specialist provenance/QC layer
+        ↓
+explicit audit and application of the prior layer
+        ↓
+combined persistent session state + agent implementation tasks
+```
+
+This sequence is now represented by `ARCH-001` through `ARCH-004`.
+
+Important limits:
+
+- Session 003 does not identify the auditing model/provider.
+- Session 004 specifies an implementation task but does not prove execution or testing.
+- These are the earliest **publicly curated** artifacts, not the earliest full architecture artifacts.
+
 Read:
 
 - [SYS-002 system record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md)
+- [SYS-002 artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md)
 - [RQ-030 architecture lineage](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md)
+- [Kilo acquisition and curator QC](research_inbox/SESSION_024_KILO_PUBLIC_GENESIS_ACQUISITION.md)
 - [Puzzle-piece intake method](docs/PUZZLE_PIECE_INTAKE.md)
 
 ---
@@ -113,31 +135,31 @@ A real publication can be Evidence A while the claims printed inside it remain D
 
 ## 5. Active research queue
 
-| Priority | ID | Question / target | What would move it forward |
-|---|---|---|---|
-| P0 | RQ-023 | What carried Shaver/Palmer material across 1948–1979? | Primary scans, exact pages, mastheads, correspondence, publisher records, dated reprints |
-| P0 | RQ-030 | How did Sean's human–AI ensemble architecture evolve over time? | Earliest dated docs, commits, model comparisons, handoffs, verification records |
-| P1 | RQ-024 | Does the Gray Barker archive contain Walton/Branton correspondence? | Finding aid, curator response, folder inventory, scans or citations |
-| P1 | RQ-029 | Did Palmer's *Forum* include later Bennewitz/Dulce-connected writers? | Complete issue run, author index, letters and subscriber evidence |
-| P1 | — | Verify Claude A/B contradictions from Session 023 | Independent primary-source checking rather than a third summary |
-| P2 | — | Build domain inventories for Greys, serpent traditions, Antarctica, and CERN reinterpretations | Existing session/file inventory before new broad research |
+| Priority | ID | Question / target | Current state | What would move it forward |
+|---|---|---|---|---|
+| P0 | RQ-023 | What carried Shaver/Palmer material across 1948–1979? | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records, dated reprints |
+| P0 | RQ-030 | How did Sean's human–AI ensemble architecture evolve over time? | PARTIAL — public July sequence established | Earlier private A/B comparisons, implementation tests, checkpoint/state artifacts, commit chronology |
+| P1 | RQ-024 | Does the Gray Barker archive contain Walton/Branton correspondence? | OPEN | Finding aid, curator response, folder inventory, scans or citations |
+| P1 | RQ-029 | Did Palmer's *Forum* include later Bennewitz/Dulce-connected writers? | OPEN | Complete issue run, author index, letters and subscriber evidence |
+| P1 | — | Verify Claude A/B contradictions from Session 023 | OPEN | Independent primary-source checking rather than a third summary |
+| P2 | — | Build domain inventories for Greys, serpent traditions, Antarctica, and CERN reinterpretations | OPEN | Existing session/file inventory before new broad research |
 
 The queue will expand. Research questions are first-class objects, not disposable TODO notes.
 
 ---
 
-## 6. Best next acquisition: architecture lineage
+## 6. Best next acquisition: earlier architecture lineage
 
-For the next chunk, locate **representative dated examples**, not thousands of undifferentiated files.
+The public July 12 sequence is now represented. The next chunk should move backward into the **private January 2026 development archive** and the older ensemble repository.
 
-The highest-value set is:
+Find three to five representative dated examples:
 
-1. The earliest example of the **same question or problem given to two or more models**.
-2. The earliest example of **one model critiquing another model's output**.
-3. The earliest example where a model's recommendation was **implemented and then tested against a real system**.
-4. The earliest repository-based **handoff, checkpoint, state file, role prompt, or continuity protocol**.
-5. The earliest example where **model disagreement was preserved** instead of merged away.
-6. The earliest explicit description of the human role as **connector, curator, judge, or entity resolver**.
+1. The earliest example of the **same question or problem given independently to two or more models**.
+2. The earliest model recommendation that was **implemented and then tested against a real system**.
+3. The earliest repository-based **handoff, checkpoint, project state, bootstrap, role prompt, or onboarding protocol**.
+4. The earliest preserved **LM Arena Response A / Response B disagreement** and Sean's decision.
+5. The earliest explicit **solver / critic / synthesizer / verifier** design.
+6. The clearest sanitized example of recommendation → implementation → validation/regression.
 
 For each example, retain:
 
@@ -171,6 +193,10 @@ For a narrower task:
 
 > Work only on **[RQ ID]** from the Research Atlas. Return evidence that would satisfy or falsify its resolution criteria. Do not provide a general essay.
 
+### Ready-made RQ-030 prompt
+
+> Read `RESEARCH_ATLAS.md`, `graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md`, `graph/systems/SYS-002-ARTIFACT-REGISTRY.md`, and `research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md`. Search the earlier private development archive for three to five dated architecture artifacts older than July 12, 2026. Prioritize independent model branches, LM Arena A/B outputs, model feedback implemented in a repository, post-change tests or regressions, and checkpoint/state/handoff protocols. Extract architecture only; omit trading balances, credentials, private operational details, and unrelated code. Do not infer model identity when metadata is absent. Do not call a task implemented unless execution evidence exists. Return the required `ARCHITECTURE_ARTIFACT` records and a contradiction/negative-evidence section. Do not commit or mark anything canonical.
+
 ---
 
 ## 8. How Sean can use this page
@@ -197,6 +223,7 @@ Sean can continue supplying puzzle pieces in any form: repository links, Google 
 
 - [Repository Architecture v2.0](docs/REPOSITORY_ARCHITECTURE.md)
 - [Puzzle-Piece Intake](docs/PUZZLE_PIECE_INTAKE.md)
+- [SYS-002 Artifact Registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md)
 - [Entity schema](schemas/ENTITY.md)
 - [Motif schema](schemas/MOTIF.md)
 - [System schema](schemas/SYSTEM.md)
