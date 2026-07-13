@@ -27,7 +27,7 @@ RQ:
     - Which rare phrases, spelling errors, false quotations, misplaced labels, diagrams, photographs, or numerical mistakes recur across domains?
     - Where do fiction, speculation, testimony, technical language, and institutional framing change roles?
     - When are older supernatural, mythic, or geographical motifs technologized, extraterrestrialized, interdimensionalized, secularized, or politically reframed?
-    - Which apparent bridges are actually independent parallels, common genre conventions, or later retrospective fusions?
+    - Which apparent bridges are actually independent parallels, common genre conventions, abandoned frameworks, or later retrospective fusions?
     - What negative evidence would disprove the strongest proposed connections?
 
   initial_bridge_seeds:
@@ -71,21 +71,24 @@ RQ:
     - retrospective diagrams that merge traditions
     - a bridge candidate being registered
     - an institution preserving a record being treated as institutional endorsement
+    - one person's biography being treated automatically as doctrinal continuity
+    - absence of a keyword being treated as proof of total intellectual abandonment
 
   partial_resolution: >
     Three or more bridge candidates have item-level evidence for shared infrastructure,
     exposure paths, lexical or iconographic migration, material reuse, copied error,
-    editorial synthesis, or a documented transformation, while competing explanations
-    remain open.
+    editorial synthesis, documented transformation, or documented discontinuity, while
+    competing explanations remain open.
 
   positive_resolution: >
     A cross-domain map identifies multiple hidden carriers with source-supported dates,
     mechanisms, and transformations, and distinguishes genuine transmission from shared
-    motif, independent parallel development, and later retrospective fusion.
+    motif, independent parallel development, abandoned frameworks, and later retrospective fusion.
 
   negative_resolution: >
     Major proposed bridges fail contact, chronology, source, or error-fingerprint tests
-    and are classified as independent parallel, retrospective pattern matching, or unknown.
+    and are classified as independent parallel, retrospective pattern matching, abandoned
+    framework, or unknown.
 
   related_files:
     - CROSS_DOMAIN_BRIDGE_ATLAS.md
@@ -97,9 +100,15 @@ RQ:
     - reports/SESSION_028_BRIDGE_CROSS_VARIANT_QC.md
     - graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md
     - research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md
+    - research_inbox/SESSION_029_REYNOLDS_VERIFICATION_VARIANT_MANIFEST.md
+    - reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md
+    - graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md
+    - graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md
+    - data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md
+    - research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md
 
   generated_session: SESSION_027
-  current_acquisition_session: SESSION_028
+  current_acquisition_session: SESSION_029
   last_updated: 2026-07-13
 ```
 
@@ -107,43 +116,101 @@ RQ:
 
 ```text
 Methodology commentary variants: 1
-Historical acquisition variants: 2
+Initial historical acquisition variants: 2
+Reynolds verification variants: 2
 Normalized bridge candidate clusters: 10
-Candidates in deep verification: 1
-Canonical cross-domain edges: 0
+Candidates deep-verified: 1
+Supported bridge findings: 1
+Canonical direct-citation edges: 1
+Canonical known-copy edges: 0
+Negative-evidence records: 1
 RQ-032 status: SEARCHING
 ```
 
-The first Antarctica/Hollow Earth pass produced a useful candidate field, not a conclusion. The strongest overlap is Jeremiah N. Reynolds as a possible same-person carrier between Symmes's Hollow Earth advocacy and later Antarctic/South-Seas expedition lobbying.
+## First deep-verification result — Reynolds
 
-Other preserved clusters include:
-
-- Symmes Circular dissemination;
-- *Symzonia* as early Antarctic-inner-world fiction;
-- Reynolds → Poe review and possible text reuse;
-- William Reed's explorer-quotation and diagram infrastructure;
-- Lovecraft's Antarctic hidden-civilization template;
-- Palmer → Bernard publishing/textual synthesis;
-- Byrd quotation and Highjump authority-laundering hypotheses;
-- Ladislas Szabo and the Nazi Antarctic-base narrative;
-- Agartha terminology grafted onto later Antarctic/Nazi synthesis.
-
-Registration changes the research queue, not the evidence class.
-
-## Current deep-verification task
-
-Work only on:
+The first candidate did not resolve into a simple continuous lineage.
 
 ```text
-BRIDGE-032-003
+Symmes Hollow Earth advocacy
+        ↓ same person / public exposure
 Jeremiah N. Reynolds
-Symmes advocate → Antarctic expedition lobbyist
+        ↓ documented contemporary pivot
+Southern Ocean and South-Pole expedition advocacy
+        ↓ institutional circulation
+state legislatures, Congress, publishers, periodicals
 ```
 
-Required outcome: determine whether the same person carried specific ideas, language, contacts, or causal influence across the transition—or whether the later exploration program deliberately dropped the Hollow Earth theory and proceeded for independent commercial, scientific, and national reasons.
+### Supported
+
+- A published John Quincy Adams diary entry describes Reynolds as a lecturer supporting Symmes's theory and says he had `varied his purpose` toward a Southern Ocean circumnavigation proposal.
+- A December 1834 congressional printing names the memorial of J. N. Reynolds and others and records its route through state-legislative and congressional consideration.
+- Reynolds's 1836 *Address* packages his advocacy for circulation through the public press and argues through commerce, navigation, science, national honor, and exploration.
+- Poe's January 1837 review directly identifies and reviews Reynolds's 1836 book.
+
+### Not established
+
+- A primary artifact documenting Reynolds and Symmes together in a lecture, correspondence exchange, or jointly named publication.
+- Symmes's Hollow Earth doctrine as a causal basis for Reynolds's mature expedition program.
+- Exact copied passages from Reynolds into *Pym*.
+- Complete intellectual abandonment of all earlier Symmes-related ideas.
+
+### Negative evidence
+
+The available OCR of Reynolds's 1836 *Address* contains no match for `Symmes` and no match for `hollow`. Its South-Pole argument is framed through science, national character, commerce, navigation, and exploration.
+
+This supports a narrow negative conclusion about explicit doctrinal carryover in that publication. It does not prove zero indirect influence.
+
+## Current classification
+
+```yaml
+BRIDGE-032-003:
+  status: SUPPORTED_SPLIT
+  supported:
+    - SAME_PERSON_CARRIER
+    - EXPOSURE_PATH
+    - INSTITUTIONAL_CARRIER
+    - RHETORICAL_REFRAMING
+  not_established:
+    - PERSONAL_CONTACT_FROM_PRIMARY_ARTIFACT
+    - DOCUMENTED_DOCTRINAL_INFLUENCE
+    - COMPLETE_ABANDONMENT
+
+BRIDGE-032-004:
+  status: PARTIAL
+  supported:
+    - DIRECT_CITATION
+    - ISSUE_LEVEL_EXPOSURE_PATH
+  not_established:
+    - KNOWN_COPY_INTO_PYM
+```
+
+Read:
+
+- [Reynolds supported finding](../graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md)
+- [Reynolds → Poe direct-citation edge](../graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
+- [Session 029 variant manifest](../research_inbox/SESSION_029_REYNOLDS_VERIFICATION_VARIANT_MANIFEST.md)
+- [Session 029 QC](../reports/SESSION_029_REYNOLDS_CROSS_VARIANT_QC.md)
+- [Negative-evidence record](../data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
+
+## Why RQ-032 remains SEARCHING
+
+The resolution threshold requires at least three bridge candidates to pass item-level tests or be rejected with documented negative evidence. Reynolds is the first deep-verified candidate cluster.
+
+One supported split result and one narrow direct-citation edge are not yet a cross-domain map.
+
+## Current exact task
+
+Work only on the alleged 1827 Reynolds artifact:
+
+```text
+Remarks of Symmes' Theory Which Appeared in the American Quarterly Review
+```
+
+Determine whether it is an authentic Reynolds pamphlet, offprint, article, title variant, misattribution, or bibliographic ghost. Its exact contents may show whether Reynolds continued defending Symmes after the personal break and before his mature institutional advocacy.
 
 Read and execute:
 
-- `research_inbox/SESSION_028_REYNOLDS_BRIDGE_VERIFICATION_BRIEF.md`
+- `research_inbox/SESSION_030_REYNOLDS_1827_REMARKS_VERIFICATION_BRIEF.md`
 
-Return item-level primary records, exact quotations, pages, dates, institutional carriers, evidence for, evidence against, and failed searches. Do not promote a canonical bridge.
+Return one exact institutional record or a documented failed-source record. Do not create a canonical edge.
