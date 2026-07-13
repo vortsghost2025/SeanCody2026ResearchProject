@@ -6,145 +6,123 @@ RQ:
   title: "How did the theoretical southern continent evolve into mapped and observed Antarctica?"
   status: SEARCHING
   priority: HIGH
+  last_updated: 2026-07-13
 
   why_it_matters: >
-    Terra Australis is a controlled test case for the wider project. A theoretical
-    landmass appeared in texts and maps, was copied and reshaped across generations,
-    contracted as voyages added evidence, and was eventually separated from observed
-    Australia and Antarctica. Tracing that process can show how speculation becomes
-    a persistent visual object and how later evidence corrects it.
+    Terra Australis is a controlled test case for tracing how a theoretical object
+    enters maps, is copied and reshaped, contracts as voyages add evidence, separates
+    from Australia, and is eventually replaced by observed Antarctic geography.
 
   date_scope:
     start: "classical geography"
     end: 1825
 
   core_questions:
-    - What is the earliest traceable textual basis for a balancing southern continent?
+    - What is the earliest textual basis for a balancing southern continent?
     - Which surviving maps first depict or label a southern landmass?
     - Which mapmakers copied, translated, enlarged, fragmented, or renamed it?
-    - How were Tierra del Fuego, New Holland/Australia, imagined southern lands, and Antarctica separated over time?
-    - Which voyages and reports changed the plausible geometry of the southern continent?
+    - How were Tierra del Fuego, New Holland/Australia, imagined southern lands, and Antarctica separated?
+    - Which voyages changed the plausible geometry?
     - What are the earliest authenticated observations and published maps of Antarctic land or ice?
     - When did modern writers begin claiming that older maps showed an ice-free or advanced-surveyed Antarctica?
 
   evidence_needed:
-    - high-resolution primary map scans
-    - library or archive catalogue identifiers
-    - exact title, mapmaker, date, edition, state, plate or sheet, language, and publishing city
-    - institutional call number or shelfmark
-    - stable item-level scan or IIIF URL
-    - labels and annotations on the southern landmass
-    - documented predecessor and descendant maps
-    - voyage reports or geographical texts available to the mapmaker
-    - exact coastline or geometry changes between editions
-    - first authenticated observation reports and resulting maps
-    - first dated modern publications making ancient-map or ice-free-Antarctica claims
-    - failed searches and inaccessible collections
+    - primary scans and institutional catalogue identifiers
+    - exact titles, creators, dates, editions, imprints, states, plates or sheets
+    - call numbers, shelfmarks, stable item URLs, and IIIF links
+    - transcribed map labels and annotations
+    - documented predecessor/descendant relationships
+    - voyage reports and chart evidence
+    - first dated modern reinterpretation claims
+    - failed searches and inaccessible-source records
 
   do_not_treat_as_proof:
-    - visual resemblance to the modern Antarctic coastline by itself
-    - a modern overlay without projection and georeferencing analysis
-    - catalogue dates copied from unsourced websites
-    - a map's existence as proof that the depicted land existed
-    - later labels projected backward onto earlier maps
-    - repeated alternative-history claims without the earliest dated publication
-    - modern redrawing or restoration presented as the original artifact
-    - a family-level label treated as one historical map
-    - a generic collection hostname treated as an item citation
-    - similarity between maps treated as a transmission edge without a bibliographic trail
-    - agreement between model outputs treated as independent source confirmation
-    - a model's self-declared INGESTED, COMPLETE, CANONICAL, or confidence status
+    - visual resemblance alone
+    - modern overlays without projection analysis
+    - generic collection hosts
+    - a family bucket treated as one historical map
+    - agreement between model outputs
+    - a model's self-declared INGESTED, COMPLETE, CANONICAL, or confidence score
+    - source-list acknowledgment treated as proof of a specific copied feature
+    - Ptolemaic geography silently renamed with later Terra Australis terminology
+
+  partial_resolution_gate: >
+    At least three core item records must pass curator review, with a source-supported
+    chronology and clearly scoped relationships. One verified map is meaningful but
+    does not make the overall question PARTIAL.
 
   positive_resolution: >
-    A source-supported chronology identifies the principal textual and cartographic
-    nodes, documents copying or influence where evidence exists, and separates the
-    imagined southern continent from observed Australia and Antarctica.
-
-  partial_resolution: >
-    Major item-level maps and voyages are dated and described, but some copying
-    relationships, editions, annotations, or first-observation claims remain uncertain.
-
-  negative_resolution: >
-    Searches find no authenticated support for specific modern claims that an early
-    map depicts an accurately surveyed or ice-free Antarctica; those claims remain
-    speculative or contradicted while the historical map itself remains Evidence A.
-
-  related_objects:
-    - SYS-001
-    - MAP-CHAIN-001
-
-  generated_session: SESSION_025
-  last_updated: 2026-07-13
+    A source-supported chronology identifies the principal textual, cartographic,
+    voyage, and observation nodes, while separating imagined geography, observed
+    geography, and later reinterpretation.
 ```
 
 ## Current QC state
 
 ```text
-Acquisition variants received: 3
-Core item-level candidates identified: 5
-Extended map/event/reinterpretation leads: preserved
-Curator-promoted map records: 0
-Canonical transmission edges: 0
-Canonical findings: 0
+Acquisition variants received: 5
+Core item records promoted: 1
+Remaining core candidates: 4
+Verified narrow map edges: 1
+Canonical full lineage: 0
 RQ-031 status: SEARCHING
 ```
 
-The original family buckets remain search organizers, not artifacts. The three new acquisition variants produced item-level-looking candidates, but they also conflict on exact identifiers, dates, titles, edge directions, and historical interpretation.
+## First promoted item
 
-> **Evidence prohibition:** No statement from a cloud output, family bucket, candidate registry, or model-generated acquisition may be cited as evidence in a synthesis, chronology, graph, lineage, or final report until the corresponding item-level `MAP_RECORD` passes curator review.
+### TERRA-MAP-002-A — Ortelius, *Typvs Orbis Terrarvm* (1570)
+
+The selected artifact is the Library of Congress 1570 Latin atlas copy:
+
+```yaml
+institution: Library of Congress, Geography and Map Division
+call_number: "G1006 .T5 1570"
+lccn: "2003683482"
+digital_id: "g3200m.gct00126"
+map_sheet: 12
+item_url: "https://www.loc.gov/item/2003683482/"
+scan_url: "https://www.loc.gov/resource/g3200m.gct00126/?sp=12"
+imprint: "third imprint of the original 1570 Latin edition"
+```
+
+Accepted conclusions:
+
+- the exact institutional artifact and scan are established;
+- the map depicts a named speculative southern continent;
+- Mercator's 1569 world map has a documented general influence on Ortelius's world-map synthesis.
+
+Still unresolved:
+
+- exact first-plate state diagnostics for this sheet;
+- feature-by-feature Terra Australis copying;
+- Finé's exact role in label or coastline transmission;
+- final diplomatic transcription details.
 
 Read:
 
-- [Variant manifest](../research_inbox/SESSION_025_TERRA_VARIANT_MANIFEST.md)
-- [Cross-variant QC](../reports/SESSION_025_TERRA_CROSS_VARIANT_QC.md)
-- [Candidate registry](../graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md)
-- [Acquisition brief](../research_inbox/SESSION_025_TERRA_AUSTRALIS_ACQUISITION_BRIEF.md)
+- [Promoted Ortelius item](../graph/chronologies/TERRA-MAP-002-A-ORTELIUS-1570.md)
+- [Mercator → Ortelius edge](../graph/transmissions/MAP-EDGE-001-MERCATOR-ORTELIUS-WORLD-MAP.md)
+- [Session 026 variant manifest](../research_inbox/SESSION_026_ORTELIUS_VARIANT_MANIFEST.md)
+- [Session 026 curator QC](../reports/SESSION_026_ORTELIUS_QC.md)
+- [Item registry](../graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md)
 
-## Current cross-variant findings
+## Remaining core queue
 
-The variants agree on five high-priority item candidates:
+1. **TERRA-MAP-001-A — Ptolemy/Ulm 1482**  
+   Select one institutional copy, identify exact shelfmark and scan, transcribe the southern land bridge, and keep the enclosed Indian Ocean distinct from later Terra Australis nomenclature.
 
-1. a printed Ptolemaic world map from Ulm, 1482;
-2. Ortelius's *Typus Orbis Terrarum*, 1570;
-3. a Bertius South Polar / Terra Australis map, 1616;
-4. the Bonaparte–Tasman map or directly related voyage cartography;
-5. Cook's Southern Hemisphere chart, 1777.
+2. **TERRA-MAP-003-A — Bertius 1616**  
+   Confirm printed and catalogue titles, edition/state, item identifier, scan, and alleged plate reuse.
 
-This agreement changes the search queue, not the evidence class.
+3. **TERRA-MAP-004-A — Bonaparte–Tasman map**  
+   Resolve call number, object date versus voyage-data date, authorship, and depicted blanks/joins.
 
-### Blocking contradictions
+4. **TERRA-MAP-005-A — Cook 1777**  
+   Confirm the exact chart, annotations, publication context, and the narrow conclusion supported by the second voyage.
 
-- Variant A reverses the Mercator/Ortelius and Ortelius/Bertius chronological directions.
-- The Tasman map is assigned conflicting call numbers and competing object dates.
-- Bertius title forms differ across outputs.
-- The earliest use and originator of the Latin phrase `Terra Australis recenter inventa, sed nondum plene cognita` remains disputed.
-- One claimed Ortelius plate-state sequence ends before the 1616 discovery used to explain it.
-- Cook's contribution is alternately overstated as disproving all southern land and more narrowly described as constraining a large temperate continent.
-- The 1820 Bellingshausen, Bransfield/Smith, and Palmer priority claims remain unresolved.
-- Ptolemy's enclosed-Indian-Ocean model must not be silently converted into later Terra Australis terminology.
+## Extended queue
 
-## Candidate map families and records — verify, do not assume
-
-- Ptolemaic textual and printed-map traditions;
-- Oronce Fine and Mercator item-level maps;
-- Ortelius 1570 and its exact plate/state history;
-- Bertius South Polar maps and alleged plate reuse;
-- Nuyts, Tasman, Blaeu, and Thévenot voyage-data transmission;
-- cartography before and after Cook's southern voyages;
-- competing 1820 observation records;
-- Mallery, Hapgood, Piri Reis, Fine, and Buache in the modern ice-free-Antarctica reinterpretation layer.
-
-Every candidate requires an exact edition, stable scan, catalogue record, evidence classification, and curator sign-off before becoming canonical.
-
-## Priority work packages
-
-1. **Ptolemy 1482:** choose one exact institutional copy and inspect its printed labels and enclosed-ocean geometry.
-2. **Ortelius 1570:** identify the exact world-map plate/state, institutional scan, catalogue ID, southern label, and source-list evidence.
-3. **Bertius 1616:** confirm exact printed title, catalogue title, edition/state, item ID, and any same-plate reuse.
-4. **Tasman artifact:** resolve the State Library identifier, object date versus source-data date, authorship, and depicted blanks/joins.
-5. **Cook 1777:** confirm the exact chart item, transcribe annotations, and state precisely what the voyage ruled out and what it still considered possible.
-6. **Mercator/Fine edge:** inspect primary scans before asserting feature-level copying or phrase transmission.
-7. **1820 observation records:** preserve competing claims and the exact documentary basis for each.
-8. **Modern reinterpretation origin:** locate the earliest exact Mallery/Hapgood publication, page, quotation, and invoked reproduction.
-
-After at least three core item records pass the promotion gate, the curator may reconsider `RQ-031` for `PARTIAL` status.
+- inspect one surviving Mercator 1569 map directly;
+- resolve the Schöner/Finé terminology sequence using exact artifacts;
+- preserve Bellingshausen, Bransfield/Smith, and Palmer as competing 1820 observation claims;
+- locate the earliest Mallery/Hapgood ice-free-Antarctica publication and page.
