@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/vortsghost2025/SeanCody2026ResearchProject/schemas/clusters/traditions.schema.json",
+  "title": "Oral and Living Tradition Cluster Data",
+  "description": "Validates tradition-specific cluster_data. The enclosing record must also validate against canonical-record.schema.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "colonial_recording_context": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "first_western_documenter": {"type": ["string", "null"]},
+        "documenter_role": {"type": ["string", "null"]},
+        "recording_date": {"type": ["string", "null"]},
+        "recording_institution": {"type": ["string", "null"]},
+        "contamination_risk": {"type": ["string", "null"], "enum": ["LOW", "MODERATE", "HIGH", "CRITICAL", null]},
+        "contamination_notes": {"type": ["string", "null"]}
+      }
+    },
+    "living_tradition": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "active_custodian_communities": {"type": "array", "items": {"type": "string"}},
+        "custodianship_type": {"type": ["string", "null"]},
+        "researcher_access_note": {"type": ["string", "null"]},
+        "western_interpretation_separation": {"type": ["string", "null"]}
+      }
+    },
+    "regional_variant_notes": {"type": ["string", "null"]},
+    "language_group": {"type": ["string", "null"]},
+    "community_interpretation": {"type": ["string", "null"]}
+  }
+}
