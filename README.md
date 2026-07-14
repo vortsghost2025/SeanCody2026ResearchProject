@@ -44,6 +44,18 @@ Evidence strength remains a separate field so documented history, mythology, fic
 - Narrative convergence: when originally separate ideas become one combined system
 - Human–AI ensemble research, persistent state, disagreement, verification, and model orchestration
 
+## Newly formalized Grey / reptilian lanes
+
+Session 036 preserved an LM Arena deep-dive and proposed CSV extension as raw acquisition, then rejected direct canonical import pending item-level verification.
+
+- **[RQ-035 — Grey imagery standardization](research_questions/RQ-035-GREY-IMAGERY-STANDARDIZATION.md)** — fiction, testimony, hypnosis, illustration, television, film, cover art, contamination, and later feedback.
+- **[RQ-036 — Reptilian synthesis and Grey fusion](research_questions/RQ-036-REPTILIAN-SYNTHESIS-GREY-FUSION.md)** — modern occult/pulp/UFO publishing and the earliest item-level Grey/Reptilian hierarchy.
+- **[Session 036 curator QC](reports/SESSION_036_GREY_REPTILIAN_QC.md)** — row-by-row decisions, structural defects, corrections, and promotion boundaries.
+- **[Grey visual bridge candidate](graph/bridges/BRIDGE-035-001-GREY-VISUAL-STANDARDIZATION.md)**
+- **[Reptilian/Grey fusion bridge candidate](graph/bridges/BRIDGE-036-001-REPTILIAN-GREY-FUSION.md)**
+
+The canonical 25-record seed remains unchanged until exact sources, dates, passages, and carriers pass curator review.
+
 ## Repository structure
 
 ```text
