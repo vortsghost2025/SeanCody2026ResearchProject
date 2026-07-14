@@ -83,6 +83,49 @@ Example:
 
 High specificity still does not prove a common real-world cause. It identifies a pattern requiring better provenance analysis.
 
+## Observation-convergence extension
+
+When two or more witnesses, instruments, logs, or reports appear to describe the same unusual structure, use:
+
+- `schemas/OBSERVATION_REPORT.md` for each original report;
+- `schemas/CONVERGENCE_CLUSTER.md` for the comparison;
+- `docs/INDEPENDENT_CONVERGENCE_METHOD.md` for the workflow.
+
+Required separations:
+
+```text
+raw observation
+        ≠
+observer interpretation
+        ≠
+researcher explanation
+```
+
+Required tests:
+
+- whether original statements were preserved before cross-exposure;
+- whether reports share a hidden source, investigator, platform, rumor, or media influence;
+- whether feature overlap is specific or generic;
+- whether one ordinary object or environmental event could explain all reports;
+- whether later retellings harmonized originally conflicting details;
+- whether sensor evidence has its own source chain;
+- what evidence would split, explain, or reject the cluster.
+
+Independence and convergence are separate dimensions:
+
+```text
+high independence + generic similarity
+        = weak pattern
+
+high specificity + high contamination
+        = weak independent convergence
+
+high specificity + documented pre-exposure independence
+        = high research priority, not proof
+```
+
+Component profiles may be scored for audit, but the project does not use a single numerical convergence score as a probability of truth or extraordinary origin.
+
 ## Research principle
 
 **Preserve what, who, when, where, why, and how before deciding what it means.**
