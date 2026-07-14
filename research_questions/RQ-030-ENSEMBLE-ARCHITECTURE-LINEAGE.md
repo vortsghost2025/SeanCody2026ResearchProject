@@ -11,7 +11,9 @@ RQ:
     The current workflow appears to be the result of years of comparative model
     testing and several generations of architecture. Reconstructing the lineage
     can distinguish genuinely early ideas from later reinterpretation, identify
-    which mechanisms repeatedly worked, and preserve lessons from failed systems.
+    which mechanisms repeatedly worked, preserve lessons from failed systems,
+    and compare the architecture with independently developed solutions to the
+    same problem class without confusing comparison with ancestry.
 
   date_scope:
     start: 2016
@@ -29,6 +31,54 @@ RQ:
     - disagreement preserved as data
     - human acting as connection detector and final entity resolver
 
+  evidence_lanes:
+    lineage:
+      purpose: >
+        Establish what Sean built, when it appeared, how it changed, and which
+        artifacts document each transition.
+      can_support:
+        - chronology
+        - internal development
+        - implementation history
+        - documented influence within Sean's own projects
+        - priority relative to later dated artifacts
+      requires:
+        - dated internal artifacts
+        - repository history
+        - prompts or task records
+        - implementation and test evidence
+
+    independent_convergence:
+      purpose: >
+        Compare outside systems that encounter similar constraints and independently
+        adopt similar mechanisms, with no contact or influence established.
+      can_support:
+        - recurring utility
+        - discoverability from shared constraints
+        - architectural coherence
+        - non-arbitrary design
+        - subsystem comparison
+      cannot_support:
+        - Sean's chronology
+        - originality
+        - priority
+        - influence
+        - copying
+        - contact
+
+    external_divergence:
+      purpose: >
+        Compare outside systems that solve the same problem differently, exposing
+        which SYS-002 mechanisms are distinctive, optional, absent, or potentially
+        overengineered.
+      can_support:
+        - alternative designs
+        - missing-layer analysis
+        - failure-mode comparison
+        - subsystem boundaries
+      cannot_support:
+        - lineage or influence without contact evidence
+
   evidence_needed:
     - dated documents or chat exports
     - repository paths and commit history
@@ -39,6 +89,8 @@ RQ:
     - implementation records
     - tests, failures, regressions, and later corrections
     - exact quotations describing the architecture or philosophy
+    - external comparison artifacts with problem constraints and mechanisms separated
+    - explicit contact searches before any influence inference
 
   do_not_treat_as_proof:
     - a file's recent upload date when its content is older
@@ -47,6 +99,7 @@ RQ:
     - model-generated claims of completeness or originality
     - similar architectures without evidence Sean encountered them
     - external public convergence as evidence of Sean's lineage
+    - independent convergence as proof of originality or priority
     - an audit of a model output as proof that a different model performed the audit
     - an implementation task as proof that the implementation was executed or tested
 
@@ -55,6 +108,12 @@ RQ:
     with representative artifacts for model diversity, role specialization,
     persistent state, cross-model review, implementation verification, and the
     human curator role.
+
+  corroboration_resolution: >
+    Multiple external systems with no established contact encounter substantially
+    similar constraints and independently adopt overlapping mechanisms, while
+    meaningful differences remain explicit. This may corroborate the coherence and
+    recurring utility of the mechanisms but does not resolve lineage.
 
   partial_resolution: >
     Several dated stages are established, but the earliest model-comparison
@@ -75,12 +134,30 @@ RQ:
     - SYS-002
     - SYS-002-ARTIFACT-REGISTRY
     - ARCH-EXT-001
+    - EXTERNAL-ARCHITECTURE-COMPARISON-SCHEMA
     - SESSION_024
     - SESSION_035
 
   generated_session: SESSION_023
   last_updated: 2026-07-14
 ```
+
+## Evidence-lane rule
+
+```text
+LINEAGE
+= dated internal development
+
+INDEPENDENT CONVERGENCE
+= similar mechanisms under similar constraints, without established contact
+
+EXTERNAL DIVERGENCE
+= alternative solutions revealing what is distinctive or optional
+```
+
+Only the lineage lane can establish the chronology of Sean's architecture. External convergence and divergence sit beside the lineage as architectural evidence, not inside it.
+
+Use: [`schemas/EXTERNAL_ARCHITECTURE_COMPARISON.md`](../schemas/EXTERNAL_ARCHITECTURE_COMPARISON.md).
 
 ## First acquisition result — public July 12 genesis
 
@@ -175,10 +252,16 @@ Therefore:
 
 ```yaml
 ARCH-EXT-001:
+  evidence_lane: INDEPENDENT_CONVERGENCE
   comparison_value: HIGH
   Sean_lineage_value: NONE
   influence_or_contact: NOT_ESTABLISHED
   performance_reproducibility: UNKNOWN
+  solution_space_significance: >
+    Similar constraints independently produce overlapping mechanisms, supporting
+    the interpretation that externalized state, skills, human checkpoints, budgets,
+    and monitored execution are coherent responses to a recurring agent-research
+    problem rather than arbitrary personal preferences.
 ```
 
 Read:
@@ -186,20 +269,47 @@ Read:
 - [`ARCH-EXT-001-NVIDIA-CODEX-AUTORESEARCH.md`](../graph/systems/ARCH-EXT-001-NVIDIA-CODEX-AUTORESEARCH.md)
 - [`SESSION_035_NVIDIA_CODEX_AUTORESEARCH_VIDEO_MANIFEST.md`](../research_inbox/SESSION_035_NVIDIA_CODEX_AUTORESEARCH_VIDEO_MANIFEST.md)
 
-## Why the distinction matters
+## Why independent convergence matters
 
-External convergence can show that a mechanism is broadly useful or emerging independently. It cannot establish chronology, priority, influence, or copying without contact evidence.
+Independent convergence can strengthen a bounded claim:
+
+> When long-running agents face state loss, real-system failures, measurable objectives, finite budgets, and consequential choices, externalized memory, operating rules, monitored execution, and human checkpoints recur as practical solutions.
+
+It cannot strengthen these claims without additional evidence:
+
+- Sean invented the mechanisms first;
+- the outside system copied Sean;
+- Sean encountered the outside system;
+- the two architectures are equivalent;
+- the multi-model disagreement layer is implied by a single-agent execution loop.
 
 ```text
-similar mechanism
-        = comparison target
+same constraints
++ independently similar mechanism
+        = coherence / recurring-utility evidence
 
-similar mechanism + dated contact/exposure
+same mechanism
++ dated contact or exposure
         = possible influence test
 
 similar mechanism alone
         ≠ lineage evidence
 ```
+
+## External divergence as useful evidence
+
+Outside systems that omit or replace SYS-002 mechanisms may be equally informative.
+
+Examples of comparison questions:
+
+- What happens when failed branches are summarized instead of preserved?
+- What changes when one agent optimizes a metric but no independent critic exists?
+- Is state stored as prose, schema, timeline, database, or hidden platform memory?
+- Are budgets enforced by prompt, controller, infrastructure, or human supervision?
+- Does the system preserve disagreement, or only the chosen result?
+- Which layers are necessary for execution, and which are necessary for trustworthy research?
+
+A divergent architecture may show that one SYS-002 component is distinctive, unnecessary for a certain task, or required only at larger scale.
 
 ## Next acquisition batch — earlier private lineage
 
@@ -215,7 +325,20 @@ Search the private January 2026 development archive and the earlier ensemble rep
 | Human curator | Explicit evidence that Sean selected connections, resolved conflicts, or redirected models |
 | Disagreement as data | Earliest record retaining variants rather than merging them into one answer |
 
-## Required return format
+## External comparison acquisition
+
+Collect outside artifacts separately using the external-comparison schema:
+
+- exact public skill files and version history;
+- state or memory format;
+- session-reload protocol;
+- experiment and failure log schema;
+- commit and checkpoint structure;
+- budget-enforcement layer;
+- public metrics and reproduction artifacts;
+- evidence for or against independent branches and critic/verifier roles.
+
+## Required lineage return format
 
 ```yaml
 ARCHITECTURE_ARTIFACT:
@@ -245,6 +368,6 @@ ARCHITECTURE_ARTIFACT:
 - persistent-state, bootstrap, checkpoint, and handoff documents;
 - Hermes, lane, subagent, and control-plane experiments;
 - current Sean & Cody variant-preserving research workflow;
-- external public agent-research systems, kept in a separate comparison lane.
+- external public agent-research systems, kept in separate convergence/divergence lanes.
 
-Candidate does not mean verified. Each lineage stage needs a dated artifact.
+Candidate does not mean verified. Each lineage stage needs a dated artifact. External comparisons require problem-constraint and mechanism analysis but never enter the lineage without documented contact.
