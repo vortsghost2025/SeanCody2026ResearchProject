@@ -18,16 +18,16 @@ RQ:
 
   central_problem: >
     Topic-by-topic research can miss the people, publications, institutions, errors,
-    images, terminology, bylines, printers, formats, and distribution systems that
-    carry material between domains. This question seeks those hidden carriers without
-    assuming that similarity proves transmission.
+    images, terminology, bylines, printers, and distribution systems that carry material
+    between domains. This question seeks those hidden carriers without assuming that
+    similarity proves transmission.
 
   core_questions:
-    - Which editors, publishers, printers, translators, illustrators, distributors, clubs, archives, broadcasters, platforms, or institutions appear in multiple domains?
-    - Which rare phrases, bylines, errors, quotations, labels, diagrams, images, or numerical mistakes recur across domains?
-    - How does material change when moving from review to newspaper, pamphlet, book, broadcast, archive, or institutional dossier?
-    - Where do speculation, testimony, technical language, and institutional framing change roles?
-    - Which apparent bridges are independent parallels, genre conventions, strategic reframings, or later retrospective fusions?
+    - Which editors, publishers, printers, translators, illustrators, distributors, clubs, conferences, archives, broadcasters, platforms, or institutions appear in multiple domains?
+    - Which rare phrases, bylines, spelling errors, false quotations, labels, diagrams, photographs, or numerical mistakes recur across domains?
+    - Where do fiction, speculation, testimony, technical language, and institutional framing change roles?
+    - When are older mythic or geographical motifs technologized, extraterrestrialized, interdimensionalized, secularized, or politically reframed?
+    - Which apparent bridges are independent parallels, genre conventions, abandoned frameworks, strategic reframings, or later retrospective fusions?
     - What negative evidence would disprove the strongest proposed connections?
 
   do_not_treat_as_proof:
@@ -35,16 +35,14 @@ RQ:
     - chronological overlap without exposure evidence
     - one shared publisher without item-level connection
     - one shared anonymous byline without frequency controls
-    - one person appearing in the same broad field
+    - one person's biography as automatic doctrinal continuity
+    - one surname as entity identity
     - model agreement
     - unsourced internet repetition
     - retrospective diagrams that merge traditions
-    - a bridge candidate being registered
-    - an institution preserving a record being treated as endorsement
-    - one person's biography being treated automatically as doctrinal continuity
-    - absence of a keyword being treated as total intellectual abandonment
-    - a catalogue title being treated as proof of substantive argument
-    - primary phrase match being treated automatically as copying or code
+    - an institution preserving or printing a record as institutional endorsement
+    - absence of a keyword as total intellectual abandonment
+    - a catalogue title as proof of substantive argument
 
   partial_resolution: >
     Three or more bridge candidates have item-level evidence for shared infrastructure,
@@ -55,7 +53,7 @@ RQ:
   positive_resolution: >
     A cross-domain map identifies multiple hidden carriers with source-supported dates,
     mechanisms, and transformations, and distinguishes genuine transmission from shared
-    motif, independent parallel development, generic convention, strategic reframing,
+    motif, independent parallel development, abandoned frameworks, strategic reframing,
     and later retrospective fusion.
 
   negative_resolution: >
@@ -66,6 +64,9 @@ RQ:
   related_files:
     - CROSS_DOMAIN_BRIDGE_ATLAS.md
     - schemas/BRIDGE_CANDIDATE.md
+    - schemas/MOTIF.md
+    - schemas/PROPAGATION.md
+    - schemas/TRANSMISSION_EDGE.md
     - graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md
     - graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md
     - graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md
@@ -75,11 +76,13 @@ RQ:
     - data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md
     - data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md
     - data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md
+    - data/entity_resolution/ENTITY-RESOLUTION-001-JEREMIAH-WILLIAM-REYNOLDS.md
     - research_inbox/SESSION_032_BYLINE_INTELLIGENCER_VARIANT_MANIFEST.md
     - reports/SESSION_032_BYLINE_INTELLIGENCER_QC.md
+    - research_inbox/SESSION_032_CONTINUATION_CLOSEOUT.md
 
   generated_session: SESSION_027
-  current_acquisition_session: SESSION_032
+  current_acquisition_session: ARCHIVE_GATED_AFTER_SESSION_032
   last_updated: 2026-07-13
 ```
 
@@ -89,9 +92,10 @@ RQ:
 Methodology commentary variants: 1
 Initial historical acquisition variants: 2
 Reynolds verification variants: 2
-Reynolds 1827 catalogue variants: 1
+Reynolds 1827 catalogue result variants: 1
 Reynolds/AQR text-pair variants: 1
-Byline/Intelligencer variants: 2
+Session 032 byline variants: 2
+Session 032 continuation passes: 1
 Normalized bridge candidate clusters: 10
 Candidates deep-verified: 1
 Supported bridge findings: 1
@@ -100,7 +104,8 @@ Canonical direct-response edges: 1
 Canonical publication-carrier edges: 1
 Canonical known-copy edges: 0
 Negative-evidence records: 1
-Error/phrase fingerprint candidates: 2
+Supported non-diagnostic fingerprints: 1
+Namesake conflations blocked: 1
 RQ-032 status: SEARCHING
 ```
 
@@ -111,12 +116,12 @@ Symmes Hollow Earth advocacy
         ↓ same person / exposure
 Jeremiah N. Reynolds
         ↓ Adams records public pivot in 1826
-1827 response to AQR
-        ├── partial defense of hollow/open-pole possibility
-        ├── rejection/bracketing of detailed five-sphere claims
-        └── explicit separation of theory from expedition
+Southern Ocean and South-Pole advocacy
         ↓
-National Intelligencer serialized response
+1827 partial defense of hollow/open-pole possibility
+        + explicit separation of theory from expedition
+        ↓
+National Intelligencer serialization
         ↓
 Gales & Seaton collected pamphlet
         ↓
@@ -126,42 +131,68 @@ Gales & Seaton collected pamphlet
 ### Supported
 
 - Adams described Reynolds as a lecturer supporting Symmes's theory who had `varied his purpose` toward Southern Ocean circumnavigation.
-- Reynolds's 1827 pamphlet partially defends a hollow/open-pole possibility while separating speculation from expedition rationale.
-- The pamphlet preface says its three numbers were first published in the *National Intelligencer*.
-- The collected text preserves the numbered response structure and Reynolds signatures.
-- McBride 1826 and Reynolds 1827 both use the primary-confirmed title-page formula `By a Citizen of the United States`.
-- Reynolds explicitly knew the McBride/Symmes attribution.
-- Reynolds's 1836 *Address* uses commercial, scientific, navigational, and national rationales without located `Symmes` or `hollow` terms.
+- Reynolds's proposal moved through legislative, congressional, publishing, and periodical channels.
+- The 1827 scan and OCR authenticate his response pamphlet and its civic byline.
+- Reynolds declines to defend the entire detailed Symmes model.
+- He nevertheless maintains that Earth may be hollow and widely open at the poles.
+- He says speculation alone is insufficient to justify the expedition.
+- He argues polar inquiry has independent scientific and national value.
+- His preface states that the three numbers first appeared in the *National Intelligencer*.
 - Poe's January 1837 review directly identifies and reviews Reynolds's 1836 book.
 
 ### Not established
 
-- A primary artifact naming Reynolds and Symmes together in correspondence or one lecture notice.
+- A primary artifact naming Reynolds and Symmes together in a lecture or correspondence exchange.
 - Full loyalty to every Symmes claim.
 - Symmes's doctrine as the causal basis of the mature expedition program.
 - Exact copied passages from Reynolds into *Pym*.
-- Complete paragraph-by-paragraph AQR alignment.
-- Deliberate copying, coordination, or secret-code use of the citizen byline.
-- Exact *National Intelligencer* issue dates, pages, columns, headings, and bylines.
+- Complete paragraph-by-paragraph alignment of the AQR review and Reynolds response.
+- Deliberate copying or coordinated use of McBride's citizen byline.
+- Exact dates, pages, columns, headings, or bylines for the three newspaper installments.
 
-## Current classification
+## Byline evidence boundary
+
+```yaml
+shared_phrase_occurrence: VERIFIED
+awareness_of_reviewed_work: SUPPORTED
+awareness_of_McBride_attribution_phrase: SUPPORTED_FROM_REYNOLDS_TEXT
+awareness_of_exact_McBride_title_page_as_visual_source: INFERRED_PLAUSIBLE_NOT_PROVEN
+deliberate_echo: PLAUSIBLE_NOT_PROVEN
+shared_circle_signaling: PLAUSIBLE_NOT_PROVEN
+generic_anonymity_convention: VIABLE
+copying_or_coordination_edge: NOT_ESTABLISHED
+```
+
+## Publication carrier boundary
+
+```yaml
+BRIDGE-EDGE-003:
+  status: VERIFIED_PUBLICATION_PATH_WITH_ISSUE_LEVEL_GAP
+  canonical: true
+  exact_installments: NOT_ACQUIRED
+  free_source_search: CLOSED_AFTER_EXHAUSTIVE_PASS
+  next_access:
+    - paid newspaper archive
+    - Library of Congress issue or microfilm access
+    - institutional research request
+    - exact reprint lead
+```
+
+Broad free-web cycling is closed unless a new archive or issue identifier appears.
+
+## Current classifications
 
 ```yaml
 BRIDGE-032-003:
   status: SUPPORTED_PARTIAL_CONTINUITY_AND_STRATEGIC_REFRAMING
+
+BRIDGE-032-004:
+  status: PARTIAL
   supported:
-    - SAME_PERSON_CARRIER
-    - EXPOSURE_PATH
-    - INSTITUTIONAL_CARRIER
-    - PARTIAL_DOCTRINAL_CONTINUITY_IN_1827
-    - STRATEGIC_AND_ARGUMENTATIVE_REFRAMING
-    - VERIFIED_NEWSPAPER_TO_PAMPHLET_CARRIER
-    - PRIMARY_CONFIRMED_SHARED_BYLINE_CONTEXT
+    - DIRECT_CITATION
+    - ISSUE_LEVEL_EXPOSURE_PATH
   not_established:
-    - PRIMARY_PERSONAL_CONTACT_ARTIFACT
-    - FULL_SYMMES_DOCTRINAL_LOYALTY
-    - DOCTRINE_AS_CAUSE_OF_1836_PROGRAM
-    - BYLINE_COPYING_OR_SECRET_CODE
+    - KNOWN_COPY_INTO_PYM
 
 BRIDGE-EDGE-002:
   status: VERIFIED_DIRECT_RESPONSE
@@ -177,28 +208,27 @@ ERR-032-001:
 
 ERR-032-002:
   status: SUPPORTED_NONDIAGNOSTIC_FINGERPRINT
-  deliberate_echo: PLAUSIBLE_NOT_PROVEN
-  copying_edge: false
 ```
 
 ## Why RQ-032 remains SEARCHING
 
-The resolution threshold requires at least three independent bridge clusters to pass item-level tests or be rejected with documented negative evidence. Reynolds is still the only deeply verified cluster. The project has now mapped a compact review → newspaper → pamphlet → institutional-rhetoric pathway, but not yet a multi-cluster cross-domain system.
+The resolution threshold requires at least three independent bridge candidates to pass item-level tests or be rejected with documented negative evidence. Reynolds is the first deeply verified cluster. Multiple edges inside one cluster do not yet form a cross-domain carrier map.
 
-## Current exact task
+## Parked archival task
 
-Do not repeat title-page authentication or broad Reynolds biography.
+Recover the three *National Intelligencer* installments only when restricted archive access or a new exact lead becomes available.
 
-Recover the three Reynolds numbers from the *National Intelligencer* and return:
+Read:
 
-```text
-issue date
-page and column
-article heading
-signature/byline
-opening and closing lines
-surrounding editorials and advertisements
-textual differences from the pamphlet
-```
+- `research_inbox/SESSION_032_CONTINUATION_CLOSEOUT.md`
+- `reports/SESSION_032_BYLINE_INTELLIGENCER_QC.md`
 
-Determine whether the citizen byline appears in the newspaper serialization or was added for pamphlet collection. Do not create a McBride → Reynolds copying edge without new evidence.
+## Next active public lane
+
+Proceed with `RQ-033 — Polar Observability Limits`.
+
+Execute:
+
+- `research_inbox/SESSION_033_POLAR_OBSERVABILITY_ACQUISITION_BRIEF.md`
+
+Keep Jeremiah N. Reynolds separate from William Reynolds, and separate what a surface voyage could directly test from what required later subsurface or planetary geophysics.
