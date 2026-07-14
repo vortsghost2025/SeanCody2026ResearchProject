@@ -7,6 +7,7 @@ This registry records dated evidence for the Human–AI Ensemble Research Archit
 - **CONFIRMED:** the cited public artifact directly supports the described mechanism.
 - **PARTIAL:** the artifact supports part of the mechanism, but an important step remains unverified.
 - **UNKNOWN:** the available artifact does not establish the missing detail.
+- **EXTERNAL COMPARISON:** a public outside system demonstrates a similar or contrasting mechanism but is not evidence of Sean's lineage.
 
 ---
 
@@ -110,6 +111,44 @@ ARCHITECTURE_ARTIFACT:
 
 ---
 
+## ARCH-EXT-001 — NVIDIA / Codex AutoResearch workflow
+
+```yaml
+EXTERNAL_ARCHITECTURE_ARTIFACT:
+  artifact_id: ARCH-EXT-001
+  date: UNKNOWN_PUBLICATION_DATE
+  accessed: 2026-07-14
+  source_visibility: PUBLIC
+  source: "YouTube video qP0uXRbg9hc — Agent-Led Coding and Research"
+  stable_record: graph/systems/ARCH-EXT-001-NVIDIA-CODEX-AUTORESEARCH.md
+  lineage_role: NONE
+  mechanism_demonstrated: >
+    A skill-constrained Codex agent works across a repository, remote GPU runtime,
+    dependencies, experiments, metrics, budgets, and session state while a human
+    reviews failures and redirects consequential decisions.
+  mechanisms_supported:
+    - externalized session memory
+    - operating rules encoded as skills
+    - goal-driven experiment loop
+    - real repository and runtime execution
+    - failure recovery
+    - metric monitoring
+    - compute-budget stopping
+    - resumability
+    - human checkpoint judgment
+  mechanisms_not_shown:
+    - independent multi-model branches
+    - cross-model critique
+    - disagreement preserved as data
+    - provenance-aware ensemble synthesis
+  evidence_class: A for what the supplied transcript describes; UNKNOWN for independent reproducibility and final performance claims.
+  unresolved_questions: Obtain the exact skill files, repository version, run artifacts, final metrics, and experiment logs.
+```
+
+**Boundary:** this is a high-value external convergence example. It does not prove that Sean encountered the workflow, that the workflow encountered Sean's work, or that either architecture caused the other.
+
+---
+
 ## Coverage of RQ-030 mechanisms
 
 | Target mechanism | Earliest public evidence in this registry | Status |
@@ -122,6 +161,7 @@ ARCHITECTURE_ARTIFACT:
 | Recommendation implemented and tested | ARCH-004 | UNKNOWN — task specified only |
 | Same problem independently sent to multiple models | Not established by these July 12 artifacts | OPEN |
 | Disagreement preserved as a first-class object | Explicit in later Session 023 A/B workflow; earliest example still under search | OPEN |
+| External skill-based session-memory/autoresearch convergence | ARCH-EXT-001 | EXTERNAL COMPARISON — not lineage evidence |
 
 ## Current conclusion
 
@@ -137,4 +177,6 @@ explicit audit of the ChatGPT layer
 combined persistent state + implementation tasks
 ```
 
-This is strong evidence for the method's public-repository genesis, but it is not the beginning of the full architecture. Earlier January 2026 private artifacts and the older ensemble concept remain the next acquisition target.
+The external 2026 AutoResearch workflow independently demonstrates that several mechanisms—skills, persistent session memory, monitored execution, budgets, failure recovery, and human checkpoints—are emerging as recognizable public agent-research patterns. It does not establish the beginning or influence history of Sean's architecture.
+
+The earlier January 2026 private artifacts and older ensemble concept remain the next lineage acquisition target.
