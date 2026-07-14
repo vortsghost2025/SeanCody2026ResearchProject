@@ -4,6 +4,7 @@
 > **Supported bridge findings:** 1  
 > **Canonical direct-citation/review edges:** 1  
 > **Canonical direct-response edges:** 1  
+> **Canonical publication-carrier edges:** 1  
 > **Related files:** `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `schemas/BRIDGE_CANDIDATE.md`, `research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md`
 
 Registration means `worth testing`; only explicitly linked curator records count as verified findings or edges.
@@ -14,7 +15,7 @@ Registration means `worth testing`; only explicitly linked curator records count
 |---|---|---|---|---|
 | `BRIDGE-032-001` | Symmes Circular No. 1 (1818) → later Antarctic polar-opening language | `LEXICAL_MIGRATION`, `POSTAL_DISTRIBUTION`, `EXPOSURE_PATH` | HIGH | `OPEN — SOURCE LOCATORS REQUIRED` |
 | `BRIDGE-032-002` | *Symzonia* (1820) → later Antarctic-inner-world nonfiction | `EDITORIAL_SYNTHESIS`, `RETROACTIVE_FUSION` | MEDIUM | `OPEN — DOWNSTREAM UPTAKE UNKNOWN` |
-| `BRIDGE-032-003` | Jeremiah Reynolds: Symmes advocate → Antarctic expedition lobbyist | `SAME_PERSON_CARRIER`, `PARTIAL_CONTINUITY`, `INSTITUTIONAL_CARRIER`, `STRATEGIC_REFRAMING` | HIGHEST | `SUPPORTED — PARTIAL CONTINUITY + STRATEGIC REFRAMING` |
+| `BRIDGE-032-003` | Jeremiah Reynolds: Symmes advocate → Antarctic expedition lobbyist | `SAME_PERSON_CARRIER`, `PARTIAL_CONTINUITY`, `INSTITUTIONAL_CARRIER`, `STRATEGIC_REFRAMING` | HIGHEST | `SUPPORTED — PARTIAL CONTINUITY + PUBLICATION CARRIER` |
 | `BRIDGE-032-004` | Reynolds's 1836 *Address* → Poe review / *Pym* text reuse | `DIRECT_CITATION`, `KNOWN_COPY`, `EDITORIAL_SYNTHESIS` | HIGH | `PARTIAL — DIRECT REVIEW VERIFIED; PYM COPY OPEN` |
 | `BRIDGE-032-005` | William Reed, *Phantom of the Poles* (1906) → later Antarctic entrance claims | `LEXICAL_MIGRATION`, `SHARED_ERROR`, `ICONOGRAPHIC_MIGRATION` | HIGH | `OPEN — QUOTE/DIAGRAM AUDIT` |
 | `BRIDGE-032-006` | Lovecraft's *At the Mountains of Madness* → later Antarctic hidden-civilization/base narratives | `ICONOGRAPHIC_MIGRATION`, `EDITORIAL_SYNTHESIS`, `EXTRATERRESTRIALIZATION` | MEDIUM | `OPEN — DOWNSTREAM CITATION UNKNOWN` |
@@ -27,42 +28,40 @@ Registration means `worth testing`; only explicitly linked curator records count
 
 **Curator result:** `SUPPORTED_PARTIAL_CONTINUITY_AND_STRATEGIC_REFRAMING`.
 
-### Supported sequence
-
 ```text
-Reynolds publicly supports Symmes-related theory
+Reynolds supports Symmes-related theory
         ↓
-Adams records a pivot toward Southern Ocean advocacy in 1826
+Adams records public pivot in 1826
         ↓
-Reynolds responds to an AQR review in 1827
+1827 Reynolds response
+        ├── brackets detailed five-sphere machinery
+        ├── retains possible hollow/open-pole Earth
+        └── separates speculation from expedition justification
         ↓
-retains possible hollow/open-pole Earth
-rejects or brackets detailed five-sphere machinery
-separates theory from expedition justification
+National Intelligencer numbered serialization
         ↓
-1836 institutional case uses science, navigation, commerce, and national purpose
+Gales & Seaton collected pamphlet
+        ↓
+1836 institutional case without explicit Symmes/hollow vocabulary
 ```
 
-### Verified records
+Verified records:
 
 - [Reynolds supported bridge](BRIDGE-032-003-REYNOLDS-PIVOT.md)
 - [1827 text-acquired artifact](../chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md)
 - [Session 031 QC](../../reports/SESSION_031_REYNOLDS_AQR_QC.md)
+- [Session 032 QC](../../reports/SESSION_032_BYLINE_INTELLIGENCER_QC.md)
 - [1836 negative evidence](../../data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
-
-### Boundaries
 
 Not established:
 
 - a primary Reynolds–Symmes personal-contact artifact;
 - full loyalty to all Symmes claims;
-- Symmes doctrine as the causal basis of the 1836 program;
-- complete line-by-line AQR alignment;
-- deliberate copying of McBride's anonymous byline.
+- Symmes doctrine as cause of the 1836 program;
+- deliberate copying or secret-code use of the citizen byline;
+- exact *National Intelligencer* issue dates/pages/columns.
 
 ## BRIDGE-EDGE-002 — AQR → Reynolds
-
-The response relationship is now verified:
 
 ```text
 American Quarterly Review, “Symmes's theory” (1827)
@@ -72,11 +71,19 @@ Reynolds, Remarks on a review of Symmes' theory... (1827)
 
 Read: [BRIDGE-EDGE-002](../transmissions/BRIDGE-EDGE-002-AQR-REYNOLDS-RESPONSE-CANDIDATE.md).
 
-The edge supports direct response, partial defense, qualification, concession, and strategic reframing. Complete paragraph-by-paragraph alignment remains incomplete.
+## BRIDGE-EDGE-003 — *National Intelligencer* → pamphlet
+
+```text
+National Intelligencer numbered response series
+        ↓ SERIALIZATION_TO_PAMPHLET
+Reynolds / Gales & Seaton collected pamphlet (1827)
+```
+
+The prior-publication relation is primary-confirmed by Reynolds's preface and the collected three-number structure. Exact newspaper issue records remain open.
+
+Read: [BRIDGE-EDGE-003](../transmissions/BRIDGE-EDGE-003-INTELLIGENCER-REYNOLDS-PAMPHLET.md).
 
 ## BRIDGE-032-004 — Reynolds → Poe
-
-Verified:
 
 ```text
 Reynolds Address (1836)
@@ -102,11 +109,13 @@ Status: `OPEN_CANDIDATE`; copying sequence unknown.
 ### ERR-032-002 — shared citizen attribution
 
 ```text
-McBride 1826: reported “A/By a Citizen of the United States”
-Reynolds 1827: “A Citizen of the United States” on title page
+McBride 1826: “By a Citizen of the United States”
+Reynolds 1827: “By a Citizen of the United States”
 ```
 
-Status: `OPEN_CANDIDATE`; deliberate echo, shared circle, generic convention, and independent parallel remain competing explanations.
+Status: `SUPPORTED_NONDIAGNOSTIC_FINGERPRINT`.
+
+Primary occurrence and Reynolds's awareness are supported. Rhetorical echo and shared-circle signaling remain plausible. Copying or coordinated code is not established because the phrase also appears outside the Symmes controversy and the frequency control is incomplete.
 
 Read: [ERR-032-002](../../data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md).
 
@@ -114,11 +123,11 @@ Read: [ERR-032-002](../../data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLI
 
 ### BRIDGE-032-001 — Symmes Circular
 
-Promote only with dated reprints, citations, letters, recipient records, or distinctive wording moving into Antarctic entrance claims.
+Require dated reprints, citations, letters, recipient records, or distinctive wording moving into Antarctic entrance claims.
 
 ### BRIDGE-032-002 — *Symzonia*
 
-Promote only with later item-level citation, quotation, paraphrase, or unique scene/wording reuse.
+Require later item-level citation, quotation, paraphrase, or unique scene/wording reuse.
 
 ### BRIDGE-032-005 — William Reed
 
@@ -156,26 +165,24 @@ initial_historical_acquisition_variants: 2
 reynolds_verification_variants: 2
 reynolds_1827_catalogue_variants: 1
 reynolds_aqr_text_pair_variants: 1
+byline_intelligencer_variants: 2
 normalized_candidate_clusters: 10
 candidates_deep_verified: 1
 supported_bridge_findings: 1
 canonical_direct_citation_review_edges: 1
 canonical_direct_response_edges: 1
+canonical_publication_carrier_edges: 1
 canonical_known_copy_edges: 0
 negative_evidence_records: 1
 error_phrase_fingerprint_candidates: 2
 canonical_full_cross_domain_lineages: 0
 ```
 
-## Current deep-verification target
+## Current exact task
 
 ```text
-ERR-032-002
-McBride/Reynolds shared citizen attribution
-+
-National Intelligencer serialization
-+
-Gales & Seaton carrier infrastructure
+National Intelligencer
+three Reynolds response numbers
 ```
 
-Execute `research_inbox/SESSION_032_CITIZEN_BYLINE_INTELLIGENCER_BRIDGE_BRIEF.md`.
+Recover exact issue dates, pages, columns, headings, signatures, surrounding editorial framing, and textual differences from the pamphlet. Do not repeat title-page authentication or promote byline copying without new evidence.
