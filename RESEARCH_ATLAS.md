@@ -29,7 +29,7 @@ SYS-002 is the research machinery used to investigate SYS-001 and future domains
 | Domain | What is being traced | State |
 |---|---|---|
 | Antarctica / Terra Australis | theoretical geography, maps, voyages, observed Antarctica, and later reinterpretations | **ACTIVE — RQ-031** |
-| Cross-domain hidden carriers | people, publishers, errors, images, institutions, abandoned frameworks, and transformations connecting apparently separate topics | **ACTIVE — RQ-032** |
+| Cross-domain hidden carriers | people, publishers, errors, images, bylines, institutions, abandoned frameworks, and transformations | **ACTIVE — RQ-032** |
 | Hollow Earth | historical theories, Shaver/Palmer, occult networks, UFO publishing, and mail-order transmission | ACTIVE |
 | UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, and Dulce | ACTIVE |
 | Grey imagery | fiction, testimony, visual standardization, media amplification, and retroactive artifact interpretation | SEEDED |
@@ -99,8 +99,6 @@ map_sheet: 12
 imprint: "third imprint of the original 1570 Latin edition"
 ```
 
-The artifact and scan are verified. The selected online copy is **not** treated as the first imprint or first plate state.
-
 One narrow relationship is verified:
 
 ```text
@@ -109,7 +107,7 @@ DOCUMENTED_INFLUENCE
 scope: general world-map cartography and atlas synthesis
 ```
 
-That edge does not prove that every Terra Australis label, bay, promontory, or coastline was copied from Mercator.
+That edge does not prove that every southern label or coastline was copied from Mercator.
 
 Read: [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md), [Ortelius item](graph/chronologies/TERRA-MAP-002-A-ORTELIUS-1570.md), [map edge](graph/transmissions/MAP-EDGE-001-MERCATOR-ORTELIUS-WORLD-MAP.md), [Session 026 QC](reports/SESSION_026_ORTELIUS_QC.md).
 
@@ -119,31 +117,34 @@ Read: [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.
 Methodology commentary variants: 1
 Initial historical acquisition variants: 2
 Reynolds verification variants: 2
-Reynolds 1827 result variants: 1
+Reynolds 1827 catalogue variants: 1
+Reynolds/AQR text-pair variants: 1
 Normalized bridge candidate clusters: 10
 Candidates deep-verified: 1
 Supported bridge findings: 1
-Catalogue-authenticated continuity artifacts: 1
-Canonical direct-citation edges: 1
-Partial response edges: 1
+Canonical direct-citation/review edges: 1
+Canonical direct-response edges: 1
 Canonical known-copy edges: 0
 Negative-evidence records: 1
-Copied-error candidates: 1
+Error/phrase fingerprint candidates: 2
 RQ-032 status: SEARCHING
 ```
 
-The first Antarctica ↔ Hollow Earth pass registered ten testable clusters, including Symmes, *Symzonia*, Reynolds, Poe, William Reed, Lovecraft, Palmer/Bernard, Byrd/Highjump, Szabo, and Agartha.
-
 #### Reynolds split finding
+
+The first deeply tested bridge now resolves as **partial continuity plus strategic reframing**:
 
 ```text
 Symmes Hollow Earth advocacy
         ↓ same person / exposure
 Jeremiah N. Reynolds
-        ↓ Adams records pivot in 1826
+        ↓ Adams records a public pivot in 1826
 Southern Ocean and South-Pole advocacy
         ↓
-1827 printed response concerning Symmes's theory
+1827 response to American Quarterly Review
+        ├── rejects or brackets detailed five-sphere claims
+        ├── retains possible hollow/open-pole Earth
+        └── separates speculation from expedition justification
         ↓
 1836 institutional case without explicit Symmes/hollow vocabulary
 ```
@@ -153,46 +154,74 @@ Supported mechanisms:
 - `SAME_PERSON_CARRIER`;
 - `EXPOSURE_PATH`;
 - `INSTITUTIONAL_CARRIER`;
-- `RHETORICAL_REFRAMING`;
-- `BIBLIOGRAPHIC_CONTINUITY_IN_1827`.
+- `PARTIAL_DOCTRINAL_CONTINUITY_IN_1827`;
+- `STRATEGIC_AND_ARGUMENTATIVE_REFRAMING`.
 
-The 1827 artifact is catalogue-authenticated as:
+The text-acquired 1827 artifact is:
 
 ```yaml
 title: "Remarks on a review of Symmes' theory, which appeared in the American quarterly review"
-creator: "Reynolds, J. N. (Jeremiah N.), 1799-1858"
+creator_catalogue: "Reynolds, J. N. (Jeremiah N.), 1799-1858"
+printed_attribution: "A Citizen of the United States"
 place: Washington
 printer: "Gales & Seaton"
 year: 1827
-institution: "Library of Congress"
-loc_item: "06040937"
-call_numbers:
-  - "AC901 .M5 vol. 797, no. 14"
-  - "YA 25425"
+ia_identifier: remarksonreviewo00reyn
+ark: ark:/13960/t1tf1gd11
+lccn: "06040937"
 ```
 
-This proves continued public engagement with the Symmes controversy in 1827, after Adams's November 1826 pivot description. It does **not** yet prove Reynolds defended or remained doctrinally loyal to Symmes, because the pamphlet text has not been acquired.
+The pamphlet says its three numbers were first published in the *National Intelligencer*. This exposes a carrier pathway hidden by the simplified biography:
 
-The 1836 negative evidence remains valid and narrow: the available OCR contains no `Symmes` or `hollow`, and the public rationale is commercial, scientific, navigational, and national.
+```text
+American Quarterly Review criticism
+        ↓
+National Intelligencer serialized response
+        ↓
+Gales & Seaton collected pamphlet
+        ↓
+later public and institutional advocacy
+```
 
-A separate edge is verified:
+The 1836 negative result remains valid and narrow: the available OCR contains no `Symmes` or `hollow`, and the visible rationale is commercial, scientific, navigational, and national.
+
+#### Verified response edge
+
+```text
+American Quarterly Review, “Symmes's theory” (1827)
+        ↓ DIRECT_RESPONSE
+Reynolds, Remarks on a review of Symmes' theory... (1827)
+```
+
+The response includes qualification, partial defense, concession, counterargument, and strategic separation of theory from expedition. Complete paragraph-level alignment remains incomplete.
+
+#### Verified Reynolds → Poe review edge
 
 ```text
 Reynolds, Address (1836)
-        ↓ DIRECT_CITATION
-Poe, South-Sea Expedition review (1837)
+        ↓ DIRECT_CITATION / NAMED REVIEW
+Poe, South-Sea Expedition (1837)
 ```
 
 The repeated claim that *Pym* copies roughly 700 words remains open until exact passages and page/image locators are aligned.
 
-The corrected 1827 title also produced the first formal copied-error candidate:
+#### Error and phrase fingerprints
+
+`ERR-032-001`:
 
 ```text
 correct: Remarks ON A REVIEW of Symmes' theory...
 mutated: Remarks OF Symmes' theory...
 ```
 
-The mutation is public and materially changes the apparent document type. Its website-to-website copying chain remains unproven.
+`ERR-032-002`:
+
+```text
+McBride 1826: reported “A/By a Citizen of the United States”
+Reynolds 1827: “A Citizen of the United States”
+```
+
+The first is a title-mutation candidate. The second may be deliberate echo, shared-circle signaling, printer convention, generic anonymity, or independent parallel use.
 
 Read:
 
@@ -201,11 +230,13 @@ Read:
 - [Bridge candidate registry](graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md)
 - [Reynolds supported finding](graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md)
 - [1827 Reynolds artifact](graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md)
-- [Reynolds → Poe direct-citation edge](graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
-- [AQR → Reynolds response candidate](graph/transmissions/BRIDGE-EDGE-002-AQR-REYNOLDS-RESPONSE-CANDIDATE.md)
-- [Session 030 QC](reports/SESSION_030_REYNOLDS_1827_QC.md)
-- [Negative-evidence record](data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
-- [Title-error fingerprint](data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md)
+- [AQR → Reynolds edge](graph/transmissions/BRIDGE-EDGE-002-AQR-REYNOLDS-RESPONSE-CANDIDATE.md)
+- [Reynolds → Poe edge](graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
+- [Session 031 manifest](research_inbox/SESSION_031_REYNOLDS_AQR_RESULT_MANIFEST.md)
+- [Session 031 QC](reports/SESSION_031_REYNOLDS_AQR_QC.md)
+- [1836 negative evidence](data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md)
+- [Title mutation](data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md)
+- [Shared citizen attribution](data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md)
 
 ---
 
@@ -214,15 +245,16 @@ Read:
 | Type | Meaning |
 |---|---|
 | `DIRECT_CITATION` | A source explicitly cites, quotes, names, reprints, or references another source |
-| `KNOWN_COPY` | Documentary or cartographic evidence establishes copying |
+| `DIRECT_RESPONSE` | A dated source explicitly responds to another identified source |
+| `KNOWN_COPY` | Documentary or textual evidence establishes copying |
 | `TRANSLATION` | A text or map is translated or adapted from another |
 | `DOCUMENTED_INFLUENCE` | A dated reliable source documents influence |
 | `PERSONAL_CONTACT` | Correspondence, employment, collaboration, meeting, or documented contact |
-| `SHARED_PUBLISHER` | Shared publisher/distribution; not proof of influence by itself |
+| `SHARED_INFRASTRUCTURE` | Shared publisher, printer, periodical, distributor, or network; not influence by itself |
 | `SHARED_MOTIF` | Similar content exists, but transmission is unestablished |
 | `RETROACTIVE_REINTERPRETATION` | A later framework is projected onto an older artifact or tradition |
 | `SPECULATIVE_SIMILARITY` | A possible resemblance requiring investigation |
-| `NEGATIVE_EVIDENCE` | A documented search finds an expected trace absent |
+| `NEGATIVE_EVIDENCE` | A bounded search finds an expected trace absent |
 | `UNKNOWN` | Available evidence does not support classification |
 
 Evidence classes remain separate:
@@ -233,7 +265,7 @@ Evidence classes remain separate:
 - **D:** testimonial or unsupported narrative;
 - **E:** contradicted or highly implausible.
 
-A historical artifact can be Evidence A while a claim about its meaning remains C, D, or E. A catalogue record authenticates an object but does not substitute for the object's text.
+A historical artifact can be Evidence A while a claim about its meaning remains C, D, or E. A shared byline or publisher is a clue, not proof of coordination.
 
 ---
 
@@ -241,7 +273,7 @@ A historical artifact can be Evidence A while a claim about its meaning remains 
 
 | Priority | ID | Target | State | What moves it forward |
 |---|---|---|---|---|
-| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 1 candidate deep-verified, 1 direct-citation edge, 1 authenticated 1827 continuity artifact | Acquire Reynolds pamphlet text and matching AQR article; classify the response |
+| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 1 cluster deep-verified, 2 verified response/review edges | Verify McBride/Reynolds byline and *National Intelligencer* carrier path |
 | **P0** | **RQ-031** | Terra Australis → observed Antarctica | SEARCHING — 1/5 core items promoted | Verify Ptolemy, Bertius, Tasman, and Cook one item at a time |
 | P0 | RQ-023 | Shaver/Palmer transmission, 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records |
 | P0 | RQ-030 | Sean's ensemble-architecture lineage | PARTIAL — paused at private boundary | Isolated local filesystem agent and dated private artifacts |
@@ -255,15 +287,15 @@ A historical artifact can be Evidence A while a claim about its meaning remains 
 
 ## 6. Current cloud-agent assignments
 
-### Primary: acquire the Reynolds/AQR 1827 text pair
+### Primary: shared byline and *National Intelligencer* carrier
 
-Do **not** repeat the broad Reynolds biography and do not re-authenticate the catalogue record.
+Do **not** repeat the Reynolds biography or re-prove the pamphlet exists.
 
-> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md`, `graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md`, `reports/SESSION_030_REYNOLDS_1827_QC.md`, and `data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md`. Work only on acquiring the full text or page images of J. N. Reynolds's 1827 *Remarks on a review of Symmes' theory, which appeared in the American quarterly review* and the matching 1827 *American Quarterly Review* article identified as `Symmes's theory`, vol. 1, p. 235 onward. Return exact institutional scans, complete page ranges, title-page transcription, Reynolds's position with page/image locators, aligned claims and quotations, and a classification of the response as defense, qualification, modification, strategic reframing, or rejection. Verify that the AQR article is the actual counterpart. Do not create a canonical response edge.
+> Read `RESEARCH_ATLAS.md`, `CROSS_DOMAIN_BRIDGE_ATLAS.md`, `reports/SESSION_031_REYNOLDS_AQR_QC.md`, `graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md`, and `data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md`. Execute `research_inbox/SESSION_032_CITIZEN_BYLINE_INTELLIGENCER_BRIDGE_BRIEF.md`. Work only on the shared `A Citizen of the United States` attribution and Reynolds's publication path through the *National Intelligencer*. Obtain exact title-page images for McBride 1826 and Reynolds 1827, exact newspaper dates/pages/bylines for Reynolds's three serialized numbers, and a bounded 1820–1830 frequency control for the phrase. Distinguish deliberate echo, shared-circle signaling, shared publishing infrastructure, generic anonymity convention, catalogue normalization, and independent parallel use. Do not create a canonical copying edge.
 
 ### Parallel artifact lane: verify one Ptolemaic item
 
-> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md`, `reports/SESSION_026_ORTELIUS_QC.md`, and `graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md`. Work only on `TERRA-MAP-001-A` — the Ptolemaic world map in the Ulm 1482 edition. Select one exact institutional copy. Return the catalogue title, institution, call number or shelfmark, stable item page, primary scan or IIIF link, edition/imprint details, and a transcription of the southern land bridge or labels from the image. Keep Ptolemy's enclosed Indian Ocean distinct from the later named Terra Australis. Do not commit or mark RQ-031 partial or resolved.
+> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.md`, `reports/SESSION_026_ORTELIUS_QC.md`, and `graph/chronologies/MAP-CHAIN-001-CANDIDATE-REGISTRY.md`. Work only on `TERRA-MAP-001-A` — the Ptolemaic world map in the Ulm 1482 edition. Select one exact institutional copy. Return catalogue title, institution, shelfmark, stable item page, primary scan or IIIF link, edition details, and a transcription of the southern land bridge or labels. Keep Ptolemy's enclosed Indian Ocean distinct from later named Terra Australis.
 
 ---
 
@@ -287,7 +319,7 @@ Do not give the archive agent write access to the projects it studies. Do not re
 
 ## 8. Generic research prompt
 
-> Read the Sean & Cody Research Atlas and all linked files for **[SYSTEM / DOMAIN / RQ / ITEM]**. Do not redesign the repository and do not assume repeated claims are verified. Find primary sources, exact dates, pages, quotations, stable archive links, catalogue IDs, shelfmarks, and documented contacts. Separate `DIRECT_CITATION`, `KNOWN_COPY`, `TRANSLATION`, `DOCUMENTED_INFLUENCE`, `PERSONAL_CONTACT`, `SHARED_PUBLISHER`, `SHARED_MOTIF`, `RETROACTIVE_REINTERPRETATION`, `SPECULATIVE_SIMILARITY`, `NEGATIVE_EVIDENCE`, and `UNKNOWN`. Record failed searches and contradictions. Return raw acquisition plus an acquisition summary. Do not mark anything canonical, ingested, complete, or resolved; curator review is required.
+> Read the Sean & Cody Research Atlas and all linked files for **[SYSTEM / DOMAIN / RQ / ITEM]**. Do not redesign the repository and do not assume repeated claims are verified. Find primary sources, exact dates, pages, quotations, stable archive links, catalogue IDs, shelfmarks, and documented contacts. Separate `DIRECT_CITATION`, `DIRECT_RESPONSE`, `KNOWN_COPY`, `TRANSLATION`, `DOCUMENTED_INFLUENCE`, `PERSONAL_CONTACT`, `SHARED_INFRASTRUCTURE`, `SHARED_MOTIF`, `RETROACTIVE_REINTERPRETATION`, `SPECULATIVE_SIMILARITY`, `NEGATIVE_EVIDENCE`, and `UNKNOWN`. Record failed searches and contradictions. Return raw acquisition plus an acquisition summary. Do not mark anything canonical, complete, or resolved; curator review is required.
 
 For a narrow task:
 
@@ -312,4 +344,4 @@ For a narrow task:
 - [Negative-evidence schema](schemas/NEGATIVE_EVIDENCE.md)
 - [Acquisition-summary schema](schemas/ACQUISITION_SUMMARY.md)
 
-**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate field, negative-evidence finding, copied-error candidate, or acquisition priority changes.
+**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate, negative-evidence finding, phrase/error fingerprint, or acquisition priority changes.
