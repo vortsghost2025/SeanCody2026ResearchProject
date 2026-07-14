@@ -4,7 +4,7 @@
 
 The project studies two linked things:
 
-1. how narratives, myths, claims, publications, institutions, maps, and media systems evolve across time;
+1. how narratives, myths, claims, publications, institutions, maps, observations, and media systems evolve across time;
 2. how human–AI ensemble research preserves provenance, disagreement, chronology, failures, and discoveries across replaceable model sessions.
 
 The subject may change. The method remains the same: preserve the pieces, identify systems, trace connections, and keep evidence strength separate from interpretation.
@@ -31,6 +31,7 @@ SYS-002 is the research machinery used to investigate SYS-001 and future domains
 | Antarctica / Terra Australis | theoretical geography, maps, voyages, observed Antarctica, and later reinterpretations | **ACTIVE — RQ-031** |
 | Cross-domain hidden carriers | people, publishers, errors, images, bylines, institutions, formats, and transformations | **ACTIVE — RQ-032; archive-gated subtask parked** |
 | Polar observability limits | what nineteenth-century expeditions could reach, measure, and falsify | **ACTIVE — RQ-033; current public lane** |
+| Independent observational convergence | report-level feature comparison, independence, contamination, common causes, and later harmonization | **ACTIVE — RQ-034; method pilot seeded** |
 | Hollow Earth | historical theories, Shaver/Palmer, occult networks, UFO publishing, and mail-order transmission | ACTIVE |
 | UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, and Dulce | ACTIVE |
 | Grey imagery | fiction, testimony, visual standardization, media amplification, and retroactive artifact interpretation | SEEDED |
@@ -260,6 +261,66 @@ Read:
 - [Entity resolution](data/entity_resolution/ENTITY-RESOLUTION-001-JEREMIAH-WILLIAM-REYNOLDS.md)
 - [Session 033 acquisition brief](research_inbox/SESSION_033_POLAR_OBSERVABILITY_ACQUISITION_BRIEF.md)
 
+### 3.6 Independent observational convergence
+
+The existing methodology already required an independence test and gave greater research priority to specific feature combinations. It lacked event-level objects for witnesses, instruments, report chains, contamination, and ordinary common-cause testing.
+
+Session 034 adds:
+
+```text
+one observer, instrument, or report chain
+        = OBSERVATION_REPORT
+
+several reports under comparison
+        = CONVERGENCE_CLUSTER
+```
+
+Required separation:
+
+```text
+raw observation
+        ≠
+observer interpretation
+        ≠
+researcher explanation
+```
+
+A strong convergence candidate requires more than repeated language:
+
+```text
+specific feature cluster
+        +
+source-chain independence
+        +
+statement preserved before cross-exposure
+        +
+precise time and location
+        +
+ordinary common-cause testing
+        +
+contamination audit
+```
+
+Even then, convergence raises research priority; it does not prove an extraordinary cause. Independent witnesses may all observe the same ordinary object or environmental event.
+
+Current state:
+
+```text
+Observation reports ingested: 0
+Convergence clusters built: 0
+Pilot family: historical polar phantom-land/open-water observations
+RQ-034 status: SEARCHING
+```
+
+Read:
+
+- [Independent Convergence Method](docs/INDEPENDENT_CONVERGENCE_METHOD.md)
+- [Observation Report schema](schemas/OBSERVATION_REPORT.md)
+- [Convergence Cluster schema](schemas/CONVERGENCE_CLUSTER.md)
+- [RQ-034](research_questions/RQ-034-INDEPENDENT-OBSERVATIONAL-CONVERGENCE.md)
+- [Session 034 leads](research_inbox/SESSION_034_INDEPENDENT_CONVERGENCE_METHOD_LEADS.md)
+- [Session 034 pilot brief](research_inbox/SESSION_034_CONVERGENCE_PILOT_BRIEF.md)
+
 ---
 
 ## 4. Evidence language
@@ -275,6 +336,9 @@ Read:
 | `SHARED_INFRASTRUCTURE` | Shared publisher, printer, periodical, distributor, or network; not influence by itself |
 | `ENTITY_RESOLUTION` | Records whether similar names refer to the same or different people |
 | `OBSERVABILITY_LIMIT` | A source-supported boundary on what instruments and access could reveal |
+| `INDEPENDENT_CONVERGENCE` | Specific report overlap tested against source dependence and contamination |
+| `SAME_EVENT_COMMON_CAUSE` | Multiple reports explained by one ordinary event or environment |
+| `REPORT_CONTAMINATION` | Details move through investigators, media, rumor, editing, or cross-exposure |
 | `SHARED_MOTIF` | Similar content exists, but transmission is unestablished |
 | `RETROACTIVE_REINTERPRETATION` | A later framework is projected onto an older artifact or tradition |
 | `NEGATIVE_EVIDENCE` | A bounded search finds an expected trace absent |
@@ -288,7 +352,7 @@ Evidence classes remain separate:
 - **D:** testimonial or unsupported narrative;
 - **E:** contradicted or highly implausible.
 
-A shared byline, surname, publisher, or inability to observe is a clue—not proof of copying, identity, or existence.
+A shared byline, surname, publisher, report feature, or inability to observe is a clue—not proof of copying, identity, extraordinary origin, or existence.
 
 ---
 
@@ -298,6 +362,7 @@ A shared byline, surname, publisher, or inability to observe is a clue—not pro
 |---|---|---|---|---|
 | **P0** | **RQ-033** | Polar observability limits | SEARCHING — namesake guardrail established, evidence matrix empty | Primary logs, instrument inventories, routes, coordinates, ice and sounding records |
 | **P0** | **RQ-031** | Terra Australis → observed Antarctica | SEARCHING — 1/5 core items promoted | Verify Ptolemy, Bertius, Tasman, and Cook one item at a time |
+| P1 | RQ-034 | Independent observational convergence | SEARCHING — schemas created, pilot empty | Run a bounded historical pilot before any large modern catalogue |
 | P1 | RQ-032 | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — Reynolds cluster verified; newspaper subtask archive-gated | Resume only with restricted archive access or a new exact issue lead |
 | P0 | RQ-023 | Shaver/Palmer transmission, 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records |
 | P0 | RQ-030 | Sean's ensemble-architecture lineage | PARTIAL — paused at private boundary | Isolated local filesystem agent and dated private artifacts |
@@ -314,6 +379,10 @@ A shared byline, surname, publisher, or inability to observe is a clue—not pro
 ### Primary: polar observability and entity resolution
 
 > Read `RESEARCH_ATLAS.md`, `research_questions/RQ-033-POLAR-OBSERVABILITY-LIMITS.md`, `research_inbox/SESSION_033_POLAR_OBSERVABILITY_WILKES_LEADS.md`, `data/entity_resolution/ENTITY-RESOLUTION-001-JEREMIAH-WILLIAM-REYNOLDS.md`, and `graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md`. Execute `research_inbox/SESSION_033_POLAR_OBSERVABILITY_ACQUISITION_BRIEF.md`. Work only on what nineteenth-century polar expeditions could actually observe or falsify. Obtain primary logs, officer and crew lists, instrument inventories, navigation methods, soundings, ice/weather records, coordinates, and exact quotations. Keep Jeremiah N. Reynolds separate from William Reynolds of the Wilkes Expedition. Build a claim-observability matrix for giant polar openings, navigable polar seas, under-ice passages, subglacial basins, crustal cavities, and planet-scale hollow interiors. Distinguish access failure from nonexistence and inability to observe from positive evidence. Return failed searches and uncertainty. Do not declare Hollow Earth confirmed or disproved as one undifferentiated claim.
+
+### Parallel method pilot: independent convergence
+
+> Read `docs/METHODOLOGY.md`, `docs/INDEPENDENT_CONVERGENCE_METHOD.md`, `schemas/OBSERVATION_REPORT.md`, `schemas/CONVERGENCE_CLUSTER.md`, `research_questions/RQ-034-INDEPENDENT-OBSERVATIONAL-CONVERGENCE.md`, and `research_inbox/SESSION_034_INDEPENDENT_CONVERGENCE_METHOD_LEADS.md`. Execute `research_inbox/SESSION_034_CONVERGENCE_PILOT_BRIEF.md`. Select three to five primary historical polar phantom-land or open-water observation records with exact dates, coordinates, original wording, editions, page/image locators, instruments, weather/visibility, prior expectations, and later corrections. Build separate Observation Reports and at least two Convergence Clusters. Test source independence, shared maps/theories, later harmonization, atmospheric optics, sea ice, visibility geometry, and coordinate error. Preserve contradictions and failed searches. Do not create a canonical extraordinary explanation.
 
 ### Archive-gated: Reynolds *National Intelligencer* installments
 
@@ -345,18 +414,21 @@ Do not give the archive agent write access to the projects it studies. Do not re
 
 ## 8. Generic research prompt
 
-> Read the Sean & Cody Research Atlas and all linked files for **[SYSTEM / DOMAIN / RQ / ITEM]**. Do not redesign the repository and do not assume repeated claims are verified. Find primary sources, exact dates, pages, quotations, stable archive links, catalogue IDs, shelfmarks, documented contacts, identity distinctions, and instrument limits. Separate `DIRECT_CITATION`, `DIRECT_RESPONSE`, `SERIALIZATION_TO_PAMPHLET`, `KNOWN_COPY`, `DOCUMENTED_INFLUENCE`, `PERSONAL_CONTACT`, `SHARED_INFRASTRUCTURE`, `ENTITY_RESOLUTION`, `OBSERVABILITY_LIMIT`, `SHARED_MOTIF`, `RETROACTIVE_REINTERPRETATION`, `NEGATIVE_EVIDENCE`, and `UNKNOWN`. Record failed searches and contradictions. Return raw acquisition plus an acquisition summary. Do not mark anything canonical, complete, or resolved; curator review is required.
+> Read the Sean & Cody Research Atlas and all linked files for **[SYSTEM / DOMAIN / RQ / ITEM]**. Do not redesign the repository and do not assume repeated claims are verified. Find primary sources, exact dates, pages, quotations, stable archive links, catalogue IDs, shelfmarks, documented contacts, identity distinctions, instrument limits, report chains, and contamination pathways. Separate `DIRECT_CITATION`, `DIRECT_RESPONSE`, `SERIALIZATION_TO_PAMPHLET`, `KNOWN_COPY`, `DOCUMENTED_INFLUENCE`, `PERSONAL_CONTACT`, `SHARED_INFRASTRUCTURE`, `ENTITY_RESOLUTION`, `OBSERVABILITY_LIMIT`, `INDEPENDENT_CONVERGENCE`, `SAME_EVENT_COMMON_CAUSE`, `REPORT_CONTAMINATION`, `SHARED_MOTIF`, `RETROACTIVE_REINTERPRETATION`, `NEGATIVE_EVIDENCE`, and `UNKNOWN`. Record failed searches and contradictions. Return raw acquisition plus an acquisition summary. Do not mark anything canonical, complete, or resolved; curator review is required.
 
 For a narrow task:
 
-> Work only on **[RQ ID / ITEM ID / BRIDGE ID]**. Return evidence that would satisfy or falsify its promotion criteria. Do not provide a general essay.
+> Work only on **[RQ ID / ITEM ID / BRIDGE ID / CLUSTER ID]**. Return evidence that would satisfy or falsify its promotion criteria. Do not provide a general essay.
 
 ---
 
 ## 9. Canonical method documents
 
 - [Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md)
+- [Independent Convergence Method](docs/INDEPENDENT_CONVERGENCE_METHOD.md)
 - [Bridge Candidate schema](schemas/BRIDGE_CANDIDATE.md)
+- [Observation Report schema](schemas/OBSERVATION_REPORT.md)
+- [Convergence Cluster schema](schemas/CONVERGENCE_CLUSTER.md)
 - [Repository Architecture](docs/REPOSITORY_ARCHITECTURE.md)
 - [Puzzle-Piece Intake](docs/PUZZLE_PIECE_INTAKE.md)
 - [Methodology](docs/METHODOLOGY.md)
@@ -370,4 +442,4 @@ For a narrow task:
 - [Negative-evidence schema](schemas/NEGATIVE_EVIDENCE.md)
 - [Acquisition-summary schema](schemas/ACQUISITION_SUMMARY.md)
 
-**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate, entity-resolution finding, observability limit, error fingerprint, or acquisition priority changes.
+**Maintenance rule:** update this page whenever a system, domain, research question, promoted artifact, verified edge, contradiction, bridge candidate, entity-resolution finding, observability limit, observation report, convergence cluster, error fingerprint, or acquisition priority changes.
