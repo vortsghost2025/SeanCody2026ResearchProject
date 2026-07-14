@@ -18,77 +18,49 @@ RQ:
 
   central_problem: >
     Topic-by-topic research can miss the people, publications, institutions, errors,
-    images, terminology, and distribution systems that carry material between domains.
-    This question seeks those hidden carriers without assuming that similarity proves
-    transmission.
+    images, terminology, bylines, printers, and distribution systems that carry material
+    between domains. This question seeks those hidden carriers without assuming that
+    similarity proves transmission.
 
   core_questions:
     - Which editors, publishers, printers, translators, illustrators, distributors, clubs, conferences, archives, broadcasters, platforms, or institutions appear in multiple domains?
-    - Which rare phrases, spelling errors, false quotations, misplaced labels, diagrams, photographs, or numerical mistakes recur across domains?
+    - Which rare phrases, bylines, spelling errors, false quotations, labels, diagrams, photographs, or numerical mistakes recur across domains?
     - Where do fiction, speculation, testimony, technical language, and institutional framing change roles?
-    - When are older supernatural, mythic, or geographical motifs technologized, extraterrestrialized, interdimensionalized, secularized, or politically reframed?
-    - Which apparent bridges are actually independent parallels, common genre conventions, abandoned frameworks, or later retrospective fusions?
+    - When are older mythic or geographical motifs technologized, extraterrestrialized, interdimensionalized, secularized, or politically reframed?
+    - Which apparent bridges are independent parallels, genre conventions, abandoned frameworks, strategic reframings, or later retrospective fusions?
     - What negative evidence would disprove the strongest proposed connections?
-
-  initial_bridge_seeds:
-    - id: BRIDGE-SEED-001
-      target: "Antarctic unknown geography → hidden-land/base/entrance narratives"
-    - id: BRIDGE-SEED-003
-      target: "Copied errors as lineage fingerprints"
-    - id: BRIDGE-SEED-004
-      target: "Fiction → factual framing → testimony"
-    - id: BRIDGE-SEED-005
-      target: "Institutional authority laundering"
-    - id: BRIDGE-SEED-006
-      target: "Technologization of older beings and places"
-    - id: BRIDGE-SEED-007
-      target: "Ancient serpent traditions → modern reptilian synthesis"
-    - id: BRIDGE-SEED-008
-      target: "Grey imagery standardization through mass media"
-    - id: BRIDGE-SEED-009
-      target: "Scientific CERN terminology → portal mythology"
-    - id: BRIDGE-SEED-010
-      target: "Cross-domain editorial and publishing hubs"
-
-  evidence_needed:
-    - exact publication and artifact chronology
-    - mastheads, tables of contents, acknowledgements, bibliographies, advertisements, catalogues, and letters pages
-    - correspondence, ownership, citation, reading, employment, meeting, or distribution evidence
-    - stable scans and archive records
-    - phrase, image, diagram, map, and error comparisons
-    - translator, illustrator, engraver, printer, editor, and publisher identities
-    - broadcast, film, television, convention, mailing-list, and internet exposure dates
-    - negative searches and competing explanations
 
   do_not_treat_as_proof:
     - broad thematic similarity
     - chronological overlap without exposure evidence
     - one shared publisher without item-level connection
+    - one shared anonymous byline without frequency controls
     - one person appearing in the same broad field
     - model agreement
     - unsourced internet repetition
     - retrospective diagrams that merge traditions
     - a bridge candidate being registered
-    - an institution preserving a record being treated as institutional endorsement
+    - an institution preserving a record being treated as endorsement
     - one person's biography being treated automatically as doctrinal continuity
-    - absence of a keyword being treated as proof of total intellectual abandonment
-    - a catalogue title being treated as proof of the text's substantive argument
+    - absence of a keyword being treated as total intellectual abandonment
+    - a catalogue title being treated as proof of substantive argument
 
   partial_resolution: >
     Three or more bridge candidates have item-level evidence for shared infrastructure,
     exposure paths, lexical or iconographic migration, material reuse, copied error,
-    editorial synthesis, documented transformation, or documented discontinuity, while
-    competing explanations remain open.
+    editorial synthesis, documented transformation, strategic reframing, or documented
+    discontinuity, while competing explanations remain open.
 
   positive_resolution: >
     A cross-domain map identifies multiple hidden carriers with source-supported dates,
     mechanisms, and transformations, and distinguishes genuine transmission from shared
-    motif, independent parallel development, abandoned frameworks, and later retrospective fusion.
+    motif, independent parallel development, abandoned frameworks, strategic reframing,
+    and later retrospective fusion.
 
   negative_resolution: >
-    Major proposed bridges fail contact, chronology, source, or error-fingerprint tests
-    and are classified as independent parallel, retrospective pattern matching, abandoned
-    framework, or unknown.
+    Major proposed bridges fail contact, chronology, source, phrase-frequency, or
+    error-fingerprint tests and are classified as independent parallel, generic convention,
+    retrospective pattern matching, abandoned framework, or unknown.
 
   related_files:
     - CROSS_DOMAIN_BRIDGE_ATLAS.md
@@ -103,11 +75,13 @@ RQ:
     - graph/transmissions/BRIDGE-EDGE-002-AQR-REYNOLDS-RESPONSE-CANDIDATE.md
     - data/negative_evidence/NEG-032-001-REYNOLDS-1836-DOCTRINAL-CARRYOVER.md
     - data/error_fingerprints/ERR-032-001-REYNOLDS-REMARKS-TITLE.md
-    - research_inbox/SESSION_030_REYNOLDS_1827_RESULT_MANIFEST.md
-    - reports/SESSION_030_REYNOLDS_1827_QC.md
+    - data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md
+    - research_inbox/SESSION_031_REYNOLDS_AQR_RESULT_MANIFEST.md
+    - reports/SESSION_031_REYNOLDS_AQR_QC.md
+    - research_inbox/SESSION_032_CITIZEN_BYLINE_INTELLIGENCER_BRIDGE_BRIEF.md
 
   generated_session: SESSION_027
-  current_acquisition_session: SESSION_030
+  current_acquisition_session: SESSION_032
   last_updated: 2026-07-13
 ```
 
@@ -117,72 +91,75 @@ RQ:
 Methodology commentary variants: 1
 Initial historical acquisition variants: 2
 Reynolds verification variants: 2
-Reynolds 1827 result variants: 1
+Reynolds 1827 catalogue result variants: 1
+Reynolds/AQR text-pair variants: 1
 Normalized bridge candidate clusters: 10
 Candidates deep-verified: 1
 Supported bridge findings: 1
-Catalogue-authenticated continuity artifacts: 1
-Canonical direct-citation edges: 1
-Partial response edges: 1
+Canonical direct-citation/review edges: 1
+Canonical direct-response edges: 1
 Canonical known-copy edges: 0
 Negative-evidence records: 1
-Copied-error candidates: 1
+Error/phrase fingerprint candidates: 2
 RQ-032 status: SEARCHING
 ```
 
 ## First deep-verification result — Reynolds
 
-The Reynolds candidate remains a split finding:
+The candidate now resolves into partial continuity plus strategic reframing:
 
 ```text
 Symmes Hollow Earth advocacy
-        ↓ same person / public exposure
+        ↓ same person / exposure
 Jeremiah N. Reynolds
-        ↓ documented pivot in 1826
+        ↓ Adams records public pivot in 1826
 Southern Ocean and South-Pole advocacy
         ↓
-1827 printed response concerning Symmes's theory
+1827 partial defense of hollow/open-pole possibility
+        + explicit separation of theory from expedition
         ↓
-1836 institutional case without explicit Symmes/hollow language
+1836 institutional case without explicit Symmes/hollow vocabulary
 ```
 
 ### Supported
 
-- John Quincy Adams described Reynolds as a lecturer supporting Symmes's theory who had `varied his purpose` toward Southern Ocean circumnavigation.
-- Reynolds's later proposal moved through state-legislative, congressional, publishing, and periodical channels.
-- The Library of Congress catalogue acquisition authenticates a Reynolds pamphlet printed in Washington by Gales & Seaton in 1827 titled *Remarks on a review of Symmes' theory, which appeared in the American quarterly review*.
-- The 1827 pamphlet proves continued public engagement with the Symmes controversy after Adams's pivot description.
-- Reynolds's 1836 *Address* packages his advocacy through commerce, navigation, science, national honor, and exploration.
+- Adams described Reynolds as a lecturer supporting Symmes's theory who had `varied his purpose` toward Southern Ocean circumnavigation.
+- Reynolds's proposal moved through legislative, congressional, publishing, and periodical channels.
+- The 1827 LOC-derived scan and OCR authenticate his response pamphlet and its `A Citizen of the United States` attribution.
+- Reynolds declines to defend the entire detailed Symmes model.
+- He nevertheless maintains that Earth may be hollow and widely open at the poles.
+- He says speculation alone is insufficient to justify the expedition.
+- He argues polar inquiry has independent scientific and national value.
 - Poe's January 1837 review directly identifies and reviews Reynolds's 1836 book.
 
 ### Not established
 
-- Reynolds's actual doctrinal position inside the 1827 pamphlet.
-- A primary artifact documenting Reynolds and Symmes together in a lecture, correspondence exchange, or jointly named publication.
-- Symmes's Hollow Earth doctrine as a causal basis for Reynolds's mature expedition program.
+- A primary artifact naming Reynolds and Symmes together in a lecture or correspondence exchange.
+- Full loyalty to every Symmes claim.
+- Symmes's doctrine as the causal basis of the mature expedition program.
 - Exact copied passages from Reynolds into *Pym*.
-- Complete intellectual abandonment of all earlier Symmes-related ideas.
+- Complete paragraph-by-paragraph alignment of the AQR review and Reynolds response.
+- Deliberate copying of McBride's `Citizen of the United States` byline.
 
 ### Negative evidence retained
 
-The available OCR of Reynolds's 1836 *Address* contains no match for `Symmes` and no match for `hollow`. This supports a narrow negative conclusion about explicit doctrinal carryover in that publication. The authenticated 1827 pamphlet complicates an immediate clean-break narrative but does not contradict the 1836 text-level result.
+The available OCR of Reynolds's 1836 *Address* contains no match for `Symmes` and no match for `hollow`. This remains narrow evidence about the 1836 institutional publication. It no longer supports an interpretation of complete abandonment by November 1826.
 
 ## Current classification
 
 ```yaml
 BRIDGE-032-003:
-  status: SUPPORTED_SPLIT_WITH_1827_BIBLIOGRAPHIC_CONTINUITY
+  status: SUPPORTED_PARTIAL_CONTINUITY_AND_STRATEGIC_REFRAMING
   supported:
     - SAME_PERSON_CARRIER
     - EXPOSURE_PATH
     - INSTITUTIONAL_CARRIER
-    - RHETORICAL_REFRAMING
-    - CONTINUED_PUBLIC_ENGAGEMENT_IN_1827
+    - PARTIAL_DOCTRINAL_CONTINUITY_IN_1827
+    - STRATEGIC_AND_ARGUMENTATIVE_REFRAMING
   not_established:
-    - PERSONAL_CONTACT_FROM_PRIMARY_ARTIFACT
-    - DOCUMENTED_DOCTRINAL_INFLUENCE
-    - 1827_DOCTRINAL_POSITION
-    - COMPLETE_ABANDONMENT
+    - PRIMARY_PERSONAL_CONTACT_ARTIFACT
+    - FULL_SYMMES_DOCTRINAL_LOYALTY
+    - DOCTRINE_AS_CAUSE_OF_1836_PROGRAM
 
 BRIDGE-032-004:
   status: PARTIAL
@@ -193,33 +170,37 @@ BRIDGE-032-004:
     - KNOWN_COPY_INTO_PYM
 
 BRIDGE-EDGE-002:
-  status: PARTIAL_RESPONSE_CANDIDATE
-  canonical: false
+  status: VERIFIED_DIRECT_RESPONSE
+  canonical: true
+  content_alignment: PARTIAL
+
+ERR-032-001:
+  status: OPEN_TITLE_MUTATION_CANDIDATE
+
+ERR-032-002:
+  status: OPEN_SHARED_BYLINE_CANDIDATE
 ```
 
 ## Why RQ-032 remains SEARCHING
 
-The resolution threshold requires at least three bridge candidates to pass item-level tests or be rejected with documented negative evidence. Reynolds is the first deep-verified candidate cluster. One supported split result, one catalogue-authenticated continuity artifact, and one direct-citation edge do not yet form a cross-domain map.
+The resolution threshold requires at least three bridge candidates to pass item-level tests or be rejected with documented negative evidence. Reynolds is the first deeply verified cluster. The project now has one verified direct review edge and one verified direct response edge, but not yet a cross-domain carrier map spanning multiple independent clusters.
 
 ## Current exact task
 
-The existence question is closed. Work only on acquiring and comparing the two 1827 texts:
+Work only on:
 
 ```text
-American Quarterly Review, "Symmes's theory," vol. 1, p. 235 onward
-        ↓ reported review/response relation
-J. N. Reynolds, Remarks on a review of Symmes' theory... (1827)
+McBride 1826 title-page attribution
+        ↕
+Reynolds 1827 title-page attribution
+        ↕
+National Intelligencer serialization
+        ↕
+Gales & Seaton publishing infrastructure
 ```
 
-Return:
+Execute:
 
-- exact institutional scans;
-- complete bibliographic metadata and page ranges;
-- Reynolds's exact position with page/image locators;
-- aligned claims and quotations;
-- whether the response is defense, qualification, modification, strategic reframing, or rejection;
-- title-page transcription;
-- evidence for or against the reported counterpart relation;
-- failed searches.
+- `research_inbox/SESSION_032_CITIZEN_BYLINE_INTELLIGENCER_BRIDGE_BRIEF.md`
 
-Do not create a canonical response edge until both texts are matched.
+Return exact title-page images, newspaper dates/pages/bylines, printer/editor roles, and a bounded 1820–1830 frequency control for `A Citizen of the United States`. Distinguish deliberate echo, shared-circle signal, shared infrastructure, generic convention, catalogue normalization, independent parallel, and unknown. Do not create a canonical copying edge.
