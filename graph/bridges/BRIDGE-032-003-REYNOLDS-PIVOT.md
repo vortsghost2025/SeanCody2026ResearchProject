@@ -24,6 +24,7 @@ BRIDGE_CANDIDATE:
     - CONTINUOUS_LEXICAL_MIGRATION_INTO_1836_ADDRESS
     - COMPLETE_AQR_PARAGRAPH_ALIGNMENT
     - MCBRIDE_TO_REYNOLDS_COPYING_OR_SECRET_CODE
+    - DELIBERATE_BYLINE_ECHO_AS_CANONICAL_FACT
 
   current_assessment:
     evidence_class: B
@@ -33,11 +34,12 @@ BRIDGE_CANDIDATE:
       separating speculative cosmology from the expedition's independent scientific
       and national rationale. His response moved through the National Intelligencer
       before collection by Gales & Seaton. McBride 1826 and Reynolds 1827 use the same
-      primary-confirmed civic byline, but the phrase is not distinctive enough by itself
-      to prove copying or coordinated signaling.
+      primary-confirmed civic byline. Reynolds knew the reviewed work and its citizen
+      attribution, but deliberate copying of the exact title-page formula remains
+      plausible rather than proven.
 
   generated_session: SESSION_029
-  updated_session: SESSION_032
+  updated_session: SESSION_032_CONTINUATION
   last_reviewed: 2026-07-13
 ```
 
@@ -78,7 +80,7 @@ This is `PARTIAL_DOCTRINAL_CONTINUITY`, not full continuity and not complete aba
 
 Reynolds's preface states that the three response numbers `were first published in the National Intelligencer`.
 
-The collected pamphlet preserves the internal transitions to `No. II` and `No. III`, addresses them to the editor of the *American Quarterly Review*, and signs them `J. N. Reynolds`.
+The collected pamphlet preserves No. I, No. II, and No. III and signs the responses `J. N. Reynolds`.
 
 ```text
 American Quarterly Review criticism
@@ -88,7 +90,7 @@ National Intelligencer numbered response series
 Gales & Seaton collected pamphlet
 ```
 
-This pathway is now verified at the publication-relation level. Exact newspaper dates, pages, columns, headings, signatures, and wording remain open.
+This pathway is verified at the publication-relation level. Exact newspaper dates, pages, columns, headings, bylines, and wording remain archive-gated.
 
 Read: `graph/transmissions/BRIDGE-EDGE-003-INTELLIGENCER-REYNOLDS-PAMPHLET.md`.
 
@@ -114,17 +116,18 @@ printer_publisher: "Gales & Seaton"
 ia_identifier: remarksonreviewo00reyn
 ```
 
-The match is primary-confirmed, and Reynolds explicitly identifies the reviewed McBride/Symmes work by the same civic attribution. That makes rhetorical echo plausible.
+The evidence must be split carefully:
 
-However, unrelated period uses show that the phrase was not unique. Therefore:
-
-```text
-shared phrase occurrence: verified
-explicit awareness: supported
-rhetorical echo: plausible
-shared-circle signal: plausible
-copying or secret code: not established
+```yaml
+awareness_of_reviewed_work: SUPPORTED
+awareness_of_McBride_attribution_phrase: SUPPORTED_FROM_REYNOLDS_TEXT
+awareness_of_exact_McBride_title_page_as_visual_source: INFERRED_PLAUSIBLE_NOT_PROVEN
+deliberate_rhetorical_echo: PLAUSIBLE_NOT_PROVEN
+shared_circle_signal: PLAUSIBLE_NOT_PROVEN
+copying_or_secret_code: NOT_ESTABLISHED
 ```
+
+Unrelated period uses show that the phrase was not unique. The match remains contextually meaningful because of the shared controversy and one-year proximity, but it is non-diagnostic alone.
 
 Read: `data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md`.
 
@@ -164,6 +167,8 @@ Institutional carrier: supported
 Strategic separation of theory and expedition: supported
 National Intelligencer → pamphlet path: supported
 Shared civic byline occurrence: supported
+Awareness of attribution phrase: supported
+Deliberate echo: plausible, not proven
 Byline copying or coordinated code: not established
 1836 explicit doctrinal carryover: not located
 Full loyalty to Symmes system: not supported
@@ -171,12 +176,12 @@ Complete abandonment in 1826: contradicted by 1827 text
 Doctrine as cause of mature expedition program: not established
 ```
 
-## Next exact test
+## Archived unresolved layer
 
-Recover the three *National Intelligencer* issues and compare newspaper and pamphlet versions for:
+Recovering the three *National Intelligencer* issues remains valuable, but broad free-web searches are closed. Continue only with paid newspaper access, Library of Congress issue/microfilm access, institutional assistance, or a new exact reprint lead.
 
-- exact dates, pages, columns, headings, and signatures;
-- byline presence or absence;
-- wording changes;
-- surrounding editorial framing and advertisements;
-- audience and authority changes produced by pamphlet collection.
+Read: `research_inbox/SESSION_032_CONTINUATION_CLOSEOUT.md`.
+
+## Next active public research lane
+
+Proceed to `RQ-033` and `research_inbox/SESSION_033_POLAR_OBSERVABILITY_ACQUISITION_BRIEF.md`.
