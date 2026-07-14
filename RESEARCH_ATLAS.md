@@ -18,7 +18,7 @@ For suspected connections that have not yet become evidence, use the [Cross-Doma
 | System | Scope | State | Entry points |
 |---|---|---|---|
 | **SYS-001 — Underground / Hidden-World Narrative System** | Shaver, Palmer, Hollow Earth, subterranean beings, UFO bases, Dulce, Antarctica, and related publication networks | ACTIVE | [Shaver→Dulce map](graph/transmissions/SHAVER_TO_DULCE_CHAIN.md), [RQ-023](research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md) |
-| **SYS-002 — Human–AI Ensemble Research Architecture** | Model comparison, persistent state, role specialization, disagreement preservation, verification, and human entity resolution | PARTIAL — public July sequence established; private lineage paused | [System record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md), [Artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md), [RQ-030](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md) |
+| **SYS-002 — Human–AI Ensemble Research Architecture** | model comparison, persistent state, role specialization, disagreement preservation, verification, and human entity resolution | PARTIAL — public July sequence established; private lineage paused | [System record](graph/systems/SYS-002-HUMAN-AI-ENSEMBLE-RESEARCH.md), [Artifact registry](graph/systems/SYS-002-ARTIFACT-REGISTRY.md), [RQ-030](research_questions/RQ-030-ENSEMBLE-ARCHITECTURE-LINEAGE.md) |
 
 SYS-002 is the research machinery used to investigate SYS-001 and future domains. It is not the same historical subject.
 
@@ -29,14 +29,14 @@ SYS-002 is the research machinery used to investigate SYS-001 and future domains
 | Domain | What is being traced | State |
 |---|---|---|
 | Antarctica / Terra Australis | theoretical geography, maps, voyages, observed Antarctica, and later reinterpretations | **ACTIVE — RQ-031** |
-| Cross-domain hidden carriers | people, publishers, errors, images, bylines, institutions, formats, and transformations | **ACTIVE — RQ-032** |
-| Polar observability limits | what nineteenth-century expeditions could reach, measure, and falsify | **ACTIVE — RQ-033** |
+| Cross-domain hidden carriers | people, publishers, errors, images, bylines, institutions, formats, and transformations | **ACTIVE — RQ-032; archive-gated subtask parked** |
+| Polar observability limits | what nineteenth-century expeditions could reach, measure, and falsify | **ACTIVE — RQ-033; current public lane** |
 | Hollow Earth | historical theories, Shaver/Palmer, occult networks, UFO publishing, and mail-order transmission | ACTIVE |
 | UFO underground bases | Bender, Barker, Bennewitz, Doty, Moore, Walton/Branton, and Dulce | ACTIVE |
 | Grey imagery | fiction, testimony, visual standardization, media amplification, and retroactive artifact interpretation | SEEDED |
 | Serpent / reptilian traditions | distinct cultures, diffusion, independent similarity, modern reinterpretation, and synthesis | SEEDED |
 | CERN / portals / dimensions | scientific terminology versus later occult, media, and conspiracy reuse | DECLARED |
-| Human–AI ensemble architecture | diversity, handoffs, state, verification, and human synthesis | PARTIAL — private phase needs isolated local access |
+| Human–AI ensemble architecture | diversity, handoffs, state, verification, and human synthesis | PARTIAL — private phase requires isolated local access |
 
 A domain being listed does not mean it is fully ingested or verified.
 
@@ -115,12 +115,6 @@ Read: [RQ-031](research_questions/RQ-031-TERRA-AUSTRALIS-ANTARCTICA-MAP-LINEAGE.
 ### 3.4 Hidden cross-domain bridges
 
 ```text
-Methodology commentary variants: 1
-Initial historical acquisition variants: 2
-Reynolds verification variants: 2
-Reynolds 1827 catalogue variants: 1
-Reynolds/AQR text-pair variants: 1
-Byline/Intelligencer variants: 2
 Normalized bridge candidate clusters: 10
 Candidates deep-verified: 1
 Supported bridge findings: 1
@@ -129,11 +123,12 @@ Canonical direct-response edges: 1
 Canonical publication-carrier edges: 1
 Canonical known-copy edges: 0
 Negative-evidence records: 1
-Error/phrase fingerprint candidates: 2
+Supported non-diagnostic fingerprints: 1
+Namesake conflations blocked: 1
 RQ-032 status: SEARCHING
 ```
 
-#### Reynolds result: partial continuity plus strategic reframing
+#### Reynolds: partial continuity plus strategic reframing
 
 ```text
 Symmes Hollow Earth advocacy
@@ -161,7 +156,7 @@ Supported mechanisms:
 - `STRATEGIC_AND_ARGUMENTATIVE_REFRAMING`;
 - `VERIFIED_NEWSPAPER_TO_PAMPHLET_CARRIER`.
 
-#### Verified response edge
+#### Verified edges
 
 ```text
 American Quarterly Review, “Symmes's theory” (1827)
@@ -169,17 +164,11 @@ American Quarterly Review, “Symmes's theory” (1827)
 Reynolds, Remarks on a review of Symmes' theory... (1827)
 ```
 
-#### Verified publication-carrier edge
-
 ```text
 National Intelligencer numbered response series
         ↓ SERIALIZATION_TO_PAMPHLET
 Reynolds / Gales & Seaton pamphlet (1827)
 ```
-
-Reynolds's preface proves prior newspaper publication. Exact newspaper dates, pages, columns, headings, signatures, and textual changes remain unresolved.
-
-#### Verified Reynolds → Poe review edge
 
 ```text
 Reynolds, Address (1836)
@@ -189,54 +178,70 @@ Poe, South-Sea Expedition (1837)
 
 Exact Reynolds passages copied into *Pym* remain open.
 
-#### Error and phrase fingerprints
-
-`ERR-032-001`:
-
-```text
-correct: Remarks ON A REVIEW of Symmes' theory...
-mutated: Remarks OF Symmes' theory...
-```
-
-`ERR-032-002`:
+#### Shared civic byline
 
 ```text
 McBride 1826: “By a Citizen of the United States”
 Reynolds 1827: “By a Citizen of the United States”
 ```
 
-The shared byline is primary-confirmed. Reynolds knew the earlier attribution, so rhetorical echo is plausible. The phrase also appears outside the Symmes controversy, so it is not distinctive enough by itself to prove copying or a coded group signal.
+Correct evidence boundary:
+
+```yaml
+shared_phrase_occurrence: VERIFIED
+awareness_of_reviewed_work: SUPPORTED
+awareness_of_McBride_attribution_phrase: SUPPORTED_FROM_REYNOLDS_TEXT
+awareness_of_exact_McBride_title_page_as_visual_source: INFERRED_PLAUSIBLE_NOT_PROVEN
+deliberate_echo: PLAUSIBLE_NOT_PROVEN
+shared_circle_signaling: PLAUSIBLE_NOT_PROVEN
+generic_anonymity_convention: VIABLE
+copying_or_coordination_edge: NOT_ESTABLISHED
+```
+
+#### Session 032 archive boundary
+
+The exact *National Intelligencer* dates, pages, columns, headings, bylines, and newspaper-to-pamphlet changes were not recovered after a bounded free-source continuation.
+
+```yaml
+BRIDGE-EDGE-003:
+  status: VERIFIED_PUBLICATION_PATH_WITH_ISSUE_LEVEL_GAP
+  exact_installments: NOT_ACQUIRED
+  free_source_search: CLOSED_AFTER_EXHAUSTIVE_PASS
+  next_access:
+    - paid newspaper archive
+    - Library of Congress issue or microfilm access
+    - institutional research request
+    - exact reprint lead
+```
+
+Do not repeat broad free-web cycling without a new archive or issue identifier.
 
 Read:
 
 - [RQ-032](research_questions/RQ-032-HIDDEN-CROSS-DOMAIN-BRIDGES.md)
 - [Bridge registry](graph/bridges/RQ-032-ANTARCTICA-HOLLOW-EARTH-CANDIDATES.md)
 - [Reynolds finding](graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md)
-- [1827 Reynolds artifact](graph/chronologies/REYNOLDS-1827-REMARKS-CATALOG-RECORD.md)
 - [AQR → Reynolds edge](graph/transmissions/BRIDGE-EDGE-002-AQR-REYNOLDS-RESPONSE-CANDIDATE.md)
 - [Intelligencer → pamphlet edge](graph/transmissions/BRIDGE-EDGE-003-INTELLIGENCER-REYNOLDS-PAMPHLET.md)
-- [Reynolds → Poe edge](graph/transmissions/BRIDGE-EDGE-001-REYNOLDS-POE-REVIEW.md)
-- [Session 032 manifest](research_inbox/SESSION_032_BYLINE_INTELLIGENCER_VARIANT_MANIFEST.md)
-- [Session 032 QC](reports/SESSION_032_BYLINE_INTELLIGENCER_QC.md)
 - [Shared byline](data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md)
+- [Session 032 closeout](research_inbox/SESSION_032_CONTINUATION_CLOSEOUT.md)
+- [Session 032 QC](reports/SESSION_032_BYLINE_INTELLIGENCER_QC.md)
 
 ### 3.5 Polar observability and the Reynolds namesake trap
 
-A model-generated lead package asked whether Reynolds-era expeditions could have looked in the wrong location or lacked sufficient depth-measuring technology.
-
-That opens a valid research question, but it also introduced a serious identity error:
+The observability question is valid, but a permanent identity distinction applies:
 
 ```text
 Jeremiah N. Reynolds
         = advocate, writer, private-expedition organizer
 
 William Reynolds
-        = U.S. Navy passed midshipman on the Wilkes Expedition
+        = U.S. Navy officer on the Wilkes Expedition
 ```
 
-The `Midshipman Reynolds` associated with 1840 Antarctic sightings was William Reynolds, not Jeremiah N. Reynolds. Any synthesis merging those observations into Jeremiah's biography is invalid unless a primary source says otherwise.
+No Wilkes sighting may be assigned to Jeremiah without an explicit primary source.
 
-RQ-033 therefore asks what nineteenth-century expeditions could actually observe, weakly constrain, or not test at all. It separates:
+RQ-033 separates:
 
 ```text
 giant navigable polar opening
@@ -246,7 +251,7 @@ large crustal cavity
 planet-scale hollow interior
 ```
 
-These hypotheses have different instrument and access requirements. Inability to observe a deep feature is not positive evidence that it existed.
+These hypotheses have different access and instrument requirements. Inability to observe a deep feature is not evidence that it existed.
 
 Read:
 
@@ -283,7 +288,7 @@ Evidence classes remain separate:
 - **D:** testimonial or unsupported narrative;
 - **E:** contradicted or highly implausible.
 
-A historical artifact can be Evidence A while a claim about its meaning remains C, D, or E. A shared byline, surname, publisher, or inability to observe is a clue—not proof of copying, identity, or existence.
+A shared byline, surname, publisher, or inability to observe is a clue—not proof of copying, identity, or existence.
 
 ---
 
@@ -291,9 +296,9 @@ A historical artifact can be Evidence A while a claim about its meaning remains 
 
 | Priority | ID | Target | State | What moves it forward |
 |---|---|---|---|---|
-| **P0** | **RQ-032** | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — 1 cluster deep-verified, 3 verified carrier/response edges | Recover the three *National Intelligencer* installments |
-| **P0** | **RQ-033** | Polar observability limits | SEARCHING — namesake correction established, evidence matrix empty | Primary logs, instrument inventories, route and coordinate records |
+| **P0** | **RQ-033** | Polar observability limits | SEARCHING — namesake guardrail established, evidence matrix empty | Primary logs, instrument inventories, routes, coordinates, ice and sounding records |
 | **P0** | **RQ-031** | Terra Australis → observed Antarctica | SEARCHING — 1/5 core items promoted | Verify Ptolemy, Bertius, Tasman, and Cook one item at a time |
+| P1 | RQ-032 | Hidden carriers between Antarctica and Hollow Earth | SEARCHING — Reynolds cluster verified; newspaper subtask archive-gated | Resume only with restricted archive access or a new exact issue lead |
 | P0 | RQ-023 | Shaver/Palmer transmission, 1948–1979 | PARTIAL | Primary scans, exact pages, mastheads, correspondence, publisher records |
 | P0 | RQ-030 | Sean's ensemble-architecture lineage | PARTIAL — paused at private boundary | Isolated local filesystem agent and dated private artifacts |
 | P1 | RQ-024 | Barker archive: Walton/Branton correspondence | OPEN | Finding aid, curator response, folder inventory, scans |
@@ -306,13 +311,13 @@ A historical artifact can be Evidence A while a claim about its meaning remains 
 
 ## 6. Current cloud-agent assignments
 
-### Primary: recover the Reynolds *National Intelligencer* installments
+### Primary: polar observability and entity resolution
 
-> Read `RESEARCH_ATLAS.md`, `reports/SESSION_032_BYLINE_INTELLIGENCER_QC.md`, `graph/transmissions/BRIDGE-EDGE-003-INTELLIGENCER-REYNOLDS-PAMPHLET.md`, and `data/error_fingerprints/ERR-032-002-CITIZEN-OF-US-BYLINE.md`. Work only on the three Reynolds response numbers first published in the *National Intelligencer*. Return exact issue dates, pages, columns, headings, signatures, opening and closing lines, surrounding editorials/advertisements, and textual differences from the 1827 pamphlet. Determine whether the citizen byline appears in the newspaper or was added to the collected pamphlet. Do not repeat title-page authentication and do not create a McBride → Reynolds copying edge without new evidence.
+> Read `RESEARCH_ATLAS.md`, `research_questions/RQ-033-POLAR-OBSERVABILITY-LIMITS.md`, `research_inbox/SESSION_033_POLAR_OBSERVABILITY_WILKES_LEADS.md`, `data/entity_resolution/ENTITY-RESOLUTION-001-JEREMIAH-WILLIAM-REYNOLDS.md`, and `graph/bridges/BRIDGE-032-003-REYNOLDS-PIVOT.md`. Execute `research_inbox/SESSION_033_POLAR_OBSERVABILITY_ACQUISITION_BRIEF.md`. Work only on what nineteenth-century polar expeditions could actually observe or falsify. Obtain primary logs, officer and crew lists, instrument inventories, navigation methods, soundings, ice/weather records, coordinates, and exact quotations. Keep Jeremiah N. Reynolds separate from William Reynolds of the Wilkes Expedition. Build a claim-observability matrix for giant polar openings, navigable polar seas, under-ice passages, subglacial basins, crustal cavities, and planet-scale hollow interiors. Distinguish access failure from nonexistence and inability to observe from positive evidence. Return failed searches and uncertainty. Do not declare Hollow Earth confirmed or disproved as one undifferentiated claim.
 
-### Parallel: polar observability and entity resolution
+### Archive-gated: Reynolds *National Intelligencer* installments
 
-> Read `research_questions/RQ-033-POLAR-OBSERVABILITY-LIMITS.md`, `research_inbox/SESSION_033_POLAR_OBSERVABILITY_WILKES_LEADS.md`, and `data/entity_resolution/ENTITY-RESOLUTION-001-JEREMIAH-WILLIAM-REYNOLDS.md`. Execute `research_inbox/SESSION_033_POLAR_OBSERVABILITY_ACQUISITION_BRIEF.md`. Obtain primary logs, crew lists, instrument inventories, navigation methods, soundings, ice/weather records, coordinates, and exact quotations. Keep Jeremiah N. Reynolds separate from William Reynolds of the Wilkes Expedition. Build a claim-observability matrix and distinguish access failure from nonexistence and inability to observe from positive evidence.
+Do not repeat free-web searches. Resume only with paid newspaper access, Library of Congress issue/microfilm access, institutional assistance, or a new exact reprint lead.
 
 ### Parallel artifact lane: verify one Ptolemaic item
 
