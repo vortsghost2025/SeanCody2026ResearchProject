@@ -1,84 +1,106 @@
-# ERR-032-002 — `A Citizen of the United States` Shared Byline
+# ERR-032-002 — `Citizen of the United States` Shared Byline
 
 ```yaml
 ERROR_OR_PHRASE_FINGERPRINT:
   id: ERR-032-002
-  status: OPEN_CANDIDATE
+  status: SUPPORTED_NONDIAGNOSTIC_FINGERPRINT
   related_bridge: BRIDGE-032-003
 
-  phrase: "A Citizen of the United States"
+  normalized_phrase: "Citizen of the United States"
 
   occurrence_a:
     work: "Symmes's Theory of Concentric Spheres"
     associated_creator: "James McBride"
     year: 1826
-    role: TITLE_PAGE_OR_BIBLIOGRAPHIC_ATTRIBUTION
-    verification: REPORTED_FROM_LOC_GUIDE_AND_ACQUISITION
+    printed_form: "By a Citizen of the United States"
+    place: Cincinnati
+    printer_publisher: "Morgan, Lodge and Fisher"
+    ia_identifier: symmesstheoryofc00mcbr
+    ark: ark:/13960/t9j392z40
+    verification: PRIMARY_TITLE_PAGE_CONFIRMED
 
   occurrence_b:
     work: "Remarks on a review of Symmes' theory, which appeared in the American quarterly review"
     associated_creator: "Jeremiah N. Reynolds"
     year: 1827
-    role: TITLE_PAGE_ATTRIBUTION
-    verification: PRIMARY_OCR_VISIBLE_IN_IA_LOC_SCAN
+    printed_form: "By a Citizen of the United States"
+    place: Washington
+    printer_publisher: "Gales & Seaton"
+    ia_identifier: remarksonreviewo00reyn
+    ark: ark:/13960/t1tf1gd11
+    lccn: "06040937"
+    verification: PRIMARY_TITLE_PAGE_CONFIRMED
+
+  contextual_link:
+    evidence: >
+      Reynolds explicitly identifies the reviewed Symmes work as written by a
+      Citizen of the United States and uses the same civic anonymity formula on
+      his own response pamphlet.
+    status: EXPLICIT_AWARENESS_SUPPORTED
 
   suspected_mechanisms:
-    - DELIBERATE_ECHO
+    - DELIBERATE_RHETORICAL_ECHO
     - SHARED_GROUP_IDENTITY
-    - SHARED_PUBLISHING_CONVENTION
     - GENERIC_PERIOD_ANONYMITY
-    - INDEPENDENT_PARALLEL
+    - INDEPENDENT_PARALLEL_USE
 
-  copying_or_influence_edge: NOT_ESTABLISHED
+  current_assessment:
+    shared_phrase_occurrence: VERIFIED
+    phrase_uniqueness: LOW_OR_UNRESOLVED
+    deliberate_echo: PLAUSIBLE_NOT_PROVEN
+    shared_circle_signal: PLAUSIBLE_NOT_PROVEN
+    catalogue_normalization: CONTRADICTED_FOR_THESE_TWO_ITEMS
+    copying_or_coordination_edge: NOT_ESTABLISHED
+
   generated_session: SESSION_031
+  updated_session: SESSION_032
   last_reviewed: 2026-07-13
 ```
 
-## Why it matters
+## What changed
 
-This phrase is structurally different from `ERR-032-001`.
+Both title pages are now primary-confirmed. This removes `catalogue normalization` as an explanation for why the phrase appears on these two artifacts.
 
-- `ERR-032-001` concerns a later mutation of Reynolds's title.
-- `ERR-032-002` concerns a potentially deliberate attribution shared by two adjacent Symmes-related publications.
+The phrase is nevertheless not unique. A limited control found unrelated period uses, so the wording cannot function as a copying fingerprint by itself.
 
-The Reynolds pamphlet's opening also refers to the reviewed principles as written by a `Citizen of the United States`, apparently identifying McBride's 1826 work, while Reynolds's own title page adopts the same attribution. That makes deliberate echo plausible, but not proven.
+## Why the context remains interesting
 
-## Competing explanations
+The match is more meaningful than two unrelated anonymous books sharing a generic byline because Reynolds:
 
-### 1. Generic convention
+1. directly discusses the McBride/Symmes work;
+2. identifies its civic attribution;
+3. reuses the same formula in an adjacent response artifact;
+4. operates inside the same controversy one year later.
 
-`A Citizen of the United States` may have been a normal republican-era anonymous byline with no special Symmes-circle meaning.
+That supports a plausible rhetorical echo or public alignment. It does not reveal whether the reuse was intentional signaling, ordinary patriotic anonymity, or both.
 
-### 2. Deliberate echo
+## Distinctiveness boundary
 
-Reynolds may have intentionally mirrored McBride's attribution to signal that his response belonged to the same public controversy or advocacy circle.
+```text
+phrase match alone
+        = low diagnostic value
 
-### 3. Shared editorial or printer convention
+phrase match + direct awareness + same controversy + one-year proximity
+        = historically meaningful contextual candidate
 
-A publisher, printer, newspaper editor, or later cataloguer may have normalized both works into the same phrase.
+copying or coordinated code
+        = not established
+```
 
-### 4. Misdescribed title-page evidence
+## Promotion test still outstanding
 
-The McBride attribution must still be confirmed from an exact 1826 title-page image and edition record.
-
-## Promotion test
-
-Collect:
-
-1. exact title-page images for McBride 1826 and Reynolds 1827;
-2. edition, printer, publisher, city, and extent for both;
-3. *National Intelligencer* versions of Reynolds's three numbers;
-4. whether the byline appears in the newspaper serialization or only the pamphlet;
-5. other 1825–1828 pamphlets using the same attribution;
-6. correspondence or advertisements explaining author identity;
-7. frequency controls showing whether the phrase was rare or conventional.
+1. Recover the three *National Intelligencer* versions and determine their signatures/bylines.
+2. Complete a bounded 1820–1830 control with at least five exact non-Symmes title-page occurrences.
+3. Compare subject, city, printer, and format across the controls.
+4. Search correspondence, advertisements, and notices for an explanation of Reynolds's attribution.
+5. Determine whether the byline was added for the collected pamphlet or present in the newspaper series.
 
 ## Allowed synthesis language
 
 Allowed:
 
-> McBride's 1826 Symmes treatise and Reynolds's 1827 response are reported with the same `Citizen of the United States` attribution, creating a testable shared-byline candidate.
+> McBride's 1826 Symmes treatise and Reynolds's 1827 response use the same primary-confirmed civic byline. Reynolds knew the earlier attribution, making rhetorical echo plausible, but the phrase was not unique enough to prove copying or coordinated signaling.
 
-Not yet allowed:
+Not allowed:
 
-> Reynolds copied McBride's pseudonym as a proven in-group signal.
+> Reynolds's byline is a proven secret Symmes-circle code copied from McBride.
