@@ -3,63 +3,82 @@
 ```yaml
 ERROR_FINGERPRINT:
   id: ERR-032-001
-  status: OPEN_CANDIDATE
+  status: OPEN_CANDIDATE_PRIMARY_FORM_CONFIRMED
   related_bridge: BRIDGE-032-003
 
   authoritative_form:
-    source: "Library of Congress catalogue acquisition"
+    source:
+      - "Library of Congress catalogue"
+      - "Internet Archive LOC-derived title-page scan"
     title: "Remarks on a review of Symmes' theory, which appeared in the American quarterly review"
     loc_item: "06040937"
+    ia_identifier: remarksonreviewo00reyn
 
-  mutated_form:
-    title: "Remarks of Symmes' Theory Which Appeared in the American Quarterly Review"
+  mutated_forms:
+    - "Remarks of Symmes' Theory Which Appeared in the American Quarterly Review"
+    - "Remarks on Symmes' Theory"
 
   mutation:
-    - "on a review of" collapsed to "of"
-    - work reframed from response-to-review into apparent freestanding exposition
+    - "on a review of" collapsed to "of" or omitted
+    - response-to-review structure obscured
+    - work reframed as an apparent freestanding exposition
 
-  suspected_mechanism:
+  suspected_mechanisms:
     - SHARED_ERROR
     - BIBLIOGRAPHIC_SHORTENING
     - MIRROR_REPLICATION
+    - INDEPENDENT_SHORTENING
 
   evidence_state:
-    authoritative_catalogue_form: SUPPORTED_FROM_ACQUISITION
+    authoritative_primary_form: CONFIRMED
     at_least_one_public_mutated_example: SUPPORTED
+    multiple_reported_mutated_examples: LEAD
     copying_sequence: NOT_ESTABLISHED
     earliest_mutated_occurrence: UNKNOWN
 
   generated_session: SESSION_030
+  updated_session: SESSION_031
   last_reviewed: 2026-07-13
 ```
 
 ## Why the mutation matters
 
-This is not merely punctuation or capitalization. The two titles imply different document types:
-
 ```text
-correct: remarks ON A REVIEW of Symmes' theory
-mutated: remarks OF Symmes' theory
+primary:
+Remarks ON A REVIEW of Symmes' theory...
+
+mutated:
+Remarks OF Symmes' theory...
 ```
 
-The correct form identifies a publication responding to a prior review. The mutated form obscures the review-and-response chain and makes the pamphlet sound like an independent treatise.
+The primary form identifies a direct response in a print controversy. The mutated form hides that relationship and makes the pamphlet appear to be an independent treatise.
+
+The pamphlet preface strengthens the distinction: Reynolds says the pieces were written in reply to an *American Quarterly* review and first published in the *National Intelligencer*.
 
 ## Current evidence
 
-The acquisition reports the mutated form across several secondary and mirror sites. A web search during curator review also returned the shortened form in a current Wikipedia result.
+Confirmed:
 
-This supports recording the mutation as a candidate fingerprint. It does not yet establish that all sites copied one another directly.
+- the exact primary title through the LOC-derived scan and OCR;
+- one or more public shortened variants;
+- material change in the apparent document type.
+
+Not confirmed:
+
+- the first person or bibliography to introduce the shortened form;
+- a single copying chain connecting all current sites;
+- whether some variants are independent catalogue abbreviations.
 
 ## Promotion test
 
-To promote this into a documented copied-error chain, collect:
+Collect:
 
-1. dated snapshots or archived versions for each occurrence;
-2. exact wording and publication date;
-3. the earliest located mutation;
-4. evidence of mirroring, attribution, or shared source text;
-5. independent catalogues to determine whether the variant predates the web;
-6. negative results from authoritative bibliographies using the correct title.
+1. dated catalogue and bibliography occurrences;
+2. archived snapshots of web occurrences;
+3. exact wording and attribution;
+4. earliest located mutation;
+5. evidence of mirroring or shared source text;
+6. independent abbreviations that may explain parallel shortening.
 
 ## Allowed synthesis language
 
