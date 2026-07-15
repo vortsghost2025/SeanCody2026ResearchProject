@@ -5,7 +5,8 @@ RQ:
   id: RQ-036
   title: "Where did modern reptilian synthesis and the Grey/Reptilian hierarchy first become one narrative system?"
   status: SEARCHING
-  priority: HIGH
+  priority: HIGHEST
+  execution_order: BEFORE_ADDITIONAL_GREY_VISUAL_SCHEMA_EXPANSION
 
   scope:
     - culture-specific serpent traditions and their later reinterpretation
@@ -79,6 +80,29 @@ RQ:
   last_updated: 2026-07-14
 ```
 
+## Execution priority decision
+
+Session 038 runs before any additional Grey-specific schema is created.
+
+Reasons:
+
+1. `OBSERVATION_REPORT` and `CONVERGENCE_CLUSTER` already provide enough structure for the first Grey pilot.
+2. The alleged Dulce hierarchy is a unique first-source problem, not merely a data-model problem.
+3. One exact early tape, newsletter, manuscript, pamphlet, or conference transcript could materially change RQ-023, SYS-001, and the Grey/Reptilian fusion chronology.
+4. Broad internet summaries are likely derivative; delay increases the risk of repeatedly analyzing late compilations instead of the originating artifact.
+5. The result remains valuable even when the first-source claim fails or splits into multiple parallel fusions.
+
+```text
+FIRST:
+SESSION_038 — earliest Grey/Reptilian hierarchy artifact
+
+PARALLEL WHEN PRIMARY ACCESS EXISTS:
+SESSION_037 — Hill/media chronology
+
+AFTER PILOT DATA:
+revise or extend the Grey visual-feature fields only where real records expose a gap
+```
+
 ## Required decomposition
 
 ```text
@@ -119,6 +143,19 @@ The answer must include:
 - earliest known copy;
 - relation to Bennewitz, Lear, Cooper, Doty/Moore, Walton/Branton, and later compilations;
 - evidence against first-source status.
+
+## Stop rules
+
+Do not spend the session producing:
+
+- a general history of reptilians;
+- another ancient-serpent comparison;
+- a summary assembled from modern websites;
+- an undifferentiated `Dulce lore` narrative;
+- a chain that treats all repeated versions as independent;
+- a canonical edge without the exact originating artifact.
+
+When an exact early artifact cannot be found, return the earliest securely dated candidates, their dependencies, archive barriers, and a failed-search log.
 
 ## Current counts
 
