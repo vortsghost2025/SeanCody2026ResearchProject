@@ -6,6 +6,8 @@
 
 **[Open the Cross-Domain Bridge Atlas](CROSS_DOMAIN_BRIDGE_ATLAS.md)**
 
+**[Open the Original-Language Translation Protocol](docs/ORIGINAL_LANGUAGE_TRANSLATION_PROTOCOL.md)**
+
 The Master Atlas shows what has already been gathered, while the Bridge Atlas is the discovery page for hidden carriers and non-obvious connections between topics.
 
 Together they show:
@@ -14,6 +16,7 @@ Together they show:
 - active systems and research domains;
 - confirmed, partial, speculative, and unknown connections;
 - hidden bridge candidates involving publishers, institutions, phrases, images, errors, and media networks;
+- original-language witnesses and competing translation variants;
 - current research questions and priorities;
 - cross-references to source acquisitions, schemas, reports, and graph records;
 - ready-made prompts for assigning focused work to another AI.
@@ -30,8 +33,37 @@ This project does **not** begin by deciding whether a claim is true or false. It
 - **Where** did it originate?
 - **Why** might it have appeared in that culture or historical period?
 - **How** did it spread, change, merge, or become reinterpreted?
+- **Which meanings were possible in the original language before one translation became dominant?**
 
 Evidence strength remains a separate field so documented history, mythology, fiction, testimony, speculation, and fabricated material are never silently mixed.
+
+## Original-language rule
+
+For every inscription, quotation, map label, title, name, manuscript passage, technical term, religious phrase, or translated testimony, preserve:
+
+```text
+original script or image
+        ↓
+diplomatic transcription
+        ↓
+transliteration
+        ↓
+segmentation and lexical range
+        ↓
+all materially plausible translations
+        ↓
+translator assumptions and provenance
+        ↓
+later reinterpretations
+```
+
+No ambiguous English rendering may become a load-bearing bridge, motif match, copied fingerprint, map reading, or lineage claim unless the original-language witness and materially plausible alternatives are recorded.
+
+“Every possible translation” means every reading supported by grammar, lexicon, script, textual variation, historical usage, or documented scholarship—not arbitrary paraphrases.
+
+- **[Translation protocol](docs/ORIGINAL_LANGUAGE_TRANSLATION_PROTOCOL.md)**
+- **[Translation Variant schema](schemas/TRANSLATION_VARIANT.md)**
+- **[RQ-037 — Translation ambiguity and semantic drift](research_questions/RQ-037-TRANSLATION-AMBIGUITY-SEMANTIC-DRIFT.md)**
 
 ## Initial research areas
 
@@ -41,6 +73,7 @@ Evidence strength remains a separate field so documented history, mythology, fic
 - Hollow Earth and polar-opening theories
 - UFO history, contactees, underground-base stories, and secret-program claims
 - CERN, extra dimensions, portal language, and later reinterpretations
+- Translation ambiguity, semantic drift, copied glosses, and original-language comparison
 - Narrative convergence: when originally separate ideas become one combined system
 - Human–AI ensemble research, persistent state, disagreement, verification, and model orchestration
 
@@ -53,8 +86,9 @@ Session 036 preserved an LM Arena deep-dive and proposed CSV extension as raw ac
 - **[Session 036 curator QC](reports/SESSION_036_GREY_REPTILIAN_QC.md)** — row-by-row decisions, structural defects, corrections, and promotion boundaries.
 - **[Grey visual bridge candidate](graph/bridges/BRIDGE-035-001-GREY-VISUAL-STANDARDIZATION.md)**
 - **[Reptilian/Grey fusion bridge candidate](graph/bridges/BRIDGE-036-001-REPTILIAN-GREY-FUSION.md)**
+- **[Mahoraga translation record](data/translation_variants/TRANS-036-001-MAHORAGA.md)**
 
-The canonical 25-record seed remains unchanged until exact sources, dates, passages, and carriers pass curator review.
+The canonical 25-record seed remains unchanged until exact sources, dates, passages, translations, and carriers pass curator review.
 
 ## Repository structure
 
@@ -66,9 +100,9 @@ sessions/                        archived session logs after ingestion
 schemas/                         object and validation schemas
 graph/                           entities, claims, motifs, transmissions, systems, and evidence
 research_questions/              first-class research queue
-data/                            canonical records and quarantine
+data/                            canonical records, translation variants, and quarantine
 reports/                         synthesis, comparison, and QC reports
-docs/                            architecture and methodology
+docs/                            architecture, methodology, and translation protocol
 project_audit/                   significant QC, migration, and recovery notes
 ```
 
