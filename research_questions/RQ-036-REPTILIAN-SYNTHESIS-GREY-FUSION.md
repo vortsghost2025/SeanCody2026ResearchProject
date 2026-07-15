@@ -10,6 +10,7 @@ RQ:
 
   scope:
     - culture-specific serpent traditions and their later reinterpretation
+    - entity and translation collapse between older religious terms and modern pop culture
     - Theosophical lost-race and dragon-man writing
     - weird-fiction serpent infiltrators
     - Maurice Doreal and occult pamphlet networks
@@ -19,7 +20,7 @@ RQ:
     - the 1983 miniseries V and other mass-media imagery
     - Alex Collier and contactee hierarchy systems
     - David Icke and political/bloodline synthesis
-    - newsletter, lecture, conference, mail-order, photocopy, and internet distribution
+    - newsletter, lecture, conference, mail-order, photocopy, BBS, and internet distribution
     - harmful political and antisemitic overlap
 
   central_problem: >
@@ -39,6 +40,8 @@ RQ:
     - Did the 1983 miniseries V supply distinctive imagery or only a generic disguise motif?
     - Which repeated phrases, diagrams, entity names, errors, or source lists reveal copying?
     - Where do political bloodline and antisemitic conspiracy structures enter the synthesis?
+    - Which older serpent terms are erased by pop-culture search dominance?
+    - Which translations project modern biological or conspiracy meanings backward?
 
   do_not_treat_as_proof:
     - ancient serpent iconography as evidence of a literal reptilian species
@@ -49,6 +52,8 @@ RQ:
     - Dulce repetitions as independent sources
     - a document's existence as proof of its literal claims
     - real families or populations being reptilian or conspiratorial
+    - a modern entertainment character as the origin of an older religious name
+    - an English gloss such as `Great Reptilians` as proof of modern conspiracy continuity
 
   partial_resolution: >
     At least five item-level records establish exact passages, dates, editions, publishers,
@@ -70,10 +75,14 @@ RQ:
   related_files:
     - data/grey_reptilian_motif_timeline_seed_2026-07-12.csv
     - reports/SESSION_036_GREY_REPTILIAN_QC.md
+    - reports/SESSION_039_CORRECTED_PACKAGE_QC.md
     - graph/bridges/BRIDGE-036-001-REPTILIAN-GREY-FUSION.md
+    - graph/motifs/SERP-007-MAHORAGA-CANDIDATE.md
+    - data/error_fingerprints/ERR-036-001-MAHORAGA-ENTITY-TRANSLATION-COLLAPSE.md
     - graph/transmissions/SHAVER_TO_DULCE_CHAIN.md
     - research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md
     - research_inbox/SESSION_038_REPTILIAN_DULCE_FUSION_BRIEF.md
+    - research_inbox/SESSION_039_CORRECTED_PACKAGE_MANIFEST.md
 
   generated_session: SESSION_036
   current_acquisition_session: SESSION_038
@@ -121,6 +130,45 @@ political bloodline conspiracy
 
 Connections between these layers require dated movement, citation, copying, adaptation, exposure, shared publishing infrastructure, or a specific repeated fingerprint.
 
+## Mahoraga entity and translation guardrail
+
+Session 039 adds a two-sided correction:
+
+```text
+Mahoraga as older religious serpent-class term
+        ≠
+only the modern Jujutsu Kaisen character
+```
+
+and:
+
+```text
+mahā + uraga
+        = great serpent / great-serpent being
+        ≠
+automatic evidence of the modern “reptilian” conspiracy category
+```
+
+Current classification:
+
+```yaml
+SERP-007:
+  status: SUPPORTED_RELIGIOUS_MOTIF_PENDING_TEXTUAL_DECOMPOSITION
+  canonical_seed_row: false
+
+ERR-036-001:
+  status: SUPPORTED_DUAL_COLLAPSE_PATTERN
+  direct_modern_transmission: NOT_ESTABLISHED
+```
+
+Required future work:
+
+- exact primary textual attestations by Buddhist, Jain, and Hindu tradition;
+- exact iconographic dates and regions;
+- the source behind the subterranean-serpent/earthquake description;
+- first dated modern conspiracy appropriation of `Mahoraga` or the English gloss;
+- direct use by a named transmitter, if any.
+
 ## First decisive target
 
 ```text
@@ -162,11 +210,14 @@ When an exact early artifact cannot be found, return the earliest securely dated
 ```text
 Canonical reptilian seed records: 5
 Canonical serpent-tradition seed records: 6
+Religious motif candidates pending seed promotion: 1
 Canonical fusion seed records: 3
 Proposed Session 036 rows imported: 0
+Structurally valid Session 039 staging rows: 11
 Exact Doreal items promoted: 0
 Exact Grey/Reptilian hierarchy artifacts promoted: 0
 Verified Howard → Doreal edges: 0
 Verified media → conspiracy edges: 0
+AI entity/translation collapses blocked: 1
 RQ-036: SEARCHING
 ```
