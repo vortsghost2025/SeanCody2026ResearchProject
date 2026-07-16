@@ -17,21 +17,24 @@ BRIDGE_CANDIDATE:
 
   hierarchy_progression_finding: >
     A reported 1989 LeVesque/Bishop text preserves a proto-hierarchy involving Grey
-    mercenary agency for Draco. The inspected 1991 Matrix II third edition preserves
-    an intermediate and internally contradictory synthesis. The 1990 first edition is
-    now bounded by dealer metadata but has not been inspected, so the intermediate
-    stage dates to 1990 or 1991 rather than securely to 1990.
+    mercenary agency for Draco. The inspected 1991 Matrix II third edition places
+    Pasturing and Use at page 95 and preserves an intermediate and internally
+    contradictory synthesis. The 1990 first edition remains uninspected, so the
+    intermediate stage dates to 1990 or 1991 rather than securely to 1990.
 
-  session_055_COSCON_finding: >
-    COSCON34 contains the mature Q&A and identifiable Branton editorial parentheticals.
-    It is therefore a Branton-edited or Branton-derived carrier, not an unedited
-    pre-Branton ancestor. Its original BBS date and exact relation to the October 1996
-    compilation family remain unresolved.
+  session_056_COSCON_finding: >
+    COSCON34 contains the mature Q&A, Branton editorial parentheticals and a reported
+    March 18, 1994 Plain Dealer reference. The reference creates a terminus post quem
+    for the surviving editorialized state. It does not establish that the embedded
+    mature Q&A existed before March 18, 1994. COSCON34 cannot be an unedited pre-Branton
+    source. Its proposed identity as Cosmic Conflict chapter 34 remains a candidate
+    pending explicit title, contents or directory evidence.
 
-  session_055_title_finding: >
-    The Dulce Book and The Dulce Wars share Branton attribution, 1996-era metadata and
-    substantial chapter structure. They are treated as one related compilation family
-    pending item-level identity and edition comparison, not independent witnesses.
+  session_056_title_finding: >
+    The Dulce Book and The Dulce Wars are securely distinct title traditions, with
+    later commercial-edition leads and strong shared-corpus evidence. Cosmic Conflict
+    may be another containing work for the same Q&A. Regardless of exact work identity,
+    all remain one Branton editorial family rather than independent witnesses.
 
   source_class_finding: >
     Thomas Edwin Castello remains a document persona or contested attributed speaker,
@@ -55,19 +58,28 @@ BRIDGE_CANDIDATE:
       status: TEXT_WITNESS_DATE_OPEN
     - id: DULCE-CAND-041
       role: MATRIX_II_INTERMEDIATE_HIERARCHY_SECTION
-      status: FIRST_EDITION_ASSIGNMENT_OPEN
+      status: PAGE_95_IN_1991_FIRST_EDITION_ASSIGNMENT_OPEN
     - id: DULCE-CAND-047
-      role: COSCON34_BRANTON_EDITED_CARRIER
-      status: DATE_AND_STEMMA_POSITION_OPEN
+      role: COSCON34_POST_1994_EDITORIALIZED_CARRIER
+      status: UNDERLYING_QA_DATE_AND_WORK_IDENTITY_OPEN
     - id: DULCE-CAND-048
       role: MATRIX_II_1990_FIRST_EDITION_ITEM
       status: DEALER_METADATA_CONTENT_UNINSPECTED
     - id: DULCE-CAND-049
       role: DULCE_BOOK_DULCE_WARS_TITLE_FAMILY
       status: WORK_IDENTITY_OPEN
-    - id: DULCE-CAND-028
-      role: NOVEMBER_2010_THREAD
-      status: TESTIMONY_CONFIRMED_QA_DISPUTED
+    - id: DULCE-CAND-050
+      role: COSCON34_MARCH_1994_INTERNAL_REFERENCE
+      status: COMPOSITE_STATE_TPQ
+    - id: DULCE-CAND-051
+      role: COSMIC_CONFLICT_CHAPTER_34_IDENTITY
+      status: CANDIDATE_NOT_CONFIRMED
+    - id: DULCE-CAND-052
+      role: DULCE_BOOK_COMMERCIAL_EDITION_LEAD
+      status: ITEM_LEVEL_UNINSPECTED
+    - id: DULCE-CAND-053
+      role: DULCE_WARS_COMMERCIAL_EDITION_LEAD
+      status: ITEM_LEVEL_UNINSPECTED
 
   evidence_class:
     mature_text_content: A
@@ -75,10 +87,13 @@ BRIDGE_CANDIDATE:
     1989_proto_content: B
     1989_exact_date_and_carrier: C
     Matrix_II_1991_third_content: A
+    Matrix_II_1991_Pasturing_page: A
     Matrix_II_1990_first_metadata: B
     Matrix_II_1990_first_content: C
     COSCON34_mature_text_and_editorial_layer: B_PLUS
-    COSCON34_date_and_BBS_provenance: C
+    COSCON34_internal_1994_reference: B_PLUS
+    COSCON34_underlying_QA_date: C
+    COSCON34_Cosmic_Conflict_identity: C
     October_1996_compilation_self_date: B_PLUS
     exact_first_carrier: C
     exact_sentence_authorship: C
@@ -88,14 +103,16 @@ BRIDGE_CANDIDATE:
     artifact_family_separation: HIGH
     proto_intermediate_mature_model: MEDIUM
     COSCON34_Branton_edited: HIGH
-    COSCON34_pre_Branton_ancestor: LOW_FALSE
+    COSCON34_state_post_March_1994: MEDIUM_HIGH
+    COSCON34_underlying_QA_pre_March_1994: LOW_UNSUPPORTED
+    COSCON34_Cosmic_Conflict_identity: LOW_MEDIUM
     Matrix_II_intermediate_year: LOW_MEDIUM
     collaborative_multi_actor_model: MEDIUM_HIGH
     Castello_authenticated_identity: LOW
     physical_artifact_corroboration: LOW
 
   generated_session: SESSION_036
-  updated_session: SESSION_055
+  updated_session: SESSION_056
   last_reviewed: 2026-07-16
 ```
 
@@ -115,55 +132,61 @@ Draco elite/castes + Grey mercenaries and oppositional material
 unknown-date mature Q&A:
 explicit control + Karsh + levels 5–6–7
         ↓
-Branton editorial intervention
+after 1994-03-18:
+COSCON34 surviving editorialized composite
         ↓
-COSCON34 date unknown + Dulce Book / Dulce Wars 1996 environment
+October 1996 self-dated related Branton compilation tradition
+        ↓
+later multi-title commercial and web family
 ```
 
 The sequence is a conceptual development model, not a proven copying chain.
 
-## COSCON34 boundary
+## COSCON34 chronology boundary
 
 ```text
-COSCON34 filename / plain-text form
-        = possible BBS distribution clue
-        ≠ date proof
+March 18, 1994 internal reference
+        = composite state assembled after that date
+        ≠ mature Q&A composed before that date
+```
 
-Branton parentheticals inside COSCON34
-        = surviving state is editorialized
-        ≠ unedited pre-Branton ancestor
+```text
+COSCON34 filename
+        ≠ Cosmic Conflict chapter identity proof
+        ≠ BBS sequence identity proof
 ```
 
 Read:
 
 - `graph/textual_stemma/COSCON34_BRANTON_CARRIER.md`
-- `data/error_fingerprints/ERR-036-034-EDITORIALIZED-CARRIER-ANCESTOR-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-037-TERMINUS-POST-QUEM-SOURCE-COMPOSITION-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-038-FILENAME-STEM-CARRIER-IDENTITY-COLLAPSE.md`
 
 ## Matrix II edition boundary
 
 ```text
 1990 first edition: 458 pages reported
-1991 third edition: 661+ pages reported
+1991 third edition: 661+ pages; Pasturing at page 95
         ↓
-substantial expansion
+substantial expansion and possible reordering
         ↓
-third-edition hierarchy text cannot be backdated automatically
+third-edition section cannot be assigned to first edition automatically
+```
+
+Read: `graph/chronologies/MATRIX_II_EDITION_MATRIX.md`.
+
+## Branton multi-title boundary
+
+```text
+The Dulce Book + The Dulce Wars + possible Cosmic Conflict chapter
+        = one Branton editorial family
+        ≠ independent hierarchy confirmations
 ```
 
 Read:
 
-- `graph/chronologies/MATRIX_II_EDITION_MATRIX.md`
-- `data/error_fingerprints/ERR-036-035-EDITION-PAGE-COUNT-CONTENT-TRANSFER.md`
-
-## Branton title-family boundary
-
-```text
-The Dulce Book + The Dulce Wars
-        = related compilation family
-        ≠ two independent hierarchy sources
-```
-
-Read: `graph/artifact_families/DULCE_BOOK_VS_DULCE_WARS.md`.
+- `graph/artifact_families/DULCE_BOOK_VS_DULCE_WARS.md`
+- `data/error_fingerprints/ERR-036-039-MULTI-COMPILATION-INDEPENDENCE-COLLAPSE.md`
 
 ## Avalon status
 
@@ -173,25 +196,27 @@ Project Avalon Thread 8393 remains securely dated as a testimony environment, bu
 
 1. inspect the 458-page Matrix II first edition;
 2. determine whether `Pasturing and Use` appears there;
-3. recover original COSCON34 BBS metadata and raw file chronology;
-4. compare COSCON34 against the October 1996 compilation state;
-5. resolve *The Dulce Book* versus *The Dulce Wars* item by item;
+3. prove COSCON34's containing work from title, contents or directory evidence;
+4. preserve the complete March 1994 paragraph and its source layer;
+5. compare *The Dulce Book*, *The Dulce Wars* and *Cosmic Conflict* item by item;
 6. acquire an earlier mature Q&A without Branton editorial content;
-7. preserve the exact October 1996 sign-off carrier.
+7. preserve the exact October 1996 sign-off carrier;
+8. decide whether Lane 1 should freeze pending physical/private access.
 
 Execute:
 
-- `research_inbox/SESSION_056_MATRIXII_PHYSICAL_DIFF_AND_COSCON_PROVENANCE_BRIEF.md`
+- `research_inbox/SESSION_057_CARRIER_IDENTITY_PHYSICAL_ESCALATION_AND_LANE1_CLOSURE_BRIEF.md`
 
 ## Allowed synthesis language
 
-> The mature hierarchy is securely present in a Branton-edited text family. COSCON34 is part of that editorial family rather than an unedited pre-Branton source. The 1990 Matrix II first edition is now bibliographically bounded, but the hierarchy section has not been assigned to it; the intermediate stage therefore remains 1990-or-1991. The first mature carrier and unedited Q&A source remain unresolved.
+> The mature hierarchy is securely present in a Branton-edited text family. COSCON34 preserves a post-March-1994 editorialized state, but that internal date does not date the underlying Q&A. The intermediate Matrix II hierarchy is confirmed in the 1991 third edition at page 95 but remains unassigned to the 1990 first edition. Multiple Branton titles represent one editorial family, and the first mature carrier remains unresolved.
 
 ## Not allowed
 
-- `COSCON34 proves a pre-Branton Q&A.`
-- `The filename COSCON34 dates the text.`
+- `COSCON34 proves the mature Q&A existed before March 1994.`
+- `COSCON34 is confirmed as Cosmic Conflict chapter 34 from its filename.`
 - `Pasturing and Use is confirmed in the 1990 first edition.`
-- `The Dulce Book and The Dulce Wars are independent sources.`
+- `The Dulce Book, The Dulce Wars and Cosmic Conflict are independent sources.`
 - `October 1996 is a physically inspected first-publication date.`
+- `Avalon 2010 is a confirmed mature-Q&A carrier.`
 - `The first mature carrier has been found.`
