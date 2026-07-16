@@ -28,13 +28,13 @@ C = underground base, treaty, genetic experiment or secret program
 | `DULCE-CAND-006` | Bennewitz, *Project Beta* | 1986–1988 reported | `PRIMARY_TEXT_CONTAMINATED_BY_LATER_INSERTIONS` | `PARTIAL-C` | clean typescript/date absent |
 | `DULCE-CAND-007` | Cooper ParaNet statements | 1988 | `UNVERIFIED_BBS_TEXT` | `UNKNOWN` | exact posts absent |
 | `DULCE-CAND-008` | Cooper, *Behold a Pale Horse* | 1991 | `PRIMARY_ITEM_AVAILABLE_PAGE_AUDIT_OPEN` | `PARTIAL-C` | page audit incomplete |
-| `DULCE-CAND-009` | Valerian, *Matrix II* | 1990 first claimed; 1991 third inspected | `CONFIRMED_PRIMARY_FOR_1991_THIRD_EDITION` | `PARTIAL-AC_OPPOSITIONAL` | 1990 first edition absent |
+| `DULCE-CAND-009` | Valerian, *Matrix II* edition family | 1990 first; 1991 third | `MIXED_EDITION_EVIDENCE` | `INTERMEDIATE_AND_OPPOSITIONAL_COMPILATION` | first-to-third content diff absent |
 | `DULCE-CAND-010` | Hamilton + LeVesque, `The Deep Dark Secret at Dulce` | 1991 reported | `SECONDARY_TRANSCRIPTION_PENDING_MAGAZINE_SCAN` | `PARTIAL-C_WITH_REPTILIAN_PRESENCE` | magazine pages absent |
 | `DULCE-CAND-011` | LeVesque, `The Covert Return...`, O'Connell carrier | July 1990 claimed | `ITEM_LEVEL_UNVERIFIED` | `LINKED_CHAIN_IMPLIED_CANDIDATE` | issue and grammar absent |
 | `DULCE-CAND-012` | Castello/Branton mature Q&A family | composition unknown | `DERIVATIVE_TEXT_FAMILY` | `FULL_LINKED_CHAIN_DOCUMENT_PERSONA` | first composition/carrier/authorship unresolved |
-| `DULCE-CAND-013` | Branton, *The Dulce Book* | 1991 claimed; 1996 soft | `CARRIER_DATE_CONFLICT` | `SOFT_1996_CARRIER_LEAD` | original dated state absent |
+| `DULCE-CAND-013` | Branton, *The Dulce Book* | October 1996 self-date environment | `COMPILATION_SELF_DATE_PRIMARY_TEXT_LEAD` | `MATURE_BRANTON_COMPILATION_FAMILY` | first physical/digital carrier absent |
 | `DULCE-CAND-014` | `Galactic Races` hosted text | unknown | `UNVERIFIED_CLAIM` | `UNKNOWN` | origin/date absent |
-| `DULCE-CAND-015` | Branton, *The Dulce Wars* | 1996/1999/later conflict | `LATE_PRINT_VERSION_CONFLICT` | `FULL_CONTENT_LATE_PRINT` | first edition unresolved |
+| `DULCE-CAND-015` | Branton, *The Dulce Wars* | 1996 environment | `TITLE_EDITION_IDENTITY_OPEN` | `PROBABLE_RETITLED_OR_RELATED_COMPILATION` | item-level comparison absent |
 | `DULCE-CAND-016` | Bishop III / LeVesque, *The Dulce Base* | 1989 reported | `TEXT_WITNESS_DATE_OPEN` | `PROTO_HIERARCHY_SUPPORTED` | earliest exact carrier/date absent |
 | `DULCE-CAND-017A` | Hamilton, *Alien Magic — Behind the Cloak...* | 1989 reported | `UNACQUIRED_BIBLIOGRAPHIC_LEAD` | `UNKNOWN_HIGH_PRIORITY` | physical object absent |
 | `DULCE-CAND-017B` | Hamilton, *Alien Magic: UFO Crashes...* | 1996 | `LATER_EDITION_LEAD` | `LATE_COMPARISON_OBJECT` | cannot project backward |
@@ -61,26 +61,56 @@ C = underground base, treaty, genetic experiment or secret program
 | `DULCE-CAND-038` | `Dulce Project 2013` recovery attempt | 2013 | `DOCUMENTED_FORUM_PROJECT_CLAIM` | `RECOVERY_ATTEMPT_NO_ARTIFACT` | no box/contents |
 | `DULCE-CAND-039` | Alleged `W` relay Q&A | Nov. 2010 claimed | `CONFLICTING_ACQUISITION_REPORTS` | `EXISTENCE_AND_IDENTITY_DISPUTED` | no raw post ID/HTML/hash |
 | `DULCE-CAND-040` | `controlled by the Draco` in Avalon | Nov. 2010 claimed | `CONFLICTING_ACQUISITION_REPORTS` | `NOT_CONFIRMED_IN_AVALON` | raw post absent |
-| `DULCE-CAND-041` | `Pasturing and Use of Surface Earth Humans` | 1990 reported | `SECTION_AND_EDITION_LEAD` | `INTERMEDIATE_HIERARCHY_CANDIDATE` | complete earliest section absent |
+| `DULCE-CAND-041` | `Pasturing and Use of Surface Earth Humans` | 1990 or 1991 | `EDITION_ASSIGNMENT_OPEN` | `INTERMEDIATE_HIERARCHY_CANDIDATE` | 458-page first edition uninspected |
 | `DULCE-CAND-042` | Tilton, *The Bennewitz Papers*, Crux/Tulsa 85-page state | 1991 reported | `FIRST_EDITION_METADATA_LEAD` | `PHYSICALLY_LOCATABLE_UNINSPECTED` | title/pages/passage absent |
 | `DULCE-CAND-043` | Nippon Television LeVesque program | 1990-03-24 reported | `SECONDARY_ARCHIVAL_BROADCAST_LEAD` | `PUBLIC_CIRCULATION_CONTEXT` | program/recording absent |
 | `DULCE-CAND-044` | Colonel-X identity-negative account | 2010 thread context | `HOSTILE_OR_ANONYMOUS_NEGATIVE_CLAIM` | `CASTELLO_IDENTITY_NEGATIVE_LEAD` | witness/database provenance absent |
-| `DULCE-CAND-045` | Stillness `Q—` label for control sentence | 2019 reported | `DERIVATIVE_MIRROR_VARIANT` | `PROBABLE_QA_LABEL_TRANSPOSITION` | earlier matching state absent |
+| `DULCE-CAND-045` | Q/A label branches in Branton-derived mirrors | later carriers | `DERIVATIVE_MIRROR_VARIANT` | `EARLY_LABEL_ERROR_OR_LATER_CORRECTION` | earliest branch state absent |
 | `DULCE-CAND-046` | Lear 1987 letter enclosure packet | 1987-12-13 | `PRIMARY_DOCUMENT_REPORTED_AND_QUOTED_NOT_ARCHIVED` | `DULCE_PAPERS_DRAWINGS_FAMILY` | PDF and enclosures not preserved |
+| `DULCE-CAND-047` | COSCON34 mature Q&A carrier | date unknown | `BRANTON_EDITED_TEXT_WITNESS` | `BRANTON_CONTEMPORARY_OR_DERIVATIVE` | original BBS metadata absent |
+| `DULCE-CAND-048` | *Matrix II* 1990 numbered first-edition item | 1990 | `DEALER_ITEM_METADATA_WITH_COLOPHON_DESCRIPTION` | `458_PAGE_FIRST_EDITION_CONTENT_OPEN` | project has not inspected pages |
+| `DULCE-CAND-049` | *The Dulce Book* / *The Dulce Wars* title family | 1996 environment | `WORK_IDENTITY_OPEN` | `ONE_COMPILATION_FAMILY_PENDING_DIFF` | title/copyright/contents comparison absent |
 
-## Session 050 rollback
+## Session 055 carrier correction
 
 ```yaml
-THREAD_8393:
-  date: CONFIRMED_NOVEMBER_2010
-  testimony: CONFIRMED
-  QandA_body: DISPUTED
-  W_relay: DISPUTED
-  direct_Hinkle_QA: DISPUTED
-  controlled_by_sentence: NOT_CONFIRMED
+COSCON34:
+  mature_QA: CONFIRMED
+  Branton_parentheticals: CONFIRMED
+  pre_Branton_unedited_source: EXCLUDED
+  carrier_date: UNKNOWN
+  BBS_origin: FILENAME_FORMAT_LEAD_ONLY
 ```
 
-Do not call Thread 8393 a confirmed mature-Q&A carrier until the exact post is stored.
+## Matrix II edition boundary
+
+```yaml
+MATRIX_II:
+  first_edition_1990:
+    publisher_reported: ARCTURUS_BOOK_SERVICE_LAS_VEGAS
+    page_count_reported: 458
+    print_run_reported: 500_NUMBERED
+    evidence: DEALER_ITEM_RECORD
+  third_edition_1991:
+    page_count_reported: 661_PLUS
+    evidence: PRIMARY_SCAN_INSPECTED
+  Pasturing_in_first: UNKNOWN
+  intermediate_hierarchy_date: 1990_OR_1991
+```
+
+Read: `graph/chronologies/MATRIX_II_EDITION_MATRIX.md`.
+
+## Title-family boundary
+
+```text
+The Dulce Book
+        +
+The Dulce Wars
+        = one related Branton compilation family
+        ≠ two independent witnesses
+```
+
+Exact work identity remains open. Read: `graph/artifact_families/DULCE_BOOK_VS_DULCE_WARS.md`.
 
 ## Artifact-family boundary
 
@@ -92,8 +122,6 @@ DULCE-CAND-012
         = later interview/Q&A family
 ```
 
-Read: `graph/artifact_families/DULCE_PAPERS_VS_CASTELLO_QA.md`.
-
 ## Candidate development model
 
 ```text
@@ -101,9 +129,11 @@ Read: `graph/artifact_families/DULCE_PAPERS_VS_CASTELLO_QA.md`.
         ↓
 1989 proto-hierarchy — mercenary agency for Draco + alliance/tension
         ↓
-1990 intermediate lead — Draco elite/castes + Grey mercenaries
+1990 or 1991 intermediate layer — edition assignment unresolved
         ↓
 unknown-date mature Q&A — explicit control + Karsh + level assignments
+        ↓
+Branton-edited carriers including COSCON34 and the 1996 compilation family
 ```
 
 ## Current decision
@@ -115,8 +145,10 @@ first_composition: UNRESOLVED
 November_2010_QA_carrier: DISPUTED
 1987_Dulce_Papers_distribution: STRONG_PRIMARY_DOCUMENT_LEAD
 1987_drawings_equal_QA: false
+COSCON34_pre_Branton_ancestor: false
+Matrix_II_intermediate_year: 1990_OR_1991
+Dulce_Book_Wars_independent_count: ONE_FAMILY_PENDING_DIFF
 textual_stemma: UNRESOLVED
-hierarchy_progression: PROTO_INTERMEDIATE_MATURE_CANDIDATE
 neutral_working_model: COLLABORATIVE_MULTI_ACTOR
 Castello_authentication: NOT_ESTABLISHED
 physical_artifacts_recovered: 0
