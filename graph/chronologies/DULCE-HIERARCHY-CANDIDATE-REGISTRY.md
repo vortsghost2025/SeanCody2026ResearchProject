@@ -2,7 +2,7 @@
 
 > **Related question:** `RQ-036`  
 > **Related bridge:** `BRIDGE-036-001`  
-> **Status:** candidate registry only; no origin, sole-author, first-carrier or coordinated-operation edge
+> **Status:** candidate registry only; no origin, sole-author, first-composition or coordinated-operation edge
 
 ## Decisive linked-chain test
 
@@ -14,189 +14,174 @@ B = Greys controlled, created, commanded, used or serving that A
 C = underground base, treaty, genetic experiment or secret program
 ```
 
-`FULL_LINKED_CHAIN` requires the connected relationship, not mere co-presence.
+`FULL_LINKED_CHAIN` requires a connected relationship, not mere co-presence.
 
 ## Candidate table
 
-| ID | Exact candidate | Reported date | Source status | Relationship / provenance result | Current result | Main barrier |
-|---|---|---:|---|---|---|---|
-| `DULCE-CAND-001` | McCampbell–Bennewitz conversation transcript | 1984-07-13 | `CONTEMPORARY_TRANSCRIPT_LEAD` | C only | `PARTIAL-C_CANDIDATE` | clean transcript/audio chain not acquired |
-| `DULCE-CAND-002` | George C. Andrews, *Extra-Terrestrials Among Us* | 1986 | `PRIMARY_ITEM_METADATA_ONLY` | unknown | `UNKNOWN` | primary text not inspected |
-| `DULCE-CAND-003` | John Lear transmittal letter to `Steven` | 1987-12-13 | `DATED_MIRROR_SCAN_PENDING_CUSTODY` | C only | `PARTIAL-C_CANDIDATE` | original custody unresolved |
-| `DULCE-CAND-004` | John Lear public statement / *The UFO Cover-Up* | 1987-12-29; revisions 1988 | `VERSIONED_PRIMARY_TEXT_PENDING_ALIGNMENT` | C only | `PARTIAL-C` | versions must be aligned |
-| `DULCE-CAND-005` | `The Dulce Papers` physical photo/drawing set | reported 1987 | `PRIMARY_ITEM_METADATA_ONLY` | C reported; A→B unknown | `PARTIAL-C_OR_UNKNOWN` | original set not recovered |
-| `DULCE-CAND-006` | Paul Bennewitz, *Project Beta* | reported 1986–1988 | `PRIMARY_TEXT_CONTAMINATED_BY_LATER_INSERTIONS` | C only in recoverable layer | `PARTIAL-C` | clean typescript and date unavailable |
-| `DULCE-CAND-007` | Bill Cooper ParaNet statements | 1988 | `UNVERIFIED_BBS_TEXT` | unknown | `UNKNOWN` | exact posts not acquired |
-| `DULCE-CAND-008` | Bill Cooper, *Behold a Pale Horse* | 1991 | `PRIMARY_ITEM_AVAILABLE_PAGE_AUDIT_OPEN` | C; no linked chain located | `PARTIAL-C` | page audit incomplete |
-| `DULCE-CAND-009` | Valdamar Valerian, *Matrix II* | first edition reported 1990; inspected third edition 1991 | `CONFIRMED_PRIMARY_FOR_1991_THIRD_EDITION` | Reptilians as Grey enemies; different Grey creator | `PARTIAL-AC_OPPOSITIONAL` | 1990 first edition unavailable |
-| `DULCE-CAND-010` | Hamilton + LeVesque, `The Deep Dark Secret at Dulce`, *UFO Universe* | reported Feb–Mar 1991 | `SECONDARY_TRANSCRIPTION_PENDING_MAGAZINE_SCAN` | reptilian presence + C; B absent | `PARTIAL-C_WITH_REPTILIAN_PRESENCE` | clean magazine text absent |
-| `DULCE-CAND-011` | TAL LeVesque, `The Covert Return...`, Patrick O'Connell carrier | July 1990 issue claimed | `ITEM_LEVEL_UNVERIFIED` | Greys as mercenaries `being used`; controlling agent unresolved | `LINKED_CHAIN_IMPLIED_CANDIDATE` | issue cover, masthead, pages and grammar absent |
-| `DULCE-CAND-012` | Castello/Branton Q&A, `A Dulce Base Security Officer Speaks Out` | composition and first carrier unknown | `DERIVATIVE_TEXT_WITNESS_FAMILY` | explicit Draco control of Grey/worker groups inside Dulce system | `FULL_LINKED_CHAIN_AT_TEXT_LEVEL_DOCUMENT_PERSONA` | first carrier and sentence authorship unresolved |
-| `DULCE-CAND-013` | Branton, *The Dulce Book* | 1991 claimed; 1996 softly attested | `CARRIER_DATE_CONFLICT` | mature hierarchy in later copies | `SOFT_1996_CARRIER_LEAD_NOT_SECURE_FIRST` | no original 1991 file or physical 1996 first edition |
-| `DULCE-CAND-014` | `Galactic Races` hosted text | unknown | `UNVERIFIED_CLAIM` | near-linked hierarchy language | `UNKNOWN` | originating file/date unknown |
-| `DULCE-CAND-015` | Branton, *The Dulce Wars* | 1996/1999/later conflict | `LATE_PRINT_VERSION_CONFLICT` | mature linked chain reported | `FULL_CONTENT_LATE_PRINT` | first-edition pages/date unresolved |
-| `DULCE-CAND-016` | TAL / Jason Bishop III, *The Dulce Base* | reported 1989 | `TEXT_WITNESS_ACQUIRED_DATE_UNVERIFIED` | alliance/tension plus separate Grey-enemy model | `PARTIAL-C_WITH_REPTILIAN_ALLIANCE_AND_OPPOSITION` | first 1989 file state absent |
-| `DULCE-CAND-017A` | Hamilton, *Alien Magic — Behind the Cloak of Secrecy Hides an Alien Power!* | reported 1989 | `UNACQUIRED_BIBLIOGRAPHIC_LEAD` | unknown | `UNKNOWN_HIGH_PRIORITY` | physical object/text absent |
-| `DULCE-CAND-017B` | Hamilton, *Alien Magic: UFO Crashes, Abductions & Underground Bases* | 1996 | `LATER_EDITION_LEAD` | later carrier | `LATE_COMPARISON_OBJECT` | cannot project wording backward |
-| `DULCE-CAND-018` | Hamilton, *Cosmic Top Secret* | reported 1991 | `UNVERIFIED_CLAIM` | unknown | `UNKNOWN` | exact object/pages absent |
-| `DULCE-CAND-019` | Penny Harper / *Whole Life Times* item | reported 1990 | `UNVERIFIED_CLAIM` | C reported; A→B unknown | `UNKNOWN_DEPRIORITIZED` | title, issue and pages absent |
-| `DULCE-CAND-020` | NARG / *Leading Edge* issue containing TAL contribution | undated | `DEALER_METADATA_ONLY` | shared infrastructure unknown | `UNKNOWN_SHARED_INFRASTRUCTURE_LEAD` | issue/date/article/pages absent |
-| `DULCE-CAND-021` | Castello-attributed documents reported circa 1987 | later secondary report | `UNVERIFIED_SECONDARY_LEAD` | linked chain unknown | `UNKNOWN` | exact object absent |
-| `DULCE-CAND-022` | Castello-to-Bishop letter | Sept. 1990 reported | `LATER_BRANTON_HEADER_ONLY` | hierarchy content unknown | `SEPARATE_ARTIFACT_LEAD_UNRECOVERED` | original letter and relation to Q&A absent |
-| `DULCE-CAND-023` | LeVesque November 2015 email to Adam Gorightly | Nov. 2015 | `DIRECT_QUOTE_IN_VERIFIED_SECONDARY` | TEC creation; Hinkle answer role; LeVesque mixing | `STRONGLY_SUPPORTED_SELF_ATTESTED_PERSONA_AND_PRODUCTION_MECHANISM` | original email and thread absent |
-| `DULCE-CAND-024` | LeVesque one-hundred-packet statement in same email | Nov. 2015 | `DIRECT_QUOTE_IN_VERIFIED_SECONDARY` | intended manufactured independence | `SELF_ATTESTED_OPERATION_UNCORROBORATED` | no packet, list or receipt |
-| `DULCE-CAND-025` | Cherry Hinkle participant account family | 2010–2023 | `PARTICIPANT_SELF_ATTESTATION_FAMILY` | factual Castello account; source and distribution claims | `CONFLICTING_PARTICIPANT_ACCOUNT` | claimed primary objects not authenticated |
-| `DULCE-CAND-026` | Christa Tilton, *The Bennewitz Papers* fabrication assertion | 1987 reported | `SECONDARY_REFERENCE_TO_UNRECOVERED_MANUSCRIPT` | early hostile/fabrication claim | `CONTEMPORANEOUS_HOSTILE_ASSERTION_LEAD` | manuscript and exact passage absent |
-| `DULCE-CAND-027` | Proposed packet-recipient nexus: Lear, Cooper, Valerian, Hamilton, Branton | late 1980s–early 1990s claimed | `DEPENDENCY_GRAPH_LEAD` | proximity or reuse | `ZERO_DOCUMENTED_PACKET_RECEIPTS` | no receipt or diagnostic packet fingerprint |
-| `DULCE-CAND-028` | Project Avalon Hinkle / `Mystery` thread with claimed original Q&A transcript | Nov. 2010 | `PARTICIPANT_SELF_ATTESTATION_PARTIAL_THREAD_LEAD` | claims pre-Branton answer state | `HIGHEST_VALUE_UNRECOVERED_QA_STATE` | complete posts, attachments and transcript diff absent |
-| `DULCE-CAND-029` | Hinkle-held Castello-attributed letter | 1987 claimed | `PARTICIPANT_POSSESSION_CLAIM` | possible early C-core or hierarchy text | `UNAUTHENTICATED_ARTIFACT_CLAIM` | scan, date basis and custody absent |
-| `DULCE-CAND-030` | Japanese television special / Hinkle VCR recordings | 1989–1990 claimed | `PARTICIPANT_POSSESSION_CLAIM` | visual and narrative carrier | `UNAUTHENTICATED_RECORDING_LEAD` | program identity and recording absent |
-| `DULCE-CAND-031` | Gorightly, `From Jahel to Dulce: The Fascinating Life of Cherry Hinkle` | 2012 mirror date; original issue date open | `PUBLISHED_INTERVIEW_LEAD` | Hinkle broad-distribution account | `PARALLEL_DISTRIBUTION_ACCOUNT` | original issue/page and full text state absent |
-| `DULCE-CAND-032` | Cherry Hinkle, *My Fated Life* | 2023 | `PRIMARY_ITEM_METADATA_ONLY` | potential post-confession participant account | `CONTENT_UNRETRIEVED` | relevant pages unavailable |
-| `DULCE-CAND-033` | LeVesque death certificate as described by Gorightly podcast | 2026 report | `SECONDARY_REPORT_OF_PRIMARY_DOCUMENT` | reported hospitality private-security occupation | `CREDENTIAL_CORROBORATION_PROBLEM` | certificate and field scope absent |
-| `DULCE-CAND-034` | Tilton commercial *Bennewitz Papers* editions / Inner Light node | later reprints | `PRIMARY_ITEM_METADATA_ONLY` | shared publisher infrastructure | `SHARED_INFRASTRUCTURE_LEAD` | physical editions and text comparison absent |
+| ID | Exact candidate | Date | Source status | Current result | Main barrier |
+|---|---|---:|---|---|---|
+| `DULCE-CAND-001` | McCampbell–Bennewitz conversation transcript | 1984-07-13 | `CONTEMPORARY_TRANSCRIPT_LEAD` | `PARTIAL-C_CANDIDATE` | clean transcript/audio absent |
+| `DULCE-CAND-002` | George C. Andrews, *Extra-Terrestrials Among Us* | 1986 | `PRIMARY_ITEM_METADATA_ONLY` | `UNKNOWN` | primary text not inspected |
+| `DULCE-CAND-003` | John Lear transmittal letter | 1987-12-13 | `DATED_MIRROR_SCAN_PENDING_CUSTODY` | `PARTIAL-C_CANDIDATE` | original custody unresolved |
+| `DULCE-CAND-004` | John Lear public statement | 1987-12-29; revisions 1988 | `VERSIONED_PRIMARY_TEXT_PENDING_ALIGNMENT` | `PARTIAL-C` | versions need alignment |
+| `DULCE-CAND-005` | Dulce Papers photo/drawing set | reported 1987 | `PRIMARY_ITEM_METADATA_ONLY` | `PARTIAL-C_OR_UNKNOWN` | original set absent |
+| `DULCE-CAND-006` | Bennewitz, *Project Beta* | reported 1986–1988 | `PRIMARY_TEXT_CONTAMINATED_BY_LATER_INSERTIONS` | `PARTIAL-C` | clean typescript/date absent |
+| `DULCE-CAND-007` | Cooper ParaNet statements | 1988 | `UNVERIFIED_BBS_TEXT` | `UNKNOWN` | exact posts absent |
+| `DULCE-CAND-008` | Cooper, *Behold a Pale Horse* | 1991 | `PRIMARY_ITEM_AVAILABLE_PAGE_AUDIT_OPEN` | `PARTIAL-C` | page audit incomplete |
+| `DULCE-CAND-009` | Valerian, *Matrix II* | 1990 first claimed; 1991 third inspected | `CONFIRMED_PRIMARY_FOR_1991_THIRD_EDITION` | `PARTIAL-AC_OPPOSITIONAL` | 1990 first edition absent |
+| `DULCE-CAND-010` | Hamilton + LeVesque, `The Deep Dark Secret at Dulce` | reported 1991 | `SECONDARY_TRANSCRIPTION_PENDING_MAGAZINE_SCAN` | `PARTIAL-C_WITH_REPTILIAN_PRESENCE` | magazine pages absent |
+| `DULCE-CAND-011` | LeVesque, `The Covert Return...`, O'Connell carrier | July 1990 claimed | `ITEM_LEVEL_UNVERIFIED` | `LINKED_CHAIN_IMPLIED_CANDIDATE` | issue and grammar absent |
+| `DULCE-CAND-012` | Castello/Branton Q&A | composition unknown | `DERIVATIVE_AND_PARTICIPANT_TEXT_FAMILY` | `FULL_LINKED_CHAIN_AT_TEXT_LEVEL_DOCUMENT_PERSONA` | first composition and sentence authorship unresolved |
+| `DULCE-CAND-013` | Branton, *The Dulce Book* | 1991 claimed; 1996 soft | `CARRIER_DATE_CONFLICT` | `SOFT_1996_CARRIER_LEAD` | original dated edition absent |
+| `DULCE-CAND-014` | `Galactic Races` hosted text | unknown | `UNVERIFIED_CLAIM` | `UNKNOWN` | origin/date absent |
+| `DULCE-CAND-015` | Branton, *The Dulce Wars* | 1996/1999/later conflict | `LATE_PRINT_VERSION_CONFLICT` | `FULL_CONTENT_LATE_PRINT` | first edition unresolved |
+| `DULCE-CAND-016` | Bishop III, *The Dulce Base* | reported 1989 | `TEXT_WITNESS_ACQUIRED_DATE_UNVERIFIED` | `ALLIANCE_AND_OPPOSITION` | first file state absent |
+| `DULCE-CAND-017A` | Hamilton, *Alien Magic — Behind the Cloak...* | reported 1989 | `UNACQUIRED_BIBLIOGRAPHIC_LEAD` | `UNKNOWN_HIGH_PRIORITY` | physical object absent |
+| `DULCE-CAND-017B` | Hamilton, *Alien Magic: UFO Crashes...* | 1996 | `LATER_EDITION_LEAD` | `LATE_COMPARISON_OBJECT` | cannot project backward |
+| `DULCE-CAND-018` | Hamilton, *Cosmic Top Secret* | reported 1991 | `UNVERIFIED_CLAIM` | `UNKNOWN` | exact object absent |
+| `DULCE-CAND-019` | Penny Harper / *Whole Life Times* item | reported 1990 | `UNVERIFIED_CLAIM` | `UNKNOWN_DEPRIORITIZED` | issue/title/pages absent |
+| `DULCE-CAND-020` | NARG / *Leading Edge* TAL issue | undated | `DEALER_METADATA_ONLY` | `SHARED_INFRASTRUCTURE_LEAD` | issue absent |
+| `DULCE-CAND-021` | Castello-attributed documents | circa 1987 claimed | `UNVERIFIED_SECONDARY_LEAD` | `UNKNOWN` | exact object absent |
+| `DULCE-CAND-022` | Castello-to-Bishop letter | Sept. 1990 claimed | `LATER_BRANTON_HEADER_ONLY` | `SEPARATE_ARTIFACT_LEAD` | original letter absent |
+| `DULCE-CAND-023` | LeVesque email to Gorightly | Nov. 2015 | `DIRECT_QUOTE_IN_VERIFIED_SECONDARY` | `PERSONA_AND_PRODUCTION_SELF_ATTESTATION` | original email/thread absent |
+| `DULCE-CAND-024` | LeVesque one-hundred-packet statement | Nov. 2015 | `DIRECT_QUOTE_IN_VERIFIED_SECONDARY` | `SELF_ATTESTED_OPERATION_UNCORROBORATED` | no physical packet/receipt |
+| `DULCE-CAND-025` | Hinkle participant account family | 2010–2023 | `PARTICIPANT_SELF_ATTESTATION_FAMILY` | `CONFLICTING_PARTICIPANT_ACCOUNT` | claimed primary objects unauthenticated |
+| `DULCE-CAND-026` | Tilton, *The Bennewitz Papers* fabrication assertion | 1987 claimed | `SECONDARY_REFERENCE_TO_UNRECOVERED_MANUSCRIPT` | `CONTEMPORANEOUS_HOSTILE_ASSERTION_LEAD` | manuscript absent |
+| `DULCE-CAND-027` | Proposed packet-recipient nexus | late 1980s–1990s | `DEPENDENCY_GRAPH_LEAD` | `ZERO_DOCUMENTED_PACKET_RECEIPTS` | no receipts/fingerprint |
+| `DULCE-CAND-028` | Hinkle Project Avalon Q&A carrier | Nov. 2010 | `CONFIRMED_DATED_PUBLIC_PARTICIPANT_CARRIER` | `FULL_LINKED_CHAIN_PRESENT_IN_2010_PUBLIC_STATE` | pre-1996 date and stemma unresolved |
+| `DULCE-CAND-029` | Hinkle-held Castello-attributed letter(s) | 1987/1988 claimed | `PARTICIPANT_POSSESSION_CLAIM` | `UNAUTHENTICATED_ARTIFACT_CLAIM` | scans/custody absent |
+| `DULCE-CAND-030` | Japanese TV special / Hinkle VCRs | 1989–1990 claimed | `PARTICIPANT_POSSESSION_CLAIM` | `UNAUTHENTICATED_RECORDING_LEAD` | program/recording absent |
+| `DULCE-CAND-031` | Gorightly, `From Jahel to Dulce` Hinkle interview | 2012 carrier lead | `PUBLISHED_INTERVIEW_LEAD` | `PARALLEL_DISTRIBUTION_ACCOUNT` | original issue/date state incomplete |
+| `DULCE-CAND-032` | Hinkle, *My Fated Life* | 2023 | `PRIMARY_ITEM_METADATA_ONLY` | `LATE_PARTICIPANT_PUBLICATION_CONTENT_PARTIAL` | page-level provenance analysis absent |
+| `DULCE-CAND-033` | LeVesque death certificate reported by Gorightly | 2026 report | `SECONDARY_REPORT_OF_PRIMARY_DOCUMENT` | `CREDENTIAL_CORROBORATION_PROBLEM` | certificate/field scope absent |
+| `DULCE-CAND-034` | Tilton/Hamilton/Branton shared publishing node | later commercial editions | `PRIMARY_ITEM_METADATA_ONLY` | `SHARED_INFRASTRUCTURE_LEAD` | exact editions and copying test absent |
+| `DULCE-CAND-035` | Hinkle Repton/King-of-World Q&A exchange | 2010 thread context | `PARTICIPANT_QA_TEXT` | `DISTINCT_PARALLEL_HIERARCHY_CORPUS` | exact full capture and chronology absent |
+| `DULCE-CAND-036` | Lear `Tells All` interview production/recovery account | 2008 | `PARTICIPANT_SELF_ATTESTATION` | `EDITORIAL_AND_RECOVERY_NETWORK_ACCOUNT` | no source objects authenticated |
+| `DULCE-CAND-037` | Hinkle Castello death/impersonation claim | 2013 | `PARTICIPANT_SELF_ATTESTATION` | `CASTELLO_REAL_DEATH_APRIL_1991_CLAIM` | identity/death records absent |
+| `DULCE-CAND-038` | Project Avalon `Dulce Project 2013` box recovery attempt | 2013 | `DOCUMENTED_FORUM_PROJECT_CLAIM` | `RECOVERY_ATTEMPT_NO_ARTIFACT` | no recovered box or contents |
 
-## Exact hierarchy text
-
-The surviving Q&A family contains:
-
-> `They work for, and are controlled by the Draco. There are other gray skinned beings that are not in league with the Draco.`
+## Exact hierarchy result
 
 ```yaml
 DULCE-CAND-012:
   content_result: FULL_LINKED_CHAIN
-  attributed_speaker: DOCUMENT_PERSONA
-  historical_person_result: NOT_ESTABLISHED
-  date_result: UNKNOWN
-  first_carrier_result: UNKNOWN
+  source_class: DOCUMENT_PERSONA_OR_CONTESTED_ATTRIBUTED_SPEAKER
+  first_composition: UNKNOWN
 ```
 
-## Session 047 Hinkle counter-account
+## Session 048 public-carrier result
 
 ```yaml
 DULCE-CAND-028:
-  claimed_object: ORIGINAL_QA_WITHOUT_LATER_WRITER_COMMENTS
-  participant: CHERRY_HINKLE_ATTRIBUTED
-  claim_date: NOVEMBER_2010
-  exact_transcript_state: NOT_ACQUIRED
-  hierarchy_text_presence: UNKNOWN
-  chronology_effect: POTENTIALLY_DECISIVE_IF_AUTHENTICATED
+  platform: PROJECT_AVALON
+  date: NOVEMBER_2010
+  QandA_body_present: CONFIRMED
+  mature_hierarchy_present: CONFIRMED_BY_ACQUISITION_VARIANTS
+  public_carrier_status: CONFIRMED
+  pre_1996_source_status: NOT_ESTABLISHED
+  relation_to_Branton_state: DISPUTED_PENDING_REPRODUCIBLE_DIFF
 ```
 
-The claim does not reset chronology until the text state is recovered and compared.
+This is now the earliest securely dated public Q&A carrier acquired by the project. It is not the earliest composition date.
 
-## Competing distribution accounts
+## Textual-state boundary
+
+Session 048 variants disagree between:
 
 ```text
-Hinkle account:
-information sent to many writers and researchers since 1987
+Avalon state = derivative/near-identical Branton state
+```
 
-LeVesque account:
-approximately 100 packets sent to authors and lecturers
+and:
+
+```text
+Avalon state = distinct rendering lacking Branton glosses
+```
+
+Use:
+
+```text
+DISTINCT_TEXTUAL_STATE_CANDIDATE
++
+DIRECTION_OF_DERIVATION_UNRESOLVED
+```
+
+until complete raw captures and a reproducible diff are stored.
+
+## Competing participant accounts
+
+```text
+Lear 2008:
+Castello treated as real; Lear retyped/redrew material; recovery expeditions reported
+
+Hinkle 2010/2013:
+Castello treated as real; original transcript claimed; April 1991 death and later impersonation claimed
+
+LeVesque 2015:
+TEC described as a creation; interview described as creative writing
+```
+
+These are conflicting participant accounts, not independent confirmation.
+
+## Material-artifact boundary
+
+No authenticated physical object has been recovered from the claimed classes:
+
+```text
+box / letter / Japanese recording / original sketches / treaty / device /
+source packet / identity records
 ```
 
 ```yaml
-exclusive_primary_distributor: UNRESOLVED
-same_operation: NOT_ESTABLISHED
-parallel_or_shared_distribution: POSSIBLE
-physical_packet_recovered: false
-verified_recipient_count: 0
-```
-
-Read:
-
-- `graph/transmissions/HINKLE_LEVESQUE_DISTRIBUTION_MODELS.md`
-- `data/error_fingerprints/ERR-036-019-PRIMARY-DISTRIBUTOR-ACCOUNT-COLLAPSE.md`
-
-## Death-certificate scope boundary
-
-```text
-reported death-certificate occupation
-        = secondary report of a limited primary-document field
-        ≠ complete lifetime employment history
-```
-
-LeVesque's classified-work claims remain uncorroborated; the reported certificate does not by itself settle every historical employment claim.
-
-## Shared publisher boundary
-
-```text
-Tilton / Hamilton / Branton commercial editions
-        may share Inner Light / Global Communications infrastructure
-        = reduced independence / shared distribution environment
-        ≠ direct copying or coordinated-hoax proof
-```
-
-## July 1990 boundary
-
-The claimed *Trends and Predictions Analyst* issue remains:
-
-```text
-ITEM_LEVEL_UNVERIFIED
-+
-LINKED_CHAIN_IMPLIED_CANDIDATE
+material_artifacts_recovered: 0
+classification: CLAIMS_EXCEED_PRODUCTIONS_IN_ACQUIRED_SET
 ```
 
 ## Current chronology
 
 ```text
-1984–1988:
-C-bearing proto-Dulce sources
-no secure linked hierarchy located
+1980s:
+C-core and imagery circulation
 
-reported 1989:
-Bishop III = alliance/tension + opposition
+reported 1989–1991:
+alliance/opposition and implied-link texts
 
-reported July 1990:
-TAL carrier claim; issue absent; controller unresolved
-
-1991 inspected Matrix II third edition:
-opposition + separate Grey creator
-
-undated Q&A family:
-FULL Draco-master / Grey-worker hierarchy
-Castello document persona
+unknown composition:
+mature hierarchy Q&A
 
 soft 1996:
 Dulce Book carrier lead
 
+2008:
+Lear editorial/recovery account
+
 November 2010:
-Hinkle claims original transcript without later comments
-exact posted state not yet recovered
+Hinkle/Avalon securely dated public Q&A carrier with mature hierarchy
 
-2012:
-Gorightly interview lead describes broad Hinkle distribution
+2010:
+separate Hinkle Repton/King-of-World expansion
 
-November 2015:
-LeVesque self-attests persona creation, Hinkle role and packet strategy
+2013:
+Hinkle death/impersonation account and failed box project
 
-2021 onward:
-confession reproduced publicly
-
-2023:
-Hinkle publishes *My Fated Life*; relevant content uninspected
-
-2026:
-Gorightly podcast reports death-certificate occupation field
+2015:
+LeVesque persona/production/packet self-attestation
 ```
 
 ## Current decision
 
 ```yaml
 earliest_full_linked_chain_content: DULCE-CAND-012
-earliest_full_linked_chain_carrier: UNRESOLVED
-earliest_secure_carrier_date: UNRESOLVED
-highest_value_version_object: DULCE-CAND-028
-highest_value_early_letter: DULCE-CAND-029
-highest_value_visual_recording: DULCE-CAND-030
-Hinkle_distribution_object: DULCE-CAND-031
-LeVesque_production_object: DULCE-CAND-023
-packet_operation_object: DULCE-CAND-024
-exclusive_primary_distributor: UNRESOLVED
+earliest_securely_dated_public_QA_carrier_acquired: DULCE-CAND-028
+first_composition: UNRESOLVED
+pre_1996_Hinkle_state: NOT_ESTABLISHED
+textual_stemma: UNRESOLVED
 neutral_working_model: COLLABORATIVE_MULTI_ACTOR
+Castello_authentication: NOT_ESTABLISHED
+physical_artifacts_recovered: 0
 verified_packet_recipients: 0
 July_1990_carrier: ITEM_LEVEL_UNVERIFIED
-canonical_hierarchy_edge: false
 canonical_authorship_edge: false
+canonical_first_composition_edge: false
 canonical_distribution_edge: false
 ```
