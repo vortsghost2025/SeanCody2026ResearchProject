@@ -4,7 +4,7 @@
 BRIDGE_CANDIDATE:
   id: BRIDGE-036-001
   title: "Modern reptilian synthesis → Grey/Reptilian underground-base hierarchy"
-  status: SUPPORTED_COMPILATIONAL_FUSION_FULL_TEXT_CONFIRMED_FIRST_CARRIER_OPEN
+  status: SUPPORTED_COMPILATIONAL_FUSION_FULL_TEXT_CONFIRMED_AUTHORSHIP_AND_FIRST_CARRIER_OPEN
   related_question: RQ-036
 
   endpoints:
@@ -12,12 +12,14 @@ BRIDGE_CANDIDATE:
       role: C_CORE
     - object_type: GREY_REPTOID_ALLIANCE_AND_OPPOSITION_MODELS
       role: EARLIER_RELATIONSHIP_MODELS
-    - object_type: CASTELLO_BRANTON_QA_MATURE_HIERARCHY
+    - object_type: CASTELLO_QA_DOCUMENT_PERSONA_AND_MATURE_HIERARCHY
       role: FULL_LINKED_TEXT_LOCUS
-    - object_type: DULCE_BOOK_AND_LATER_COMPILATION_INFRASTRUCTURE
-      role: CARRIER_FAMILY
-    - object_type: LATER_POLITICAL_REPTILIAN_CONSPIRACY
-      role: DOWNSTREAM_SYNTHESIS
+    - object_type: LEVESQUE_HINKLE_BRANTON_AUTHORSHIP_CANDIDATE
+      role: POSSIBLE_COMPOSITION_CHAIN
+    - object_type: PACKET_SEEDING_AND_COMPILATION_INFRASTRUCTURE
+      role: POSSIBLE_MANUFACTURED_INDEPENDENCE
+    - object_type: DULCE_BOOK_PRINT_AND_WEB_FAMILY
+      role: DOWNSTREAM_CARRIERS
 
   linked_chain_requirement: >
     FULL requires an identified reptilian/Draconian authority controlling,
@@ -25,28 +27,24 @@ BRIDGE_CANDIDATE:
     treaty/genetic/secret-program system. Co-presence, alliance and opposition
     are insufficient.
 
-  session_044_finding:
-    content: >
-      The surviving Castello/Branton Q&A family contains explicit Draco authority,
-      Grey/worker-caste subordination and Dulce-system linkage. FULL is confirmed
-      at the text-content level.
-    strongest_sentence: >
-      They work for, and are controlled by the Draco. There are other gray
-      skinned beings that are not in league with the Draco.
-    chronology: >
-      Four model variants disagree between unknown/mid-1990s, a separate
-      September 1990 letter, a claimed 1991 compilation state and a soft 1996
-      carrier. None supplied an authenticated first carrier.
-    authorship: >
-      The hierarchy wording belongs to the Q&A answer layer in surviving copies.
-      The attributed speaker, questioner, composition date and pre-compilation
-      authorship remain unresolved.
+  content_finding: >
+    The surviving Castello/Branton Q&A family contains explicit Draco authority,
+    Grey/worker-caste subordination and Dulce-system linkage. FULL is confirmed
+    at the text-content level.
+
+  session_045_provenance_finding: >
+    Quoted statements attributed to Tal LeVesque indicate that Thomas Edwin
+    Castello was a created persona, that Cherry Hinkle / Ann or Anne West may
+    have answered questions in character, that LeVesque mixed and supplemented
+    the material, and that he may have distributed roughly one hundred packets
+    to create the appearance of multiple independent sources. Exact original
+    correspondence, recording, pages, packets and recipient evidence remain open.
 
   current_candidates:
     - id: DULCE-CAND-012
       role: FULL_LINKED_CHAIN_AT_TEXT_LEVEL
       date: UNKNOWN
-      status: FIRST_CARRIER_OPEN
+      status: DOCUMENT_PERSONA_FIRST_CARRIER_OPEN
     - id: DULCE-CAND-013
       role: SOFT_1996_CARRIER_LEAD
       date: SOFT_BIBLIOGRAPHIC
@@ -55,24 +53,29 @@ BRIDGE_CANDIDATE:
       role: SEPARATE_CASTELLO_TO_BISHOP_LETTER
       reported_date: SEPTEMBER_1990
       status: ORIGINAL_AND_RELATIONSHIP_NOT_RECOVERED
-    - id: DULCE-CAND-011
-      role: EARLIER_IMPLIED_LINK_CANDIDATE
-      date: UNKNOWN
-      status: ORIGINAL_MAILER_NOT_RECOVERED
+    - id: DULCE-CAND-023
+      role: PERSONA_CREATION_AND_MULTI_AUTHORSHIP_SOURCE
+      status: DIRECT_QUOTE_LEAD_PENDING_EXACT_SOURCE
+    - id: DULCE-CAND-024
+      role: PACKET_SEEDING_SOURCE
+      status: MANUFACTURED_INDEPENDENCE_CANDIDATE
 
   evidence_class:
     mature_text_content: A
     compilational_fusion_pattern: B
+    authorship_provenance: C
     exact_first_carrier: C
 
   confidence:
     mature_text_contains_linked_hierarchy: HIGH
     compilational_transformation: MEDIUM_HIGH
+    document_persona_not_authenticated_witness: HIGH
+    exact_multi_author_chain: LOW_MEDIUM
+    packet_seeding_claim: MEDIUM_AS_QUOTE_LEAD_LOW_AS_VERIFIED_EVENT
     exact_first_carrier: LOW
-    exact_authorship: LOW
 
   generated_session: SESSION_036
-  updated_session: SESSION_044
+  updated_session: SESSION_045
   last_reviewed: 2026-07-16
 ```
 
@@ -133,14 +136,14 @@ Dulce levels / laboratories / secret programs
 
 Result: `FULL_LINKED_CHAIN_AT_TEXT_LEVEL`.
 
-## Content resolution versus chronology resolution
+## Content, chronology and authorship must remain separate
 
 ```text
 Does the mature hierarchy text exist?
         YES
 
 Where is it clearest?
-        Castello/Branton Q&A family
+        surviving Castello/Branton Q&A family
 
 When was it first written?
         UNKNOWN
@@ -148,68 +151,77 @@ When was it first written?
 What was its first carrier?
         UNKNOWN
 
-Who wrote the questions and answers?
+Was Thomas Castello an authenticated historical speaker?
+        NO — NOT ESTABLISHED
+
+Who wrote the answer layer?
         UNRESOLVED
 ```
 
-This separation is mandatory.
-
-## Source-layer boundaries
+## Session 045 authorship/provenance model
 
 ```text
-Q&A answer voice
-        ≠ authenticated Castello testimony
-
-Q&A questioner
-        ≠ proven Branton interviewer
-
-explicit `– Branton` note
-        = identifiable Branton annotation
-
-unsigned sentence
-        ≠ proven non-Branton text
-        ≠ proven early text
+Cherry Hinkle / Ann or Anne West material or persona performance
+        ↓
+Tal LeVesque corrections + additions + own research
+        ↓
+Thomas Castello document persona / answer voice
+        ↓
+Branton compilation + signed notes + possible unproven unsigned editing
+        ↓
+BBS / Dulce Book / print / web family
 ```
+
+This is the leading candidate graph, not a promoted canonical chain.
 
 Read:
 
-- `data/error_fingerprints/ERR-036-007-QA-INTERVIEWER-INFERENCE-COLLAPSE.md`
+- `graph/transmissions/CASTELLO_QA_AUTHORSHIP_PROVENANCE_CANDIDATE.md`
 - `data/error_fingerprints/ERR-036-010-UNMARKED-TEXT-AUTHORSHIP-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-012-DOCUMENT-PERSONA-SPEAKER-COLLAPSE.md`
 
-## Carrier-date conflict
+## Manufactured-independence candidate
 
-Session 044 returned:
+A quotation attributed to LeVesque describes preparing and distributing roughly one hundred packets to authors and lecturers so the resulting material would appear to come from more than one source.
+
+If authenticated, the mechanism is:
 
 ```text
-unknown composition / suggested mid-1990s BBS
-separate September 1990 letter
-claimed 1991 Dulce Book state
-soft 1996 Dulce Book carrier
+one assembled packet family
+        ↓ distributed to many recipients
+many talks / articles / books
+        ↓ later counted as independent sources
+false convergence
 ```
 
-Current treatment:
+Current status: `DIRECT_QUOTE_LEAD_PENDING_EXACT_SOURCE`.
+
+Read:
+
+- `data/error_fingerprints/ERR-036-013-MANUFACTURED-INDEPENDENCE-PACKET-SEEDING.md`
+
+## Carrier-date boundary
 
 ```yaml
 claimed_1991: UNVERIFIED_DATE_ASSERTION
 soft_1996: BIBLIOGRAPHIC_LEAD_NOT_SECURE_FIRST
-september_1990_letter: SEPARATE_OBJECT
+september_1990_letter: SEPARATE_UNRECOVERED_OBJECT
 first_secure_carrier: UNRESOLVED
 ```
 
-Repeated retailer metadata, retrospective notes and upload dates cannot establish first publication.
+An internal reference to 1991, an Archive.org upload, a compilation header or retailer metadata cannot establish the first Q&A carrier.
 
 Read:
 
-- `data/error_fingerprints/ERR-036-008-SOFT-DATE-HARD-DATE-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-011-ARCHIVE-UPLOAD-PUBLICATION-DATE-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-014-COMPILATION-HEADER-FIRST-EDITION-COLLAPSE.md`
 - `graph/chronologies/CASTELLO_BRANTON_QA_VERSION_MATRIX.md`
 
 ## Derivative-mirror boundary
 
 The many web copies appear to descend from one compilation family. They establish downstream spread, not independent eyewitness or manuscript convergence.
 
-Read:
-
-- `data/error_fingerprints/ERR-036-009-DERIVATIVE-MIRROR-INDEPENDENCE-COLLAPSE.md`
+The reported packet strategy, if verified, may extend that same dependency problem into apparently separate talks, books and newsletters.
 
 ## Lexical continuity candidate
 
@@ -221,7 +233,7 @@ Q&A:
 `not in league with the Draco`
 ```
 
-This is a useful `SUPPORTED_LEXICAL_CONTINUITY_CANDIDATE`, but not yet `KNOWN_COPY`, `DIRECT_DERIVATION` or `SAME_AUTHORSHIP`.
+This remains `SUPPORTED_LEXICAL_CONTINUITY_CANDIDATE`, not `KNOWN_COPY`, `DIRECT_DERIVATION` or `SAME_AUTHORSHIP`.
 
 ## Supported working model
 
@@ -230,35 +242,38 @@ Dulce C-core
         ↓
 Grey/Reptoid alliance and opposition models
         ↓
-undated revision or compilation converts relation into authority hierarchy
+LeVesque/Hinkle/other source material is assembled or rewritten
         ↓
-Castello/Branton Q&A preserves mature master/worker-caste model
+Castello document persona carries mature master/worker hierarchy
         ↓
-Dulce Book, print and web carriers reproduce and backdate the mature form
+Branton compiles and annotates the material
+        ↓
+packets, books, talks and mirrors create dense derivative repetition
 ```
 
-The transformation is supported. The conversion point and first carrier remain unidentified.
+The transformation is supported. Exact authorship shares, packet distribution and the first carrier remain unresolved.
 
 ## Promotion tests
 
-1. Acquire the first exact Q&A carrier with header, masthead, postmark or colophon.
-2. Test the claimed 1991 *Dulce Book* state with item-level evidence.
-3. Inspect a physical or authenticated 1996 *Dulce Book* carrier.
-4. Recover the separate September 1990 Castello-to-Bishop letter.
-5. Produce a sentence-level version diff.
-6. Resolve questioner and compiler identities only through direct evidence.
-7. Test lexical continuity with copying fingerprints.
-8. Do not count derivative mirrors as independent witnesses.
+1. Acquire the original LeVesque/Gorightly correspondence or exact book pages.
+2. Authenticate `TEC is a creation` in full context.
+3. Authenticate Hinkle answering as TEC and the material-mixing statement.
+4. Authenticate the one-hundred-packet statement and locate a surviving packet or recipient.
+5. Acquire the first exact Q&A carrier with header, masthead, postmark or colophon.
+6. Inspect a physical or authenticated 1996 *Dulce Book* carrier.
+7. Recover the separate September 1990 letter.
+8. Resolve questioner and compiler identities only through direct evidence.
+9. Do not count derivative mirrors or packet recipients as independent witnesses.
 
 Execute:
 
-- `research_inbox/SESSION_045_CASTELLO_QA_DATE_AND_CARRIER_AUDIT.md`
+- `research_inbox/SESSION_046_CONFESSION_PACKET_AND_AUTHORSHIP_ACQUISITION_BRIEF.md`
 
 ## Allowed synthesis language
 
 Allowed:
 
-> The surviving Castello/Branton Q&A contains the first exact mature Draco-over-Grey hierarchy wording currently located. The content is confirmed, but its composition date, first carrier, questioner and pre-compilation source layers remain unresolved. A 1996 *Dulce Book* carrier is a soft bibliographic lead, not yet a securely inspected first edition.
+> The surviving Q&A contains the mature Draco-over-Grey hierarchy, but it is not authenticated whistleblower testimony. Quoted statements attributed to Tal LeVesque strongly indicate a created Castello persona, possible Cherry Hinkle participation, LeVesque editing and deliberate packet distribution. Those provenance claims require their exact original correspondence, recording, pages and recipient evidence before canonical promotion.
 
 Not allowed:
 
@@ -270,8 +285,12 @@ or:
 
 or:
 
-> Branton authored the questions or invented the hierarchy.
+> Cherry Hinkle wrote every answer.
 
 or:
 
-> Multiple websites independently confirmed Castello's testimony.
+> Branton fabricated the entire Q&A.
+
+or:
+
+> One hundred independent sources confirmed the hierarchy.
