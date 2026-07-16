@@ -1,11 +1,11 @@
 # Castello Q&A Authorship and Provenance Candidate
 
-> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, `DULCE-CAND-023`, `DULCE-CAND-024`  
-> **Status:** strongly narrowed candidate graph; original working documents, first carrier and packet artifacts remain open
+> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, Sessions 046–047  
+> **Status:** competing participant-account graph; original working documents, first carrier and sentence authorship remain open
 
 ## Current document fact
 
-The surviving Q&A family contains a mature linked hierarchy:
+The surviving Q&A contains a mature linked hierarchy:
 
 ```text
 Draco / white Draco authority
@@ -15,11 +15,11 @@ Grey and other worker castes
 Dulce levels, laboratories and secret programs
 ```
 
-This establishes the text content. It does not authenticate the attributed speaker.
+This establishes text content. It does not authenticate the attributed speaker.
 
-## November 2015 provenance source
+## LeVesque November 2015 account
 
-A private email from Tal LeVesque to Adam Gorightly, reported as November 2015 and reproduced by Gorightly and later writers, contains the following linked self-attestations:
+A private email from Tal LeVesque to Adam Gorightly, reported as November 2015 and reproduced in verified secondary sources, self-attests:
 
 ```text
 TEC is a creation / myth
@@ -38,65 +38,134 @@ basis of two original Dulce Base articles
 It also claims:
 
 ```text
-about 100 large packets
+approximately 100 large packets
         ↓ sent to authors and lecturers
-material incorporated into talks, articles and books
+material enters talks, articles and books
         ↓
 appearance of more than one source
 ```
 
-Source classification:
-
 ```yaml
 LEVESQUE_2015_EMAIL:
-  original_email_facsimile: NOT_ACQUIRED
-  recipient_reproduction: REPORTED
-  later_verified_secondary_reproduction: ACQUIRED
   source_status: DIRECT_QUOTE_IN_VERIFIED_SECONDARY
+  original_email_facsimile: NOT_ACQUIRED
+  complete_thread: NOT_ACQUIRED
+  persona_creation: STRONGLY_SUPPORTED_SELF_ATTESTATION
+  Hinkle_answer_role: SELF_ATTESTED_CONTESTED
+  editing_role: SELF_ATTESTED_SCOPE_PARTLY_AMBIGUOUS
+  packet_strategy: SELF_ATTESTED_UNCORROBORATED
 ```
 
-## Leading provenance model
+## Hinkle 2010 participant account
+
+A Project Avalon forum state attributed to Cherry Hinkle / `Mystery` reportedly claims:
+
+- she was a friend of the Castello figure;
+- she had or posted an `original interview` transcript without later writer comments;
+- the transcript contained original questions and answers;
+- she held a 1987-dated Castello-attributed letter;
+- she retained Japanese television VCR material based on her sketches and descriptions.
+
+```yaml
+HINKLE_2010_AVALON:
+  source_status: PARTICIPANT_SELF_ATTESTATION
+  pre_Branton_transcript_claim: YES
+  transcript_authenticated: NO
+  1987_letter_claim: YES
+  letter_authenticated: NO
+  Japanese_TV_recording_claim: YES
+  recording_authenticated: NO
+  factual_Castello_account: YES
+```
+
+The complete thread, attachments and claimed transcript state must be recovered. A possession claim is not the artifact.
+
+## Gorightly 2012 Hinkle interview
+
+A 2012 interview attributed to Adam Gorightly reportedly characterizes Hinkle as sending Dulce information to many writers and researchers since 1987.
+
+```yaml
+GORIGHTLY_HINKLE_2012:
+  source_status: PUBLISHED_INTERVIEW_LEAD
+  Hinkle_distribution_account: SUPPORTED
+  exact_original_issue_or_page: NOT_ACQUIRED
+  exclusive_primary_agency: NOT_ESTABLISHED
+  same_operation_as_LeVesque_packets: NOT_ESTABLISHED
+```
+
+This creates a parallel distribution account, not proof that either Hinkle or LeVesque acted alone.
+
+## Competing provenance models
+
+### Model A — LeVesque-led
 
 ```text
-Cherry Hinkle / Ann or Anne West
-claimed source material + answer performance in TEC persona
+question contributors
         ↓
-Tal LeVesque / Jason Bishop III
-question routing + corrections + additions + own research + narrative assembly
+Hinkle answers in TEC persona
         ↓
-Thomas Edwin Castello document persona
-presented Q&A answer voice
+LeVesque edits and adds research
         ↓
-Branton / Bruce Alan Walton
-compiler + headings + sequence + signed notes
-+ possible unsigned editing not yet proven
+Castello Q&A
         ↓
-BBS / early electronic circulation
-exact first object unknown
-        ↓
-The Dulce Book compilation
-1996 header softly attested; first edition unverified
-        ↓
-web mirrors
-common-descent textual family
+Branton compiles
 ```
 
-This is now the leading source-layer reconstruction. It is not a complete sentence-level authorship allocation.
+Status: `STRONGLY_SELF_ATTESTED_LATE_PARTICIPANT_RECONSTRUCTION`.
+
+### Model B — Hinkle-led
+
+```text
+Hinkle / Ann-West holds or creates Castello-attributed material
+        ↓
+1987 drawings, letter and descriptions claimed
+        ↓
+broad distribution to writers and researchers
+        ↓
+LeVesque and Branton reuse or edit material
+```
+
+Status: `PARTICIPANT_SELF_ATTESTED_SOURCE_AND_DISTRIBUTION_MODEL`.
+
+### Model C — collaborative multi-actor
+
+```text
+Bennewitz / Doty-Moore C-core
+        +
+Hinkle-West imagery and persona material
+        +
+LeVesque articles, editing and distribution
+        +
+Hamilton / Lear / Valerian circulation
+        +
+Branton compilation and notes
+        ↓
+layered Q&A and Dulce Book family
+```
+
+Status: `STRONGEST_NEUTRAL_WORKING_MODEL_NOT_CANONICAL`.
+
+Read:
+
+- `graph/transmissions/HINKLE_LEVESQUE_DISTRIBUTION_MODELS.md`
+- `reports/SESSION_047_HINKLE_COUNTER_ACCOUNT_CROSS_QC.md`
 
 ## Evidence table
 
 | Proposed edge | Current evidence | Status |
 |---|---|---|
-| LeVesque → TEC persona | reproduced November 2015 email: `TEC is a creation` | `STRONGLY_SUPPORTED_SELF_ATTESTED_CREATION` |
-| Hinkle → answers as TEC | reproduced email says questions were sent to Cherry twice and she answered as TEC | `SELF_ATTESTED_BY_LEVESQUE_CONTESTED` |
-| Hinkle → raw Dulce material | reproduced email describes Ann West/Cherry Hinkle material | `SELF_ATTESTED_SCOPE_OPEN` |
-| LeVesque → edited source synthesis | reproduced email describes corrections, additions and mixing | `SELF_ATTESTED_EXACT_DOCUMENT_SCOPE_PARTLY_AMBIGUOUS` |
-| LeVesque → two original articles | reproduced email uses that phrase but does not name the two items | `SUPPORTED_REFERENTS_UNRESOLVED` |
-| LeVesque → packet distribution intent | reproduced email describes approximately 100 packets and apparent source multiplicity | `SELF_ATTESTED_OPERATION_UNCORROBORATED` |
-| named people → packet receipt | network proximity, acknowledgements, co-authorship or later use only | `ZERO_VERIFIED_RECIPIENTS` |
-| Branton → compilation | explicit compiler framing and signed notes in surviving text family | `SUPPORTED_COMPILER_ROLE` |
-| Branton → unsigned hierarchy sentences | absence of signature plus hostile later claims | `POSSIBLE_NOT_PROVEN` |
-| later mirrors → apparent corroboration | near-identical wording across derivative hosts | `SUPPORTED_COMMON_DESCENT` |
+| LeVesque → TEC persona | reproduced 2015 email | `STRONGLY_SUPPORTED_SELF_ATTESTED_CREATION` |
+| Hinkle → answers as TEC | LeVesque 2015 account | `SELF_ATTESTED_BY_LEVESQUE_CONTESTED` |
+| Hinkle → pre-Branton Q&A state | Hinkle 2010 possession/posting claim | `HIGHEST_VALUE_UNRECOVERED_OBJECT` |
+| Hinkle → broad distribution | 2010 testimony and 2012 interview framing | `SUPPORTED_PARTICIPANT_AND_PUBLICATION_ACCOUNT` |
+| LeVesque → edited source synthesis | reproduced 2015 email | `SELF_ATTESTED_EXACT_SCOPE_PARTLY_AMBIGUOUS` |
+| LeVesque → packet strategy | reproduced 2015 email | `SELF_ATTESTED_OPERATION_UNCORROBORATED` |
+| Hinkle and LeVesque → same distribution operation | parallel claims only | `NOT_ESTABLISHED` |
+| named people → packet receipt | proximity, acknowledgement or reuse only | `ZERO_VERIFIED_RECIPIENTS` |
+| Branton → compilation | compiler framing and signed notes | `SUPPORTED_COMPILER_ROLE` |
+| Branton → unsigned hierarchy wording | hostile claims and inference | `POSSIBLE_NOT_PROVEN` |
+| later mirrors → apparent corroboration | common-descended text family | `SUPPORTED_COMMON_DESCENT` |
+| Beckley/Inner Light → shared distribution environment | edition/ISBN metadata lead | `SHARED_INFRASTRUCTURE_NOT_COPYING_PROOF` |
 
 ## Persona boundary
 
@@ -107,8 +176,6 @@ Thomas Edwin Castello
         = document persona / attributed Q&A speaker
 ```
 
-The source record now strongly supports a created-persona reading.
-
 Do not use:
 
 ```text
@@ -116,12 +183,36 @@ Thomas Edwin Castello
         = authenticated Dulce security technician
 ```
 
-unless independent historical records and a custody chain are acquired.
+unless independent historical records and artifact custody are acquired.
+
+## Hinkle pre-Branton transcript test
+
+The highest-value target is the exact Q&A state Hinkle claimed was original and free of later writer comments.
+
+Promotion requires:
+
+1. complete Project Avalon thread state;
+2. transcript text or attachment;
+3. timestamps and edit history;
+4. poster attribution;
+5. sentence-level diff against Branton Chapter 11;
+6. identification of hierarchy wording;
+7. evidence of date and custody.
+
+Possible outcomes:
+
+- `PRE_BRANTON_HIERARCHY_TEXT_CONFIRMED`
+- `HINKLE_POST_DERIVATIVE_OF_BRANTON`
+- `MIXED_EARLIER_AND_LATER_STATE`
+- `INTRODUCTORY_CLAIM_ONLY_TRANSCRIPT_MISSING`
+- `UNKNOWN`
 
 ## Hinkle-role boundary
 
 ```text
 LeVesque says Hinkle answered as TEC
+        +
+Hinkle says she has an original transcript
         ≠
 every unsigned answer demonstrably written by Hinkle
 ```
@@ -129,116 +220,81 @@ every unsigned answer demonstrably written by Hinkle
 Required:
 
 - original question lists;
-- Hinkle answer sheets or correspondence;
-- handwriting or file provenance;
-- version diff against the compiled Q&A;
-- Hinkle's direct response to the exact claim.
+- Hinkle answer sheets;
+- exact 2010 posted transcript;
+- version diff;
+- Hinkle response to the 2015 confession.
 
-## LeVesque editing-scope boundary
+## LeVesque credential boundary
 
-The reproduced email says his mixing formed the basis of `two original DULCE BASE articles`.
+A 2026 Gorightly podcast reportedly says a death certificate lists private security in the hospitality industry.
 
-Do not automatically project that statement onto:
-
-- every Castello Q&A sentence;
-- every Branton chapter;
-- the Hamilton collaboration;
-- all later Dulce literature.
-
-The unnamed article referents must be resolved separately.
-
-## Manufactured-independence hypothesis
-
-The self-attested mechanism is:
-
-```text
-one assembled packet family
-        ↓ distributed to many recipients
-recipient A talk
-recipient B article
-recipient C book
-recipient D newsletter
-        ↓ later copied again
-appearance of independent convergence
+```yaml
+DEATH_CERTIFICATE_LEAD:
+  source_status: SECONDARY_REPORT_OF_PRIMARY_DOCUMENT
+  document_acquired: false
+  effect: CLASSIFIED_CREDENTIALS_UNCORROBORATED_AND_WEAKENED
+  complete_lifetime_employment_history: UNKNOWN
 ```
 
-Current status:
+A reported occupation field cannot be expanded into a full career history without the document and field definitions.
+
+## Manufactured-independence state
 
 ```yaml
 PACKET_OPERATION:
-  claimed_packet_count: approximately_100
-  intent: CREATE_APPEARANCE_OF_MULTIPLE_SOURCES
+  LeVesque_strategy_self_attested: true
+  Hinkle_parallel_broad_distribution_account: true
+  same_operation_proved: false
   physical_packet_recovered: false
   cover_letter_recovered: false
   recipient_list_recovered: false
   verified_recipient_count: 0
-  classification: SELF_ATTESTED_UNCORROBORATED
+  classification: CONTESTED_OR_POSSIBLY_SHARED_DISTRIBUTION_MECHANISM
 ```
 
-## Proposed recipient nexus
+## Shared publisher boundary
 
-The following people are network or downstream candidates, not documented packet recipients:
+Commercial editions attributed to Tilton, Hamilton and Branton reportedly share Inner Light / Global Communications infrastructure.
 
-| Person | Existing relation | Packet receipt |
-|---|---|---|
-| John Lear | Dulce briefings and related material | `UNKNOWN` |
-| Bill Cooper | acknowledged LeVesque | `UNKNOWN` |
-| Val Valerian | related compilation environment | `UNKNOWN` |
-| Bill Hamilton | collaborator | `UNKNOWN` |
-| Branton | downstream compiler | `UNKNOWN` |
-
-Required for promotion:
-
-- packet or envelope;
-- cover letter;
-- recipient acknowledgement;
-- correspondence explicitly referencing receipt;
-- diagnostic rare wording or shared error linked to one packet state.
-
-## Participant and hostile-source disagreements
-
-- Hinkle reportedly maintained a factual Castello narrative and contested parts of LeVesque's retrospective account.
-- Hamilton reportedly claimed Castello biographical identifiers, but the records are unrecovered.
-- Christa Tilton reportedly called the Castello story fabricated in a 1987 manuscript; the manuscript is unrecovered.
-- A 2009 forum claimant alleged Branton altered or fabricated Q&A sections; identity and evidence are unverified.
-
-Use `CONFLICTING_PARTICIPANT_ACCOUNTS`, not consensus.
+```text
+shared publisher
+        = contact and distribution environment
+        ≠ independent corroboration
+        ≠ coordinated fabrication proof
+```
 
 ## July 1990 carrier boundary
 
-A reported *Trends and Predictions Analyst*, Vol. 6 No. 2, July 1990 item remains unverified at issue level.
+The reported *Trends and Predictions Analyst*, Vol. 6 No. 2, July 1990 item remains item-level unverified.
 
 Required:
 
-- cover and masthead;
+- cover;
+- masthead;
 - contents;
-- article pages;
-- exact hierarchy passage;
-- grammar identifying the agent using Grey mercenaries;
-- archive or collector provenance.
-
-Until then:
-
-```text
-reported July 1990 carrier
-        = ITEM_LEVEL_UNVERIFIED
-```
+- complete pages;
+- grammatical controller of Grey mercenaries;
+- collector or archive provenance.
 
 ## Current decision
 
 ```yaml
 persona_historical_status: NOT_ESTABLISHED
 persona_creation_self_attestation: STRONGLY_SUPPORTED
-hinkle_answer_role: SELF_ATTESTED_CONTESTED
-levesque_editor_role: SELF_ATTESTED_SCOPE_PARTLY_AMBIGUOUS
-branton_compiler_role: SUPPORTED
-branton_unsigned_editing: POSSIBLE_NOT_PROVEN
-packet_seeding_intent: SELF_ATTESTED
+Hinkle_answer_role: SELF_ATTESTED_BY_LEVESQUE_CONTESTED
+Hinkle_pre_Branton_QA_claim: HIGHEST_VALUE_UNRECOVERED_OBJECT
+Hinkle_distribution_account: SUPPORTED
+LeVesque_distribution_account: SELF_ATTESTED
+exclusive_primary_distributor: UNRESOLVED
+neutral_working_model: COLLABORATIVE_MULTI_ACTOR
+Branton_compiler_role: SUPPORTED
+Branton_unsigned_editing: POSSIBLE_NOT_PROVEN
 packet_operation_physical_status: UNCORROBORATED
 verified_packet_recipients: 0
 first_carrier: UNKNOWN
-july_1990_issue: ITEM_LEVEL_UNVERIFIED
+July_1990_issue: ITEM_LEVEL_UNVERIFIED
 canonical_authorship_edge: false
-canonical_transmission_edge: false
+canonical_distribution_edge: false
 canonical_manufactured_independence_edge: false
 ```
