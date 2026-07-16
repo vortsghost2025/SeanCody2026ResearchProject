@@ -11,97 +11,78 @@ NEGATIVE_RECORD:
     identified reptilian/Draconian authority → identified Grey subordinates →
     underground-base, treaty, genetic-experiment or secret-program context.
 
-  verdict: NOT_LOCATED_THROUGH_SESSION_049
+  verdict: NOT_LOCATED_THROUGH_SESSION_050
   confidence: MEDIUM_FOR_ACQUIRED_MATERIAL_LOW_FOR_GLOBAL_ABSENCE
 
   result:
     C_core: REPEATEDLY_PRESENT
-    alliance_or_opposition_models: PRESENT
-    reported_1989_proto_hierarchy: PRESENT_AS_ACQUISITION_LEAD
-    reported_1990_intermediate_hierarchy: PRESENT_AS_ACQUISITION_LEAD
-    mature_linked_chain_content: CONFIRMED_IN_QA_FAMILY
+    1987_Dulce_Papers_distribution: STRONG_PRIMARY_DOCUMENT_LEAD
+    1987_artifact_type: DRAWINGS_AND_ENCLOSURES
+    mature_hierarchy_in_1987_packet: NOT_LOCATED
+    reported_1989_proto_hierarchy: TEXT_WITNESS_SUPPORTED_DATE_OPEN
+    reported_1990_intermediate_hierarchy: SECTION_LEAD_NOT_FULLY_ACQUIRED
+    mature_linked_chain_content: CONFIRMED_IN_LATER_QA_FAMILY
     secure_pre_1990_full_carrier: NOT_LOCATED
-    secure_pre_1996_mature_carrier: NOT_ACQUIRED
-    November_2010_thread_carrier: CONFIRMED
+    secure_first_mature_carrier: NOT_LOCATED
     exact_first_composition: UNRESOLVED
 
-  session_049_advancement:
-    poster_layer: >
-      One acquisition searched Hinkle/Mystery posts and found no Q&A. Two others
-      report a Q&A relay post by an unidentified poster W. The thread-level carrier
-      cannot be reduced to one username.
-    controlled_by_sentence: >
-      The exact sentence is reported present in the W relay state by one targeted
-      acquisition but has not been stored with raw HTML, post ID and hash.
-    textual_stemma: >
-      Reported Avalon/Branton differences support a distinct-state candidate and
-      confirm a signed Branton editorial layer. Derivation direction remains unresolved.
-    hierarchy_progression: >
-      A candidate 1989 proto → 1990 intermediate → mature Q&A progression is reported,
-      but exact first-edition objects and complete sections remain unacquired.
+  session_050_advancement:
+    Avalon_rollback: >
+      Thread 8393 is securely dated to November 2010, but competing acquisitions
+      disagree over whether it contains the Q&A and who posted it. No decisive raw
+      post was preserved, so it is not a confirmed mature-Q&A carrier.
+    artifact_family_split: >
+      The reported December 13, 1987 Lear letter describes a Dulce Papers drawing/
+      enclosure packet. It cannot backdate the later interview Q&A without item-level
+      evidence that both circulated together.
+    mirror_result: >
+      The mature hierarchy is confirmed in later Branton-derived mirrors. One later
+      mirror contains a probable Q/A-label copying error.
 
   persistent_boundaries:
-    July_1990_newsletter: >
-      The Trends and Predictions Analyst claim remains item-level unverified.
-    pre_1990_maturity: >
-      Reported mercenary and caste language does not automatically satisfy the full
-      same-referent Draco-control/Dulce-system test.
-    Hinkle_letters: >
-      1987/1988 letter claims remain possession claims without scans or custody.
-    participant_accounts: >
-      Lear, Hinkle and LeVesque preserve conflicting narratives and do not authenticate
-      a pre-1990 mature hierarchy artifact.
-    physical_artifacts: >
-      No authenticated box, letter, television master, original sketch set with
-      custody, treaty/device, packet or identity record was recovered.
-
-  key_controls:
-    - search of one username is not search of an entire thread
-    - relay text is not automatically direct Hinkle authorship
     - Grey presence does not establish subordination
-    - alliance or mercenary status does not automatically establish explicit command
-    - a dated public carrier is not a composition date
-    - textual differences do not alone prove stemma direction
-    - signed editor notes are not answer voice
+    - alliance or mercenary status does not automatically establish the mature command chain
+    - a drawing packet is not automatically an interview Q&A
+    - a dated thread is not proof that a claimed text appears in that thread
+    - a search snippet is not a complete thread acquisition
+    - a hash without preserved bytes is not artifact authentication
+    - later mirrors do not establish earlier carrier dates
+    - internal date references do not automatically date publication
     - participant possession claims are not acquired artifacts
-    - later mirrors do not date earlier editions
     - network proximity does not prove packet receipt
-    - third-party health allegations are not historical proof
 
   high_value_open_sources:
-    - exact W relay post with raw HTML, post ID and hash
-    - exact controlled-by-Draco sentence in Avalon relay state
-    - earliest raw Branton/Chapter 11 state
-    - exact 1989 LeVesque/Bishop first carrier
-    - complete 1990 Pasturing and Use section / first Matrix II state
+    - complete raw Project Avalon Thread 8393 corpus
+    - exact Avalon Q&A post, if any
+    - complete December 13, 1987 Lear letter and enclosures
+    - item-level 1987 Dulce Papers inventory
+    - earliest exact 1989 LeVesque/Bishop carrier
+    - complete earliest Pasturing and Use section
     - exact July 1990 Trends and Predictions Analyst issue
-    - Tilton 1991 Crux first edition and fabrication passage
+    - earliest exact Branton Chapter 11 carrier
+    - Tilton 1991 Crux first edition
     - March 24, 1990 Nippon Television recording
-    - original Q&A question and answer sheets
-    - Hinkle-held letters and Japanese recording
-    - physical packet or recipient acknowledgement
 
   caveat: >
     This record does not prove that no pre-1990 FULL_LINKED_CHAIN artifact exists.
     It records that no such artifact has been acquired under strict item-level,
-    grammatical, poster-layer, version and custody requirements.
+    grammatical, artifact-family, version and custody requirements.
 
   generated_session: SESSION_041
-  updated_session: SESSION_049
+  updated_session: SESSION_050
   last_reviewed: 2026-07-16
 ```
 
 ## Allowed synthesis language
 
-> Through Session 049, a 1989 proto-hierarchy and 1990 intermediate hierarchy are reported as source leads, but no securely dated pre-1990 artifact has been acquired that satisfies the complete linked-chain test. A November 2010 Project Avalon thread is securely dated; its mature Q&A is reported in a relay layer whose exact raw post and earlier composition remain unresolved.
+> Through Session 050, a December 1987 Lear letter strongly supports circulation of Dulce Papers drawings and enclosures, while a reported 1989 text supports a proto-hierarchy. No securely dated pre-1990 artifact has been acquired containing the mature Draco-control/Grey-subordination/Dulce-system chain.
 
 ## Not allowed
 
 - `The hierarchy did not exist before 1990.`
-- `The 1989 mercenary wording is already the complete mature chain.`
-- `The 2010 relay proves pre-1996 composition.`
-- `Branton demonstrably copied Hinkle's original.`
-- `The W relay was directly authored by Hinkle.`
+- `The 1987 Dulce Papers already contained the mature Q&A.`
+- `The reported 1989 text is item-level date verified.`
+- `The November 2010 Avalon thread is a confirmed mature-Q&A carrier.`
 - `The July 1990 newsletter is confirmed.`
 - `Participant accounts authenticate Castello.`
 
