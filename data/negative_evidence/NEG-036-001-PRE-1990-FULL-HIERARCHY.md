@@ -13,7 +13,7 @@ NEGATIVE_RECORD:
     C) that A→B relationship inside an underground-base, treaty,
     genetic-experiment or secret-program context.
 
-  verdict: NOT_LOCATED_THROUGH_SESSION_042
+  verdict: NOT_LOCATED_THROUGH_SESSION_043
   confidence: MEDIUM_FOR_ACQUIRED_MATERIAL_LOW_FOR_GLOBAL_ABSENCE
 
   source_families_tested_or_partially_tested:
@@ -23,41 +23,50 @@ NEGATIVE_RECORD:
     - Bill Cooper 1988 ParaNet and 1991 book leads
     - 1987 Dulce Papers descriptions
     - TAL / Jason Bishop III, The Dulce Base, reported 1989
-    - Bill Hamilton, Alien Magic, reported 1989 but not acquired
+    - William F. Hamilton, Alien Magic, reported 1989 but not acquired
     - Matrix II, reported 1990 first edition and inspected 1991 third edition
 
   result:
     linked_reptilian_authority_over_greys: NOT_SECURELY_LOCATED_PRE_1990
     C_core: REPEATEDLY_PRESENT
+    alliance_or_opposition_models: PRESENT_IN_BISHOP_AND_MATRIX_WITNESSES
     mature_linked_chain: PRESENT_ONLY_IN_LATER_OR_UNDATED_RECOVERED_FORMS
 
   key_semantic_controls:
     - "reptilian skin" does not establish a separate reptilian authority class
     - Greys being present does not establish subordination
+    - Greys and Reptoids being in league does not establish command
+    - a Reptilian Race being the enemy of Greys contradicts command over those Greys
     - Greys creating drones is the reverse of Greys being created or controlled
-    - internal Grey types do not establish Draco-over-Grey authority
+    - reptilian-humanoid specimens in genetic labs are not automatically authorities
     - A, B and C appearing separately in one compilation do not establish a linked chain
-    - reptilians being enemies of Greys contradicts, rather than establishes, command over Greys
+    - retailer and dealer metadata do not establish text content
 
-  session_042_findings:
+  session_043_findings:
+    bishop_the_dulce_base: >
+      A surviving electronic textual witness describes Greys and Reptoids as in league
+      but tense, and a separate Reptilian Race as the Greys' enemy. This is not the
+      mature Draco-over-Grey hierarchy. The reported 1989 date and first file state
+      remain unverified from the primary distribution object.
     matrix_ii_1991_third_edition: >
-      Contains reptilian elite language, a separate higher culture that creates Greys,
-      and an editor note describing Reptilian humanoids as enemies of Greys.
-      It does not establish the linked Draco→Grey hierarchy.
-    tal_1989_the_dulce_base: >
-      Reported artifact and C-bearing passage located only through secondary sources;
-      linked A→B wording not acquired.
+      Continues to preserve reptilian/Grey opposition and a separate higher-culture
+      Grey-creator model. It does not establish the linked Draco→Grey hierarchy.
     alien_magic_1989: >
-      High-priority lead only; no physical or digital primary copy acquired.
+      Split from the later 1996 edition. The reported 1989 UFORCES object remains
+      unacquired, so it cannot reverse this negative record.
+    castello_branton_qa: >
+      Contains mature FULL linked wording in surviving later forms, but no securely
+      dated pre-1990 carrier has been acquired.
 
   high_value_unchecked_or_incomplete_sources:
     - clean McCampbell–Bennewitz transcript or audio, 1984-07-13
     - George C. Andrews, Extra-Terrestrials Among Us, 1986
     - original 1987 Dulce Papers photo/drawing/document set
+    - exact circa-1987 Castello-attributed document, if it existed
     - clean Project Beta typescript without later Branton insertions
     - exact Cooper ParaNet posts, 1988
-    - original TAL / Jason Bishop III, The Dulce Base, 1989
-    - Bill Hamilton, Alien Magic, reported 1989
+    - reported 1989 UFORCES Alien Magic object
+    - physical NARG newsletter issue containing TAL material
     - conference tapes, newsletters and contactee material before 1990
     - Cosmic Awareness or related channeling texts with secure dates
 
@@ -67,15 +76,15 @@ NEGATIVE_RECORD:
     primary text, exact relationship wording, version identity and source custody.
 
   generated_session: SESSION_041
-  updated_session: SESSION_042
-  last_reviewed: 2026-07-15
+  updated_session: SESSION_043
+  last_reviewed: 2026-07-16
 ```
 
 ## Allowed synthesis language
 
 Allowed:
 
-> In the material acquired through Session 042, securely dated 1980s sources repeatedly support the Dulce/base/treaty/experiment core, but no primary passage has been recovered that explicitly links a reptilian or Draconian authority to control of Greys inside that system.
+> In the material acquired through Session 043, the recoverable 1980s and reported 1989 sources support Dulce C-core, alliance or oppositional relationships, but no securely dated primary passage has been recovered that explicitly links a reptilian or Draconian authority to control of Greys inside that system.
 
 Not allowed:
 
@@ -83,11 +92,19 @@ Not allowed:
 
 or:
 
+> The Castello hierarchy was created after 1991.
+
+or:
+
 > Branton invented the hierarchy.
 
 or:
 
-> Matrix II established that the Greys worked for Draco.
+> Bishop III established that Greys served Draco.
+
+or:
+
+> Matrix II established that Greys worked for Draco.
 
 ## Promotion or reversal test
 
