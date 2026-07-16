@@ -13,7 +13,7 @@ NEGATIVE_RECORD:
     C) that A→B relationship inside an underground-base, treaty,
     genetic-experiment or secret-program context.
 
-  verdict: NOT_LOCATED_THROUGH_SESSION_043
+  verdict: NOT_LOCATED_THROUGH_SESSION_044
   confidence: MEDIUM_FOR_ACQUIRED_MATERIAL_LOW_FOR_GLOBAL_ABSENCE
 
   source_families_tested_or_partially_tested:
@@ -25,50 +25,57 @@ NEGATIVE_RECORD:
     - TAL / Jason Bishop III, The Dulce Base, reported 1989
     - William F. Hamilton, Alien Magic, reported 1989 but not acquired
     - Matrix II, reported 1990 first edition and inspected 1991 third edition
+    - Castello/Branton Q&A derivative text family
+    - separately reported September 1990 Castello-to-Bishop letter
 
   result:
     linked_reptilian_authority_over_greys: NOT_SECURELY_LOCATED_PRE_1990
     C_core: REPEATEDLY_PRESENT
     alliance_or_opposition_models: PRESENT_IN_BISHOP_AND_MATRIX_WITNESSES
-    mature_linked_chain: PRESENT_ONLY_IN_LATER_OR_UNDATED_RECOVERED_FORMS
+    mature_linked_chain_content: CONFIRMED_IN_UNDATED_LATER_TEXT_FAMILY
+    mature_linked_chain_pre_1990_carrier: NOT_LOCATED
 
   key_semantic_controls:
-    - "reptilian skin" does not establish a separate reptilian authority class
-    - Greys being present does not establish subordination
-    - Greys and Reptoids being in league does not establish command
+    - Grey presence does not establish Grey subordination
+    - alliance or `in league` wording does not establish command
     - a Reptilian Race being the enemy of Greys contradicts command over those Greys
-    - Greys creating drones is the reverse of Greys being created or controlled
     - reptilian-humanoid specimens in genetic labs are not automatically authorities
-    - A, B and C appearing separately in one compilation do not establish a linked chain
-    - retailer and dealer metadata do not establish text content
+    - A, B and C appearing separately do not establish a linked chain
+    - Q&A answer voice is not authenticated witness identity
+    - absence of a Branton signature does not prove non-Branton authorship
+    - multiple web mirrors are derivative copies, not independent witnesses
+    - retailer/catalogue metadata do not establish a secure first carrier
+    - a separate September 1990 letter date cannot date the Q&A
 
-  session_043_findings:
-    bishop_the_dulce_base: >
-      A surviving electronic textual witness describes Greys and Reptoids as in league
-      but tense, and a separate Reptilian Race as the Greys' enemy. This is not the
-      mature Draco-over-Grey hierarchy. The reported 1989 date and first file state
-      remain unverified from the primary distribution object.
-    matrix_ii_1991_third_edition: >
-      Continues to preserve reptilian/Grey opposition and a separate higher-culture
-      Grey-creator model. It does not establish the linked Draco→Grey hierarchy.
-    alien_magic_1989: >
-      Split from the later 1996 edition. The reported 1989 UFORCES object remains
-      unacquired, so it cannot reverse this negative record.
-    castello_branton_qa: >
-      Contains mature FULL linked wording in surviving later forms, but no securely
-      dated pre-1990 carrier has been acquired.
+  session_044_findings:
+    full_text_content: >
+      The surviving Castello/Branton Q&A family contains explicit wording that
+      Grey or worker groups work for and are controlled by Draco inside the
+      Dulce system. The mature hierarchy is confirmed at text-content level.
+    date_conflict: >
+      Four variants proposed unknown/mid-1990s, a separate September 1990 letter,
+      a claimed 1991 Dulce Book state and a soft 1996 carrier. No authenticated
+      first carrier was produced.
+    september_1990_letter: >
+      Preserved as a separate artifact lead known through later Branton framing;
+      original letter, content and relation to the Q&A remain unresolved.
+    soft_1996_carrier: >
+      Preserved as a bibliographic lead only. No physical first-edition title or
+      copyright pages were inspected.
 
   high_value_unchecked_or_incomplete_sources:
     - clean McCampbell–Bennewitz transcript or audio, 1984-07-13
     - George C. Andrews, Extra-Terrestrials Among Us, 1986
     - original 1987 Dulce Papers photo/drawing/document set
     - exact circa-1987 Castello-attributed document, if it existed
-    - clean Project Beta typescript without later Branton insertions
+    - clean Project Beta typescript without later insertions
     - exact Cooper ParaNet posts, 1988
     - reported 1989 UFORCES Alien Magic object
     - physical NARG newsletter issue containing TAL material
-    - conference tapes, newsletters and contactee material before 1990
-    - Cosmic Awareness or related channeling texts with secure dates
+    - original September 1990 Castello-to-Bishop letter
+    - first exact Castello/Branton Q&A carrier
+    - claimed 1991 Dulce Book state
+    - physical/authenticated 1996 Dulce Book carrier
 
   important_caveat: >
     This record does not prove that no pre-1990 FULL_LINKED_CHAIN artifact exists.
@@ -76,7 +83,7 @@ NEGATIVE_RECORD:
     primary text, exact relationship wording, version identity and source custody.
 
   generated_session: SESSION_041
-  updated_session: SESSION_043
+  updated_session: SESSION_044
   last_reviewed: 2026-07-16
 ```
 
@@ -84,15 +91,19 @@ NEGATIVE_RECORD:
 
 Allowed:
 
-> In the material acquired through Session 043, the recoverable 1980s and reported 1989 sources support Dulce C-core, alliance or oppositional relationships, but no securely dated primary passage has been recovered that explicitly links a reptilian or Draconian authority to control of Greys inside that system.
+> In the material acquired through Session 044, the mature Draco-over-Grey hierarchy is explicit in the surviving Castello/Branton Q&A text family, but no securely dated pre-1990 carrier—or securely dated first carrier of any date—has been recovered. Earlier Bishop and Matrix witnesses preserve alliance or opposition instead.
 
 Not allowed:
 
-> The reptilian hierarchy did not exist before 1990.
+> The hierarchy did not exist before 1990.
 
 or:
 
-> The Castello hierarchy was created after 1991.
+> The hierarchy first appeared in 1991.
+
+or:
+
+> The hierarchy definitively first appeared in 1996.
 
 or:
 
@@ -100,11 +111,7 @@ or:
 
 or:
 
-> Bishop III established that Greys served Draco.
-
-or:
-
-> Matrix II established that Greys worked for Draco.
+> Multiple independent websites confirmed Castello's testimony.
 
 ## Promotion or reversal test
 
@@ -116,4 +123,4 @@ This negative record must be revised when one pre-1990 artifact is acquired with
 4. explicit same-referent A→B→C wording;
 5. chain of custody or archive provenance;
 6. edition/version identity;
-7. evidence that later language was not inserted by a compiler.
+7. evidence that later language was not inserted or rewritten by a compiler.
