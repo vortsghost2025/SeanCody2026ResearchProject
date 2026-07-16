@@ -1,7 +1,7 @@
 # COSCON34 — Branton-Edited Q&A Carrier
 
-> **Related:** `RQ-036`, `DULCE-CAND-012`, Session 055  
-> **Status:** Branton-edited carrier supported; date and exact relation to the 1996 compilation unresolved
+> **Related:** `RQ-036`, `DULCE-CAND-012`, Sessions 055–056  
+> **Status:** Branton-edited carrier supported; post-March-1994 composite state; exact title/carrier identity unresolved
 
 ## Surviving web carriers
 
@@ -15,7 +15,7 @@ COSCON34_CARRIERS:
 
 ## Content result
 
-The file contains the mature Castello-attributed Q&A family, including the established Archuleta/Dulce question sequence. It also contains Branton editorial parentheticals.
+The surviving state contains the mature Castello-attributed Q&A family and Branton editorial parentheticals.
 
 ```text
 mature Q&A answer text
@@ -25,56 +25,95 @@ Branton editorial insertions
 Branton-edited or Branton-derived carrier
 ```
 
+## Internal March 1994 date anchor
+
+The text reportedly cites a March 18, 1994 *Plain Dealer* article.
+
+```yaml
+COSCON34_EDITORIALIZED_STATE:
+  internal_reference_date: 1994-03-18
+  terminus_post_quem: 1994-03-18
+  date_effect: COMPOSITE_STATE_CANNOT_PREDATE_REFERENCE
+```
+
+This dates the state containing the newspaper reference—not the composition of every embedded source layer.
+
+```text
+COSCON34 composite assembled after 1994-03-18
+        ≠
+underlying mature Q&A existed before 1994-03-18
+```
+
+The Q&A may predate the parenthetical, be contemporary with it or have been inserted later. No upper bound for Q&A composition follows from the internal citation alone.
+
+Read:
+
+- `data/error_fingerprints/ERR-036-037-TERMINUS-POST-QUEM-SOURCE-COMPOSITION-COLLAPSE.md`
+
 ## Closed hypothesis
 
 ```yaml
-HYPOTHESIS:
-  COSCON34_IS_UNEDITED_PRE_BRANTON_SOURCE:
-    status: EXCLUDED
-    basis: BRANTON_EDITORIAL_PARENTHEICALS_PRESENT
+COSCON34_IS_UNEDITED_PRE_BRANTON_SOURCE:
+  status: EXCLUDED
+  basis: BRANTON_EDITORIAL_PARENTHEICALS_PRESENT
 ```
 
-This does not prove whether Branton created COSCON34, exported it to a BBS, or whether a later distributor extracted it from a larger compilation.
+## Carrier-identity dispute
 
-## Open hypotheses
+One Session 056 variant proposes:
+
+```text
+COSCON34 = COSmic CONflict, chapter 34
+```
+
+This is coherent but requires explicit carrier evidence. The supplied report did not preserve a title header, contents page, chapter listing or directory sequence proving the expansion.
+
+```yaml
+COSCON34_IDENTITY:
+  Cosmic_Conflict_chapter_34: HIGH_VALUE_CANDIDATE
+  standalone_BBS_sequence_file: NOT_ESTABLISHED
+  generic_BBS_export: NOT_EXCLUDED
+  shared_Branton_working_file: NOT_EXCLUDED
+  later_excerpt: NOT_EXCLUDED
+```
+
+Filename shape alone proves neither interpretation.
+
+Read:
+
+- `data/error_fingerprints/ERR-036-038-FILENAME-STEM-CARRIER-IDENTITY-COLLAPSE.md`
+
+## Current carrier models
 
 ```yaml
 H1:
-  description: COSCON34 is an early BBS export of Branton's working compilation
-  status: PLAUSIBLE
+  description: COSCON34 is Cosmic Conflict chapter 34
+  status: PLAUSIBLE_PENDING_TITLE_OR_CONTENTS_PROOF
 H2:
-  description: COSCON34 is a later derivative excerpt from The Dulce Book
+  description: COSCON34 is a standalone Branton text export
   status: PLAUSIBLE
 H3:
-  description: COSCON34 and the 1996 compilation descend from a shared Branton-edited file
+  description: COSCON34 and a larger compilation descend from a shared Branton-edited file
   status: PLAUSIBLE
 H4:
+  description: COSCON34 is a later excerpt from The Dulce Book or another Branton compilation
+  status: PLAUSIBLE
+H5:
   description: COSCON34 is a mixed state combining earlier answers and later Branton notes
   status: PLAUSIBLE
 ```
 
-## Missing metadata
+## Missing identity evidence
 
-- original file bytes;
-- original file timestamp;
-- BBS name;
-- conference or directory identity;
-- sysop/uploader;
-- upload date;
-- file header/footer;
-- archive catalogue record;
-- relation of `34` to a sequence;
-- earliest capture of either surviving web URL.
-
-## Filename boundary
-
-```text
-COSCON34.TXT
-        may indicate a BBS-era naming convention
-        ≠ dated BBS provenance
-```
-
-The meaning of `COSCON` and `34` must not be inferred without a file list, catalogue or BBS archive.
+- explicit work title in file/header;
+- complete HTML title and navigation frame;
+- contents page mapping chapter 34;
+- neighboring `COSCON` files and chapter titles;
+- original directory or archive listing;
+- publisher catalogue;
+- original file bytes/timestamp;
+- first web capture;
+- relation to *The Dulce Book*, *The Dulce Wars* or *Cosmic Conflict*.
 
 ## Current stemma placement
 
@@ -83,11 +122,12 @@ UNKNOWN MATURE Q&A SOURCE
         ↓
 BRANTON EDITORIAL INTERVENTION
         ↓
-        ├── COSCON34 carrier, date unknown
-        └── Dulce Book / Dulce Wars carrier family, 1996 environment
+POST-1994-03-18 COSCON34 COMPOSITE STATE
+        ↓
+exact containing work / export channel unresolved
 ```
 
-Direction between COSCON34 and any specific 1996 edition is not established.
+The October 1996 self-date belongs to a related Branton carrier tradition. It cannot be used as a COSCON34 terminus ante quem until carrier identity is proved.
 
 ## Current decision
 
@@ -95,9 +135,10 @@ Direction between COSCON34 and any specific 1996 edition is not established.
 mature_QA_present: true
 Branton_editorial_layer_present: true
 pre_Branton_unedited_ancestor: false
-BBS_origin: UNVERIFIED_LEAD
-carrier_date: UNKNOWN
-relation_to_Dulce_Book: UNRESOLVED
-relation_to_Dulce_Wars: UNRESOLVED
+internal_state_TPQ: 1994-03-18
+underlying_QA_date: UNKNOWN
+Cosmic_Conflict_chapter_identity: CANDIDATE_NOT_CONFIRMED
+BBS_sequence_identity: NOT_ESTABLISHED
+carrier_date_upper_bound: UNKNOWN
 canonical_stemma_edge: false
 ```
