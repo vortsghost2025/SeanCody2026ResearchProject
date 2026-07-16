@@ -10,29 +10,45 @@ RQ:
   central_problem: >
     Identify the dated artifacts and production layers that transformed early Dulce
     drawings, base/treaty material and Grey/Reptoid relationship models into the
-    mature Draco-over-Grey hierarchy, while separating drawings, Q&A texts, participant
-    testimony, compilations and derivative mirrors.
+    mature Draco-over-Grey hierarchy, while separating drawings, Q&A texts, editions,
+    editorialized carriers, title variants and derivative mirrors.
 
   content_resolution: >
-    The mature Castello/Branton Q&A mirror family contains explicit Draco authority,
+    The mature Castello/Branton Q&A carrier family contains explicit Draco authority,
     Grey/worker-caste subordination and Dulce-system linkage.
 
-  Avalon_resolution: >
-    Project Avalon Thread 8393 is securely dated to November 2010 and contains Hinkle/
-    Mystery-related participant testimony. Session 050 acquisitions conflict over
-    whether the thread also contains a full Q&A, whether Hinkle posted it directly,
-    or whether an unidentified W relayed it. No decisive raw post was preserved.
-
   artifact_family_resolution: >
-    A reported December 13, 1987 Lear letter supports circulation of Dulce Papers
-    drawings and enclosures. That packet is not automatically the later interview Q&A
-    and does not, in the supplied quotation, contain the mature hierarchy.
+    The December 13, 1987 Lear distribution concerns Dulce Papers drawings and related
+    enclosures. It is not automatically the later interview Q&A and does not establish
+    the mature hierarchy in 1987.
 
   hierarchy_progression_candidate: >
     Text witnesses support a provisional 1989 proto-hierarchy involving Grey mercenary
-    agency for Draco, a reported 1990 intermediate Draco-caste layer, and a later
-    mature Q&A with explicit command, Karsh and level assignments. Exact first carriers
-    and direct textual descent remain unresolved.
+    agency for Draco. Matrix II's inspected 1991 third edition contains an intermediate
+    and contradictory synthesis. A 1990 first edition is now bibliographically bounded
+    by dealer item metadata but remains uninspected, so the intermediate stage is dated
+    1990-or-1991 rather than securely 1990. The mature Q&A follows at an unknown date.
+
+  COSCON34_resolution: >
+    COSCON34 contains the mature Q&A and identifiable Branton editorial parentheticals.
+    It is a Branton-edited or Branton-derived carrier and cannot serve as an unedited
+    pre-Branton ancestor. Its original BBS date and relation to the October 1996
+    compilation family remain unresolved.
+
+  Branton_date_resolution: >
+    A 1991 date inside the compilation refers to source material and is not a secure
+    compilation date. The surviving text tradition contains an October 1996 Branton
+    self-date. That is not yet a physically inspected first-publication record.
+
+  title_identity_resolution: >
+    The Dulce Book and The Dulce Wars share Branton attribution, a 1996 environment and
+    substantial chapter structure. They are treated as one related compilation family
+    pending item-level comparison, not independent witnesses.
+
+  Avalon_resolution: >
+    Project Avalon Thread 8393 is securely dated to November 2010 and contains participant
+    testimony. Q&A presence and poster layer remain disputed because no decisive raw post
+    has been preserved.
 
   source_class_resolution: >
     Thomas Edwin Castello remains a document persona or contested attributed speaker,
@@ -47,69 +63,73 @@ RQ:
     - id: DULCE-CAND-012
       title: "Mature Castello/Branton Q&A family"
       status: FULL_LINKED_CHAIN_FIRST_CARRIER_OPEN
+    - id: DULCE-CAND-047
+      title: "COSCON34 Branton-edited carrier"
+      status: DATE_AND_STEMMA_POSITION_OPEN
+    - id: DULCE-CAND-048
+      title: "Matrix II 1990 numbered first edition"
+      status: DEALER_ITEM_METADATA_CONTENT_UNINSPECTED
+    - id: DULCE-CAND-041
+      title: "Pasturing and Use intermediate hierarchy"
+      status: 1990_OR_1991_EDITION_ASSIGNMENT_OPEN
+    - id: DULCE-CAND-049
+      title: "Dulce Book / Dulce Wars title family"
+      status: WORK_IDENTITY_OPEN
     - id: DULCE-CAND-046
       title: "Lear December 13, 1987 Dulce Papers packet"
       status: PRIMARY_DOCUMENT_REPORTED_NOT_ARCHIVED
     - id: DULCE-CAND-016
       title: "LeVesque/Bishop proto-hierarchy"
       status: TEXT_WITNESS_DATE_OPEN
-    - id: DULCE-CAND-041
-      title: "Pasturing and Use intermediate hierarchy"
-      status: COMPLETE_SECTION_OPEN
     - id: DULCE-CAND-028
       title: "Project Avalon Thread 8393"
       status: TESTIMONY_CONFIRMED_QA_BODY_DISPUTED
-    - id: DULCE-CAND-039
-      title: "Alleged W relay"
-      status: DISPUTED
-    - id: DULCE-CAND-042
-      title: "Tilton Crux/Tulsa 1991 edition"
-      status: PHYSICALLY_LOCATABLE_UNINSPECTED
-    - id: DULCE-CAND-043
-      title: "Nippon Television March 1990 program"
-      status: SECONDARY_ARCHIVAL_LEAD
 
   do_not_treat_as_proof:
-    - November 2010 thread date as proof that a Q&A body exists there
-    - one username search or one archive page as a complete thread acquisition
-    - a hash without preserved bytes as artifact authentication
-    - W, Mystery, Witchy or SPIRIT WOLF as the Q&A poster without post-level proof
+    - COSCON34 filename or plain-text form as a date
+    - COSCON34 as an unedited pre-Branton source
+    - dealer metadata as project physical inspection
+    - third-edition Matrix II content as first-edition content
+    - Pasturing and Use as securely 1990 without first-edition pages
+    - The Dulce Book and The Dulce Wars as independent witnesses
+    - a source-article date as a compilation date
+    - October 1996 self-date as a physically inspected first publication
+    - November 2010 thread date as proof that the Q&A body appears there
     - a later mirror as proof of an earlier carrier date
-    - the 1987 Dulce Papers drawing packet as the mature Q&A
-    - the reported 1989 or 1990 dates without exact first carriers
-    - an internal 1991 reference as a 1991 publication date
+    - the 1987 drawing packet as the mature Q&A
     - participant belief as authentication of Castello
     - network proximity as packet receipt
-    - third-party mental-health allegations as historical adjudication
     - real families or populations as reptilian or conspiratorial
 
   positive_resolution: >
-    Raw carrier captures establish the exact Avalon poster layer and mature-Q&A presence;
-    preserved primary objects establish the 1987 packet, exact 1989 and 1990 texts and
-    the earliest Branton carrier; version comparison establishes the first mature text
-    and its production dependencies.
+    Physical or raw item acquisition establishes the Matrix II first-to-third edition
+    diff, original COSCON34 BBS provenance, Dulce Book/Wars work identity, the October
+    1996 carrier and an earlier mature Q&A source without Branton editorial material.
 
   negative_resolution: >
-    No earlier mature carrier or working files survive; the hierarchy remains bounded
-    to an undated compilational Q&A family, later derivative mirrors and a conceptual
-    progression from earlier partial texts.
+    No earlier unedited mature carrier survives; the hierarchy remains bounded to an
+    undated source text, Branton-edited carriers and a conceptual progression from
+    earlier partial texts.
 
   related_files:
     - graph/bridges/BRIDGE-036-001-REPTILIAN-GREY-FUSION.md
     - graph/chronologies/DULCE-HIERARCHY-CANDIDATE-REGISTRY.md
     - graph/chronologies/CASTELLO_BRANTON_QA_VERSION_MATRIX.md
+    - graph/chronologies/MATRIX_II_EDITION_MATRIX.md
     - graph/textual_stemma/CASTELLO_QA_AVALON_BRANTON_STEMMA.md
+    - graph/textual_stemma/COSCON34_BRANTON_CARRIER.md
     - graph/artifact_families/DULCE_PAPERS_VS_CASTELLO_QA.md
-    - reports/SESSION_050_AVALON_CONTRADICTION_AND_EARLY_ARTIFACT_QC.md
-    - research_inbox/SESSION_050_MULTI_AGENT_RESULT_MANIFEST.md
-    - research_inbox/SESSION_051_RAW_AVALON_AND_EARLY_HIERARCHY_OBJECT_AUDIT.md
-    - data/error_fingerprints/ERR-036-029-RAW-CAPTURE-CLAIM-WITHOUT-REPRODUCIBLE-ARTIFACT.md
-    - data/error_fingerprints/ERR-036-030-QA-LABEL-TRANSPOSITION.md
-    - data/error_fingerprints/ERR-036-031-THREAD-SEARCH-COMPLETENESS-COLLAPSE.md
-    - data/error_fingerprints/ERR-036-032-DULCE-PAPERS-DRAWINGS-QA-COLLAPSE.md
+    - graph/artifact_families/DULCE_BOOK_VS_DULCE_WARS.md
+    - reports/SESSION_055_COSCON34_MATRIXII_TITLE_QC.md
+    - research_inbox/SESSION_055_RESULT_MANIFEST.md
+    - research_inbox/SESSION_056_MATRIXII_PHYSICAL_DIFF_AND_COSCON_PROVENANCE_BRIEF.md
+    - data/error_fingerprints/ERR-036-033-SOURCE-ARTICLE-DATE-COMPILATION-DATE-COLLAPSE.md
+    - data/error_fingerprints/ERR-036-034-EDITORIALIZED-CARRIER-ANCESTOR-COLLAPSE.md
+    - data/error_fingerprints/ERR-036-035-EDITION-PAGE-COUNT-CONTENT-TRANSFER.md
+    - data/error_fingerprints/ERR-036-036-TITLE-VARIANT-WORK-IDENTITY-COLLAPSE.md
 
   generated_session: SESSION_036
-  current_acquisition_session: SESSION_051
+  current_acquisition_session: SESSION_056
   last_updated: 2026-07-16
 ```
 
@@ -120,41 +140,42 @@ RQ:
         ↓
 1989 reported proto-hierarchy: mercenary agency + alliance/tension
         ↓
-1990 reported intermediate hierarchy: Draco caste leadership + Grey mercenaries
+1990 or 1991 Matrix II intermediate hierarchy: edition assignment open
         ↓
 unknown-date mature Q&A: explicit control + Karsh + level assignments
         ↓
-Branton-derived mirror family
+Branton editorial intervention
         ↓
-2010 Avalon participant testimony; Q&A presence disputed
+COSCON34 date unknown + Dulce Book / Dulce Wars 1996 environment
+        ↓
+later derivative mirrors
 ```
 
 ## Current exact task
 
 Execute:
 
-- `research_inbox/SESSION_051_RAW_AVALON_AND_EARLY_HIERARCHY_OBJECT_AUDIT.md`
+- `research_inbox/SESSION_056_MATRIXII_PHYSICAL_DIFF_AND_COSCON_PROVENANCE_BRIEF.md`
 
 Acquire:
 
-1. complete raw Thread 8393 corpus with post IDs and hashes;
-2. exact Q&A/poster-layer verdict;
-3. complete December 13, 1987 Lear letter and enclosures;
-4. item-level 1987 Dulce Papers inventory;
-5. earliest exact 1989 LeVesque/Bishop carrier;
-6. complete earliest 1990 `Pasturing and Use...` section;
-7. earliest exact Branton Chapter 11 carrier;
-8. Tilton 1991 first-edition pages;
-9. Nippon Television recording/metadata.
+1. the numbered 458-page Matrix II first edition;
+2. first-to-third edition page-level diff;
+3. original COSCON34 BBS metadata and raw file chronology;
+4. COSCON34-versus-Branton text diff;
+5. Dulce Book / Dulce Wars item-level identity matrix;
+6. exact October 1996 self-date carrier;
+7. any earlier mature Q&A without Branton editorial content.
 
 ## Current counts
 
 ```text
 Mature hierarchy text family: CONFIRMED
 Secure mature first carrier: 0
-Secure November 2010 thread date: 1
-Reproducible Avalon Q&A posts: 0
-Reported 1987 Dulce Papers distribution letters: 1
+COSCON34 pre-Branton candidates remaining: 0
+Matrix II 1990 first-edition physical pages acquired: 0
+Matrix II inspected 1991 third-edition states: 1
+Dulce Book/Wars independent source count: 1 family pending diff
 Authenticated physical Dulce artifacts: 0
 Verified packet recipients: 0
 Canonical hierarchy/authorship/stemma edges: 0
