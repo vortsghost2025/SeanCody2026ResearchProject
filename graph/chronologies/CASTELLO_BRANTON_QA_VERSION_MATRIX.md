@@ -1,18 +1,18 @@
 # Castello / Branton Q&A Version Matrix
 
-> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, `DULCE-CAND-023`, `DULCE-CAND-024`  
-> **Status:** text-content and document-persona production mechanism strongly narrowed; first composition, first carrier and sentence-level authorship unresolved
+> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, `DULCE-CAND-028`  
+> **Status:** text-content confirmed; claimed pre-Branton state newly prioritized; first composition, first carrier and sentence authorship unresolved
 
 ## Core linked-chain text
 
 The surviving Q&A family contains:
 
 ```text
-Draco / white Draco described as masters or ruling caste
+Draco / white Draco masters or ruling caste
         ↓
-Grey and other worker castes work for or are controlled by Draco
+Grey and other worker castes controlled by Draco
         ↓
-created type-one / type-two beings and operational command chain
+created beings and operational command chain
         ↓
 Dulce levels 5–6–7, laboratories, cages, vats and secret programs
 ```
@@ -25,102 +25,126 @@ Result: `FULL_LINKED_CHAIN_AT_TEXT_LEVEL`.
 
 | Matrix ID | Object or state | Reported date | Date basis | Exact hierarchy wording | Source layer | Current status |
 |---|---|---:|---|---|---|---|
-| `QA-STATE-001` | Original question lists and Hinkle answers | unknown | LeVesque 2015 self-attestation only | unknown | production working files | `NOT_RECOVERED` |
-| `QA-STATE-002` | Hypothetical first assembled Q&A | unknown | none | presumed by later witness family | mixed answer/persona layer | `NOT_RECOVERED` |
-| `QA-STATE-003` | Castello-to-Bishop letter | Sept. 1990 reported | later Branton chapter heading | not recovered | claimed letter | `SEPARATE_ARTIFACT_LEAD` |
-| `QA-STATE-004` | Claimed July 1990 *Trends and Predictions Analyst* article | July 1990 claimed | item metadata asserted; no issue acquired | mercenary use language reported | TAL article | `ITEM_LEVEL_UNVERIFIED_LINKED_CHAIN_IMPLIED` |
-| `QA-STATE-005` | Claimed early Branton BBS/manuscript state | early/mid-1990s reported | later descriptions only | mature wording reported | Q&A + compiler | `NOT_ITEM_LEVEL_VERIFIED` |
-| `QA-STATE-006` | Claimed 1991 *Dulce Book* state | 1991 claimed | internal notes and later metadata | mature wording claimed | compilation | `UNVERIFIED_DATE_ASSERTION_REJECTED_FOR_PROMOTION` |
-| `QA-STATE-007` | *The Dulce Book* digital carrier family | 1996 header/metadata | compilation header and retailer metadata | mature wording present | compilation | `SOFT_BIBLIOGRAPHIC_CARRIER_LEAD` |
-| `QA-STATE-008` | Later web chapter mirrors | 2000s–2020s | page/upload dates | mature wording present | derivative web copies | `TEXT_WITNESSES_NOT_INDEPENDENT` |
-| `QA-STATE-009` | *The Dulce Wars* print states | 1996/1999/later conflict | retailer and later metadata | mature wording reported | expanded print compilation | `LATE_PRINT_VERSION_CONFLICT` |
-| `QA-STATE-010` | LeVesque email to Gorightly | Nov. 2015 | recipient account and later reproduction | production mechanism, not hierarchy text | participant self-attestation | `DIRECT_QUOTE_IN_VERIFIED_SECONDARY` |
+| `QA-STATE-001` | Original question lists and Hinkle answers | unknown | LeVesque 2015 self-attestation | unknown | production working files | `NOT_RECOVERED` |
+| `QA-STATE-002` | Hypothetical first assembled Q&A | unknown | none | presumed by later family | mixed answer/persona layer | `NOT_RECOVERED` |
+| `QA-STATE-003` | Hinkle Project Avalon posted or claimed original Q&A | Nov. 2010 post; underlying text date unknown | participant forum statement | unknown until full post/attachment acquired | claimed pre-writer transcript | `HIGHEST_VALUE_UNRECOVERED_VERSION_STATE` |
+| `QA-STATE-004` | Hinkle-held Castello-attributed letter | 1987 claimed | participant possession statement | unknown | claimed letter | `UNAUTHENTICATED_ARTIFACT_CLAIM` |
+| `QA-STATE-005` | Castello-to-Bishop letter | Sept. 1990 reported | later Branton heading | not recovered | claimed letter | `SEPARATE_ARTIFACT_LEAD` |
+| `QA-STATE-006` | Claimed July 1990 *Trends and Predictions Analyst* article | July 1990 claimed | no issue acquired | mercenary-use language reported | TAL article | `ITEM_LEVEL_UNVERIFIED_LINKED_CHAIN_IMPLIED` |
+| `QA-STATE-007` | Claimed early Branton BBS/manuscript state | early/mid-1990s reported | later descriptions | mature wording reported | Q&A + compiler | `NOT_ITEM_LEVEL_VERIFIED` |
+| `QA-STATE-008` | Claimed 1991 *Dulce Book* state | 1991 claimed | internal notes/later metadata | mature wording claimed | compilation | `UNVERIFIED_DATE_ASSERTION_REJECTED_FOR_PROMOTION` |
+| `QA-STATE-009` | *The Dulce Book* digital carrier family | 1996 header/metadata | compilation header and retailer metadata | mature wording present | compilation | `SOFT_BIBLIOGRAPHIC_CARRIER_LEAD` |
+| `QA-STATE-010` | Later web chapter mirrors | 2000s–2020s | upload dates | mature wording present | derivative web copies | `TEXT_WITNESSES_NOT_INDEPENDENT` |
+| `QA-STATE-011` | *The Dulce Wars* print states | 1996/1999/later conflict | retailer/later metadata | mature wording reported | expanded compilation | `LATE_PRINT_VERSION_CONFLICT` |
+| `QA-STATE-012` | LeVesque email to Gorightly | Nov. 2015 | recipient account and reproduction | production mechanism, not hierarchy text | participant self-attestation | `DIRECT_QUOTE_IN_VERIFIED_SECONDARY` |
 
 ## Source-layer matrix
 
 | Sentence or artifact type | Safe assignment | Unsafe overclaim |
 |---|---|---|
-| Answer following `A —` | Q&A answer voice | authenticated Thomas Castello speech |
+| Answer following `A —` | Q&A answer voice | authenticated Castello speech |
 | Question following `Q —` | unidentified questioner voice | proven Branton question |
 | Parenthetical signed `– Branton` | Branton editor note | original answer wording |
 | Unsigned answer or aside | unmarked Q&A layer | automatically Hinkle, LeVesque or Branton |
+| Hinkle 2010 posted transcript text | Hinkle-posted version state | automatically pre-Branton or original |
+| Hinkle possession statement | participant artifact claim | acquired and authenticated artifact |
 | Chapter title/order | compiler sequence | original interview order |
 | TAL/Hamilton quotation | named quoted layer when marked | Castello testimony |
 | Modern punctuation/spelling | later web editor possible | original orthography |
-| November 2015 email quotation | LeVesque self-attestation as reproduced | original email facsimile or complete archive |
+| November 2015 email quotation | LeVesque self-attestation as reproduced | original email facsimile |
 
-## Session 046 production layers
+## Competing production layers
 
 | Candidate layer | Reported role | Current status |
 |---|---|---|
 | Several unnamed question contributors | submitted questions for TEC | `SELF_ATTESTED_UNIDENTIFIED` |
-| Cherry Hinkle / Ann-West | answered questions as TEC, twice | `SELF_ATTESTED_BY_LEVESQUE_CONTESTED` |
-| Tal LeVesque / Jason Bishop III | question routing, corrections, additions, mixed research and persona framing | `SELF_ATTESTED_SCOPE_PARTLY_AMBIGUOUS` |
-| Thomas Edwin Castello | created document persona / answer voice | `STRONGLY_SUPPORTED_DOCUMENT_PERSONA` |
+| Cherry Hinkle / Ann-West | answered questions as TEC per LeVesque | `SELF_ATTESTED_BY_LEVESQUE_CONTESTED` |
+| Cherry Hinkle | holder/distributor of original transcript per 2010 account | `PARTICIPANT_SELF_ATTESTATION` |
+| Tal LeVesque / Jason Bishop III | routing, corrections, additions and packet account | `SELF_ATTESTED_SCOPE_PARTLY_AMBIGUOUS` |
+| Thomas Edwin Castello | document persona / answer voice | `STRONGLY_SUPPORTED_DOCUMENT_PERSONA` |
 | Branton | compiler, sequence and signed notes | `SUPPORTED_COMPILER_ROLE` |
-| Branton unsigned additions | alleged in hostile later account | `POSSIBLE_NOT_PROVEN` |
-| later digital editors | formatting, spelling and normalization | `SUPPORTED_IN_DERIVATIVE_STATES` |
+| Branton unsigned additions | alleged/inferred | `POSSIBLE_NOT_PROVEN` |
+| later digital editors | formatting and normalization | `SUPPORTED_IN_DERIVATIVE_STATES` |
+
+## Required Hinkle-versus-Branton diff
+
+For each recovered Hinkle-posted sentence mark:
+
+```yaml
+source_layer:
+  - HINKLE_2010_POSTED_QA
+  - SHARED_WITH_BRANTON_FAMILY
+  - EXPLICIT_BRANTON_NOTE
+  - PRESENT_ONLY_IN_BRANTON_FAMILY
+  - PRESENT_ONLY_IN_HINKLE_STATE
+  - QUESTION_ORDER_CHANGE
+  - SPELLING_OR_PUNCTUATION_VARIANT
+  - UNKNOWN
+```
+
+Prioritize:
+
+- `They work for, and are controlled by the Draco`
+- `Draco are the undisputed masters`
+- `white Draco`
+- `worker caste`
+- `Khaarshfashst / Karsh`
+- Dulce levels 5–6–7
+
+## Distribution-state comparison
+
+```text
+Hinkle account:
+broad distribution of Dulce material since 1987
+
+LeVesque account:
+approximately 100 packets to authors and lecturers
+```
+
+```yaml
+same_operation: NOT_ESTABLISHED
+exclusive_primary_distributor: UNRESOLVED
+physical_packet_recovered: false
+verified_recipient_count: 0
+```
 
 ## Relationship-model comparison
 
 | Text family | Grey/Reptilian relationship | Hierarchy result |
 |---|---|---|
-| Bishop III witness, reported 1989 | Greys and Reptoids allied but tense; separate Reptilian Race is Grey enemy | `ALLIANCE_AND_OPPOSITION` |
-| Claimed July 1990 TAL article | Greys as mercenaries `being used`; controller not verified | `LINKED_CHAIN_IMPLIED_CANDIDATE` |
-| *Matrix II*, inspected 1991 third edition | Reptilian humanoids are Grey enemies; different higher culture creates Greys | `OPPOSITIONAL_SEPARATE_CREATOR` |
-| Castello/Branton Q&A surviving family | Draco masters; Grey/worker groups controlled or created | `FULL_LINKED_CHAIN_AT_TEXT_LEVEL` |
-
-## Lexical continuity candidate
-
-```text
-Bishop:
-`in league with each other`
-
-Q&A:
-`not in league with the Draco`
-```
-
-```yaml
-continuity_status: SUPPORTED_LEXICAL_CONTINUITY_CANDIDATE
-transmission_status: NOT_ESTABLISHED
-copying_status: NOT_ESTABLISHED
-same_authorship_status: NOT_ESTABLISHED
-```
-
-LeVesque's self-attested production role raises the prior probability of dependence but does not replace version evidence.
-
-## Manufactured-independence state
-
-```yaml
-packet_strategy_source: LEVESQUE_2015_EMAIL_REPRODUCED
-claimed_packet_count: APPROXIMATELY_100
-claimed_goal: APPEARANCE_OF_MULTIPLE_SOURCES
-physical_packet_recovered: false
-verified_recipient_count: 0
-status: SELF_ATTESTED_OPERATION_UNCORROBORATED
-```
-
-Proposed network members are not packet recipients without receipt evidence.
+| Bishop III, reported 1989 | alliance/tension; separate Grey enemy | `ALLIANCE_AND_OPPOSITION` |
+| Claimed July 1990 TAL article | Grey mercenaries `being used`; controller unknown | `LINKED_CHAIN_IMPLIED_CANDIDATE` |
+| *Matrix II*, inspected 1991 third edition | Grey enemies; different Grey creator | `OPPOSITIONAL_SEPARATE_CREATOR` |
+| Hinkle claimed original Q&A | content not acquired | `UNKNOWN_HIGH_PRIORITY` |
+| Castello/Branton surviving family | Draco masters; Grey/worker control | `FULL_LINKED_CHAIN_AT_TEXT_LEVEL` |
 
 ## Promotion requirements
 
+To establish a pre-Branton state:
+
+1. complete Project Avalon thread and post IDs;
+2. transcript text or attachment;
+3. timestamp and edit history;
+4. participant attribution;
+5. sentence-level diff;
+6. date/custody evidence.
+
 To establish first carrier:
 
-1. original file header, masthead, postmark, colophon or copyright page;
+1. original header, masthead, postmark, colophon or copyright page;
 2. exact date;
 3. complete text;
 4. hierarchy wording;
 5. provenance;
 6. comparison against later states.
 
-To establish sentence authorship or packet execution:
+To establish authorship or packet execution:
 
 1. original question lists and Hinkle answers;
 2. original LeVesque email or archive record;
-3. exact Gorightly pages;
-4. Branton working files;
-5. one packet, cover letter, mailing list or recipient acknowledgement;
-6. lexical/shared-error dependency evidence.
+3. Branton working files;
+4. one packet or recipient acknowledgement;
+5. diagnostic dependency evidence.
 
 ## Current decision
 
@@ -129,13 +153,14 @@ exact_full_text_locus: DULCE-CAND-012
 first_composition: UNKNOWN
 first_carrier: UNKNOWN
 first_securely_dated_carrier: UNRESOLVED
-july_1990_claim: ITEM_LEVEL_UNVERIFIED
+highest_value_version_state: DULCE-CAND-028
+Hinkle_pre_Branton_claim: PARTICIPANT_SELF_ATTESTATION_NOT_AUTHENTICATED
+July_1990_claim: ITEM_LEVEL_UNVERIFIED
 soft_1996_carrier: PRESERVED
-castello_source_class: DOCUMENT_PERSONA
-persona_creation: STRONGLY_SUPPORTED_SELF_ATTESTATION
-hinkle_answer_role: SELF_ATTESTED_CONTESTED
-levesque_editor_role: SELF_ATTESTED_SCOPE_PARTLY_AMBIGUOUS
-packet_seeding: SELF_ATTESTED_UNCORROBORATED
+Castello_source_class: DOCUMENT_PERSONA
+exclusive_primary_distributor: UNRESOLVED
+neutral_working_model: COLLABORATIVE_MULTI_ACTOR
+packet_seeding_execution: UNCORROBORATED
 verified_packet_recipients: 0
 canonical_edge: false
 ```
