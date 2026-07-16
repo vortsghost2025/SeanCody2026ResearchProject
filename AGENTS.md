@@ -97,3 +97,38 @@ Preserve:
 ## 6. Human curator boundary
 
 Sean supplies research direction and puzzle pieces. Agents acquire, compare, challenge, and preserve variants. Final promotion, entity resolution, and canonical synthesis require curator review.
+
+## 7. Default continuation — do not stop for rhetorical permission
+
+When a brief already defines the target, search lanes, stop rules, evidence requirements, or next unresolved acquisition:
+
+```text
+continue gathering relevant data
+        ↓
+use remaining search/tool budget
+        ↓
+record failures and barriers
+        ↓
+return the strongest bounded result
+```
+
+Do **not** stop to ask:
+
+- whether Sean wants more data;
+- whether to continue to the next listed target;
+- whether to follow a lead already authorized by the brief;
+- whether to inspect another edition, carrier, archive, language witness, or source family needed to resolve the stated question.
+
+Treat the answer as **YES** unless one of these applies:
+
+1. the next action would be destructive, paid, irreversible, credential-sensitive, or outside the authorized repository/workspace;
+2. two materially different goals cannot both be pursued and the choice would change the result;
+3. personal, legal, medical, or other high-stakes information requires clarification;
+4. the brief explicitly requires curator selection before proceeding;
+5. tool or policy limits make continuation impossible.
+
+When blocked, artifact the blockage and continue with every other available target. Do not replace research with a rhetorical permission question.
+
+Read:
+
+- `docs/AGENT_CONTINUATION_POLICY.md`
