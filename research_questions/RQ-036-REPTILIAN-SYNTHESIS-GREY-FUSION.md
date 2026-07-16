@@ -9,112 +9,102 @@ RQ:
 
   central_problem: >
     Identify the dated artifacts, authorship layers and distribution mechanisms
-    that changed earlier Dulce C-core, alliance and oppositional models into the
+    that transformed earlier Dulce C-core, alliance and opposition models into the
     mature Draco-over-Grey hierarchy, while distinguishing document personas,
-    participant reconstructions, compilations and manufactured apparent convergence.
+    participant reconstructions, compilations and derivative apparent convergence.
 
   content_resolution: >
-    The surviving Castello/Branton Q&A contains explicit Draco authority,
-    Grey/worker-caste control or creation and Dulce-system linkage. The hierarchy
-    is confirmed at text-content level.
+    The Castello-attributed Q&A contains explicit Draco authority, Grey/worker-caste
+    control or creation and Dulce-system linkage.
+
+  dated_carrier_resolution: >
+    The November 2010 Project Avalon Hinkle thread contains actual Q&A body text and
+    mature hierarchy wording. This is the earliest securely dated public Q&A carrier
+    acquired by the project. It is not a secure date of composition.
 
   source_class_resolution: >
-    The Q&A cannot be treated as authenticated whistleblower testimony. Thomas
-    Edwin Castello remains a document persona / attributed speaker.
+    Thomas Edwin Castello remains a document persona or contested attributed speaker,
+    not authenticated whistleblower testimony.
 
-  competing_production_accounts:
+  production_accounts:
+    Lear_2008: >
+      Treats Castello as real and self-attests to retyping/redrawing Dulce Papers
+      material and participating in a wider recovery/circulation network.
+    Hinkle_2010_2013: >
+      Publicly carries Q&A text, treats Castello as real, claims earlier letters,
+      recordings and box knowledge, and later states that Castello died in April 1991
+      and was subsequently impersonated.
     LeVesque_2015: >
-      Self-attests that TEC was a creation, Hinkle answered submitted questions
-      in persona, LeVesque corrected and mixed material, and he used an approximately
-      one-hundred-packet distribution strategy.
-    Hinkle_2010_2012: >
-      Claims an original interview transcript without later writer comments,
-      a 1987 letter and Japanese television recordings, while a Gorightly interview
-      lead describes broad Hinkle distribution since 1987.
-    neutral_working_model: >
-      A collaborative multi-actor production involving Hinkle/West material,
-      LeVesque articles and editing, earlier Bennewitz C-core, network circulation
-      and Branton compilation currently fits the unresolved layers without forcing
-      one exclusive originator.
+      Self-attests that TEC was a creation, Hinkle answered questions in persona,
+      LeVesque mixed and added material and used an approximately one-hundred-packet
+      strategy.
 
-  authorship_gap: >
-    Original question sheets, Hinkle answers, the exact 2010 posted transcript,
-    LeVesque working files, Branton working files and sentence-level version history
-    remain unacquired.
+  neutral_working_model: >
+    A collaborative multi-actor production involving Hinkle/West material, Lear
+    editorial handling, LeVesque articles/editing, Hamilton/Valerian circulation,
+    earlier Bennewitz C-core and Branton compilation currently explains the layered
+    record without forcing one exclusive agent.
+
+  textual_stemma_gap: >
+    Session 048 reports disagree whether the Hinkle/Avalon state is essentially
+    derivative from Branton or a distinct source state with systematic editorial
+    differences. Raw complete captures and a reproducible diff are not yet stored.
 
   chronology_gap: >
-    The first hierarchy carrier remains unresolved. The reported July 1990 newsletter
-    is item-level unverified. The Hinkle-claimed pre-Branton transcript is not yet
-    authenticated. A claimed 1991 Dulce Book state is not authenticated and a 1996
-    carrier remains softly attested.
+    The first composition remains unresolved. The reported July 1990 newsletter is
+    item-level unverified; a claimed 1991 Dulce Book state is unauthenticated; the
+    1996 carrier is softly attested; the 2010 public carrier is secure.
 
-  independence_gap: >
-    LeVesque self-attests a packet strategy, while Hinkle has a parallel broad-
-    distribution account. No physical packet, shared mailing list, verified recipient
-    or proof that both accounts describe the same operation has been recovered.
+  material_evidence_gap: >
+    No authenticated hidden box, Castello letter, Japanese television master,
+    original sketch set with custody, treaty/device, LeVesque packet or Castello
+    identity document has been recovered.
 
   current_high_value_candidates:
     - id: DULCE-CAND-012
-      title: "Castello/Branton Q&A"
-      status: FULL_LINKED_CHAIN_AT_TEXT_LEVEL_DOCUMENT_PERSONA
+      title: "Castello-attributed mature hierarchy Q&A"
+      status: FULL_LINKED_CHAIN_DOCUMENT_PERSONA
     - id: DULCE-CAND-028
-      title: "Hinkle Project Avalon original-Q&A claim"
-      status: HIGHEST_VALUE_UNRECOVERED_QA_STATE
+      title: "Hinkle Project Avalon Q&A carrier"
+      status: CONFIRMED_DATED_PUBLIC_CARRIER_NOVEMBER_2010
+    - id: DULCE-CAND-035
+      title: "Hinkle Repton / King-of-World Q&A corpus"
+      status: DISTINCT_PARTICIPANT_EXPANSION
+    - id: DULCE-CAND-036
+      title: "Lear editorial/recovery interview account"
+      status: PARTICIPANT_SELF_ATTESTATION
     - id: DULCE-CAND-023
       title: "LeVesque November 2015 email"
       status: DIRECT_QUOTE_IN_VERIFIED_SECONDARY
     - id: DULCE-CAND-024
-      title: "LeVesque one-hundred-packet statement"
-      status: SELF_ATTESTED_OPERATION_UNCORROBORATED
-    - id: DULCE-CAND-031
-      title: "Gorightly 2012 Hinkle interview"
-      status: PARALLEL_DISTRIBUTION_ACCOUNT
-    - id: DULCE-CAND-029
-      title: "Hinkle-held 1987 Castello-attributed letter"
-      status: PARTICIPANT_POSSESSION_CLAIM
-    - id: DULCE-CAND-030
-      title: "Hinkle-held Japanese television recordings"
-      status: PARTICIPANT_POSSESSION_CLAIM
+      title: "LeVesque packet statement"
+      status: SELF_ATTESTED_UNCORROBORATED
     - id: DULCE-CAND-011
-      title: "The Covert Return... / July 1990 carrier claim"
-      status: ITEM_LEVEL_UNVERIFIED_LINKED_CHAIN_IMPLIED
-    - id: DULCE-CAND-026
-      title: "Tilton 1987 fabrication assertion"
-      status: UNRECOVERED_MANUSCRIPT_LEAD
-    - id: DULCE-CAND-033
-      title: "LeVesque death certificate report"
-      status: SECONDARY_REPORT_PRIMARY_DOCUMENT_NOT_ACQUIRED
-    - id: DULCE-CAND-034
-      title: "Tilton/Hamilton/Branton shared publishing node"
-      status: SHARED_INFRASTRUCTURE_LEAD
+      title: "July 1990 O'Connell carrier claim"
+      status: ITEM_LEVEL_UNVERIFIED
 
   do_not_treat_as_proof:
-    - Q&A answer voice as authenticated Castello testimony
-    - participant possession claims as acquired artifacts
-    - every unsigned Q&A sentence as Hinkle, LeVesque or Branton wording
-    - LeVesque as sole distributor from his packet self-attestation
-    - Hinkle as sole distributor from broad-distribution biographical language
-    - Hinkle and LeVesque accounts as necessarily the same operation
-    - network proximity, acknowledgement or collaboration as packet receipt
-    - shared publisher as independent confirmation or coordinated-hoax proof
-    - death-certificate occupation report as complete lifetime employment history
-    - July 1990 issue claim without cover, masthead and pages
-    - passive `being used` without an identified controller as explicit Draco command
-    - multiple web mirrors as independent witnesses
-    - Ann West and Cherry Hinkle as independently resolved identities
-    - Tilton 1987 wording without the manuscript
+    - November 2010 public carrier as proof of pre-1996 composition
+    - punctuation/capitalization differences as conclusive derivation direction
+    - participant possession claims as acquired material artifacts
+    - Lear's account as authentication of Castello
+    - LeVesque's confession as a universal override
+    - Hinkle's account as authentication of Castello
+    - shared publisher as copying or coordinated-fabrication proof
+    - network proximity as packet receipt
+    - July 1990 issue claim without pages
     - real families or populations as reptilian or conspiratorial
 
   positive_resolution: >
-    Exact original objects establish the earliest hierarchy state, the Hinkle-versus-
-    Branton version history, the Q&A production files, the relationship between Hinkle
-    and LeVesque distribution, at least one physical packet or verified recipient,
-    and the dependence or independence of downstream sources.
+    Complete raw carrier captures and exact original objects establish the earliest
+    composition, the Avalon-versus-Branton textual stemma, sentence authorship,
+    participant distribution dependencies and at least one authenticated physical
+    packet, letter, recording or recipient acknowledgement.
 
   negative_resolution: >
-    No first carrier or working files survive; the hierarchy is resolved as a layered
-    creative/compilational text bounded by competing participant accounts and derivative
-    evidence rather than a complete archive.
+    No earlier composition object survives; the mature hierarchy is bounded to a
+    securely dated 2010 public carrier and earlier soft/unverified references, within
+    a collaborative document-persona tradition whose physical claims remain unproduced.
 
   related_files:
     - graph/bridges/BRIDGE-036-001-REPTILIAN-GREY-FUSION.md
@@ -122,67 +112,63 @@ RQ:
     - graph/chronologies/CASTELLO_BRANTON_QA_VERSION_MATRIX.md
     - graph/transmissions/CASTELLO_QA_AUTHORSHIP_PROVENANCE_CANDIDATE.md
     - graph/transmissions/HINKLE_LEVESQUE_DISTRIBUTION_MODELS.md
-    - reports/SESSION_047_HINKLE_COUNTER_ACCOUNT_CROSS_QC.md
-    - research_inbox/SESSION_047_MULTI_AGENT_RESULT_MANIFEST.md
-    - research_inbox/SESSION_048_HINKLE_PRE_BRANTON_ARTIFACT_AND_DISTRIBUTION_AUDIT.md
-    - data/error_fingerprints/ERR-036-019-PRIMARY-DISTRIBUTOR-ACCOUNT-COLLAPSE.md
-    - data/error_fingerprints/ERR-036-020-CREDENTIAL-CLAIM-DOCUMENT-SCOPE-COLLAPSE.md
-    - data/error_fingerprints/ERR-036-021-SHARED-PUBLISHER-INDEPENDENCE-COLLAPSE.md
-    - data/error_fingerprints/ERR-036-022-PARTICIPANT-POSSESSION-ARTIFACT-COLLAPSE.md
+    - reports/SESSION_048_AVALON_QA_TEXTUAL_STATE_CROSS_QC.md
+    - research_inbox/SESSION_048_MULTI_AGENT_RESULT_MANIFEST.md
+    - research_inbox/SESSION_049_AVALON_RAW_CAPTURE_AND_TEXTUAL_STEMMA_AUDIT.md
+    - data/error_fingerprints/ERR-036-023-TEXTUAL-VARIANT-DERIVATION-COLLAPSE.md
+    - data/error_fingerprints/ERR-036-024-LATE-PARTICIPANT-OVERRIDE-COLLAPSE.md
+    - data/error_fingerprints/ERR-036-025-CLAIMED-MATERIAL-ARTIFACT-PRODUCTION-COLLAPSE.md
 
   generated_session: SESSION_036
-  current_acquisition_session: SESSION_048
+  current_acquisition_session: SESSION_049
   last_updated: 2026-07-16
 ```
 
 ## Current evidence model
 
 ```text
-1980s Dulce C-core
+1980s Dulce C-core and imagery
         ↓
-1989–1991 Grey/Reptoid alliance and opposition texts
+1989–1991 alliance/opposition/implied-link texts
         ↓
-Hinkle/West + LeVesque + other network material accumulates
+unknown-date Castello-attributed mature hierarchy composition
         ↓
-Castello document persona carries mature Draco-over-Grey hierarchy
+Branton compilation/carrier family
         ↓
-Branton compilation and annotation
+Lear, Hinkle and LeVesque conflicting participant accounts
         ↓
-parallel or shared distribution channels + common publishers + mirrors
+November 2010 securely dated Hinkle/Avalon public Q&A carrier
         ↓
-derivative density mistaken for independent convergence
+later mirrors and retrospective provenance claims
 ```
 
 ## Current exact task
 
 Execute:
 
-- `research_inbox/SESSION_048_HINKLE_PRE_BRANTON_ARTIFACT_AND_DISTRIBUTION_AUDIT.md`
+- `research_inbox/SESSION_049_AVALON_RAW_CAPTURE_AND_TEXTUAL_STEMMA_AUDIT.md`
 
-Acquire first:
+Acquire:
 
-1. complete Project Avalon 2010 thread state and claimed original Q&A text/attachment;
-2. sentence-level Hinkle-versus-Branton Q&A diff;
-3. claimed 1987 letter;
-4. Japanese television recording and program metadata;
-5. exact Gorightly 2012 interview;
-6. Hinkle's *My Fated Life* relevant pages;
-7. exact death-certificate podcast statement and document scope;
-8. Tilton manuscript/editions and shared publisher records;
-9. persisting original email, July 1990 issue, packet and Branton-file targets.
+1. complete raw Project Avalon Thread 8393 captures;
+2. exact post IDs, timestamps and edit history;
+3. raw Hinkle Q&A text and attachments;
+4. earliest raw Branton/Chapter 11 carrier;
+5. diplomatic and normalized transcriptions;
+6. deterministic character/sentence diff;
+7. complete separate Repton/King-of-World exchange;
+8. full Lear interview and source-object context;
+9. persisting letter, recording, packet, Tilton and July 1990 targets.
 
 ## Current counts
 
 ```text
 Mature hierarchy content: CONFIRMED
-Q&A source class: DOCUMENT PERSONA / LAYERED CREATIVE TEXT
-Competing distribution accounts: 2
-Authenticated pre-Branton Q&A states: 0
-Participant-claimed pre-Branton Q&A states: 1
-Original confession email facsimiles: 0
-Physical packets: 0
+Securely dated public Q&A carriers acquired: 1 (November 2010)
+Secure pre-1996 hierarchy compositions acquired: 0
+Raw reproducible Avalon-versus-Branton diffs: 0
+Authenticated physical Dulce artifacts: 0
 Verified packet recipients: 0
-Exact July 1990 issues acquired: 0
 Canonical hierarchy/authorship/distribution edges: 0
 RQ-036: SEARCHING
 ```
