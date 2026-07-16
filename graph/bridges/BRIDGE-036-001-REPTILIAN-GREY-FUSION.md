@@ -4,7 +4,7 @@
 BRIDGE_CANDIDATE:
   id: BRIDGE-036-001
   title: "Modern reptilian synthesis → Grey/Reptilian underground-base hierarchy"
-  status: SUPPORTED_COMPILATIONAL_FUSION_FULL_TEXT_CONFIRMED_AUTHORSHIP_AND_FIRST_CARRIER_OPEN
+  status: SUPPORTED_COMPILATIONAL_FUSION_PERSONA_PRODUCTION_SELF_ATTESTED_FIRST_CARRIER_OPEN
   related_question: RQ-036
 
   endpoints:
@@ -14,117 +14,94 @@ BRIDGE_CANDIDATE:
       role: EARLIER_RELATIONSHIP_MODELS
     - object_type: CASTELLO_QA_DOCUMENT_PERSONA_AND_MATURE_HIERARCHY
       role: FULL_LINKED_TEXT_LOCUS
-    - object_type: LEVESQUE_HINKLE_BRANTON_AUTHORSHIP_CANDIDATE
-      role: POSSIBLE_COMPOSITION_CHAIN
-    - object_type: PACKET_SEEDING_AND_COMPILATION_INFRASTRUCTURE
-      role: POSSIBLE_MANUFACTURED_INDEPENDENCE
+    - object_type: HINKLE_LEVESQUE_PERSONA_PRODUCTION_MECHANISM
+      role: SELF_ATTESTED_AUTHORSHIP_PROCESS
+    - object_type: BRANTON_COMPILATION_INFRASTRUCTURE
+      role: SUPPORTED_COMPILER_CARRIER
+    - object_type: PACKET_SEEDING
+      role: SELF_ATTESTED_MANUFACTURED_INDEPENDENCE_CANDIDATE
     - object_type: DULCE_BOOK_PRINT_AND_WEB_FAMILY
       role: DOWNSTREAM_CARRIERS
 
-  linked_chain_requirement: >
-    FULL requires an identified reptilian/Draconian authority controlling,
-    creating, commanding or using identified Greys inside the same Dulce/base/
-    treaty/genetic/secret-program system. Co-presence, alliance and opposition
-    are insufficient.
-
   content_finding: >
-    The surviving Castello/Branton Q&A family contains explicit Draco authority,
+    The surviving Castello/Branton Q&A contains an explicit Draco authority,
     Grey/worker-caste subordination and Dulce-system linkage. FULL is confirmed
     at the text-content level.
 
-  session_045_provenance_finding: >
-    Quoted statements attributed to Tal LeVesque indicate that Thomas Edwin
-    Castello was a created persona, that Cherry Hinkle / Ann or Anne West may
-    have answered questions in character, that LeVesque mixed and supplemented
-    the material, and that he may have distributed roughly one hundred packets
-    to create the appearance of multiple independent sources. Exact original
-    correspondence, recording, pages, packets and recipient evidence remain open.
+  session_046_provenance_finding: >
+    A November 2015 private email from Tal LeVesque to Adam Gorightly is reproduced
+    in verified secondary sources. LeVesque self-attests that TEC was a creation,
+    the interview was creative writing, questions were sent to Cherry Hinkle / Ann
+    West twice for answers in character, and he corrected, supplemented and mixed
+    source material. The original email facsimile and headers remain unavailable.
+
+  packet_finding: >
+    The same reproduced email self-attests to approximately one hundred packets
+    sent to authors and lecturers to create the appearance of multiple sources.
+    No physical packet, recipient list, acknowledgement or verified recipient was
+    acquired.
 
   current_candidates:
     - id: DULCE-CAND-012
       role: FULL_LINKED_CHAIN_AT_TEXT_LEVEL
-      date: UNKNOWN
       status: DOCUMENT_PERSONA_FIRST_CARRIER_OPEN
-    - id: DULCE-CAND-013
-      role: SOFT_1996_CARRIER_LEAD
-      date: SOFT_BIBLIOGRAPHIC
-      status: NOT_SECURE_FIRST_CARRIER
-    - id: DULCE-CAND-022
-      role: SEPARATE_CASTELLO_TO_BISHOP_LETTER
-      reported_date: SEPTEMBER_1990
-      status: ORIGINAL_AND_RELATIONSHIP_NOT_RECOVERED
     - id: DULCE-CAND-023
-      role: PERSONA_CREATION_AND_MULTI_AUTHORSHIP_SOURCE
-      status: DIRECT_QUOTE_LEAD_PENDING_EXACT_SOURCE
+      role: PERSONA_CREATION_AND_PRODUCTION_MECHANISM_SOURCE
+      status: DIRECT_QUOTE_IN_VERIFIED_SECONDARY
     - id: DULCE-CAND-024
       role: PACKET_SEEDING_SOURCE
-      status: MANUFACTURED_INDEPENDENCE_CANDIDATE
+      status: SELF_ATTESTED_OPERATION_UNCORROBORATED
+    - id: DULCE-CAND-011
+      role: REPORTED_JULY_1990_IMPLIED_LINK_CARRIER
+      status: ITEM_LEVEL_UNVERIFIED
+    - id: DULCE-CAND-013
+      role: SOFT_1996_CARRIER_LEAD
+      status: NOT_SECURE_FIRST_CARRIER
 
   evidence_class:
     mature_text_content: A
+    document_persona_self_attestation: B
     compilational_fusion_pattern: B
-    authorship_provenance: C
+    exact_sentence_authorship: C
+    packet_operation_execution: C
     exact_first_carrier: C
 
   confidence:
     mature_text_contains_linked_hierarchy: HIGH
-    compilational_transformation: MEDIUM_HIGH
-    document_persona_not_authenticated_witness: HIGH
-    exact_multi_author_chain: LOW_MEDIUM
-    packet_seeding_claim: MEDIUM_AS_QUOTE_LEAD_LOW_AS_VERIFIED_EVENT
+    castello_is_document_persona_for_research_use: HIGH
+    levesque_self_attested_production_mechanism: HIGH_AS_REPRODUCED_QUOTE
+    hinkle_exact_sentence_share: LOW
+    branton_compiler_role: HIGH
+    branton_unsigned_editing: LOW_MEDIUM
+    packet_strategy_intent: MEDIUM_HIGH_AS_SELF_ATTESTATION
+    packet_execution_and_recipients: LOW
     exact_first_carrier: LOW
 
   generated_session: SESSION_036
-  updated_session: SESSION_045
+  updated_session: SESSION_046
   last_reviewed: 2026-07-16
-```
-
-## Decisive linked-chain test
-
-```text
-identified reptilian / Draconian authority A
-        ↓ controls / creates / commands / uses
-identified Grey group B
-        ↓ within
-underground base / treaty / genetic experiment / secret program C
-        = FULL_LINKED_CHAIN
-```
-
-```text
-A + B + C co-presence
-alliance
-opposition
-generic reptilian morphology
-        ≠ FULL_LINKED_CHAIN
 ```
 
 ## Established relationship stages
 
-### Bishop III witness, reported 1989
+### Earlier C-core and relationship models
 
 ```text
-Greys + Reptoids
-        = in league with tension
+1980s C-core:
+Dulce + secret program + Greys/EBEs + treaty/experiments
 
-separate Reptilian Race
-        = enemy of Greys
+Bishop III reported 1989:
+Greys and Reptoids = in league but tense
+separate Reptilian Race = Grey enemy
+
+Matrix II inspected 1991 third edition:
+Reptilian humanoids = Grey enemies
+different higher culture = Grey creator
 ```
 
-Result: `ALLIANCE_AND_OPPOSITION`, not hierarchy.
+These do not establish the mature Draco-over-Grey hierarchy.
 
-### *Matrix II*, inspected 1991 third edition
-
-```text
-different higher culture
-        ↓ creates Greys
-
-Reptilian humanoids
-        ↔ enemies of Greys
-```
-
-Result: `OPPOSITIONAL_SEPARATE_CREATOR`, not Draco-over-Grey hierarchy.
-
-### Castello/Branton Q&A surviving family
+### Mature Q&A hierarchy
 
 ```text
 Draco / white Draco masters
@@ -136,104 +113,120 @@ Dulce levels / laboratories / secret programs
 
 Result: `FULL_LINKED_CHAIN_AT_TEXT_LEVEL`.
 
-## Content, chronology and authorship must remain separate
+## Content, witness, authorship and chronology are separate
 
 ```text
-Does the mature hierarchy text exist?
+Does the hierarchy wording exist?
         YES
 
-Where is it clearest?
-        surviving Castello/Branton Q&A family
+Is the Q&A authenticated whistleblower testimony?
+        NO
 
-When was it first written?
-        UNKNOWN
+What is Thomas Castello's current source class?
+        DOCUMENT_PERSONA / ATTRIBUTED_SPEAKER
 
-What was its first carrier?
-        UNKNOWN
+Who wrote each sentence?
+        UNRESOLVED
 
-Was Thomas Castello an authenticated historical speaker?
-        NO — NOT ESTABLISHED
-
-Who wrote the answer layer?
+When did the mature wording first appear?
         UNRESOLVED
 ```
 
-## Session 045 authorship/provenance model
+## Session 046 production model
 
 ```text
-Cherry Hinkle / Ann or Anne West material or persona performance
+questions solicited from several people
         ↓
-Tal LeVesque corrections + additions + own research
+sent to Hinkle / Ann-West twice
         ↓
-Thomas Castello document persona / answer voice
+answers written or performed as TEC
         ↓
-Branton compilation + signed notes + possible unproven unsigned editing
+LeVesque correction + additions + research + assembly
         ↓
-BBS / Dulce Book / print / web family
+Castello Q&A document persona
+        ↓
+Branton compilation + headings + signed notes
+        ↓
+Dulce Book and web carrier family
 ```
 
-This is the leading candidate graph, not a promoted canonical chain.
+This production mechanism is self-attested by LeVesque in a reproduced November 2015 email.
+
+It does not establish:
+
+- the authorship of every answer sentence;
+- the identity of Ann West and Cherry Hinkle independently;
+- the exact two articles LeVesque meant;
+- the date of the question rounds;
+- Branton's unsigned edits;
+- the first Q&A carrier.
 
 Read:
 
 - `graph/transmissions/CASTELLO_QA_AUTHORSHIP_PROVENANCE_CANDIDATE.md`
+- `reports/SESSION_046_CONFESSION_PROVENANCE_CROSS_QC.md`
 - `data/error_fingerprints/ERR-036-010-UNMARKED-TEXT-AUTHORSHIP-COLLAPSE.md`
-- `data/error_fingerprints/ERR-036-012-DOCUMENT-PERSONA-SPEAKER-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-015-CONFESSION-WITHOUT-COUNTERTESTIMONY-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-017-ANN-WEST-HINKLE-IDENTITY-COLLAPSE.md`
 
 ## Manufactured-independence candidate
 
-A quotation attributed to LeVesque describes preparing and distributing roughly one hundred packets to authors and lecturers so the resulting material would appear to come from more than one source.
-
-If authenticated, the mechanism is:
+LeVesque's reproduced statement describes this intended mechanism:
 
 ```text
-one assembled packet family
-        ↓ distributed to many recipients
-many talks / articles / books
-        ↓ later counted as independent sources
-false convergence
+one source packet family
+        ↓ distributed to authors and lecturers
+many talks, articles and books repeat portions
+        ↓
+apparent independent convergence
 ```
 
-Current status: `DIRECT_QUOTE_LEAD_PENDING_EXACT_SOURCE`.
+Current result:
+
+```yaml
+packet_strategy_intent: SELF_ATTESTED
+claimed_packet_count: APPROXIMATELY_100
+physical_packets: NOT_RECOVERED
+named_recipients_in_confession: NONE
+verified_recipient_count: 0
+operation_status: SELF_ATTESTED_UNCORROBORATED
+```
+
+The proposed nexus—Lear, Cooper, Valerian, Hamilton and Branton—remains a dependency graph lead. Association, acknowledgement, co-authorship or similar content does not prove packet receipt.
 
 Read:
 
 - `data/error_fingerprints/ERR-036-013-MANUFACTURED-INDEPENDENCE-PACKET-SEEDING.md`
+- `data/error_fingerprints/ERR-036-018-SELF-ATTESTED-PACKET-PHYSICAL-CORROBORATION-COLLAPSE.md`
 
-## Carrier-date boundary
+## July 1990 carrier boundary
 
-```yaml
-claimed_1991: UNVERIFIED_DATE_ASSERTION
-soft_1996: BIBLIOGRAPHIC_LEAD_NOT_SECURE_FIRST
-september_1990_letter: SEPARATE_UNRECOVERED_OBJECT
-first_secure_carrier: UNRESOLVED
-```
-
-An internal reference to 1991, an Archive.org upload, a compilation header or retailer metadata cannot establish the first Q&A carrier.
-
-Read:
-
-- `data/error_fingerprints/ERR-036-011-ARCHIVE-UPLOAD-PUBLICATION-DATE-COLLAPSE.md`
-- `data/error_fingerprints/ERR-036-014-COMPILATION-HEADER-FIRST-EDITION-COLLAPSE.md`
-- `graph/chronologies/CASTELLO_BRANTON_QA_VERSION_MATRIX.md`
-
-## Derivative-mirror boundary
-
-The many web copies appear to descend from one compilation family. They establish downstream spread, not independent eyewitness or manuscript convergence.
-
-The reported packet strategy, if verified, may extend that same dependency problem into apparently separate talks, books and newsletters.
-
-## Lexical continuity candidate
+A reported *Trends and Predictions Analyst*, Vol. 6 No. 2, July 1990 item has not been acquired at issue level.
 
 ```text
-Bishop:
-`in league with each other`
-
-Q&A:
-`not in league with the Draco`
+Greys named as mercenaries `being used`
++
+Winged Draco and other reptilian beings named nearby
+        ≠ automatically explicit Draco control
 ```
 
-This remains `SUPPORTED_LEXICAL_CONTINUITY_CANDIDATE`, not `KNOWN_COPY`, `DIRECT_DERIVATION` or `SAME_AUTHORSHIP`.
+The exact passage must identify the controlling agent. Until cover, masthead, contents and pages are acquired:
+
+```yaml
+DULCE-CAND-011:
+  carrier_status: ITEM_LEVEL_UNVERIFIED
+  hierarchy_status: LINKED_CHAIN_IMPLIED_CANDIDATE
+```
+
+## Participant disagreements
+
+- LeVesque self-attests persona creation and creative-writing production.
+- Hinkle reportedly maintained a factual Castello narrative.
+- Hamilton reportedly claimed Castello biographical identifiers, but no records were acquired.
+- Tilton reportedly called the Castello story fabricated in a 1987 manuscript, which remains unacquired.
+- A 2009 claimant alleged Branton altered Q&A answers; identity and proof remain unresolved.
+
+These are separate evidence nodes, not independent consensus.
 
 ## Supported working model
 
@@ -242,55 +235,54 @@ Dulce C-core
         ↓
 Grey/Reptoid alliance and opposition models
         ↓
-LeVesque/Hinkle/other source material is assembled or rewritten
+question solicitation + persona performance + LeVesque assembly
         ↓
-Castello document persona carries mature master/worker hierarchy
+Castello Q&A carries mature master/worker hierarchy
         ↓
-Branton compiles and annotates the material
+Branton compilation and annotation
         ↓
-packets, books, talks and mirrors create dense derivative repetition
+possible packet seeding + books + talks + mirrors
+        ↓
+dense derivative repetition mistaken for convergence
 ```
 
-The transformation is supported. Exact authorship shares, packet distribution and the first carrier remain unresolved.
+The transformation and persona-production claim are strongly supported. Exact sentence authorship, packet execution and first carrier remain open.
 
 ## Promotion tests
 
-1. Acquire the original LeVesque/Gorightly correspondence or exact book pages.
-2. Authenticate `TEC is a creation` in full context.
-3. Authenticate Hinkle answering as TEC and the material-mixing statement.
-4. Authenticate the one-hundred-packet statement and locate a surviving packet or recipient.
-5. Acquire the first exact Q&A carrier with header, masthead, postmark or colophon.
-6. Inspect a physical or authenticated 1996 *Dulce Book* carrier.
-7. Recover the separate September 1990 letter.
-8. Resolve questioner and compiler identities only through direct evidence.
-9. Do not count derivative mirrors or packet recipients as independent witnesses.
+1. Acquire the original LeVesque email or exact Gorightly pages with provenance.
+2. Acquire the original question sets and Hinkle answers.
+3. Resolve Ann West / Cherry Hinkle identity independently.
+4. Identify the two original Dulce Base articles meant in the confession.
+5. Locate a physical packet, cover letter, envelope, mailing list or recipient acknowledgement.
+6. Acquire the July 1990 *Trends and Predictions Analyst* issue.
+7. Acquire the first exact Q&A carrier.
+8. Acquire the Tilton 1987 manuscript and exact fabrication passage.
+9. Obtain Branton correspondence or working files.
+10. Build a lexical dependency graph for proposed packet recipients.
 
 Execute:
 
-- `research_inbox/SESSION_046_CONFESSION_PACKET_AND_AUTHORSHIP_ACQUISITION_BRIEF.md`
+- `research_inbox/SESSION_047_CONFESSION_HARDENING_AND_PACKET_CORROBORATION_BRIEF.md`
 
 ## Allowed synthesis language
 
 Allowed:
 
-> The surviving Q&A contains the mature Draco-over-Grey hierarchy, but it is not authenticated whistleblower testimony. Quoted statements attributed to Tal LeVesque strongly indicate a created Castello persona, possible Cherry Hinkle participation, LeVesque editing and deliberate packet distribution. Those provenance claims require their exact original correspondence, recording, pages and recipient evidence before canonical promotion.
+> The mature Draco-over-Grey hierarchy is present in the surviving Castello Q&A, but the Q&A is not authenticated whistleblower testimony. A reproduced November 2015 LeVesque email strongly self-attests that TEC was a created persona and describes Hinkle answering in character and LeVesque assembling source material. The same email claims a deliberate packet strategy to simulate multiple sources, but no physical packet or verified recipient has been recovered.
 
 Not allowed:
 
-> The hierarchy was first published in 1991.
+> The July 1990 newsletter is confirmed as the first hierarchy carrier.
 
 or:
 
-> The hierarchy was definitively first published in 1996.
+> Lear, Cooper, Valerian, Hamilton and Branton are documented packet recipients.
 
 or:
 
-> Cherry Hinkle wrote every answer.
+> Every Q&A answer was written by Hinkle.
 
 or:
 
-> Branton fabricated the entire Q&A.
-
-or:
-
-> One hundred independent sources confirmed the hierarchy.
+> The one-hundred-packet operation is physically confirmed.
