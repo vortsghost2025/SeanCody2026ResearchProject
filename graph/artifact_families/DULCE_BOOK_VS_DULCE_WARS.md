@@ -1,7 +1,7 @@
 # The Dulce Book versus The Dulce Wars
 
-> **Related:** `RQ-036`, `DULCE-CAND-013`, `DULCE-CAND-015`, Session 055  
-> **Status:** title and edition identity unresolved
+> **Related:** `RQ-036`, `DULCE-CAND-013`, `DULCE-CAND-015`, Sessions 055–056  
+> **Status:** distinct title traditions supported; exact work and edition relation unresolved
 
 ## Title traditions
 
@@ -9,38 +9,80 @@
 TITLE_A:
   title: The Dulce Book
   attributed_author: Branton
-  date_environment: 1996_CLAIMS_AND_LATER_DIGITAL_STATES
+  early_environment: 1996_SELF_DATE_AND_LATER_DIGITAL_STATES
+  commercial_edition_lead:
+    publisher: GLOBAL_COMMUNICATIONS
+    year: 2003_REPORTED
+    status: ITEM_LEVEL_NOT_INSPECTED
 
 TITLE_B:
   title: The Dulce Wars: Underground Alien Bases and the Battle for Planet Earth
   attributed_author: Branton
-  date_environment: 1996_CLAIMS_AND_LATER_REPRINTS
+  early_environment: 1996_CLAIMS_AND_LATER_REPRINTS
+  commercial_edition_lead:
+    publisher: INNER_LIGHT_PUBLICATIONS
+    year: 2011_REPORTED
+    pages: 168_REPORTED
+    status: ITEM_LEVEL_NOT_INSPECTED
 ```
 
-## Shared features reported
+The publisher names belong to the same Beckley-associated commercial ecosystem and should not be treated as independent provenance by themselves.
 
-- same author attribution;
-- overlapping or matching chapter structure;
-- same mature Castello Q&A corpus;
-- same Dulce/underground-base compilation environment;
-- later Global Grey and web-carrier reuse.
+## Shared features
+
+- same compiler/author attribution;
+- overlapping Dulce and underground-base corpus;
+- reported reuse of the mature Castello Q&A;
+- common Branton editorial voice;
+- shared Inner Light / Global Communications distribution environment;
+- later electronic and re-typeset reuse.
+
+## Session 056 naming evidence
+
+A secondary source reportedly refers to Branton as writing `two major books`, *The Dulce Book* and *The Dulce Wars*.
+
+This supports distinct title recognition. It does not establish exact chapter, edition or source-history differences.
+
+```yaml
+NAMING_RESULT:
+  distinct_title_names: CONFIRMED
+  secondary_treatment_as_two_books: SUPPORTED
+  item_level_work_identity: OPEN
+```
 
 ## Competing models
 
 ```yaml
 H1:
-  description: one work circulated under two titles
-  status: PROBABLE_NOT_PROVED
+  description: one underlying compilation circulated under multiple title wrappers
+  status: PLAUSIBLE
 H2:
-  description: The Dulce Wars is a retitled edition of The Dulce Book
+  description: The Dulce Wars is a retitled and abridged edition of The Dulce Book
   status: PLAUSIBLE
 H3:
-  description: one title is an expanded or abridged edition of the other
+  description: The Dulce Wars is an independently arranged selection from the same Branton source corpus
   status: PLAUSIBLE
 H4:
-  description: two distinct compilations sharing a chapter corpus
+  description: two distinct compilations sharing substantial chapters and source material
   status: NOT_EXCLUDED
 ```
+
+The reported page-count difference, if confirmed, would argue against a simple identical reprint but would remain compatible with abridgement or re-selection.
+
+## Cosmic Conflict relation
+
+A Session 056 variant proposes that COSCON34 is chapter 34 of *Cosmic Conflict: The Love Song of the Overcomers*.
+
+Current result:
+
+```yaml
+COSMIC_CONFLICT:
+  Branton_title_family_membership: SUPPORTED_AS_COMMERCIAL_OR_COMPILATION_LEAD
+  COSCON34_chapter_34_identity: CANDIDATE_NOT_CONFIRMED
+  independent_source_status: NO
+```
+
+Even if confirmed, cross-title reuse remains internal to one Branton editorial family.
 
 ## Required item-level comparison
 
@@ -48,8 +90,7 @@ For each physical or digital edition acquire:
 
 - title page;
 - copyright page;
-- publisher;
-- place;
+- publisher and imprint;
 - exact publication date;
 - ISBN or catalogue identifier;
 - edition statement;
@@ -57,7 +98,9 @@ For each physical or digital edition acquire:
 - complete contents;
 - chapter titles and order;
 - introduction and sign-off;
-- Chapter 11 wording;
+- Q&A chapter wording;
+- March 1994 COSCON paragraph;
+- October 1996 self-date;
 - added or omitted chapters;
 - cover/title changes;
 - file metadata and provenance.
@@ -68,18 +111,26 @@ For each physical or digital edition acquire:
 The Dulce Book
         +
 The Dulce Wars
-        ≠ two independent hierarchy witnesses
+        +
+Cosmic Conflict / COSCON34 candidate
+        = distinct carrier and title leads
+        ≠ independent hierarchy witnesses
 ```
 
-until item-level comparison establishes distinct source histories.
+Read:
+
+- `data/error_fingerprints/ERR-036-039-MULTI-COMPILATION-INDEPENDENCE-COLLAPSE.md`
 
 ## Current decision
 
 ```yaml
-shared_compilation_corpus: STRONGLY_SUPPORTED
+shared_compilation_corpus: HIGH_CONFIDENCE
+distinct_title_names: SUPPORTED
+distinct_commercial_edition_leads: SUPPORTED
 same_work: NOT_PROVED
-retitled_edition: PROBABLE
-separate_publications: NOT_EXCLUDED
-independent_source_count: ONE_FAMILY_PENDING_DIFF
+retitled_or_abridged_relation: PLAUSIBLE
+separate_compilations: NOT_EXCLUDED
+Cosmic_Conflict_relation: OPEN
+independent_source_count: ONE_BRANTON_EDITORIAL_FAMILY
 canonical_work_identity_edge: false
 ```
