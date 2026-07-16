@@ -9,215 +9,171 @@ RQ:
   execution_order: BEFORE_ADDITIONAL_GREY_VISUAL_SCHEMA_EXPANSION
 
   scope:
-    - culture-specific serpent traditions and their later reinterpretation
-    - entity and translation collapse between older religious terms and modern pop culture
-    - Theosophical lost-race and dragon-man writing
-    - weird-fiction serpent infiltrators
-    - Maurice Doreal and occult pamphlet networks
-    - UFO contact and abduction narratives
-    - Dulce, underground-base, treaty, genetic-experiment, and hierarchy literature
-    - John Lear, Paul Bennewitz, Richard Doty, William Moore, Bill Cooper, Bruce Walton/Branton, and related carriers
-    - the 1983 miniseries V and other mass-media imagery
-    - Alex Collier and contactee hierarchy systems
-    - David Icke and political/bloodline synthesis
-    - newsletter, lecture, conference, mail-order, photocopy, BBS, and internet distribution
-    - harmful political and antisemitic overlap
+    - culture-specific serpent traditions and later reinterpretation
+    - occult, pulp and contactee reptilian material
+    - Dulce, treaty, underground-base and genetic-experiment narratives
+    - Bennewitz, Doty, Moore, Lear, Cooper, TAL/Jason Bishop, Valerian, Castello and Branton
+    - newsletter, magazine, conference, mail-order, BBS and web carriers
+    - Grey subordination and Draconian authority language
+    - later political, bloodline and antisemitic synthesis
+    - translation and entity collapse
 
   central_problem: >
-    Ancient serpent symbolism, occult racial cosmologies, fictional serpent infiltrators,
-    UFO humanoid reports, underground-base claims, and political bloodline conspiracy
-    narratives are often presented as one ancient lineage. The project must locate the
-    modern dated artifacts and carrier networks that actually fused these separate strands,
-    especially the first item-level source that explicitly ranks reptilian or Draconian
-    beings above Greys in an underground-base system.
+    Later lore presents ancient serpent traditions, Greys, reptilians, underground bases,
+    treaties and genetic experiments as one continuous system. The project must identify
+    the modern dated artifacts that actually fused these strands and distinguish early
+    proto-Dulce material from the first explicit full hierarchy.
 
-  core_questions:
-    - What exact passages appear in Blavatsky, Howard, Doreal, UFO literature, Dulce material, Collier, and Icke?
-    - Which later authors explicitly cite, quote, own, review, or adapt earlier works?
-    - What is the first dated artifact to describe Greys and reptilians as one hierarchy?
-    - Did the hierarchy emerge in Lear lectures, Cooper material, Walton/Branton newsletters, a conference tape, or a later compilation?
-    - Which details came from Bennewitz-related claims and which were added later?
-    - Did the 1983 miniseries V supply distinctive imagery or only a generic disguise motif?
-    - Which repeated phrases, diagrams, entity names, errors, or source lists reveal copying?
-    - Where do political bloodline and antisemitic conspiracy structures enter the synthesis?
-    - Which older serpent terms are erased by pop-culture search dominance?
-    - Which translations project modern biological or conspiracy meanings backward?
+  decisive_test:
+    A: "reptilian or Draconian authority"
+    B: "Greys subordinate, created, controlled or serving"
+    C: "underground base, treaty, genetic experiment or secret program"
+    FULL: "A+B+C in one securely dated primary artifact"
+
+  current_split_finding: >
+    Three Session 041 acquisitions converge on an early C-core in Bennewitz, Doty/Moore,
+    Lear and Cooper material, with no securely recovered pre-1990 primary passage placing
+    Greys beneath reptilian or Draconian authority. FULL content appears in surviving
+    early-1990s TAL/Valerian/Castello/Branton material, but the exact first artifact remains open.
+
+  highest_priority_candidate:
+    id: DULCE-CAND-010
+    title: "The Covert Return of an Alien Species of Reptilian Heritage — The Dulce Base"
+    attribution: "TAL LeVesque / Jason Bishop III"
+    reported_carrier: "UFO Universe, Feb–Mar 1991"
+    status: FULL_CANDIDATE_PENDING_PRIMARY_SCAN
+
+  parallel_candidate:
+    id: DULCE-CAND-009
+    title: "Matrix II"
+    attribution: "Valdamar Valerian / Leading Edge Research"
+    reported_date: "1990–1991"
+    status: UNKNOWN_HIGH_PRIORITY
 
   do_not_treat_as_proof:
     - ancient serpent iconography as evidence of a literal reptilian species
-    - similarity between Howard, Doreal, V, or Icke without contact or textual evidence
-    - one scholar's likelihood statement as a documented copying edge
-    - a late internet compilation as the date of the underlying claim
-    - conference circulation without an exact tape, transcript, program, or advertisement
+    - Grey presence as Grey subordination
+    - `reptilian skin` as a separate ruling species
+    - an alleged event date as a document date
+    - modern mirrors as proof of original wording
+    - conference circulation without a tape, transcript, program or advertisement
+    - later Branton or Castello text as proof of a 1987 source
     - Dulce repetitions as independent sources
-    - a document's existence as proof of its literal claims
     - real families or populations being reptilian or conspiratorial
-    - a modern entertainment character as the origin of an older religious name
-    - an English gloss such as `Great Reptilians` as proof of modern conspiracy continuity
+    - one English gloss as original-language certainty
 
   partial_resolution: >
     At least five item-level records establish exact passages, dates, editions, publishers,
-    and distribution contexts across the modern synthesis, and the earliest currently
-    recoverable Grey/Reptilian hierarchy artifact is identified with competing earlier
-    candidates and failed searches.
+    source dependencies and distribution contexts, and the earliest currently recoverable
+    PARTIAL and FULL hierarchy artifacts are distinguished with failed searches.
 
   positive_resolution: >
-    A dated transmission map distinguishes culture-specific serpent traditions from modern
-    reinterpretation, identifies documented literary and publishing links, locates the
-    Grey/Reptilian underground-base fusion, and traces later political synthesis without
-    converting unsupported literal claims into fact.
+    A dated transmission map locates the first secure A+B+C artifact, distinguishes it from
+    earlier C-only sources and later backdating, and traces downstream reuse without treating
+    unsupported literal claims as facts.
 
   negative_resolution: >
-    The alleged Howard-to-Doreal-to-Dulce-to-Icke chain cannot be documented beyond broad
-    motif similarity and later retrospective summaries; the result is classified as several
-    parallel or partially connected traditions rather than one lineage.
+    No single origin artifact is recoverable; several partial traditions are shown to have
+    been combined by one or more later compilers.
 
   related_files:
-    - data/grey_reptilian_motif_timeline_seed_2026-07-12.csv
-    - reports/SESSION_036_GREY_REPTILIAN_QC.md
-    - reports/SESSION_039_CORRECTED_PACKAGE_QC.md
     - graph/bridges/BRIDGE-036-001-REPTILIAN-GREY-FUSION.md
-    - graph/motifs/SERP-007-MAHORAGA-CANDIDATE.md
-    - data/error_fingerprints/ERR-036-001-MAHORAGA-ENTITY-TRANSLATION-COLLAPSE.md
+    - graph/chronologies/DULCE-HIERARCHY-CANDIDATE-REGISTRY.md
+    - reports/SESSION_041_DULCE_HIERARCHY_CROSS_VARIANT_QC.md
+    - data/negative_evidence/NEG-036-001-PRE-1990-FULL-HIERARCHY.md
+    - research_inbox/SESSION_041_DULCE_HIERARCHY_VARIANT_MANIFEST.md
+    - research_inbox/SESSION_042_DULCE_1990_1991_PRIMARY_ARTIFACT_BRIEF.md
     - graph/transmissions/SHAVER_TO_DULCE_CHAIN.md
     - research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md
-    - research_inbox/SESSION_038_REPTILIAN_DULCE_FUSION_BRIEF.md
-    - research_inbox/SESSION_039_CORRECTED_PACKAGE_MANIFEST.md
+    - graph/motifs/SERP-007-MAHORAGA-CANDIDATE.md
+    - data/error_fingerprints/ERR-036-001-MAHORAGA-ENTITY-TRANSLATION-COLLAPSE.md
 
   generated_session: SESSION_036
-  current_acquisition_session: SESSION_038
-  last_updated: 2026-07-14
+  current_acquisition_session: SESSION_042
+  last_updated: 2026-07-15
 ```
 
-## Execution priority decision
-
-Session 038 runs before any additional Grey-specific schema is created.
-
-Reasons:
-
-1. `OBSERVATION_REPORT` and `CONVERGENCE_CLUSTER` already provide enough structure for the first Grey pilot.
-2. The alleged Dulce hierarchy is a unique first-source problem, not merely a data-model problem.
-3. One exact early tape, newsletter, manuscript, pamphlet, or conference transcript could materially change RQ-023, SYS-001, and the Grey/Reptilian fusion chronology.
-4. Broad internet summaries are likely derivative; delay increases the risk of repeatedly analyzing late compilations instead of the originating artifact.
-5. The result remains valuable even when the first-source claim fails or splits into multiple parallel fusions.
+## Current evidence pattern
 
 ```text
-FIRST:
-SESSION_038 — earliest Grey/Reptilian hierarchy artifact
+1984–1988:
+underground base + Greys/EBEs + treaty/experiments
+        = C-core
+        ≠ secure reptilian authority over Greys
 
-PARALLEL WHEN PRIMARY ACCESS EXISTS:
-SESSION_037 — Hill/media chronology
+1990–1991:
+TAL / Matrix II / early compilation candidates
+        = possible first securely dateable FULL fusion
 
-AFTER PILOT DATA:
-revise or extend the Grey visual-feature fields only where real records expose a gap
+later 1990s:
+Castello/Branton FULL hierarchy widely circulated
+        = mature form
+        ≠ automatically the origin
 ```
 
-## Required decomposition
+## Current candidate results
+
+| Candidate family | Current result |
+|---|---|
+| McCampbell–Bennewitz transcript, reported 1984 | `PARTIAL-C_CANDIDATE` |
+| Lear letter/public statement, 1987–1988 | `PARTIAL-C` |
+| Project Beta / Aquarius materials | `PARTIAL-C_OR_UNKNOWN` |
+| Cooper 1988–1991 | `PARTIAL-C_OR_UNKNOWN` |
+| *Matrix II*, reported 1990–1991 | `FULL_OR_PARTIAL_CANDIDATE` |
+| TAL/Jason Bishop, *UFO Universe*, reported 1991 | `FULL_CANDIDATE_HIGHEST_PRIORITY` |
+| Castello Q&A | `FULL_CONTENT_UNDATED` |
+| Branton, *The Dulce Book* | `FULL_CONTENT_DATE_UNRESOLVED` |
+| *The Dulce Wars* | `FULL_CONTENT_LATE_PRINT` |
+
+## Entity and translation guardrail
 
 ```text
-culture-specific serpent traditions
-        ≠
-modern occult racial theory
-        ≠
-fictional reptilian species
-        ≠
-UFO witness narrative
-        ≠
-underground-base hierarchy
-        ≠
-political bloodline conspiracy
+culture-specific serpent tradition
+        ≠ modern biological reptilian species
+        ≠ UFO witness narrative
+        ≠ underground-base hierarchy
+        ≠ political bloodline conspiracy
 ```
-
-Connections between these layers require dated movement, citation, copying, adaptation, exposure, shared publishing infrastructure, or a specific repeated fingerprint.
-
-## Mahoraga entity and translation guardrail
-
-Session 039 adds a two-sided correction:
 
 ```text
 Mahoraga as older religious serpent-class term
-        ≠
-only the modern Jujutsu Kaisen character
-```
+        ≠ only a modern entertainment character
 
-and:
-
-```text
 mahā + uraga
-        = great serpent / great-serpent being
-        ≠
-automatic evidence of the modern “reptilian” conspiracy category
+        = great serpent / great serpent-being
+        ≠ automatic evidence of a modern reptilian conspiracy category
 ```
 
-Current classification:
+Connections require dated copying, citation, adaptation, exposure, shared infrastructure or another specific transmission fingerprint.
 
-```yaml
-SERP-007:
-  status: SUPPORTED_RELIGIOUS_MOTIF_PENDING_TEXTUAL_DECOMPOSITION
-  canonical_seed_row: false
+## Current exact task
 
-ERR-036-001:
-  status: SUPPORTED_DUAL_COLLAPSE_PATTERN
-  direct_modern_transmission: NOT_ESTABLISHED
-```
+Execute:
 
-Required future work:
+- `research_inbox/SESSION_042_DULCE_1990_1991_PRIMARY_ARTIFACT_BRIEF.md`
 
-- exact primary textual attestations by Buddhist, Jain, and Hindu tradition;
-- exact iconographic dates and regions;
-- the source behind the subterranean-serpent/earthquake description;
-- first dated modern conspiracy appropriation of `Mahoraga` or the English gloss;
-- direct use by a named transmitter, if any.
+Acquire only:
 
-## First decisive target
+1. the exact reported Feb–Mar 1991 *UFO Universe* issue and TAL/Jason Bishop article;
+2. the claimed earlier Patrick O'Connell mailer;
+3. the earliest exact edition of *Matrix II*;
+4. the reported Penny Harper / *Whole Life Times* lead.
 
-```text
-earliest exact artifact stating:
-reptilian / Draconian authority
-        ↓
-Greys as subordinate, created, controlled, or serving
-        ↓
-underground base / treaty / genetic experiment system
-```
+Return covers, mastheads, contents, title/copyright pages, exact pages, A+B+C quotations, date basis, source lists, version differences and archive provenance.
 
-The answer must include:
-
-- exact title or tape;
-- creator/speaker;
-- date;
-- publisher/distributor/conference;
-- page or timestamp;
-- exact terminology;
-- earliest known copy;
-- relation to Bennewitz, Lear, Cooper, Doty/Moore, Walton/Branton, and later compilations;
-- evidence against first-source status.
-
-## Stop rules
-
-Do not spend the session producing:
-
-- a general history of reptilians;
-- another ancient-serpent comparison;
-- a summary assembled from modern websites;
-- an undifferentiated `Dulce lore` narrative;
-- a chain that treats all repeated versions as independent;
-- a canonical edge without the exact originating artifact.
-
-When an exact early artifact cannot be found, return the earliest securely dated candidates, their dependencies, archive barriers, and a failed-search log.
+Do not repeat the broad Dulce overview.
 
 ## Current counts
 
 ```text
-Canonical reptilian seed records: 5
-Canonical serpent-tradition seed records: 6
-Religious motif candidates pending seed promotion: 1
-Canonical fusion seed records: 3
-Proposed Session 036 rows imported: 0
-Structurally valid Session 039 staging rows: 11
-Exact Doreal items promoted: 0
-Exact Grey/Reptilian hierarchy artifacts promoted: 0
-Verified Howard → Doreal edges: 0
-Verified media → conspiracy edges: 0
-AI entity/translation collapses blocked: 1
+Session 041 model variants: 3
+Candidate artifacts registered: 15
+Secure pre-1990 FULL artifacts: 0
+Pre-1990 C-bearing candidates: multiple
+Highest-priority FULL candidate: 1
+Parallel early-1990s candidate: 1
+Full-content undated/later candidates: 4+
+Canonical hierarchy edges: 0
+Bounded negative-evidence records: 1
 RQ-036: SEARCHING
 ```
