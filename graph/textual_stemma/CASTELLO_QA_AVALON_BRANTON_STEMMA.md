@@ -1,7 +1,7 @@
 # Castello Q&A — Avalon / Branton Textual Stemma
 
-> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, `DULCE-CAND-028`  
-> **Status:** distinct-state candidate; direction unresolved pending raw hashed corpus
+> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, `028`, `039`, `040`  
+> **Status:** direct Avalon Q&A state not reproducibly acquired; derivation unresolved
 
 ## Carrier nodes
 
@@ -11,147 +11,142 @@ CARRIER_NODES:
     date: NOVEMBER_2010
     date_basis: PROJECT_AVALON_THREAD_TIMESTAMPS
     carrier: THREAD_8393
-    direct_Hinkle_posts: PERSONAL_TESTIMONY_REPORTED
-    relay_QA_post: REPORTED_BY_POSTER_W
-    exact_post_ID: UNKNOWN
+    participant_testimony: CONFIRMED
+    QandA_body: DISPUTED_ACQUISITION_REPORTS
+    direct_Hinkle_QA: DISPUTED
+    W_relay_QA: DISPUTED
+    exact_decisive_post_ID: UNKNOWN
     raw_HTML_in_repository: false
 
-  - id: QA-BRANTON-CH11
-    date: SOFT_1996_OR_LATER_CARRIER_FAMILY
-    date_basis: COMPILATION_HEADER_AND_LATER_METADATA
-    carrier: DULCE_BOOK_CHAPTER_11_FAMILY
-    signed_editorial_notes: PRESENT
-    earliest_raw_state_in_repository: false
+  - id: QA-BRANTON-MIRROR-FAMILY
+    date: MULTIPLE_LATER_DATED_MIRRORS
+    date_basis: WEB_CARRIER_DATES
+    carrier: DULCE_BOOK_CHAPTER_11_DERIVATIVES
+    mature_hierarchy: CONFIRMED
+    signed_editorial_notes: PRESENT_IN_SOME_STATES
+    earliest_raw_source_state: NOT_ACQUIRED
+
+  - id: QA-BRANTON-EARLY-CARRIER-CLAIMS
+    date: 1991_CLAIMED_1996_SOFT
+    date_basis: INTERNAL_REFERENCE_HEADER_RETAILER_METADATA
+    carrier: UNKNOWN_OR_UNINSPECTED
+    status: NOT_ITEM_LEVEL_VERIFIED
 ```
 
-## Poster-layer model
+## Session 050 contradiction
 
 ```text
-Cherry Hinkle / Mystery direct posts
-        = participant testimony and source claims
+Acquisition A:
+no Q&A body found in the acquired Thread 8393 state
 
-`W` relay post
-        = Q&A text attributed to Cherry/Hinkle
+Acquisition B:
+Q&A body directly posted by Mystery/Hinkle
 
-Bill Ryan / moderator material
-        = forum framing and endorsement
-
-later mirrors
-        = derivative carrier family
+Earlier acquisitions:
+Q&A body relayed by unidentified W
 ```
 
-Do not collapse all thread content into `Hinkle wrote this post`.
+No decisive raw file, exact post ID or valid attached hash accompanies these claims.
 
-## Reported shared passage family
+```yaml
+AVALON_QA_STATE:
+  presence: DISPUTED
+  poster: UNKNOWN
+  hierarchy_text: NOT_CONFIRMED
+  stemmatic_use: BLOCKED
+```
 
-The acquisition returns report shared substance including:
+## Secure Branton-derived passage family
 
-- Draco as master(s) of levels 5–6–7;
-- worker-caste language;
+Later mirrors securely preserve:
+
+- Draco as masters of levels 5–6–7;
 - Karsh/Khaarshfashst;
-- Dulce laboratory and level descriptions;
-- Grey groups working for or controlled by Draco.
+- working-caste language;
+- `They work for, and are controlled by the Draco`;
+- Dulce laboratory and command structure.
 
-The exact `controlled by the Draco` sentence is reported present in the Avalon relay state but has not yet been stored with raw HTML, post ID and hash.
+One later mirror labels the control sentence `Q—` while the dominant mirror state labels it `A—`. This is tracked as a probable transcription/copying error.
 
-## Reported differences
+## Previously reported Avalon differences
 
-| Feature | Avalon relay state reported | Branton state reported | Current interpretation |
-|---|---|---|---|
-| number agreement | `Draco is ... master` | `Draco are ... masters` | possible editorial normalization or variant copy |
-| Nordic parenthetical | absent | present and signed `– Branton` | confirmed Branton layer where present |
-| emphasis | lowercase `argue` | uppercase `ARGUE` | possible editor/format layer |
-| pronunciation delimiters | round brackets | square brackets | weak stemmatic signal |
-| quotation marks | fewer | more | weak stemmatic signal |
+Earlier acquisitions reported:
+
+| Feature | Alleged Avalon state | Branton-derived state |
+|---|---|---|
+| number agreement | `Draco is ... master` | `Draco are ... masters` |
+| Nordic parenthetical | absent | present and signed `– Branton` |
+| emphasis | lowercase | uppercase |
+| pronunciation delimiters | round brackets | square brackets |
+| quotation marks | fewer | more |
+
+Because the alleged Avalon body is not reproducibly stored, these remain **reported candidate differences**, not a validated stemmatic matrix.
 
 ## Hypothesis matrix
 
 ```yaml
 H1_AVALON_FROM_BRANTON:
-  support:
-    - 2010 postdates the softly attested Branton carrier family
-    - a relay poster could remove comments or normalize a copied text
-  counterevidence:
-    - reported omission of signed Branton material
-    - systematic simpler rendering reported
-  status: PLAUSIBLE_NOT_EXCLUDED
+  status: UNTESTABLE_UNTIL_AVALON_QA_ACQUIRED
 
 H2_BRANTON_FROM_AVALON_LIKE_SOURCE:
-  support:
-    - signed Branton addition in one state
-    - reported editorial normalization and stylistic additions
-  limitation:
-    - Avalon 2010 itself postdates Branton carrier claims
-    - no earlier Avalon-like object acquired
-  status: PLAUSIBLE_DIRECTIONALLY_SUPPORTED
+  status: UNTESTABLE_UNTIL_AVALON_QA_ACQUIRED
 
 H3_COMMON_ANCESTOR:
-  support:
-    - explains shared wording plus divergent editorial states
-  limitation:
-    - ancestor not acquired
-  status: PLAUSIBLE
+  status: POSSIBLE_BUT_UNTESTED
 
 H4_RENDERING_ONLY:
-  support:
-    - punctuation, brackets and capitalization can change in web copying
-  counterevidence:
-    - signed Branton parenthetical is an actual content layer
-  status: INSUFFICIENT_AS_COMPLETE_EXPLANATION
+  status: UNTESTABLE_FOR_AVALON_COMPARISON
 ```
 
-## Current stemma
+The signed Branton parenthetical proves a Branton editorial layer where it appears. It does not identify the source state or date the underlying answer text.
+
+## Related artifact-family context
 
 ```text
-UNKNOWN Q&A SOURCE STATE
-        |
-        |------------------------------|
-        |                              |
-Avalon-associated relay state      Branton Chapter 11 state
-publicly carried Nov. 2010         soft date / carrier conflict
-        |                              |
-possible simplified or source-like     signed notes + editorial markup
-rendering                             
+1987 Dulce Papers drawings/enclosures
+        ≠
+later mature interview Q&A
 ```
 
-Arrow direction between the two branches is not established.
+Read: `graph/artifact_families/DULCE_PAPERS_VS_CASTELLO_QA.md`.
 
-## Hierarchy-development context
-
-A separate conceptual progression is preserved:
+## Conceptual development context
 
 ```text
-LeVesque/Bishop 1989 reported:
+1989 reported LeVesque/Bishop:
 Grey mercenary agency for Draco + Grey/Reptoid alliance/tension
         ↓
-LeVesque `Pasturing and Use...` / Matrix II 1990 reported:
-Draco elite + reptilian castes + Grey mercenaries
+1990 reported intermediate layer:
+Draco elite/castes + Grey mercenaries
         ↓
 unknown-date mature Q&A:
-explicit control + Karsh + level assignments + undisputed mastery
+explicit control + Karsh + level assignments
 ```
 
-This is a development-of-ideas model, not a proven direct textual chain.
+This is an idea-development candidate, not a textual stemma.
 
 ## Promotion requirements
 
-1. complete raw Thread 8393 HTML and archive captures;
-2. exact `W` post ID, timestamp and identity evidence;
-3. diplomatic extraction of the complete relay Q&A;
+1. complete raw Thread 8393 capture across all pages/views;
+2. exact Q&A post ID, poster, timestamp and HTML;
+3. valid hashes tied to committed raw bytes;
 4. raw earliest Branton carriers;
-5. cryptographic hashes;
-6. deterministic raw, normalized and sentence-order diffs;
-7. copied-error analysis;
-8. carrier chronology independent of compilation claims.
+5. diplomatic and normalized transcriptions;
+6. deterministic character, sentence and order diffs;
+7. capture chronology independent of claimed publication dates.
 
 ## Current decision
 
 ```yaml
-distinct_textual_state: STRONG_CANDIDATE
+Avalon_thread_date: CONFIRMED
+Avalon_QA_presence: DISPUTED
+Avalon_QA_poster: UNKNOWN
+controlled_by_sentence_in_Avalon: NOT_CONFIRMED
+mature_Branton_mirror_family: CONFIRMED
 Branton_signed_editorial_layer: CONFIRMED_WHERE_PRESENT
-controlled_by_sentence_in_Avalon: REPORTED_PENDING_RAW_CAPTURE
+Q_A_label_variant: PROBABLE_COPYING_ERROR
 derivation_direction: UNRESOLVED
-common_ancestor: PLAUSIBLE
+common_ancestor: POSSIBLE
 first_composition: UNKNOWN
 canonical_stemma_edge: false
 ```
