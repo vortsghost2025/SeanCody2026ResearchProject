@@ -4,43 +4,65 @@
 BRIDGE_CANDIDATE:
   id: BRIDGE-036-001
   title: "Modern reptilian synthesis → Grey/Reptilian underground-base hierarchy"
-  status: OPEN_HIGH_PRIORITY
+  status: SUPPORTED_COMPILATIONAL_FUSION_EARLIEST_FULL_OPEN
   related_question: RQ-036
 
   endpoints:
-    - object_type: OCCULT_AND_FICTIONAL_REPTILIAN_MOTIFS
-      role: SOURCE_POOL
-    - object_type: UFO_AND_UNDERGROUND_BASE_NARRATIVES
-      role: FUSION_ENVIRONMENT
-    - object_type: POLITICAL_REPTILIAN_CONSPIRACY
-      role: LATER_SYNTHESIS
+    - object_type: PROTO_DULCE_BASE_TREATY_EXPERIMENT_NARRATIVE
+      role: C_CORE
+    - object_type: REPTILIAN_DRACONIAN_AUTHORITY_AND_GREY_SUBORDINATION
+      role: A_B_HIERARCHY
+    - object_type: EARLY_1990S_NEWSLETTER_MAGAZINE_BOOK_BBS_ENVIRONMENT
+      role: SUSPECTED_FUSION_CARRIER
+    - object_type: LATER_POLITICAL_REPTILIAN_CONSPIRACY
+      role: DOWNSTREAM_SYNTHESIS
 
-  suspected_mechanisms:
+  supported_mechanisms:
     - EDITORIAL_SYNTHESIS
     - SHARED_INFRASTRUCTURE
-    - LEXICAL_MIGRATION
-    - ICONOGRAPHIC_MIGRATION
-    - RETROACTIVE_FUSION
-    - TECHNOLOGIZATION
-    - EXTRATERRESTRIALIZATION
+    - COMPILATION
+    - RETROACTIVE_BACKDATING
+    - BBS_AND_NEWSLETTER_DISTRIBUTION
     - INTERNET_AMPLIFICATION
 
-  highest_value_claim: >
-    A late-1980s or early-1990s lecture, newsletter, manuscript, pamphlet,
-    conference recording, or BBS text may be the earliest recoverable artifact
-    explicitly ranking reptilian or Draconian beings above Greys inside a
-    Dulce/underground-base/treaty/genetic-experiment system.
+  split_finding:
+    early_1980s_to_1988: >
+      Acquired Bennewitz, Doty/Moore, Lear and early Cooper materials repeatedly
+      support underground-base, treaty, experiment and secret-program content,
+      but do not securely establish reptilian/Draconian authority over subordinate Greys.
+    circa_1990_to_1991: >
+      TAL/Jason Bishop, Matrix II, Castello and early Branton source families are
+      the first currently identified environment in which the full A+B+C structure
+      appears in surviving or reported forms.
+    later_1990s: >
+      Branton/Castello compilations circulate the mature hierarchy widely and may
+      retrospectively attribute it to earlier actors or alleged events.
 
-  provisional_search_target: >
-    Bruce Alan Walton / Branton material is presently the strongest model-generated
-    search hypothesis for a FULL hierarchy, while Bennewitz, Lear, and Cooper remain
-    earlier proto- or partial-source families. This is not first-source evidence.
+  highest_priority_candidate:
+    id: DULCE-CAND-010
+    attribution: "TAL LeVesque / Jason Bishop III"
+    title: "The Covert Return of an Alien Species of Reptilian Heritage — The Dulce Base"
+    reported_carrier: "UFO Universe, Feb–Mar 1991"
+    status: FULL_CANDIDATE_PENDING_PRIMARY_ISSUE_SCAN
 
-  evidence_class: C
-  confidence: HIGH_FOR_RESEARCH_VALUE_LOW_FOR_FIRST_SOURCE_CLAIM
+  parallel_candidate:
+    id: DULCE-CAND-009
+    title: "Matrix II"
+    attribution: "Valdamar Valerian / Leading Edge Research"
+    reported_date: "1990–1991"
+    status: UNKNOWN_HIGH_PRIORITY_PENDING_EXACT_EDITION_AND_PAGES
+
+  evidence_class:
+    split_pattern: B
+    exact_first_full_artifact: C
+
+  confidence:
+    compilational_fusion: MEDIUM_HIGH
+    exact_origin: LOW
+
   generated_session: SESSION_036
-  updated_session: SESSION_038
-  last_reviewed: 2026-07-14
+  updated_session: SESSION_041
+  last_reviewed: 2026-07-15
 ```
 
 ## Decisive hierarchy test
@@ -48,168 +70,137 @@ BRIDGE_CANDIDATE:
 ```text
 A = reptilian / Draconian authority
 B = Greys subordinate, created, controlled, or serving
-C = underground base, treaty, genetic experiment, or secret-program context
+C = underground base, treaty, genetic experiment, or secret program
 ```
 
-Classify each exact artifact separately:
-
 ```text
-FULL       = A + B + C in one dated primary artifact
+FULL       = A + B + C in one securely dated primary artifact
 PARTIAL-AB = A + B only
 PARTIAL-BC = B + C only
 PARTIAL-AC = A + C only
-NOT-MET    = exact artifact acquired but required structure absent
-UNKNOWN    = inaccessible, undated, or represented only by later summary
+PARTIAL-C  = C only
+NOT-MET    = exact artifact checked; required structure absent
+UNKNOWN    = inaccessible, undated, version-unclear, or represented by later summary
 ```
 
-A secondary summary cannot establish `FULL` status.
+A secondary summary cannot establish `FULL`.
 
-## Provisional candidate ladder
+## Semantic guardrails established in Session 041
 
-This ladder determines search order only:
+### Grey presence is not B
 
-| Source family | Provisional role | Required correction test |
+The following do not establish Grey subordination:
+
+- Greys being present at a base;
+- humans cooperating with Greys;
+- internal Grey types;
+- Greys abducting humans;
+- Greys creating drones or biological servants.
+
+B requires explicit subordination, creation, control or service beneath a distinct authority.
+
+### `Reptilian skin` is not A
+
+A morphology adjective attached to a Grey does not establish:
+
+- a separate reptilian group;
+- a Draconian ruling caste;
+- authority over Greys.
+
+## Current source-family result
+
+| Source family | Current result | Boundary |
 |---|---|---|
-| Paul Bennewitz, early 1980s | proto-Dulce base / surveillance / alien-conflict source | Does any exact Bennewitz artifact contain A, B, or C, and which details entered only through intermediaries? |
-| John Lear, 1987–1988 | treaty + underground-base + Greys candidate | Does one exact dated Lear artifact contain explicit reptilian/Draconian command over Greys? |
-| Bill Cooper, circa 1989 | Grey / treaty / secret-government hierarchy-adjacent candidate | Does one exact Cooper item contain A + B + C, or is that structure reconstructed by later summaries? |
-| Bruce Alan Walton / Branton, early 1990s | strongest provisional FULL-chain candidate | Locate the earliest exact newsletter, manuscript, pamphlet, book, tape, or BBS version and test for earlier dependencies. |
-| other or earlier source | open correction lane | Search conference, mail-order, contactee, occult, or intelligence-rumor material that predates the named candidates. |
+| McCampbell–Bennewitz transcript, reported 1984 | `PARTIAL-C_CANDIDATE` | clean transcript/audio chain not acquired |
+| Bennewitz / Project Beta | `PARTIAL-C` | surviving versions may contain later compiler insertions |
+| Doty/Moore / Aquarius materials | `PARTIAL-C_OR_UNKNOWN` | primary versions and exact wording incomplete |
+| Lear letter and public statement, 1987–1988 | `PARTIAL-C` | no secure A or B in recovered wording |
+| Cooper, 1988–1991 | `PARTIAL-C_OR_UNKNOWN` | exact early BBS text incomplete; book page audit open |
+| *Matrix II*, reported 1990–1991 | `FULL_OR_PARTIAL_CANDIDATE` | exact edition and pages absent |
+| TAL / Jason Bishop article, reported 1991 | `FULL_CANDIDATE_HIGHEST_PRIORITY` | exact magazine issue and pages absent |
+| Castello Q&A | `FULL_CONTENT_UNDATED` | identity, date, authorship and earliest text unresolved |
+| Branton, *The Dulce Book* | `FULL_CONTENT_DATE_UNRESOLVED` | first BBS/manuscript version not recovered |
+| `Galactic Races` | `UNKNOWN` | authorship and date unresolved |
+| Branton, *The Dulce Wars* | `FULL_CONTENT_LATE_PRINT` | too late to establish fusion origin; edition date disputed |
 
-No candidate is the origin until one exact artifact survives the earlier-source test.
+Read the full candidate registry:
 
-## Candidate strata
+- `graph/chronologies/DULCE-HIERARCHY-CANDIDATE-REGISTRY.md`
+
+## Supported working model
 
 ```text
-culture-specific serpent traditions
-        ↓ later reinterpretation, not direct lineage
-Theosophy / lost-race occultism
-        ↓ possible literary transmission
-Howard and weird-fiction serpent infiltrators
-        ↓ possible occult/pulp uptake
-Doreal and related occult pamphlets
+C-core:
+Dulce + secret program + Greys/EBEs + treaty/experiments
         ↓
-UFO-contact / abduction / underground-base literature
-        ↓ proposed late-1980s or early-1990s hierarchy fusion
-Greys subordinate to reptilian / Draconian authorities
+A/B source material:
+reptilian/Draconian authority + Grey worker/created roles
         ↓
-contactee cosmic hierarchies and political bloodline synthesis
+early-1990s magazine/newsletter/book/BBS compilation
+        ↓
+FULL A+B+C hierarchy
+        ↓
+later retellings backdate the mature hierarchy to earlier alleged events
 ```
 
-No full chain is verified.
+This is a model to test, not a completed lineage.
 
-## Evidence for
+## Evidence against a simple origin story
 
-- exact modern publications exist at several stages;
-- underground-base literature demonstrably combines formerly separate motifs;
-- photocopied newsletters, lectures, conference tapes, mail-order books, and BBS files are plausible hidden carriers;
-- later internet compilations repeatedly present a Grey/Reptilian hierarchy as if it were one established tradition;
-- the candidate source families are narrow enough for item-level falsification.
+- no securely dated pre-1990 FULL artifact was produced by three independent acquisitions;
+- early source families repeatedly preserve C while lacking explicit A+B;
+- the same later Castello/Branton wording appears through multiple derivative mirrors;
+- alleged event dates are frequently substituted for composition or publication dates;
+- late compilations cite or summarize several earlier partial traditions;
+- candidate identities and pseudonyms may not represent independent sources.
 
-## Evidence against
+Read:
 
-- ancient serpent traditions have distinct functions and no original alien-species claim;
-- Howard, Doreal, *V*, Dulce literature, Collier, and Icke may share broad genre solutions without direct transfer;
-- late compilations may falsely backdate hierarchy details;
-- Bennewitz, Doty, Moore, Lear, Cooper, and Walton/Branton material are frequently conflated;
-- one linear source chain may be an artifact of later synthesis;
-- an exact earliest `FULL` hierarchy document has not yet been produced.
-
-## Required source splits
-
-### Doreal
-
-Separate:
-
-- exact *Mysteries of the Gobi* artifact;
-- exact *Emerald Tablets of Thoth the Atlantean* edition;
-- serpent-race passage;
-- publication date;
-- claimed Howard influence;
-- later Icke use.
-
-### Dulce-era actors
-
-Keep separate:
-
-- Paul Bennewitz claims and documents;
-- Richard Doty / intelligence-related interactions;
-- William Moore publications and statements;
-- John Lear lectures and statements;
-- Bill Cooper material;
-- Bruce Walton / Branton newsletters, manuscripts, books, tapes, and BBS circulation;
-- later web compilations.
-
-### Mass media
-
-The 1983 miniseries *V* can be a visual carrier only where direct exposure or distinctive reuse is documented.
-
-## Artifact-record requirement
-
-Every candidate must receive one `DULCE-CAND-###` record containing:
-
-- exact artifact title/event;
-- creator or speaker;
-- medium;
-- exact date and date basis;
-- venue, publisher, or distributor;
-- page or timestamp;
-- earliest surviving copy;
-- stable archive or source locator;
-- exact hierarchy wording;
-- source status;
-- hierarchy status;
-- dependencies and later reuse;
-- evidence against first-source status;
-- failed searches and archive barriers.
-
-Read: `research_inbox/SESSION_038_COPILOT_CANDIDATE_FRAME.md` and `research_inbox/SESSION_038_REPTILIAN_DULCE_FUSION_BRIEF.md`.
+- `data/negative_evidence/NEG-036-001-PRE-1990-FULL-HIERARCHY.md`
+- `reports/SESSION_041_DULCE_HIERARCHY_CROSS_VARIANT_QC.md`
 
 ## Promotion tests
 
-1. Locate the earliest exact Grey/Reptilian hierarchy artifact.
-2. Transcribe the hierarchy language with page or timestamp.
-3. Establish creator, date, date basis, publisher/distributor, venue, and earliest surviving copy.
-4. Search earlier Lear, Cooper, Bennewitz, Doty/Moore, Walton/Branton, conference, and BBS material.
-5. Identify repeated unusual terms, species names, diagrams, numerical claims, or errors across later versions.
-6. Compare source lists and acknowledgements.
-7. Test whether later Collier, Icke, or contactee material directly cites the underground-base sources.
-8. Distinguish earliest `PARTIAL` from earliest `FULL`.
-9. Preserve harmful political and antisemitic transformations as a separate documented layer.
+1. Acquire the exact reported Feb–Mar 1991 *UFO Universe* issue.
+2. Verify masthead, contents, article byline, pages and A+B+C wording.
+3. Acquire the claimed earlier Patrick O'Connell mailer.
+4. Acquire the earliest exact edition of *Matrix II*.
+5. Compare primary texts against later Branton and web versions.
+6. Identify additions, omissions, title mutations, species-name changes and copied errors.
+7. Separate earliest `PARTIAL-C`, earliest `PARTIAL-AB`, and earliest `FULL`.
+8. Search earlier conference, newsletter, tape and BBS material when a source list points to it.
+9. Preserve political and antisemitic transformations as a separate downstream layer.
 
-## Rejection and split outcomes
+Execute:
 
-Valid outcomes include:
+- `research_inbox/SESSION_042_DULCE_1990_1991_PRIMARY_ARTIFACT_BRIEF.md`
 
-- `LATE_COMPILATION_MISTAKEN_FOR_ORIGIN`;
-- `MULTIPLE_PARALLEL_FUSIONS`;
-- `SHARED_GENRE_MOTIF_WITHOUT_CONTACT`;
-- `MEDIA_EXPOSURE_ONLY`;
-- `PARTIAL_PUBLISHING_NETWORK`;
-- `PROTO_DULCE_WITHOUT_HIERARCHY`;
-- `EARLIEST_PARTIAL_ONLY`;
-- `UNKNOWN`.
+## Valid outcomes
 
-A useful negative result may be:
-
-```text
-several independent PARTIAL source families
-        ↓
-late compiler combines them
-        ↓
-combined hierarchy is retrospectively attributed to earlier actors
-```
+- `UFO_UNIVERSE_1991_FULL_CONFIRMED`
+- `MATRIX_II_EARLIER_FULL_CONFIRMED`
+- `O_CONNELL_MAILER_EARLIER_FULL_CONFIRMED`
+- `LATE_COMPILATION_MISTAKEN_FOR_ORIGIN`
+- `MULTIPLE_PARALLEL_FUSIONS`
+- `PROTO_DULCE_WITHOUT_HIERARCHY`
+- `EARLIEST_PARTIAL_ONLY`
+- `PRIMARY_ARTIFACT_NOT_RECOVERED`
+- `UNKNOWN`
 
 ## Allowed synthesis language
 
 Allowed:
 
-> Late-twentieth-century underground-base and contactee publishing appears to be a major environment in which Grey and reptilian motifs were fused. Walton/Branton material is a strong provisional search target for the earliest explicit full hierarchy, but the first item-level artifact remains unidentified.
+> The acquired 1980s sources support a proto-Dulce base/treaty/experiment narrative but do not securely establish a reptilian authority over subordinate Greys. The full hierarchy appears in surviving early-1990s compilational material, with a reported 1991 TAL/Jason Bishop magazine article now the highest-priority exact-source candidate.
 
 Not allowed:
 
-> Branton created the hierarchy.
+> Branton invented the hierarchy.
 
 or:
 
-> An ancient reptilian hierarchy was independently confirmed by multiple witnesses.
+> No pre-1990 version existed.
+
+or:
+
+> Multiple independent witnesses confirmed a Draco-over-Grey hierarchy.
