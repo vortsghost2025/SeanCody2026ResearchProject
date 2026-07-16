@@ -1,152 +1,187 @@
 # Castello Q&A — Avalon / Branton Textual Stemma
 
-> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, `028`, `039`, `040`  
-> **Status:** direct Avalon Q&A state not reproducibly acquired; derivation unresolved
+> **Related:** `RQ-036`, `BRIDGE-036-001`, `DULCE-CAND-012`, `013`, `047`  
+> **Status:** Branton-edited carrier family expanded; unedited source ancestor and derivation direction unresolved
 
 ## Carrier nodes
 
 ```yaml
 CARRIER_NODES:
+  - id: QA-SOURCE-UNKNOWN
+    date: UNKNOWN
+    carrier: UNRECOVERED_QA_SOURCE
+    content: MATURE_HIERARCHY_PRESUMED_FROM_DESCENDANTS
+
+  - id: QA-COSCON34
+    date: UNKNOWN
+    carrier:
+      - COSCON34.TXT
+      - COSCON34_HTML_RENDERING
+    mature_hierarchy: PRESENT
+    Branton_editorial_parentheticals: PRESENT
+    classification: BRANTON_EDITED_CARRIER
+    unedited_pre_Branton_source: false
+
+  - id: QA-BRANTON-1996-FAMILY
+    date: OCTOBER_1996_SELF_DATE_ENVIRONMENT
+    carrier: DULCE_BOOK_DULCE_WARS_FAMILY
+    mature_hierarchy: PRESENT
+    signed_editorial_notes: PRESENT
+    exact_first_publication: NOT_ACQUIRED
+    title_identity: OPEN
+
   - id: QA-AVALON-2010-THREAD
     date: NOVEMBER_2010
-    date_basis: PROJECT_AVALON_THREAD_TIMESTAMPS
     carrier: THREAD_8393
     participant_testimony: CONFIRMED
     QandA_body: DISPUTED_ACQUISITION_REPORTS
-    direct_Hinkle_QA: DISPUTED
-    W_relay_QA: DISPUTED
     exact_decisive_post_ID: UNKNOWN
     raw_HTML_in_repository: false
 
-  - id: QA-BRANTON-MIRROR-FAMILY
-    date: MULTIPLE_LATER_DATED_MIRRORS
-    date_basis: WEB_CARRIER_DATES
-    carrier: DULCE_BOOK_CHAPTER_11_DERIVATIVES
+  - id: QA-LATER-MIRROR-FAMILY
+    date: MULTIPLE_LATER_DATED_WEB_CARRIERS
     mature_hierarchy: CONFIRMED
-    signed_editorial_notes: PRESENT_IN_SOME_STATES
-    earliest_raw_source_state: NOT_ACQUIRED
-
-  - id: QA-BRANTON-EARLY-CARRIER-CLAIMS
-    date: 1991_CLAIMED_1996_SOFT
-    date_basis: INTERNAL_REFERENCE_HEADER_RETAILER_METADATA
-    carrier: UNKNOWN_OR_UNINSPECTED
-    status: NOT_ITEM_LEVEL_VERIFIED
+    QA_label_branches:
+      - Q
+      - A
 ```
 
-## Session 050 contradiction
+## COSCON34 closure
+
+The surviving COSCON34 state contains Branton editorial material.
 
 ```text
-Acquisition A:
-no Q&A body found in the acquired Thread 8393 state
-
-Acquisition B:
-Q&A body directly posted by Mystery/Hinkle
-
-Earlier acquisitions:
-Q&A body relayed by unidentified W
+old-looking plain-text carrier
+        +
+Branton editorial parentheticals
+        ↓
+Branton-edited or Branton-derived state
 ```
 
-No decisive raw file, exact post ID or valid attached hash accompanies these claims.
+Therefore:
+
+```yaml
+COSCON34_IS_UNEDITED_PRE_BRANTON_ANCESTOR: EXCLUDED
+```
+
+This does not determine whether COSCON34 preceded the October 1996 compilation, was exported from a contemporary working file, or was extracted later.
+
+Read: `graph/textual_stemma/COSCON34_BRANTON_CARRIER.md`.
+
+## Revised stemma
+
+```text
+UNKNOWN MATURE Q&A SOURCE STATE
+        ↓
+BRANTON EDITORIAL INTERVENTION
+        ↓
+        |-------------------------------|
+        |                               |
+COSCON34 carrier                 Dulce Book / Dulce Wars family
+unknown date                     October 1996 self-date environment
+        |                               |
+        |-------------------------------|
+                        ↓
+              later derivative mirrors
+```
+
+The relation between COSCON34 and any specific 1996 edition is unresolved.
+
+## Avalon status
 
 ```yaml
 AVALON_QA_STATE:
-  presence: DISPUTED
+  thread_date: CONFIRMED
+  participant_testimony: CONFIRMED
+  QandA_presence: DISPUTED
   poster: UNKNOWN
   hierarchy_text: NOT_CONFIRMED
   stemmatic_use: BLOCKED
 ```
 
-## Secure Branton-derived passage family
+No raw decisive post has been stored.
 
-Later mirrors securely preserve:
+## Date-layer boundary
 
-- Draco as masters of levels 5–6–7;
-- Karsh/Khaarshfashst;
-- working-caste language;
-- `They work for, and are controlled by the Draco`;
-- Dulce laboratory and command structure.
+```text
+1991 quoted/source-material date
+        ≠
+1991 compilation carrier date
+```
 
-One later mirror labels the control sentence `Q—` while the dominant mirror state labels it `A—`. This is tracked as a probable transcription/copying error.
+The surviving Branton family supports an October 1996 compilation self-date. The first public carrier may be earlier, but no item-level BBS or manuscript record establishes it.
 
-## Previously reported Avalon differences
+## Q/A-label branches
 
-Earlier acquisitions reported:
+Both `Q—` and `A—` survive for the control sentence in later carriers.
 
-| Feature | Alleged Avalon state | Branton-derived state |
-|---|---|---|
-| number agreement | `Draco is ... master` | `Draco are ... masters` |
-| Nordic parenthetical | absent | present and signed `– Branton` |
-| emphasis | lowercase | uppercase |
-| pronunciation delimiters | round brackets | square brackets |
-| quotation marks | fewer | more |
+```yaml
+QA_LABEL:
+  Q_branch: MULTIPLE_DERIVATIVES_REPORTED
+  A_branch: MULTIPLE_DERIVATIVES_REPORTED
+  structural_reading: A_MORE_COHERENT
+  earliest_state: UNKNOWN
+  stemmatic_weight: LOW_WITHOUT_DATED_CARRIER
+```
 
-Because the alleged Avalon body is not reproducibly stored, these remain **reported candidate differences**, not a validated stemmatic matrix.
+## Matrix II contextual branch
+
+The 1990 first edition is reported as 458 pages, while the inspected 1991 third edition is substantially longer. The intermediate hierarchy passage cannot be assigned to 1990 until the first edition is inspected.
+
+```text
+1989 proto-hierarchy
+        ↓
+1990 or 1991 intermediate hierarchy
+        ↓
+unknown mature Q&A source
+```
+
+This is conceptual development, not the Q&A carrier stemma itself.
 
 ## Hypothesis matrix
 
 ```yaml
-H1_AVALON_FROM_BRANTON:
+H1_COSCON34_FROM_1996_COMPILATION:
+  status: PLAUSIBLE
+
+H2_1996_COMPILATION_FROM_COSCON34:
+  status: PLAUSIBLE_ONLY_IF_COSCON34_IS_EARLIER_BRANTON_WORKING_EXPORT
+
+H3_COSCON34_AND_1996_FROM_SHARED_BRANTON_FILE:
+  status: PLAUSIBLE
+
+H4_COSCON34_PRE_BRANTON_UNEDITED_SOURCE:
+  status: EXCLUDED
+
+H5_AVALON_FROM_BRANTON:
   status: UNTESTABLE_UNTIL_AVALON_QA_ACQUIRED
 
-H2_BRANTON_FROM_AVALON_LIKE_SOURCE:
-  status: UNTESTABLE_UNTIL_AVALON_QA_ACQUIRED
-
-H3_COMMON_ANCESTOR:
-  status: POSSIBLE_BUT_UNTESTED
-
-H4_RENDERING_ONLY:
-  status: UNTESTABLE_FOR_AVALON_COMPARISON
+H6_COMMON_PRE_BRANTON_QA_ANCESTOR:
+  status: POSSIBLE_NOT_ACQUIRED
 ```
-
-The signed Branton parenthetical proves a Branton editorial layer where it appears. It does not identify the source state or date the underlying answer text.
-
-## Related artifact-family context
-
-```text
-1987 Dulce Papers drawings/enclosures
-        ≠
-later mature interview Q&A
-```
-
-Read: `graph/artifact_families/DULCE_PAPERS_VS_CASTELLO_QA.md`.
-
-## Conceptual development context
-
-```text
-1989 reported LeVesque/Bishop:
-Grey mercenary agency for Draco + Grey/Reptoid alliance/tension
-        ↓
-1990 reported intermediate layer:
-Draco elite/castes + Grey mercenaries
-        ↓
-unknown-date mature Q&A:
-explicit control + Karsh + level assignments
-```
-
-This is an idea-development candidate, not a textual stemma.
 
 ## Promotion requirements
 
-1. complete raw Thread 8393 capture across all pages/views;
-2. exact Q&A post ID, poster, timestamp and HTML;
-3. valid hashes tied to committed raw bytes;
-4. raw earliest Branton carriers;
-5. diplomatic and normalized transcriptions;
-6. deterministic character, sentence and order diffs;
-7. capture chronology independent of claimed publication dates.
+1. recover original COSCON34 file bytes and BBS metadata;
+2. identify file timestamp, archive path, sysop/uploader and neighboring files;
+3. acquire the exact October 1996 carrier containing the Branton sign-off;
+4. compare *The Dulce Book* and *The Dulce Wars* item by item;
+5. acquire any earlier mature Q&A without Branton editorial content;
+6. acquire complete raw Thread 8393 if Avalon remains relevant;
+7. run diplomatic and normalized diffs.
 
 ## Current decision
 
 ```yaml
-Avalon_thread_date: CONFIRMED
+mature_QA_family: CONFIRMED
+COSCON34_Branton_edited: CONFIRMED
+COSCON34_pre_Branton_ancestor: false
+COSCON34_date: UNKNOWN
+October_1996_compilation_self_date: SUPPORTED
+Dulce_Book_Wars_identity: OPEN
 Avalon_QA_presence: DISPUTED
-Avalon_QA_poster: UNKNOWN
-controlled_by_sentence_in_Avalon: NOT_CONFIRMED
-mature_Branton_mirror_family: CONFIRMED
-Branton_signed_editorial_layer: CONFIRMED_WHERE_PRESENT
-Q_A_label_variant: PROBABLE_COPYING_ERROR
+first_unedited_QA_source: UNKNOWN
+first_mature_carrier: UNKNOWN
 derivation_direction: UNRESOLVED
-common_ancestor: POSSIBLE
-first_composition: UNKNOWN
 canonical_stemma_edge: false
 ```
