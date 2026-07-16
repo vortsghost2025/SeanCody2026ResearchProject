@@ -18,7 +18,7 @@ C = underground base, treaty, genetic experiment or secret program
 
 ## Candidate table
 
-| ID | Exact candidate | Reported date | Source status | Relationship result | Current hierarchy result | Main barrier |
+| ID | Exact candidate | Reported date | Source status | Relationship result | Current hierarchy/provenance result | Main barrier |
 |---|---|---:|---|---|---|---|
 | `DULCE-CAND-001` | McCampbell–Bennewitz conversation transcript | 1984-07-13 | `CONTEMPORARY_TRANSCRIPT_LEAD` | C only | `PARTIAL-C_CANDIDATE` | clean transcript/audio chain not acquired |
 | `DULCE-CAND-002` | George C. Andrews, *Extra-Terrestrials Among Us* | 1986 | `PRIMARY_ITEM_METADATA_ONLY` | unknown | `UNKNOWN` | primary text not inspected |
@@ -31,7 +31,7 @@ C = underground base, treaty, genetic experiment or secret program
 | `DULCE-CAND-009` | Valdamar Valerian, *Matrix II* | first edition reported 1990; inspected third edition 1991 | `CONFIRMED_PRIMARY_FOR_1991_THIRD_EDITION` | Reptilian elite; different creator of Greys; Reptilians as Grey enemies | `PARTIAL-AC_OPPOSITIONAL` | 1990 first edition unavailable |
 | `DULCE-CAND-010` | Hamilton + LeVesque, `The Deep Dark Secret at Dulce`, *UFO Universe* | reported Feb–Mar 1991 | `SECONDARY_TRANSCRIPTION_PENDING_MAGAZINE_SCAN` | reptilian presence + C; B absent | `PARTIAL-C_WITH_REPTILIAN_PRESENCE` | clean magazine text absent |
 | `DULCE-CAND-011` | TAL LeVesque, `The Covert Return...`, Patrick O'Connell mailer | date unknown; July 1990 claim unverified | `LATE_TRANSCRIPTION_OF_UNRECOVERED_MAILER` | Grey mercenary use implied in reptilian context | `FULL_LINKED_CANDIDATE_UNDATED_UNVERIFIED` | original mailer/date absent |
-| `DULCE-CAND-012` | Castello/Branton Q&A, `A Dulce Base Security Officer Speaks Out` | composition and first carrier unknown | `DERIVATIVE_TEXT_WITNESS_FAMILY` | explicit Draco control of Grey/worker groups inside Dulce system | `FULL_LINKED_CHAIN_AT_TEXT_LEVEL_DATE_UNRESOLVED` | first exact carrier, date and authorship unresolved |
+| `DULCE-CAND-012` | Castello/Branton Q&A, `A Dulce Base Security Officer Speaks Out` | composition and first carrier unknown | `DERIVATIVE_TEXT_WITNESS_FAMILY` | explicit Draco control of Grey/worker groups inside Dulce system | `FULL_LINKED_CHAIN_AT_TEXT_LEVEL_PERSONA_UNVERIFIED` | first exact carrier, date, historical speaker and authorship shares unresolved |
 | `DULCE-CAND-013` | Branton, *The Dulce Book* | 1991 claimed; 1996 softly attested | `CARRIER_DATE_CONFLICT` | contains mature Q&A hierarchy in later copies | `SOFT_1996_CARRIER_LEAD_NOT_SECURE_FIRST` | no original 1991 file or physical 1996 first edition inspected |
 | `DULCE-CAND-014` | `Galactic Races` hosted text | unknown | `UNVERIFIED_CLAIM` | near-linked hierarchy language | `UNKNOWN` | originating file/date unknown |
 | `DULCE-CAND-015` | Branton, *The Dulce Wars* | 1996/1999/later conflict | `LATE_PRINT_VERSION_CONFLICT` | mature linked chain reported | `FULL_CONTENT_LATE_PRINT` | first-edition pages and date unresolved |
@@ -40,13 +40,15 @@ C = underground base, treaty, genetic experiment or secret program
 | `DULCE-CAND-017B` | Hamilton, *Alien Magic: UFO Crashes, Abductions & Underground Bases* | 1996 | `LATER_EDITION_LEAD` | later carrier not audited | `LATE_COMPARISON_OBJECT` | cannot project wording backward |
 | `DULCE-CAND-018` | Hamilton, *Cosmic Top Secret* | reported 1991 | `UNVERIFIED_CLAIM` | unknown | `UNKNOWN` | exact object/pages absent |
 | `DULCE-CAND-019` | Penny Harper / *Whole Life Times* item | reported 1990 | `UNVERIFIED_CLAIM` | C reported; A→B unknown | `UNKNOWN_DEPRIORITIZED` | no title, issue or pages found |
-| `DULCE-CAND-020` | NARG newsletter issue containing TAL contribution | undated | `DEALER_METADATA_ONLY` | unknown | `UNKNOWN_SHARED_INFRASTRUCTURE_LEAD` | issue/date/article/pages absent |
+| `DULCE-CAND-020` | NARG / *Leading Edge* issue containing TAL contribution | undated | `DEALER_METADATA_ONLY` | unknown | `UNKNOWN_SHARED_INFRASTRUCTURE_LEAD` | issue/date/article/pages absent |
 | `DULCE-CAND-021` | Castello-attributed documents reported circa 1987 | later secondary report | `UNVERIFIED_SECONDARY_LEAD` | linked chain unknown | `UNKNOWN` | no exact object or primary text |
-| `DULCE-CAND-022` | Castello-to-Bishop letter | Sept. 1990 reported | `LATER_BRANTON_HEADER_ONLY` | unknown | `SEPARATE_ARTIFACT_LEAD` | original letter and relationship to Q&A absent |
+| `DULCE-CAND-022` | Castello-to-Bishop letter | Sept. 1990 reported | `LATER_BRANTON_HEADER_ONLY` | hierarchy content unknown | `SEPARATE_ARTIFACT_LEAD_UNRECOVERED` | original letter and relation to Q&A absent |
+| `DULCE-CAND-023` | LeVesque/Gorightly source containing `TEC is a creation`, Hinkle role and mixing statements | reported late-life/2015 correspondence | `DIRECT_QUOTE_LEAD_PENDING_EXACT_SOURCE` | authorship/provenance, not hierarchy content | `PERSONA_CREATION_AND_MULTI_AUTHORSHIP_CANDIDATE` | exact email, recording or printed pages absent |
+| `DULCE-CAND-024` | LeVesque statement describing roughly 100 distributed source packets | date/source unresolved | `DIRECT_QUOTE_LEAD_PENDING_EXACT_SOURCE` | hidden source dependency | `MANUFACTURED_INDEPENDENCE_CANDIDATE` | exact statement, packet, mailing list or recipient confirmation absent |
 
-## Session 044 — exact hierarchy text
+## Exact hierarchy text
 
-The surviving Q&A family contains explicit relationship wording, including the reported sentence:
+The surviving Q&A family contains explicit relationship wording, including:
 
 > `They work for, and are controlled by the Draco. There are other gray skinned beings that are not in league with the Draco.`
 
@@ -66,9 +68,39 @@ DULCE-CAND-012:
   C_system: DULCE_LEVELS_LABS_SECRET_PROGRAM
   AB_to_C_status: EXPLICIT_IN_DOCUMENT_CONTEXT
   content_result: FULL_LINKED_CHAIN
+  attributed_speaker: DOCUMENT_PERSONA
+  historical_person_result: NOT_ESTABLISHED
   date_result: UNKNOWN
   first_carrier_result: UNKNOWN
 ```
+
+## Session 045 authorship/provenance correction
+
+Quoted statements attributed to Tal LeVesque indicate that:
+
+- `TEC is a creation`;
+- Cherry Hinkle / Ann or Anne West may have answered questions as if she were TEC;
+- LeVesque corrected, supplemented and mixed her material with his own research;
+- he may have distributed roughly one hundred packets to authors and lecturers to make the claims appear to come from multiple sources.
+
+These are highly consequential direct-quote leads. The exact original email, recording, correspondence thread or printed pages were not acquired.
+
+```yaml
+persona_creation: STRONGLY_SUPPORTED_QUOTE_LEAD_NOT_PROMOTED
+hinkle_answer_role: STRONGLY_SUPPORTED_QUOTE_LEAD_NOT_PROMOTED
+levesque_editor_role: STRONGLY_SUPPORTED_QUOTE_LEAD_NOT_PROMOTED
+packet_seeding: HIGH_VALUE_UNVERIFIED_DIRECT_QUOTE_LEAD
+branton_compiler_role: SUPPORTED
+branton_unsigned_editing: POSSIBLE_NOT_PROVEN
+canonical_authorship_edge: false
+```
+
+Read:
+
+- `graph/transmissions/CASTELLO_QA_AUTHORSHIP_PROVENANCE_CANDIDATE.md`
+- `reports/SESSION_045_DATE_AUTHORSHIP_CROSS_QC.md`
+- `data/error_fingerprints/ERR-036-012-DOCUMENT-PERSONA-SPEAKER-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-013-MANUFACTURED-INDEPENDENCE-PACKET-SEEDING.md`
 
 ## Source-layer guardrail
 
@@ -84,46 +116,31 @@ explicit `– Branton` note
 
 absence of `– Branton`
         ≠ proof of non-Branton authorship
+        ≠ proof of Hinkle or LeVesque authorship
         ≠ proof of early date
 ```
 
-Read:
-
-- `data/error_fingerprints/ERR-036-007-QA-INTERVIEWER-INFERENCE-COLLAPSE.md`
-- `data/error_fingerprints/ERR-036-010-UNMARKED-TEXT-AUTHORSHIP-COLLAPSE.md`
-
-## Carrier-date conflict
-
-Session 044 produced four incompatible date treatments:
+## Carrier-date correction
 
 ```text
-unknown composition / mid-1990s suggested
-September 1990 separate letter lead
-1991 claimed Dulce Book state
-1996 soft retailer/catalogue carrier
+September 1990 letter
+        = separate object
+        ≠ Q&A date
+
+claimed 1991 Dulce Book state
+        = not item-level authenticated
+
+1996 compilation header / retailer metadata
+        = soft bibliographic carrier lead
+        ≠ physical first-edition inspection
+        ≠ Q&A composition date
 ```
-
-Curator result:
-
-```yaml
-claimed_1991_carrier: UNVERIFIED_DATE_ASSERTION
-soft_1996_carrier: PRESERVED_NOT_PROMOTED
-september_1990_letter: SEPARATE_OBJECT_NOT_QA_DATE
-first_securely_dated_carrier: UNRESOLVED
-```
-
-Read:
-
-- `data/error_fingerprints/ERR-036-008-SOFT-DATE-HARD-DATE-COLLAPSE.md`
-- `graph/chronologies/CASTELLO_BRANTON_QA_VERSION_MATRIX.md`
 
 ## Derivative-mirror guardrail
 
 Multiple web hosts reproduce one inherited chapter family. They establish circulation, not independent testimony or independent dating.
 
-Read:
-
-- `data/error_fingerprints/ERR-036-009-DERIVATIVE-MIRROR-INDEPENDENCE-COLLAPSE.md`
+If the packet-seeding quote is authenticated, some apparently separate books, talks and newsletters may also share a deliberately hidden source dependency.
 
 ## Lexical continuity candidate
 
@@ -134,8 +151,6 @@ Bishop witness:
 Q&A witness:
 `not in league with the Draco`
 ```
-
-Classification:
 
 ```yaml
 lexical_continuity: SUPPORTED_CANDIDATE
@@ -159,9 +174,10 @@ opposition + separate Grey-creator model
 
 undated surviving Q&A family:
 FULL Draco-master / Grey-worker-caste hierarchy
+speaker, authorship and first carrier unresolved
 
 reported Sept. 1990:
-separate Castello-to-Bishop letter; contents and relation unresolved
+separate Castello-to-Bishop letter; original and contents unresolved
 
 claimed 1991 Dulce Book state:
 not item-level authenticated
@@ -170,7 +186,7 @@ attested 1996 Dulce Book carrier:
 soft bibliographic date only
 
 later print/web:
-mature hierarchy widely reproduced
+mature hierarchy widely reproduced through a common-descended text family
 ```
 
 ## Current decision
@@ -181,8 +197,11 @@ earliest_full_linked_chain_carrier: UNRESOLVED
 earliest_secure_carrier_date: UNRESOLVED
 soft_carrier_lead: DULCE-CAND-013
 separate_1990_letter_lead: DULCE-CAND-022
+highest_value_authorship_object: DULCE-CAND-023
+highest_value_independence_object: DULCE-CAND-024
 bishop_reported_1989: NOT_FULL_LINKED_CHAIN
 matrix_ii_1991: NOT_FULL_LINKED_CHAIN
 ufo_universe_1991: NOT_FULL_ON_ACQUIRED_TEXT
+castello_historical_person: NOT_ESTABLISHED
 canonical_edge: false
 ```
