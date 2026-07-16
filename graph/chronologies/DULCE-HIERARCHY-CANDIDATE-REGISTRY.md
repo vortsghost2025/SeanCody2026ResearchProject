@@ -2,7 +2,7 @@
 
 > **Related question:** `RQ-036`  
 > **Related bridge:** `BRIDGE-036-001`  
-> **Status:** candidate registry only; no origin, sole-author, first-carrier or stemma edge
+> **Status:** candidate registry only; no origin, sole-author, first-carrier, work-identity or stemma edge
 
 ## Decisive linked-chain test
 
@@ -34,7 +34,7 @@ C = underground base, treaty, genetic experiment or secret program
 | `DULCE-CAND-012` | Castello/Branton mature Q&A family | composition unknown | `DERIVATIVE_TEXT_FAMILY` | `FULL_LINKED_CHAIN_DOCUMENT_PERSONA` | first composition/carrier/authorship unresolved |
 | `DULCE-CAND-013` | Branton, *The Dulce Book* | October 1996 self-date environment | `COMPILATION_SELF_DATE_PRIMARY_TEXT_LEAD` | `MATURE_BRANTON_COMPILATION_FAMILY` | first physical/digital carrier absent |
 | `DULCE-CAND-014` | `Galactic Races` hosted text | unknown | `UNVERIFIED_CLAIM` | `UNKNOWN` | origin/date absent |
-| `DULCE-CAND-015` | Branton, *The Dulce Wars* | 1996 environment | `TITLE_EDITION_IDENTITY_OPEN` | `PROBABLE_RETITLED_OR_RELATED_COMPILATION` | item-level comparison absent |
+| `DULCE-CAND-015` | Branton, *The Dulce Wars* | 1996 environment plus later edition leads | `TITLE_EDITION_IDENTITY_OPEN` | `RELATED_BRANTON_COMPILATION` | item-level comparison absent |
 | `DULCE-CAND-016` | Bishop III / LeVesque, *The Dulce Base* | 1989 reported | `TEXT_WITNESS_DATE_OPEN` | `PROTO_HIERARCHY_SUPPORTED` | earliest exact carrier/date absent |
 | `DULCE-CAND-017A` | Hamilton, *Alien Magic — Behind the Cloak...* | 1989 reported | `UNACQUIRED_BIBLIOGRAPHIC_LEAD` | `UNKNOWN_HIGH_PRIORITY` | physical object absent |
 | `DULCE-CAND-017B` | Hamilton, *Alien Magic: UFO Crashes...* | 1996 | `LATER_EDITION_LEAD` | `LATE_COMPARISON_OBJECT` | cannot project backward |
@@ -61,25 +61,37 @@ C = underground base, treaty, genetic experiment or secret program
 | `DULCE-CAND-038` | `Dulce Project 2013` recovery attempt | 2013 | `DOCUMENTED_FORUM_PROJECT_CLAIM` | `RECOVERY_ATTEMPT_NO_ARTIFACT` | no box/contents |
 | `DULCE-CAND-039` | Alleged `W` relay Q&A | Nov. 2010 claimed | `CONFLICTING_ACQUISITION_REPORTS` | `EXISTENCE_AND_IDENTITY_DISPUTED` | no raw post ID/HTML/hash |
 | `DULCE-CAND-040` | `controlled by the Draco` in Avalon | Nov. 2010 claimed | `CONFLICTING_ACQUISITION_REPORTS` | `NOT_CONFIRMED_IN_AVALON` | raw post absent |
-| `DULCE-CAND-041` | `Pasturing and Use of Surface Earth Humans` | 1990 or 1991 | `EDITION_ASSIGNMENT_OPEN` | `INTERMEDIATE_HIERARCHY_CANDIDATE` | 458-page first edition uninspected |
+| `DULCE-CAND-041` | `Pasturing and Use of Surface Earth Humans` | 1990 or 1991 | `EDITION_ASSIGNMENT_OPEN` | `CONFIRMED_PAGE_95_IN_1991_THIRD` | 458-page first edition uninspected |
 | `DULCE-CAND-042` | Tilton, *The Bennewitz Papers*, Crux/Tulsa 85-page state | 1991 reported | `FIRST_EDITION_METADATA_LEAD` | `PHYSICALLY_LOCATABLE_UNINSPECTED` | title/pages/passage absent |
 | `DULCE-CAND-043` | Nippon Television LeVesque program | 1990-03-24 reported | `SECONDARY_ARCHIVAL_BROADCAST_LEAD` | `PUBLIC_CIRCULATION_CONTEXT` | program/recording absent |
 | `DULCE-CAND-044` | Colonel-X identity-negative account | 2010 thread context | `HOSTILE_OR_ANONYMOUS_NEGATIVE_CLAIM` | `CASTELLO_IDENTITY_NEGATIVE_LEAD` | witness/database provenance absent |
 | `DULCE-CAND-045` | Q/A label branches in Branton-derived mirrors | later carriers | `DERIVATIVE_MIRROR_VARIANT` | `EARLY_LABEL_ERROR_OR_LATER_CORRECTION` | earliest branch state absent |
 | `DULCE-CAND-046` | Lear 1987 letter enclosure packet | 1987-12-13 | `PRIMARY_DOCUMENT_REPORTED_AND_QUOTED_NOT_ARCHIVED` | `DULCE_PAPERS_DRAWINGS_FAMILY` | PDF and enclosures not preserved |
-| `DULCE-CAND-047` | COSCON34 mature Q&A carrier | date unknown | `BRANTON_EDITED_TEXT_WITNESS` | `BRANTON_CONTEMPORARY_OR_DERIVATIVE` | original BBS metadata absent |
+| `DULCE-CAND-047` | COSCON34 mature Q&A composite | after 1994-03-18 for surviving state | `BRANTON_EDITED_TEXT_WITNESS` | `POST_1994_EDITORIALIZED_COMPOSITE` | exact containing work/carrier absent |
 | `DULCE-CAND-048` | *Matrix II* 1990 numbered first-edition item | 1990 | `DEALER_ITEM_METADATA_WITH_COLOPHON_DESCRIPTION` | `458_PAGE_FIRST_EDITION_CONTENT_OPEN` | project has not inspected pages |
-| `DULCE-CAND-049` | *The Dulce Book* / *The Dulce Wars* title family | 1996 environment | `WORK_IDENTITY_OPEN` | `ONE_COMPILATION_FAMILY_PENDING_DIFF` | title/copyright/contents comparison absent |
+| `DULCE-CAND-049` | *The Dulce Book* / *The Dulce Wars* title family | 1996 environment and later editions | `WORK_IDENTITY_OPEN` | `ONE_EDITORIAL_FAMILY_PENDING_DIFF` | title/copyright/contents comparison absent |
+| `DULCE-CAND-050` | COSCON34 *Plain Dealer* internal reference | 1994-03-18 | `INTERNAL_DATE_REFERENCE_IN_EDITORIALIZED_CARRIER` | `TERMINUS_POST_QUEM_FOR_COMPOSITE_STATE` | exact source layer/context needs preservation |
+| `DULCE-CAND-051` | *Cosmic Conflict* chapter 34 identity for COSCON34 | date unknown | `FILENAME_AND_CARRIER_IDENTITY_LEAD` | `HIGH_VALUE_CANDIDATE_NOT_CONFIRMED` | title/contents/directory proof absent |
+| `DULCE-CAND-052` | *The Dulce Book* commercial edition lead | 2003 reported | `COMMERCIAL_EDITION_METADATA_LEAD` | `DISTINCT_CARRIER_WITHIN_BRANTON_FAMILY` | title/copyright pages absent |
+| `DULCE-CAND-053` | *The Dulce Wars* commercial edition lead | 2011 reported; 168 pp. reported | `COMMERCIAL_EDITION_METADATA_LEAD` | `DISTINCT_CARRIER_WITHIN_BRANTON_FAMILY` | title/copyright pages absent |
 
-## Session 055 carrier correction
+## Session 056 COSCON chronology boundary
 
 ```yaml
 COSCON34:
   mature_QA: CONFIRMED
   Branton_parentheticals: CONFIRMED
+  surviving_state_TPQ: 1994-03-18
+  underlying_QA_date: UNKNOWN
   pre_Branton_unedited_source: EXCLUDED
-  carrier_date: UNKNOWN
-  BBS_origin: FILENAME_FORMAT_LEAD_ONLY
+  Cosmic_Conflict_chapter_identity: CANDIDATE_NOT_CONFIRMED
+  BBS_sequence_identity: NOT_ESTABLISHED
+```
+
+```text
+post-March-1994 composite state
+        ≠
+proof of pre-March-1994 Q&A composition
 ```
 
 ## Matrix II edition boundary
@@ -93,6 +105,8 @@ MATRIX_II:
     evidence: DEALER_ITEM_RECORD
   third_edition_1991:
     page_count_reported: 661_PLUS
+    Pasturing_page: 95
+    Bishop_acknowledgement: SUPPORTED
     evidence: PRIMARY_SCAN_INSPECTED
   Pasturing_in_first: UNKNOWN
   intermediate_hierarchy_date: 1990_OR_1991
@@ -100,17 +114,19 @@ MATRIX_II:
 
 Read: `graph/chronologies/MATRIX_II_EDITION_MATRIX.md`.
 
-## Title-family boundary
+## Branton title-family boundary
 
 ```text
 The Dulce Book
         +
 The Dulce Wars
-        = one related Branton compilation family
-        ≠ two independent witnesses
+        +
+Cosmic Conflict / COSCON34 candidate
+        = distinct title and carrier leads
+        ≠ independent hierarchy witnesses
 ```
 
-Exact work identity remains open. Read: `graph/artifact_families/DULCE_BOOK_VS_DULCE_WARS.md`.
+Exact work and edition identity remains open. Read: `graph/artifact_families/DULCE_BOOK_VS_DULCE_WARS.md`.
 
 ## Artifact-family boundary
 
@@ -133,8 +149,14 @@ DULCE-CAND-012
         ↓
 unknown-date mature Q&A — explicit control + Karsh + level assignments
         ↓
-Branton-edited carriers including COSCON34 and the 1996 compilation family
+after 1994-03-18 COSCON34 editorialized composite
+        +
+October 1996 self-dated Branton carrier tradition
+        ↓
+later commercial and web carriers
 ```
+
+The sequence is a development-of-ideas model, not a proven copying chain.
 
 ## Current decision
 
@@ -146,8 +168,11 @@ November_2010_QA_carrier: DISPUTED
 1987_Dulce_Papers_distribution: STRONG_PRIMARY_DOCUMENT_LEAD
 1987_drawings_equal_QA: false
 COSCON34_pre_Branton_ancestor: false
+COSCON34_state_TPQ: 1994-03-18
+COSCON34_underlying_QA_date: UNKNOWN
+COSCON34_Cosmic_Conflict_identity: CANDIDATE
 Matrix_II_intermediate_year: 1990_OR_1991
-Dulce_Book_Wars_independent_count: ONE_FAMILY_PENDING_DIFF
+Dulce_Book_Wars_independent_count: ONE_EDITORIAL_FAMILY
 textual_stemma: UNRESOLVED
 neutral_working_model: COLLABORATIVE_MULTI_ACTOR
 Castello_authentication: NOT_ESTABLISHED
@@ -156,5 +181,6 @@ verified_packet_recipients: 0
 July_1990_carrier: ITEM_LEVEL_UNVERIFIED
 canonical_authorship_edge: false
 canonical_first_carrier_edge: false
+canonical_work_identity_edge: false
 canonical_stemma_edge: false
 ```
