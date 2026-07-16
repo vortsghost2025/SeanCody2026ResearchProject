@@ -4,146 +4,165 @@
 > **Related bridge:** `BRIDGE-036-001`  
 > **Status:** candidate registry only; no origin or canonical transmission edge
 
-## Test
+## Decisive linked-chain test
 
 ```text
-A = reptilian / Draconian authority
-B = Greys subordinate, created, controlled, or serving
-C = underground base, treaty, genetic experiment, or secret program
+A = identified reptilian / Draconian authority
+        ↓ same-referent relationship
+B = Greys controlled, created, commanded, used or serving that A
+        ↓ same-system relationship
+C = underground base, treaty, genetic experiment or secret program
+```
+
+`FULL_LINKED_CHAIN` requires the relationship, not mere A+B+C co-presence.
+
+Required relationship fields:
+
+```yaml
+relationship_linkage:
+  A_entity:
+  B_grey_group:
+  A_to_B_wording:
+  A_to_B_status: EXPLICIT | IMPLIED | ABSENT | CONTRADICTED | UNKNOWN
+  C_system:
+  AB_to_C_wording:
+  AB_to_C_status: EXPLICIT | IMPLIED | ABSENT | UNKNOWN
+  co_presence_only: true | false
 ```
 
 ## Candidate table
 
-| ID | Exact candidate | Reported date | Source status | A | B | C | Current hierarchy result | Main barrier |
-|---|---|---:|---|---|---|---|---|---|
-| `DULCE-CAND-001` | McCampbell–Bennewitz conversation transcript | 1984-07-13 | `CONTEMPORARY_TRANSCRIPT_LEAD` | No | No | Yes | `PARTIAL-C_CANDIDATE` | clean transcript/audio chain not acquired |
-| `DULCE-CAND-002` | George C. Andrews, *Extra-Terrestrials Among Us* | 1986 | `PRIMARY_ITEM_METADATA_ONLY` | ? | ? | ? | `UNKNOWN` | primary text not inspected |
-| `DULCE-CAND-003` | John Lear transmittal letter to `Steven` | 1987-12-13 | `DATED_MIRROR_SCAN_PENDING_CUSTODY` | No | No | Yes | `PARTIAL-C_CANDIDATE` | original custody and enclosure set unresolved |
-| `DULCE-CAND-004` | John Lear public statement / `The UFO Cover-Up` | 1987-12-29; revisions 1988 | `VERSIONED_PRIMARY_TEXT_PENDING_ALIGNMENT` | No | No | Yes | `PARTIAL-C` | original and revision texts must be aligned |
-| `DULCE-CAND-005` | `The Dulce Papers` physical photo/drawing set | reported 1987 | `PRIMARY_ITEM_METADATA_ONLY` | ? | ? | Yes | `PARTIAL-C_OR_UNKNOWN` | original set not recovered; later text expansions conflated |
-| `DULCE-CAND-006` | Paul Bennewitz, *Project Beta* | reported 1986–1988 | `PRIMARY_TEXT_CONTAMINATED_BY_LATER_INSERTIONS` | No located | No located | Yes | `PARTIAL-C` | clean typescript and exact date unavailable |
-| `DULCE-CAND-007` | Bill Cooper ParaNet statements | 1988 | `UNVERIFIED_BBS_TEXT` | ? | ? | ? | `UNKNOWN` | exact posts not acquired |
-| `DULCE-CAND-008` | Bill Cooper, *Behold a Pale Horse* | 1991 | `PRIMARY_ITEM_AVAILABLE_PAGE_AUDIT_OPEN` | Not located | No | Yes | `PARTIAL-C` | page-level hierarchy audit incomplete |
-| `DULCE-CAND-009` | Valdamar Valerian / Leading Edge Research, *Matrix II* | reported 1990–1991 | `UNKNOWN_HIGH_PRIORITY` | reported | reported | reported | `FULL_OR_PARTIAL_CANDIDATE` | exact edition, pages, and date not acquired |
-| `DULCE-CAND-010` | TAL LeVesque / Jason Bishop III, `The Covert Return of an Alien Species of Reptilian Heritage — The Dulce Base` | reported Feb–Mar 1991 reprint | `CONTEMPORARY_REFERENCE_PENDING_PRIMARY_SCAN` | reported yes | reported yes | reported yes | `FULL_CANDIDATE_HIGHEST_PRIORITY` | exact *UFO Universe* issue/pages not acquired |
-| `DULCE-CAND-011` | Patrick O'Connell mailer/newsletter version of TAL article | reported pre-1991 | `UNVERIFIED_EARLIER_CARRIER` | ? | ? | ? | `UNKNOWN` | original mailing, date, and copy not located |
-| `DULCE-CAND-012` | `Thomas Castello Declaration` / Branton Q&A | surviving 1990s forms; claimed earlier | `LATE_COMPILATION_OR_UNVERIFIED_CLAIM` | Yes | Yes | Yes | `FULL_CONTENT_UNDATED` | identity, interview date, earliest text, and authorship unresolved |
-| `DULCE-CAND-013` | Branton, *The Dulce Book* | early-1990s reported | `FULL_CONTENT_DATE_UNRESOLVED` | Yes | Yes | Yes | `FULL_CONTENT_UNDATED_OR_BOUNDED` | first BBS/manuscript copy not located |
-| `DULCE-CAND-014` | `Galactic Races` hosted text | unknown | `UNVERIFIED_CLAIM` | partial/reported | partial/reported | partial/reported | `UNKNOWN` | date, authorship, and originating file unknown |
-| `DULCE-CAND-015` | Branton, *The Dulce Wars* | reported 1999; later editions conflict | `PRIMARY_ITEM_METADATA_ONLY` | reported yes | reported yes | reported yes | `FULL_CONTENT_LATE_PRINT` | first-edition title/copyright pages and qualifying passage not acquired |
+| ID | Exact candidate | Reported date | Source status | Relationship result | Current hierarchy result | Main barrier |
+|---|---|---:|---|---|---|---|
+| `DULCE-CAND-001` | McCampbell–Bennewitz conversation transcript | 1984-07-13 | `CONTEMPORARY_TRANSCRIPT_LEAD` | C only | `PARTIAL-C_CANDIDATE` | clean transcript/audio chain not acquired |
+| `DULCE-CAND-002` | George C. Andrews, *Extra-Terrestrials Among Us* | 1986 | `PRIMARY_ITEM_METADATA_ONLY` | unknown | `UNKNOWN` | primary text not inspected |
+| `DULCE-CAND-003` | John Lear transmittal letter to `Steven` | 1987-12-13 | `DATED_MIRROR_SCAN_PENDING_CUSTODY` | C only | `PARTIAL-C_CANDIDATE` | original custody and enclosure set unresolved |
+| `DULCE-CAND-004` | John Lear public statement / `The UFO Cover-Up` | 1987-12-29; revisions 1988 | `VERSIONED_PRIMARY_TEXT_PENDING_ALIGNMENT` | C only | `PARTIAL-C` | original and revisions must be aligned |
+| `DULCE-CAND-005` | `The Dulce Papers` physical photo/drawing set | reported 1987 | `PRIMARY_ITEM_METADATA_ONLY` | C reported; A→B unknown | `PARTIAL-C_OR_UNKNOWN` | original set not recovered; later expansions conflated |
+| `DULCE-CAND-006` | Paul Bennewitz, *Project Beta* | reported 1986–1988 | `PRIMARY_TEXT_CONTAMINATED_BY_LATER_INSERTIONS` | C only in recoverable source layer | `PARTIAL-C` | clean typescript and exact date unavailable |
+| `DULCE-CAND-007` | Bill Cooper ParaNet statements | 1988 | `UNVERIFIED_BBS_TEXT` | unknown | `UNKNOWN` | exact posts not acquired |
+| `DULCE-CAND-008` | Bill Cooper, *Behold a Pale Horse* | 1991 | `PRIMARY_ITEM_AVAILABLE_PAGE_AUDIT_OPEN` | C; no linked Draco→Grey chain located | `PARTIAL-C` | page-level hierarchy audit incomplete |
+| `DULCE-CAND-009` | Valdamar Valerian, *Matrix II* | first edition reported 1990; inspected third edition 1991 | `CONFIRMED_PRIMARY_FOR_1991_THIRD_EDITION` | reptilian elite present; Greys created by different higher culture; Reptilians described as enemies of Greys | `PARTIAL-AC_OPPOSITIONAL` | 1990 first edition unavailable; later Draco-workforce citation unresolved |
+| `DULCE-CAND-010` | Bill Hamilton + TAL LeVesque, `The Deep Dark Secret at Dulce`, *UFO Universe* | reported Feb–Mar 1991 | `SECONDARY_TRANSCRIPTION_PENDING_MAGAZINE_SCAN` | reptilian presence + C; B not established | `PARTIAL-C_WITH_REPTILIAN_PRESENCE` | exact issue, pages and unabridged text not acquired |
+| `DULCE-CAND-011` | TAL LeVesque, `The Covert Return of an Alien Species of Reptilian Heritage — The Dulce Base`, Patrick O'Connell mailer | unknown; one model reports July 1990 Vol. 6 No. 2 without primary proof | `LATE_TRANSCRIPTION_OF_UNRECOVERED_MAILER` | Grey mercenary use implied in reptilian context | `FULL_LINKED_CANDIDATE_UNDATED_UNVERIFIED` | original mailer, date, byline page and full text absent |
+| `DULCE-CAND-012` | `Thomas Castello Declaration` / Branton Q&A | surviving 1990s forms; claimed earlier | `LATE_COMPILATION_OR_UNVERIFIED_CLAIM` | explicit mature Draco→Grey→Dulce wording in later forms | `FULL_CONTENT_UNDATED` | identity, interview date, earliest text and authorship unresolved |
+| `DULCE-CAND-013` | Branton, *The Dulce Book* | early-1990s reported | `FULL_CONTENT_DATE_UNRESOLVED` | explicit mature linked chain in surviving compilations | `FULL_CONTENT_UNDATED_OR_BOUNDED` | first BBS/manuscript state not located |
+| `DULCE-CAND-014` | `Galactic Races` hosted text | unknown | `UNVERIFIED_CLAIM` | near-linked hierarchy language; date/authorship unknown | `UNKNOWN` | originating file and date unknown |
+| `DULCE-CAND-015` | Branton, *The Dulce Wars* | reported 1999; later editions conflict | `PRIMARY_ITEM_METADATA_ONLY` | mature linked chain reported | `FULL_CONTENT_LATE_PRINT` | first-edition pages and exact passage not acquired |
+| `DULCE-CAND-016` | TAL / Jason Bishop III, `The Dulce Base` | reported 1989 | `SECONDARY_SUMMARY` | C confirmed in quoted passage; A→B not located | `PARTIAL-C_CANDIDATE` | original manuscript/BBS file and date absent |
+| `DULCE-CAND-017` | Bill Hamilton, *Alien Magic* | reported 1989 | `UNVERIFIED_CLAIM` | unknown | `UNKNOWN_HIGH_PRIORITY` | no copy, catalogue record, publisher or pages acquired |
+| `DULCE-CAND-018` | Bill Hamilton, *Cosmic Top Secret* | reported 1991 | `UNVERIFIED_CLAIM` | unknown | `UNKNOWN` | exact artifact and pages not acquired |
+| `DULCE-CAND-019` | Penny Harper / *Whole Life Times* item | reported 1990 | `UNVERIFIED_CLAIM` | C reported; A→B unknown | `UNKNOWN_DEPRIORITIZED` | no title, issue, byline, page or scan found |
 
-## Candidate notes
+## Session 042 corrections
 
-### DULCE-CAND-001 — McCampbell–Bennewitz transcript
+### Matrix II
 
-Reported as dated July 13, 1984 and describing an underground cooperative government/EBE program with genetic and mutilation material. No reptilian authority or Grey subordination was reported.
+The accessible scan is explicitly a third edition with added material and copyright 1990, 1991.
 
-Promotion requirement:
-
-- audio or earliest transcript;
-- date inside the artifact;
-- transcriber and custody;
-- exact page/line wording;
-- comparison with later Branton transcription.
-
-### DULCE-CAND-003 and 004 — Lear
-
-The acquisition supports C but not A or B.
-
-Guardrails:
-
-- `reptilian skin` is a morphology adjective, not a separate ruling group;
-- Greys creating drones does not make Greys subordinate;
-- each revision must be treated as a separate textual state.
-
-### DULCE-CAND-009 — *Matrix II*
-
-This may predate or parallel the TAL/Branton fusion. It requires:
-
-- exact title page;
-- copyright page;
-- edition and publication date;
-- publisher/distributor;
-- exact A+B+C pages;
-- source list and relation to TAL, Lear, Bennewitz, Castello, and Branton.
-
-### DULCE-CAND-010 — TAL / Jason Bishop article
-
-Current highest-priority first-FULL candidate.
-
-Reported:
+It contains multiple separate models:
 
 ```text
-title: THE COVERT RETURN OF AN ALIEN SPECIES OF REPTILIAN HERITAGE — THE DULCE BASE
-attribution: TAL LeVesque / Jason Bishop III
-carrier: UFO Universe
-issue: Feb–Mar 1991
-prior carrier: Patrick O'Connell mailer/newsletter
+non-reptilian "very high" culture
+        ↓ creates cloned Greys
+
+Reptilian humanoids
+        ↔ described by editor as enemies of Greys
 ```
 
-None of the following has yet been acquired:
+It also contains reptilian elite language and extensive underground-base material. These ingredients are not a connected Draco→Grey chain.
 
-- exact issue scan;
-- issue number;
-- page range;
-- masthead;
-- original byline;
-- page-level A+B+C transcription;
-- earlier mailer.
+```yaml
+DULCE-CAND-009:
+  A_entity: reptilian species / Draco elite
+  B_grey_group: cloned Greys
+  A_to_B_status: CONTRADICTED_OR_ABSENT
+  C_system: PRESENT
+  co_presence_only: true
+  result: PARTIAL-AC_OPPOSITIONAL
+```
 
-It remains `FULL_CANDIDATE_HIGHEST_PRIORITY`, not `FULL`.
+Read:
 
-### DULCE-CAND-012 — Castello Q&A
+- `data/error_fingerprints/ERR-036-002-ABC-CO-PRESENCE-LINKAGE-COLLAPSE.md`
+- `data/error_fingerprints/ERR-036-004-MATRIX-II-DRACO-WORKFORCE-CITATION-CONFLATION.md`
 
-The surviving text contains explicit hierarchy language, but its claimed late-1980s date is not authenticated. The Branton-framed question-and-answer form may itself be evidence of later compilation.
-
-Do not use the alleged event date as the publication or composition date.
-
-### DULCE-CAND-013 to 015 — Branton
-
-Branton material is historically important as a compilation and carrier even when literal claims remain unsupported.
-
-Required separation:
+### Two TAL articles
 
 ```text
-first composition
-first BBS circulation
-first manuscript circulation
-first web mirror
-first printed edition
-later revised edition
+DULCE-CAND-010
+The Deep Dark Secret at Dulce
+Bill Hamilton + TAL LeVesque
+UFO Universe, reported Feb–Mar 1991
+
+DULCE-CAND-011
+The Covert Return of an Alien Species of Reptilian Heritage — The Dulce Base
+TAL LeVesque
+Patrick O'Connell mailer/newsletter, date unknown
 ```
+
+Do not combine title, byline, date or wording between them.
+
+Read:
+
+- `data/error_fingerprints/ERR-036-003-TAL-ARTICLE-CARRIER-COLLAPSE.md`
+
+### O'Connell mailer language
+
+The surviving Branton-hosted transcription quotes TAL as describing:
+
+- a returning Reptilian race;
+- Greys as mercenaries being used to interface with and manipulate humans;
+- a Dulce / underground / genetic and secret-program setting.
+
+The connected hierarchy is plausible in the quoted wording, but not securely promotable because:
+
+- the original mailer is absent;
+- the date is absent;
+- the user of the Greys is partly grammatically implicit;
+- Branton notes are interleaved;
+- one model's `July 1990, Vol. 6 No. 2` claim lacks primary support.
+
+### UFO Universe article
+
+The accessible transcription establishes a joint biogenetic facility and mentions both Greys and reptilian humanoids. It does not establish that the reptilian group commands the Greys.
 
 ## Current chronology finding
 
 ```text
 1984–1988:
-secure or reported C-bearing proto-Dulce sources
-no secure FULL A+B+C artifact located
+C-bearing proto-Dulce sources
+no secure linked reptilian→Grey hierarchy located
 
-1990–1991:
-TAL / Matrix II / early compilation candidates
-possible first securely dateable FULL fusion
+1989:
+TAL The Dulce Base and Bill Hamilton Alien Magic reported
+primary copies and linked wording not acquired
 
-later 1990s:
-Castello/Branton hierarchy widely circulated in FULL form
+1990/1991:
+Matrix II preserves reptilian/Grey opposition and separate higher-culture creation model
+not the mature Draco-over-Grey hierarchy
 
-1999 or later:
-late printed mature synthesis
+unknown date, reported pre/parallel 1991:
+O'Connell-carried TAL article contains strongest linked wording
+but source object is unrecovered
+
+Feb–Mar 1991:
+UFO Universe article contains C plus reptilian presence
+B remains unlocated
+
+later early/mid-1990s:
+Castello/Branton compilations circulate mature linked hierarchy
 ```
 
 ## Current decision
 
 ```yaml
 earliest_reported_partial_c: DULCE-CAND-001
-earliest_high_value_dated_partial_c: DULCE-CAND-003
 earliest_public_partial_c: DULCE-CAND-004
-earliest_full: UNRESOLVED
-highest_priority_full_candidate: DULCE-CAND-010
-parallel_priority_candidate: DULCE-CAND-009
-full_content_undated_candidates:
-  - DULCE-CAND-012
-  - DULCE-CAND-013
-  - DULCE-CAND-014
+earliest_full_linked_chain: UNRESOLVED
+highest_value_undated_linked_candidate: DULCE-CAND-011
+highest_value_1989_artifact_lead: DULCE-CAND-017
+matrix_ii: NOT_FULL_LINKED_CHAIN
+ufo_universe_1991: NOT_FULL_ON_ACQUIRED_TEXT
 canonical_edge: false
 ```
