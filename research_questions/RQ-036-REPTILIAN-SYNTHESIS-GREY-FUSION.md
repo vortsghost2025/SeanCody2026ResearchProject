@@ -9,108 +9,110 @@ RQ:
   execution_order: BEFORE_ADDITIONAL_GREY_VISUAL_SCHEMA_EXPANSION
 
   central_problem: >
-    Later lore presents ancient serpent traditions, Greys, reptilians, underground bases,
-    treaties and genetic experiments as one continuous system. The project must identify
-    the dated artifacts and carrier networks that changed earlier C-core, alliance and
-    oppositional models into the mature Draco-over-Grey linked hierarchy.
+    Later lore presents ancient serpent traditions, Greys, reptilians,
+    underground bases, treaties and genetic experiments as one continuous
+    system. The project must identify the dated artifacts and carriers that
+    changed earlier C-core, alliance and oppositional models into the mature
+    Draco-over-Grey hierarchy.
 
   decisive_linked_chain:
     A: "identified reptilian or Draconian authority"
     B: "identified Greys controlled, created, commanded, used or serving that same A"
     C: "that same A→B relationship inside an underground-base, treaty, genetic-experiment or secret-program system"
-    FULL_LINKED_CHAIN: "same-referent A→B→C in one securely dated primary artifact or tightly connected passage set"
+    FULL_LINKED_CHAIN: "same-referent A→B→C in one securely identified text state"
 
-  current_finding: >
-    The acquired 1980s material supports the Dulce C-core. A surviving textual witness
-    of TAL/Jason Bishop III's reported 1989 The Dulce Base describes Greys and Reptoids
-    as allied but tense, and a separate Reptilian Race as the Greys' enemy. The inspected
-    Matrix II 1991 third edition also preserves opposition and a separate Grey-creator
-    model. The mature Draco-master / worker-caste chain is clearest only in the surviving
-    Castello/Branton Q&A layer, whose first carrier and date remain unresolved.
+  content_resolution: >
+    Session 044 confirms that the surviving Castello/Branton Q&A family
+    contains explicit Draco authority, Grey/worker-caste control or creation,
+    and Dulce-system linkage. The mature hierarchy is therefore confirmed at
+    the text-content level.
+
+  chronology_gap: >
+    The Q&A's first composition date and first carrier remain unresolved.
+    Four Session 044 variants proposed unknown/mid-1990s, a separate September
+    1990 letter, a claimed 1991 Dulce Book state and a soft 1996 carrier.
+    None supplied an authenticated first carrier.
 
   current_high_value_candidates:
     - id: DULCE-CAND-012
-      title: "Thomas Castello Declaration / Branton Q&A"
-      status: EARLIEST_EXACT_FULL_TEXT_LOCUS_DATE_UNRESOLVED
+      title: "A Dulce Base Security Officer Speaks Out / Castello-Branton Q&A"
+      status: FULL_LINKED_CHAIN_AT_TEXT_LEVEL_DATE_UNRESOLVED
+    - id: DULCE-CAND-013
+      title: "The Dulce Book"
+      status: SOFT_1996_CARRIER_LEAD_NOT_SECURE_FIRST
+    - id: DULCE-CAND-022
+      title: "Castello-to-Bishop letter"
+      reported_date: "September 1990"
+      status: SEPARATE_ARTIFACT_LEAD
     - id: DULCE-CAND-011
       title: "The Covert Return of an Alien Species of Reptilian Heritage — The Dulce Base"
-      attribution: TAL LeVesque
-      carrier: "Patrick O'Connell mailer/newsletter"
-      date: UNKNOWN
-      status: FULL_LINKED_CANDIDATE_UNDATED_UNVERIFIED
+      status: IMPLIED_LINK_UNDATED_UNVERIFIED
     - id: DULCE-CAND-017A
       title: "Alien Magic — Behind the Cloak of Secrecy Hides an Alien Power!"
-      attribution: William F. Hamilton
       reported_date: 1989
       status: UNACQUIRED_BIBLIOGRAPHIC_LEAD
-    - id: DULCE-CAND-020
-      title: "Nevada Aerial Research Group newsletter issue containing TAL material"
-      date: UNKNOWN
-      status: UNKNOWN_SHARED_INFRASTRUCTURE_LEAD
 
   corrected_non_full_candidates:
     - id: DULCE-CAND-016
       title: "The Dulce Base"
-      attribution: "TAL / Jason Bishop III"
-      reported_date: 1989
-      status: PARTIAL_C_WITH_REPTILIAN_ALLIANCE_AND_OPPOSITION
+      relationship: ALLIANCE_AND_OPPOSITION
     - id: DULCE-CAND-009
       title: Matrix II
       inspected_version: "1991 third edition"
-      status: PARTIAL_AC_OPPOSITIONAL
+      relationship: OPPOSITIONAL_SEPARATE_CREATOR
     - id: DULCE-CAND-010
       title: "The Deep Dark Secret at Dulce"
-      authors: "Bill Hamilton and TAL LeVesque"
-      reported_date: "Feb–Mar 1991"
-      status: PARTIAL_C_WITH_REPTILIAN_PRESENCE
+      relationship: C_PLUS_REPTILIAN_PRESENCE
 
   do_not_treat_as_proof:
-    - A, B and C appearing separately in one long compilation
-    - Grey/Reptoid alliance as reptilian authority
-    - reptilians being enemies of Greys as reptilians ruling Greys
-    - reptilian-humanoid specimens in genetic labs as authority figures
-    - Grey presence as Grey subordination
-    - `reptilian skin` as a separate ruling species
+    - A, B and C appearing separately in a long compilation
+    - Grey/Reptoid alliance as reptilian command
+    - reptilians being Grey enemies as reptilians ruling Greys
+    - a Q&A answer voice as authenticated Castello speech
+    - the questioner as Branton without direct attribution
+    - absence of a Branton signature as proof of non-Branton authorship
+    - multiple derivative mirrors as independent witnesses
+    - retailer metadata or PDF headers as secure first-edition dates
+    - an upload date as composition date
+    - the September 1990 letter date as the Q&A date
+    - lexical resemblance alone as direct derivation
     - an alleged event date as a document date
-    - modern mirrors as proof of original wording
-    - retailer or dealer metadata as proof of content
-    - wording in the 1996 Alien Magic edition as proof of the reported 1989 object
-    - a table-of-contents heading as the full passage
-    - later Branton or Castello wording as proof of a 1987 artifact
-    - a later parenthetical citation as proof of wording in Matrix II
     - real families or populations being reptilian or conspiratorial
 
   partial_resolution: >
-    At least five item-level records establish exact passages, dates, editions,
-    source layers, relationship linkage and distribution contexts, and the earliest
-    currently recoverable C-only, alliance, oppositional and FULL linked artifacts
-    are distinguished with failed searches.
+    Exact mature hierarchy wording and its document layer are identified;
+    earlier alliance/opposition models and later full hierarchy are separated;
+    carrier-date conflicts, source layers and failed searches are preserved.
 
   positive_resolution: >
-    A dated version map locates the first secure same-referent A→B→C artifact,
-    identifies the first carrier of the Castello/Branton hierarchy, and shows how
-    it differs from earlier Bishop and Matrix relationship models.
+    An exact dated object establishes the first carrier of the Q&A hierarchy,
+    its version and source layers, and its relation to earlier Bishop, Matrix,
+    TAL and Hamilton materials.
 
   negative_resolution: >
-    No single joining artifact is recoverable; several partial and incompatible
-    relationship models were combined or rewritten through later compilation.
+    No first carrier is recoverable; the hierarchy can only be bounded between
+    earlier non-hierarchical texts and later compilational witnesses.
 
   related_files:
     - graph/bridges/BRIDGE-036-001-REPTILIAN-GREY-FUSION.md
     - graph/chronologies/DULCE-HIERARCHY-CANDIDATE-REGISTRY.md
-    - reports/SESSION_043_CROSS_VARIANT_QC.md
+    - graph/chronologies/CASTELLO_BRANTON_QA_VERSION_MATRIX.md
+    - reports/SESSION_044_FOUR_VARIANT_CROSS_QC.md
+    - research_inbox/SESSION_044_FOUR_VARIANT_MANIFEST.md
+    - research_inbox/SESSION_045_CASTELLO_QA_DATE_AND_CARRIER_AUDIT.md
     - data/negative_evidence/NEG-036-001-PRE-1990-FULL-HIERARCHY.md
     - data/error_fingerprints/ERR-036-002-ABC-CO-PRESENCE-LINKAGE-COLLAPSE.md
     - data/error_fingerprints/ERR-036-003-TAL-ARTICLE-CARRIER-COLLAPSE.md
     - data/error_fingerprints/ERR-036-004-MATRIX-II-DRACO-WORKFORCE-CITATION-CONFLATION.md
     - data/error_fingerprints/ERR-036-005-BISHOP-ALLIANCE-HIERARCHY-COLLAPSE.md
     - data/error_fingerprints/ERR-036-006-ALIEN-MAGIC-TITLE-EDITION-COLLAPSE.md
-    - research_inbox/SESSION_044_CASTELLO_BRANTON_FIRST_CARRIER_BRIEF.md
-    - graph/transmissions/SHAVER_TO_DULCE_CHAIN.md
-    - research_questions/RQ-023-SHAVER-PALMER-BRIDGE-1948-1979.md
+    - data/error_fingerprints/ERR-036-007-QA-INTERVIEWER-INFERENCE-COLLAPSE.md
+    - data/error_fingerprints/ERR-036-008-SOFT-DATE-HARD-DATE-COLLAPSE.md
+    - data/error_fingerprints/ERR-036-009-DERIVATIVE-MIRROR-INDEPENDENCE-COLLAPSE.md
+    - data/error_fingerprints/ERR-036-010-UNMARKED-TEXT-AUTHORSHIP-COLLAPSE.md
 
   generated_session: SESSION_036
-  current_acquisition_session: SESSION_044
+  current_acquisition_session: SESSION_045
   last_updated: 2026-07-16
 ```
 
@@ -118,20 +120,13 @@ RQ:
 
 ```text
 culture-specific serpent tradition
-        ≠
-modern occult racial theory
-        ≠
-fictional reptilian species
-        ≠
-UFO witness narrative
-        ≠
-underground-base C-core
-        ≠
-Grey/Reptoid alliance or opposition
-        ≠
-linked reptilian→Grey hierarchy
-        ≠
-political bloodline conspiracy
+        ≠ modern occult racial theory
+        ≠ fictional reptilian species
+        ≠ UFO witness narrative
+        ≠ underground-base C-core
+        ≠ Grey/Reptoid alliance or opposition
+        ≠ linked reptilian→Grey hierarchy
+        ≠ political bloodline conspiracy
 ```
 
 Connections require dated copying, citation, adaptation, exposure, shared infrastructure or another specific transmission fingerprint.
@@ -140,66 +135,56 @@ Connections require dated copying, citation, adaptation, exposure, shared infras
 
 ```text
 1984–1988:
-C-core repeatedly reported or documented
-no secure linked reptilian→Grey chain recovered
+C-core repeatedly reported
+no secure linked hierarchy
 
 reported 1989:
-Bishop III witness acquired through later electronic host
-alliance/tension + opposition, not hierarchy
+Bishop witness = alliance/tension + opposition
 
-reported 1989:
-Hamilton UFORCES Alien Magic
-physical object and contents not acquired
+1991 inspected Matrix II third edition:
+opposition + separate Grey creator
 
-1990 first edition:
-Matrix II physical wording not inspected
+undated Q&A family:
+explicit Draco-master / Grey-worker hierarchy
 
-1991 third edition:
-Matrix II opposition + separate Grey-creator model
-not mature linked chain
+reported September 1990:
+separate Castello-to-Bishop letter; original and contents unresolved
 
-unknown date, reported near 1990–1991:
-O'Connell/TAL article
-strongest implied linked wording; original and date absent
+claimed 1991 Dulce Book state:
+not item-level authenticated
 
-Feb–Mar 1991:
-Hamilton + LeVesque, The Deep Dark Secret at Dulce
-C plus reptilian presence; B not recovered
+soft 1996 Dulce Book carrier:
+retailer/catalogue date only
 
-later early/mid-1990s:
-Castello/Branton Q&A
-mature full linked wording; first carrier unresolved
+later print and web carriers:
+mature text widely reproduced
 ```
 
 ## Current exact task
 
 Execute:
 
-- `research_inbox/SESSION_044_CASTELLO_BRANTON_FIRST_CARRIER_BRIEF.md`
+- `research_inbox/SESSION_045_CASTELLO_QA_DATE_AND_CARRIER_AUDIT.md`
 
 Work only on:
 
-1. earliest exact Castello Q&A carrier;
-2. earliest *The Dulce Book* BBS/manuscript state;
-3. sentence-level Castello/Branton/TAL/Hamilton source layers;
-4. comparison with Bishop III and *Matrix II* relationship models;
-5. reported 1989 UFORCES *Alien Magic*;
-6. NARG newsletter issue containing TAL;
-7. physical *Matrix II* 1990 first edition;
-8. original O'Connell mailer and *UFO Universe* issue.
+1. first exact Q&A carrier;
+2. claimed 1991 state;
+3. physical/authenticated 1996 carrier;
+4. separate September 1990 letter;
+5. sentence-level source layers;
+6. lexical-continuity and copying tests.
 
 ## Current counts
 
 ```text
-Session 041–043 model variants: 9
-Candidate artifact records: 21, with Alien Magic split into 017A/017B
-Secure pre-1990 FULL_LINKED_CHAIN artifacts: 0
-Bishop textual witnesses inspected: 1 through later host
-Bishop linked hierarchy: REJECTED
-Matrix II editions directly inspected: 1, third edition 1991
-Matrix II linked hierarchy: REJECTED_FOR_INSPECTED_EDITION
-Exact mature full-text locus: Castello/Branton Q&A
-Earliest secure carrier of mature wording: 0
+Session 041–044 model variants: 13
+Candidate artifact records: 22
+Mature FULL hierarchy content: CONFIRMED
+Earliest exact full-text locus: DULCE-CAND-012
+Earliest secure carrier: 0
+Claimed 1991 carrier: unverified
+Soft 1996 carrier leads: 1
 Canonical hierarchy edges: 0
 RQ-036: SEARCHING
 ```
