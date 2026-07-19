@@ -8,6 +8,10 @@
 
 **[Open the Original-Language Translation Protocol](docs/ORIGINAL_LANGUAGE_TRANSLATION_PROTOCOL.md)**
 
+**[Open the Eve Research Runtime](docs/EVE_RESEARCH_RUNTIME.md)**
+
+**[Open the Sessions 057–060 Eve Research Summary](reports/SESSIONS_057_060_EVE_RESEARCH_SUMMARY.md)**
+
 The Master Atlas shows what has already been gathered, while the Bridge Atlas is the discovery page for hidden carriers and non-obvious connections between topics.
 
 Together they show:
@@ -76,6 +80,21 @@ No ambiguous English rendering may become a load-bearing bridge, motif match, co
 - Translation ambiguity, semantic drift, copied glosses, and original-language comparison
 - Narrative convergence: when originally separate ideas become one combined system
 - Human–AI ensemble research, persistent state, disagreement, verification, and model orchestration
+
+## Eve research runtime
+
+The current specialist-agent research runner uses open-source Eve pinned to exact version `0.24.6`.
+
+The stock runner has not been source-modified. It coordinates a parent orchestrator with declared acquisition, source-criticism, and QC roles, followed by parent-side bounded closure and artifact verification.
+
+Sessions 057–060 established the current public runtime rules:
+
+- a private-subagent visibility failure is not automatically a substantive research gap;
+- the parent writes and hashes durable phase artifacts;
+- reconstructed copies preserve original Eve paths and hashes separately and never claim byte identity without verification;
+- any future Eve fork or patch remains separate from the pinned reproducibility baseline.
+
+Read the [runtime architecture](docs/EVE_RESEARCH_RUNTIME.md) and the [Sessions 057–060 bounded summary](reports/SESSIONS_057_060_EVE_RESEARCH_SUMMARY.md).
 
 ## Newly formalized Grey / reptilian lanes
 
